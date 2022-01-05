@@ -41,7 +41,7 @@ round-avatar: true
 social-network-links:
   #email: "someone@example.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  github: rosmorobot
+  github: rosmo-robot
   twitter: rosmorobot
  # patreon: DeanAttali
  # youtube: c/daattali
