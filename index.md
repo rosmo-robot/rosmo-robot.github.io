@@ -4,15 +4,10 @@ title: Rosmo
 subtitle: A small fast robot.
 ---
 
-:warning: In development. 
 
 Design is currently untested
 
-![Wheel mode - Open Source](https://github.com/rosmo-robot/Rosmo_3D/blob/main/wheel_mode.png)
-Wheel mode
-
-![Track mode - Optional tracks](/track_mode_v1.png)
-Track mode
+![Track mode - Optional tracks](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/img/track_mode_v1.png?raw=true)
 
 # BOM - Wheeled
 
