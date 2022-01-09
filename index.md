@@ -17,7 +17,7 @@ Design is currently untested
 * 1X [Rosmo ESC (in development)](https://github.com/rosmo-robot/Rosmo_ESC)
 * 2x [Encoders with SPI (In development)](https://github.com/rosmo-robot/Rosmo_ESC/issues/10#issuecomment-1004394146) [Or JST plug can be attached to these](https://s.click.aliexpress.com/e/_A1HwrQ)
 * [3D print parts](https://github.com/rosmo-robot/Rosmo_3D/tree/main/v1_wheeled/3D_Print) or [order](https://craftcloud3d.com/offer/fe3619b0-f710-4639-9112-3a63e40b91a9?utm_campaign=shareable_cart)
-*  1X [Olimex ESP32](https://www.olimex.com/Products/IoT/ESP32/ESP32-DevKit-LiPo/open-source-hardware)
+*  1X [Olimex ESP32 dev c v4](https://www.olimex.com/Products/IoT/ESP32/ESP32-DevKit-LiPo/open-source-hardware) or [cheap](https://www.aliexpress.com/item/1005001838731651.html) version
 *	2x [2208 motors](https://s.click.aliexpress.com/e/_AMbiNq)
 *	2x [5mm M3 nuts & bolts for motors](https://www.aliexpress.com/item/32810872544.html)
 *	2x [10mm M2 bolts for axle](https://www.aliexpress.com/item/32810872544.html)
