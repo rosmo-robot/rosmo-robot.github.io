@@ -6,7 +6,8 @@ subtitle: A small fast robot.
 
 Design is currently untested
 
-![Track mode - Optional tracks](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/img/track_mode_v1.png?raw=true)
+ [![ROSmo tracked](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/img/track_mode_v1.png?raw=true)](https://gmail1605635.autodesk360.com/g/shares/SH9285eQTcf875d3c539d1add2f1be46e456)
+
 
 [3D view](https://gmail1605635.autodesk360.com/g/shares/SH9285eQTcf875d3c539d1add2f1be46e456)
 
