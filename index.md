@@ -21,7 +21,7 @@ Design is currently untested
 *	2x [10mm M2 bolts for axle](https://www.aliexpress.com/item/32810872544.html)
 *	1X [Battery case for 3x LifePO4:](https://www.aliexpress.com/item/4000980622098.html)
 * 3X [LifePO4 batteries](https://s.click.aliexpress.com/e/_9fuxBI)
-* 1X [LifePO4 charger](https://www.aliexpress.com/item/32988109114.html)
+* 1X [LifePO4 charger](https://www.aliexpress.com/item/1005003775111106.html)
 *	1X [Bearing 6x17x6mm](https://s.click.aliexpress.com/e/_9ADP3c)
 
 # BOM - Optional tracks
