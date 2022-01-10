@@ -24,13 +24,12 @@ Design is currently untested
 *	1X [Battery case for 3x AA size LifePO4:](https://www.aliexpress.com/item/1005002930401130.html)
 * 3X [LifePO4 batteries](https://s.click.aliexpress.com/e/_9fuxBI)
 * 1X [LifePO4 charger](https://www.aliexpress.com/item/1005003775111106.html)
-*	1X [Bearing 6x17x6mm](https://s.click.aliexpress.com/e/_9ADP3c)
 
 # BOM - Optional tracks
 
 * 4X [Sprocket/track guides:](https://s.click.aliexpress.com/e/_AcQWlI)
 *	2x [10mm M2 bolts for additonal wheels](https://www.aliexpress.com/item/1005003325451662.html)
-* 2X [F628ZZ bearings](https://www.aliexpress.com/item/1171316093.html)
+*	2X [Bearing 6x17x6mm](https://s.click.aliexpress.com/e/_9ADP3c)
 * ?X [10mm x 12mm tread](https://www.aliexpress.com/item/4000831116641.html)
 
 Disclosure: Some of the Aliexpress links are affiliate links to help pay for the costs of this project.
