@@ -21,9 +21,9 @@ Design is currently untested
 *	2x [2208 motors](https://s.click.aliexpress.com/e/_AMbiNq)
 *	2x [5mm M3 nuts & bolts for motors](https://www.aliexpress.com/item/32810872544.html)
 *	2x [10mm M2 bolts for axle](https://www.aliexpress.com/item/32810872544.html)
-*	1X [Battery case for 3x AA size LifePO4:](https://www.aliexpress.com/item/1005002930401130.html)
-* 3X [LifePO4 batteries](https://s.click.aliexpress.com/e/_9fuxBI)
-* 1X [LifePO4 charger](https://www.aliexpress.com/item/1005003775111106.html)
+* 1x [Znter 9v USB battery](https://s.click.aliexpress.com/e/_ABWOhg)
+* 1x [5v buck/UBEC](https://s.click.aliexpress.com/e/_AkvImi)
+
 
 # BOM - Optional tracks
 
