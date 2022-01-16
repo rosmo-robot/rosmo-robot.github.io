@@ -23,6 +23,8 @@ Design is currently untested
 *	2x [10mm M2 bolts for axle](https://www.aliexpress.com/item/32810872544.html)
 * 1x [Znter 9v USB battery](https://s.click.aliexpress.com/e/_ABWOhg)
 * 1x [5v buck/UBEC](https://s.click.aliexpress.com/e/_AkvImi)
+* 1x [bearing](https://s.click.aliexpress.com/e/_AU9eNm)
+
 
 
 # BOM - Optional tracks
