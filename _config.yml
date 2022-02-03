@@ -39,7 +39,7 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  #email: "someone@example.com"
+  email: "contact@rosmo.io"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
   github: rosmo-robot
   twitter: rosmorobot
@@ -62,7 +62,7 @@ social-network-links:
 #  mastodon: instance.url/@username
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
-#  discord: invite/invite_code or users/userid 
+#  discord: invite/https://discord.gg/8H7DDUkS
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
