@@ -1,6 +1,6 @@
 ---
 layout: page
-title: build a robot
+title: Join the community
 ---
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7_dtp.css" rel="stylesheet" type="text/css">
