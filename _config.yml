@@ -15,6 +15,7 @@ author: Rosmo
 
 navbar-links:
   Build: "aboutme"
+  Subscribe: "subscribe"
   #Resources:
    # - Beautiful Jekyll: "https://beautifuljekyll.com"
     #- Learn markdown: "https://www.markdowntutorial.com/"
