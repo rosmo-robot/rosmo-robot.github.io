@@ -29,10 +29,9 @@ Design is currently untested
 
 # BOM - Optional tracks
 
-* 4X [Sprocket/track guides:](https://s.click.aliexpress.com/e/_AcQWlI)
+* 1X [Tamiya track](https://www.tamiya.com/japan/products/70237/index.html)
 *	2x [10mm M2 bolts for additonal wheels](https://www.aliexpress.com/item/1005003325451662.html)
 *	2X [Bearing 6x17x6mm](https://s.click.aliexpress.com/e/_9ADP3c)
-* 2?X [10mm x 12mm tread](https://www.aliexpress.com/item/4000831116641.html)
 
 Disclosure: Some of the Aliexpress links are affiliate links to help pay for the costs of this project.
 
@@ -40,3 +39,11 @@ Disclosure: Some of the Aliexpress links are affiliate links to help pay for the
 
 * [Arduino webui controller](https://github.com/rosmo-robot/Arduino-webui-rover-tank)
 * [MicroROS](https://github.com/rosmo-robot/Rosmo_ROS2_Diffdrive#readme)
+
+# Tools
+* 1x small phillips screwdriver
+
+# Skills
+* Prototypes require soldering the UBEC to the battery holder, these will be available pre-soldered soon.
+* Mechanical assembly
+
