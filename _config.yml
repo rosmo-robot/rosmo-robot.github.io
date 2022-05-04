@@ -45,7 +45,7 @@ social-network-links:
   github: rosmo-robot
   twitter: rosmorobot
  # patreon: DeanAttali
- # youtube: https://www.youtube.com/channel/UC0p6hs0zBJJTfLzJAyBuZyA
+  youtube: https://www.youtube.com/channel/UC0p6hs0zBJJTfLzJAyBuZyA
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
@@ -60,7 +60,7 @@ social-network-links:
 #  yelp: yourname
 #  telegram: yourname
 #  calendly: yourname
-#  mastodon: https://mas.to/web/@rosmo
+  mastodon: https://mas.to/web/@rosmo
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
 #  discord: invite/https://discord.gg/8H7DDUkS
