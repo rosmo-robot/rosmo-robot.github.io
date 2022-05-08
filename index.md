@@ -27,6 +27,10 @@ Design is currently untested
 
 Disclosure: Some of the Aliexpress links are affiliate links to help pay for the costs of this project.
 
+# Software (in development)
+
+* [ESC Firmware](https://github.com/rosmo-robot/Rosmo_ESC_firmware)
+
 # Software (To be developed)
 
 * [Arduino webui controller](https://github.com/rosmo-robot/Arduino-webui-rover-tank)
