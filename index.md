@@ -6,8 +6,8 @@ subtitle: A small fast robot.
 
 Design is currently untested
 
- [![ROSmo tracked](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/img/track_mode_v1.png?raw=true)](https://gmail1605635.autodesk360.com/g/shares/SH9285eQTcf875d3c539d1add2f1be46e456)
-
+ [![ROSmo tracked](https://raw.githubusercontent.com/rosmo-robot/Rosmo_3D/main/V2/dev/rosmov2.png)](https://cad.onshape.com/documents/6b861a71bc71caf4bd6f61a4/w/d5107e5cf9c4df80df511b6f/e/c2d820c164333a28e5d3a405?renderMode=0&uiState=628226d59da9664e0b740161)
+https://cad.onshape.com/documents/6b861a71bc71caf4bd6f61a4/w/d5107e5cf9c4df80df511b6f/e/c2d820c164333a28e5d3a405?renderMode=0&uiState=628226d59da9664e0b740161
 
 [3D view](https://cad.onshape.com/documents/6b861a71bc71caf4bd6f61a4/w/d5107e5cf9c4df80df511b6f/e/c2d820c164333a28e5d3a405?renderMode=0&uiState=628226d59da9664e0b740161)
 
