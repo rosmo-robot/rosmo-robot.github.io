@@ -15,7 +15,7 @@ Design is currently untested
 * 1x [1.54" TFT screen (optional)](https://www.aliexpress.com/item/32859772356.html)
 * 1X [Rosmo ESC (Beta)](https://github.com/rosmo-robot/Rosmo_ESC#readme)
 * 2x [Encoders with SPI](https://www.tindie.com/products/smallrobots/as5048a-encoder-board-for-robots-motor-control/) 
-* [3D print parts](https://github.com/rosmo-robot/Rosmo_3D/tree/main/V2/v2.06) [find a local 3d printer](https://www.prusaprinters.org/world) or [order commercially](https://craftcloud3d.com/offer/fe3619b0-f710-4639-9112-3a63e40b91a9?utm_campaign=shareable_cart)
+* [3D print parts](https://github.com/rosmo-robot/Rosmo_3D/tree/main/V2) [find a local 3d printer](https://www.prusaprinters.org/world) or [order commercially](https://craftcloud3d.com/offer/fe3619b0-f710-4639-9112-3a63e40b91a9?utm_campaign=shareable_cart)
 * 2x [2208 motors](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20220504143525&SearchText=gb2208+motor&spm=a2g0o.productlist.1000002.0)
 * 1x [Znter 9v USB battery](https://s.click.aliexpress.com/e/_ABWOhg)
 * 1x [5v buck/UBEC](https://www.aliexpress.com/item/1005003787729284.html)
