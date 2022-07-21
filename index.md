@@ -6,7 +6,7 @@ subtitle: A small fast robot.
 
 Design is currently untested
 
- [![ROSmo tracked](https://raw.githubusercontent.com/rosmo-robot/Rosmo_3D/main/V2/images/v2.06.png)
+ [![ROSmo tracked](https://pbs.twimg.com/media/FUa95gJXsAEfBqj?format=jpg)
 [3D view](https://cad.onshape.com/documents/ea6ef6677c1df78f114b0778/w/a3cd5bc4f1ae1593f10c9810/e/a8cb0dfd19164c50d26c4a02?renderMode=0&uiState=6286d0997fc73d5d8bf3fc76)
 
 # BOM - Wheeled
@@ -21,6 +21,7 @@ Design is currently untested
 * 1x [5v buck/UBEC](https://www.aliexpress.com/item/1005003787729284.html)
 * 1x [9v connector](https://www.aliexpress.com/item/1005003207076823.html)
 * 1x [5.5x2.1mm female](https://www.aliexpress.com/item/32825731156.html)
+* 1x [box of bolts (B)](https://www.aliexpress.com/item/1005003118936938.html)
 * 
 # BOM - Optional tracks
 
