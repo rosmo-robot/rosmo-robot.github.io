@@ -4,9 +4,7 @@ title: Rosmo
 subtitle: A small fast robot.
 ---
 
-Design is currently untested
-
- [![ROSmo tracked](https://pbs.twimg.com/media/FUa95gJXsAEfBqj?format=jpg)
+ ![ROSmo tracked](https://pbs.twimg.com/media/FUa95gJXsAEfBqj?format=jpg)
 [3D view](https://cad.onshape.com/documents/ea6ef6677c1df78f114b0778/w/a3cd5bc4f1ae1593f10c9810/e/a8cb0dfd19164c50d26c4a02?renderMode=0&uiState=6286d0997fc73d5d8bf3fc76)
 
 # BOM - Wheeled
