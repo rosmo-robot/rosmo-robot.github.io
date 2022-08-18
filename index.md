@@ -7,34 +7,8 @@ subtitle: A small fast robot.
  ![ROSmo tracked](https://pbs.twimg.com/media/FUa95gJXsAEfBqj?format=jpg)
 [3D view](https://cad.onshape.com/documents/ea6ef6677c1df78f114b0778/w/a3cd5bc4f1ae1593f10c9810/e/a8cb0dfd19164c50d26c4a02?renderMode=0&uiState=6286d0997fc73d5d8bf3fc76)
 
-# BOM - Wheeled
 
-* 1X [Open Core board](https://github.com/rosmo-robot/Open-Core-M5stack#readme)
-* 1x [1.54" TFT screen (optional)](https://www.aliexpress.com/item/32859772356.html)
-* 1X [Rosmo ESC (Beta)](https://github.com/rosmo-robot/Rosmo_ESC#readme)
-* 2x [Encoders with SPI](https://www.tindie.com/products/smallrobots/as5048a-encoder-board-for-robots-motor-control/) 
-* [3D print parts](https://github.com/rosmo-robot/Rosmo_3D/tree/main/V2) [find a local 3d printer](https://www.prusaprinters.org/world) or [order commercially](https://craftcloud3d.com/offer/9653e0bd-0e01-44da-a753-f05f6d198d1d?utm_campaign=shareable_cart)
-* 2x [2208 motors](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20220504143525&SearchText=gb2208+motor&spm=a2g0o.productlist.1000002.0)
-* 1x [Znter 9v USB battery](https://s.click.aliexpress.com/e/_ABWOhg)
-* 1x [5v buck/UBEC](https://www.aliexpress.com/item/1005003787729284.html)
-* 1x [9v connector](https://www.aliexpress.com/item/1005003207076823.html)
-* 1x [5.5x2.1mm female](https://www.aliexpress.com/item/32825731156.html)
-* 1x [box of bolts (B)](https://www.aliexpress.com/item/1005003118936938.html)
-* 
-# BOM - Optional tracks
-
-* 1X [Pololu track](https://www.pololu.com/product/3034)
-
-Disclosure: Some of the Aliexpress links are affiliate links to help pay for the costs of this project.
-
-# Software (in development)
-
-* [ESC Firmware](https://github.com/rosmo-robot/Rosmo_ESC_firmware)
-
-# Software (To be developed)
-
-* [Arduino webui controller](https://github.com/rosmo-robot/Arduino-webui-rover-tank)
-* [MicroROS](https://github.com/rosmo-robot/Rosmo_ROS2_Diffdrive#readme)
+* [ROSMO is going through some changes check here for latest](https://github.com/rosmo-robot/Rosmo_3D/tree/main/V4)
 
 # Tools
 * 1x small phillips screwdriver
