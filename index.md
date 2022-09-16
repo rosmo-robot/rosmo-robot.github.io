@@ -1,11 +1,19 @@
 ---
 layout: home
 title: Rosmo
-subtitle: A small fast robot.
+subtitle: A small robot.
 ---
 
  ![ROSmo tracked](https://pbs.twimg.com/media/FUa95gJXsAEfBqj?format=jpg)
-[3D view](https://cad.onshape.com/documents/ea6ef6677c1df78f114b0778/w/a3cd5bc4f1ae1593f10c9810/e/a8cb0dfd19164c50d26c4a02?renderMode=0&uiState=6286d0997fc73d5d8bf3fc76)
+
+Rosmo is a project to make small opensource robots for educational and hobbyist use.
+
+We value modularity. The project started working with the M5stack system. The robot you see above is the culmination of that work. We built a [chassis](), [ESP32dev board]() and [ESC]() in this 5cmx5cm profile. We learnt a lot doing this. Unfortunately the parts crisis has meant that the ESC is not obtainable until at least 2023.
+
+We also identified some issues with the M5stack system, in partucular the header is hard to obtain at resonable prices.
+
+We've therefore pivoted our work to work with the Feather footprint to give a wider array of add-on boards. Whilst the Feather is great it is very small, so we're also working with some slightly larger daughter boards using our own pinout in 6cm x ~5-10cm
+
 
 
 * [ROSMO is going through some changes check here for latest](https://github.com/rosmo-robot/Rosmo_3D/tree/main/V4)
