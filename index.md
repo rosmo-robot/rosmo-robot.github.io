@@ -6,7 +6,7 @@ subtitle: A small robot.
 
  ![ROSmo tracked](https://pbs.twimg.com/media/FUa95gJXsAEfBqj?format=jpg)
 
-Rosmo is a project to make small openhardware robots for educational and hobbyist use. We aim to design capable robots which can be assembled without soldering.
+Rosmo is a project to make small openhardware robots for educational and hobbyist use. We aim to design capable robots which can be assembled without soldering. It's a modular set of open-hardware components that can be assembled into robots of different complexity and price. It's all based on ESP32 so should support MicroROS work.
 
 We value modularity. The project started working with the M5stack system. The robot you see above is the culmination of that work. We built a [chassis](https://github.com/rosmo-robot/Rosmo_3D/tree/main/V2/2.10), [ESP32dev board](https://github.com/rosmo-robot/Open-Core-M5stack/tree/main/2.2) and [ESC](https://github.com/rosmo-robot/Rosmo_ESC) in this 5cmx5cm profile. We learnt a lot doing this. Unfortunately the parts crisis has meant that the ESC is not obtainable until at least 2023. We continue to test and develop using the small numnber of ESC boards we have produced.
 
@@ -15,6 +15,7 @@ We also identified some issues with the M5stack system, in partucular the header
 We have some early drafts of this work underway with the [Feather:bit board](https://github.com/rosmo-robot/Feather-Bit/tree/main/v1) the intention is to use this board in two versions of a ~10cm x ~10cm robot.
 
 The first variation is [Rosmo:Bot](https://github.com/rosmo-robot/micro-bot/tree/master/Hardware/V2.11) which uses cheaper brushed motors. 
+![Brushed](https://raw.githubusercontent.com/rosmo-robot/micro-bot/master/Hardware/V2.11/v2.11.png)
 
 The second variation will be '[Rosmo:BLDC](https://github.com/rosmo-robot/Rosmo_3D/tree/main/V4/BLDC)' using Brushless motors. We have a chassis and plan to use it initially with a very overpowered [rp2040 ESC](https://github.com/Twisted-Fields/rp2040-motor-controller)
 
