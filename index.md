@@ -18,15 +18,17 @@ The first variation is [Rosmo:Bot](https://github.com/rosmo-robot/micro-bot/tree
 
 The second variation will be '[Rosmo:BLDC](https://github.com/rosmo-robot/Rosmo_3D/tree/main/V4/BLDC)' using Brushless motors. We have a chassis and plan to use it initially with a very overpowered [rp2040 ESC](https://github.com/Twisted-Fields/rp2040-motor-controller)
 
-Our intention is to run MicroROS/ROS2 on both the Rosmo:bot and Rosmo:BLDC. Initial work has started using [Linorobot2](https://github.com/rosmo-robot/linorobot2_hardware). We're waiting on a couple of upstream bugs to be fixed before this can progress.
+ ![ROSmo BLDC](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/chonky.jpeg)
+ 
+The idea is the Rosmo:Bit PCB can be 'upgraded' by removing the wheels and attaching it to this chassis. It will provide mounting for the Microcontroller, sensors and [daughter boards](https://github.com/rosmo-robot/Feather-Bit/blob/main/v1/daughter_concept/Readme.md). In time we hope to use or develop smaller and cheaper [SimpleFOC driver boards](https://community.simplefoc.com/) that are more suitable for this small robot.
+
+Software wise our intention is to run MicroROS/ROS2 on both the Rosmo:bot and Rosmo:BLDC. Initial work has started using [Linorobot2](https://github.com/rosmo-robot/linorobot2_hardware). We're waiting on a couple of upstream bugs to be fixed before this can progress.
 
 We're also interested in supporting [Smartcar_shield](https://github.com/platisd/smartcar_shield/) firmware on Rosmo:bot
-
 
 # Tools
 * 1x small phillips screwdriver
 
 # Skills
-* Prototypes require soldering the UBEC to the battery holder, these will be available pre-soldered soon.
 * Mechanical assembly
 
