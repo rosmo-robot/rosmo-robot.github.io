@@ -14,8 +14,8 @@ We also identified some issues with the M5stack system, in particular the header
 
 We have some early drafts of this work underway with the [Feather:bit board](https://github.com/rosmo-robot/Feather-Bit/tree/main/v1) the intention is to use this board in two versions of a ~10cm x ~10cm robot.
 
-The first variation is [Rosmo:Bot](https://github.com/rosmo-robot/micro-bot/tree/master/Hardware/V2.11) which uses cheaper brushed motors. 
-![Brushed](https://raw.githubusercontent.com/rosmo-robot/micro-bot/master/Hardware/V2.11/v2.11.png)
+The first variation is [Rosmo:Bot](https://github.com/rosmo-robot/micro-bot/tree/master/Hardware/V3) which uses cheaper brushed motors. 
+![Brushed](https://raw.githubusercontent.com/rosmo-robot/micro-bot/master/Hardware/V3/Rosmo%3ABotv3.png)
 
 The second variation will be '[Rosmo:BLDC](https://github.com/rosmo-robot/Rosmo_3D/tree/main/V4/BLDC)' using Brushless motors. We have a chassis and plan to use it initially with a very overpowered [rp2040 ESC](https://github.com/Twisted-Fields/rp2040-motor-controller)
 
