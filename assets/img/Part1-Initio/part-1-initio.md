@@ -20,17 +20,19 @@ Programming in Python with the Rosmo Robot: Part 1
 
 Your Initio robot has several USB ports, an HDMI port and a micro USB port.
 
-![](RackMultipart20230203-1-ayduto_html_6a403d7e31911d56.png)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_6a403d7e31911d56.png)
 
 HDMI and Micro USB port locations
 
-![](RackMultipart20230203-1-ayduto_html_e55fb6c65abe11d9.png)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_e55fb6c65abe11d9.png)
 
 USB Ports
 
 You should **connect your monitor** to the HDMI port and **your keyboard and mouse** to two of the USB ports.
 
-![](RackMultipart20230203-1-ayduto_html_f33d1b3bc266a9bc.jpg) ![](RackMultipart20230203-1-ayduto_html_e4a913df93fdc9d3.jpg)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_f33d1b3bc266a9bc.jpg) 
+
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_e4a913df93fdc9d3.jpg)
 
 The Elecrow 5 inch monitor: USB port (for power) and the HDMI Port
 
@@ -40,23 +42,23 @@ If you also have an external power supply it can be connected to the Micro USB p
 
 **Switch your robot on using the On/Off Switch.**
 
-![](RackMultipart20230203-1-ayduto_html_dd19a0bb66d13ceb.png)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_dd19a0bb66d13ceb.png)
 
 The On/Off Switch
 
 Your final setup should look something like this.
 
-![](RackMultipart20230203-1-ayduto_html_c3e6a75cb39013f8.jpg)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_c3e6a75cb39013f8.jpg)
 
 or (if you are using the Elecrow 5 inch monitor):
 
-![](RackMultipart20230203-1-ayduto_html_344013f6fb247f8a.jpg)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_344013f6fb247f8a.jpg)
 
 # **Chapter 2:**
 
 # **Command Lines**
 
-![](RackMultipart20230203-1-ayduto_html_4e02a96789721166.png)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_4e02a96789721166.png)
 
 **AIM:** After completing this chapter you should be able to use the Linux Command line to start up the Python interpreter and the Python command line to use simple print commands. You should also be able to stop the Python interpreter.
 
@@ -64,11 +66,11 @@ or (if you are using the Elecrow 5 inch monitor):
 
 The Initio robot is controlled using a Raspberry Pi computer that runs the Linux operating system. You will be doing most of your work at the _Linux command line_. To do this you need to open the Terminal application from the menu bar.
 
-![](RackMultipart20230203-1-ayduto_html_adb802fbd8d99d26.png)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_adb802fbd8d99d26.png)
 
 Raspberry Pi Menu bar, with the Terminal application circled
 
-![](RackMultipart20230203-1-ayduto_html_2ac4c0e1c8bfbd6e.png)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_2ac4c0e1c8bfbd6e.png)
 
 **A Terminal window**
 
@@ -78,17 +80,17 @@ For simple programming tasks we can use the _Python Command Line Interpreter_. W
 
 pi@raspberrypi:~ $ idle3
 
-What happens when you do this? ![](RackMultipart20230203-1-ayduto_html_d150c0cf5b07359e.png)
+What happens when you do this? ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_d150c0cf5b07359e.png)
 
-![Shape1](RackMultipart20230203-1-ayduto_html_7114a32ca6f37588.gif)
+![Shape](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_7114a32ca6f37588.gif)
 
-![Shape2](RackMultipart20230203-1-ayduto_html_7114a32ca6f37588.gif)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_7114a32ca6f37588.gif)
 
-![](RackMultipart20230203-1-ayduto_html_2f62231a5921dd84.png)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_2f62231a5921dd84.png)
 
-![Shape3](RackMultipart20230203-1-ayduto_html_302098f4765cbbf7.gif)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_302098f4765cbbf7.gif)
 
-![Shape4](RackMultipart20230203-1-ayduto_html_783a0ea39ea6b2b5.gif)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_783a0ea39ea6b2b5.gif)
 
 **3 signs (****\>\>\>****) are called the prompt**
 
@@ -102,35 +104,42 @@ You should now be in the Python Interpreter which should look like the above. Yo
 
 Then press Return
 
-What happens? ![](RackMultipart20230203-1-ayduto_html_d150c0cf5b07359e.png)
+What happens? 
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_d150c0cf5b07359e.png)
 
-![Shape5](RackMultipart20230203-1-ayduto_html_7114a32ca6f37588.gif)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_7114a32ca6f37588.gif)
 
 **Step 2: Type the following commands followed by Return**
 
-![Shape6](RackMultipart20230203-1-ayduto_html_77d8855d0af00a7c.gif) ![Shape7](RackMultipart20230203-1-ayduto_html_77d8855d0af00a7c.gif)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_77d8855d0af00a7c.gif) 
+
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_77d8855d0af00a7c.gif)
 
 **MOVE**
 
 **MOVE**
 
-**import robohat as initio**![](RackMultipart20230203-1-ayduto_html_76f099e986ed7a4a.png)
+**import robohat as initio**
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_76f099e986ed7a4a.png)
 
 **initio.init()**
 
-**initio.forward(10)**![](RackMultipart20230203-1-ayduto_html_e55fb6c65abe11d9.png) ![](RackMultipart20230203-1-ayduto_html_e55fb6c65abe11d9.png)
+**initio.forward(10)**
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_e55fb6c65abe11d9.png) 
+
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_e55fb6c65abe11d9.png)
 
 **initio.stop()**
 
-![Shape8](RackMultipart20230203-1-ayduto_html_a4e63a31a8626ccb.gif)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_a4e63a31a8626ccb.gif)
 
-What happens? ![](RackMultipart20230203-1-ayduto_html_d150c0cf5b07359e.png)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_d150c0cf5b07359e.png)
 
-![Shape9](RackMultipart20230203-1-ayduto_html_7114a32ca6f37588.gif)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_7114a32ca6f37588.gif)
 
-![Shape10](RackMultipart20230203-1-ayduto_html_7114a32ca6f37588.gif)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_7114a32ca6f37588.gif)
 
-![Shape11](RackMultipart20230203-1-ayduto_html_7114a32ca6f37588.gif)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_7114a32ca6f37588.gif)
 
 You can use _ctrl-p_ (pressing control and p at the same time) to scroll back through previous commands.
 
@@ -150,7 +159,7 @@ Otherwise carry on to chapter 3.
 
 # **Python Statements and Initio Commands**
 
-![](RackMultipart20230203-1-ayduto_html_4e02a96789721166.png)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_4e02a96789721166.png)
 
 **AIM:** After completing this chapter you should be able to control your Initio robot using simple statements issued at the Python Command Line and be able to explain what a statement in a programming language is.
 
@@ -172,11 +181,11 @@ Now you can use simple commands to control your robot. Try typing the following:
 
 \>\> initio.stop()
 
-![](RackMultipart20230203-1-ayduto_html_8a8c6dfac4a8dbe0.png)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_8a8c6dfac4a8dbe0.png)
 
 **Question 1:** What happens?
 
-![Shape12](RackMultipart20230203-1-ayduto_html_7114a32ca6f37588.gif) ![Shape13](RackMultipart20230203-1-ayduto_html_7114a32ca6f37588.gif)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_7114a32ca6f37588.gif)
 
 Each of these commandsinitio.init(), initio.forward(20), initio.stop() is a _python statement._Statements are the basic commands that are used to build up programs. You have several commands available to you for operating the Initio robot.
 
@@ -202,11 +211,13 @@ Try typing the following:
 
 \>\> initio.setServo(0, 20)
 
-![](RackMultipart20230203-1-ayduto_html_8a8c6dfac4a8dbe0.png)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_8a8c6dfac4a8dbe0.png)
 
 **Question 2:** What happens?
 
-![Shape14](RackMultipart20230203-1-ayduto_html_7114a32ca6f37588.gif) ![Shape15](RackMultipart20230203-1-ayduto_html_7114a32ca6f37588.gif)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_7114a32ca6f37588.gif) 
+
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_7114a32ca6f37588.gif)
 
 initio.setServo controls two _servo motors_ that move the sensor at the front of the robot (you will learn about the sensor in worksheet 4)_._ It takes two inputs: the number for the servo (0 is for _tilt_ which moves the sensor up and down. 1 is for _pan_ which moves the sensor from side to side), followed by the angle in degrees you want to move it to (where 0 means it is pointing forwards dead centre). So the command you just typed gets the servo to pan 45 degrees from the centre point.
 
@@ -214,25 +225,31 @@ Try typing the following:
 
 \>\> initio.setServo(1, -45)
 
-![](RackMultipart20230203-1-ayduto_html_8a8c6dfac4a8dbe0.png)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_8a8c6dfac4a8dbe0.png)
 
 **Question 3:** What happens?
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_7114a32ca6f37588.gif)
 
-![Shape16](RackMultipart20230203-1-ayduto_html_7114a32ca6f37588.gif) ![Shape17](RackMultipart20230203-1-ayduto_html_7114a32ca6f37588.gif)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_7114a32ca6f37588.gif)
 
 **Question 4:** Try four commands from the table. What do they do?
 
 **Command Result**
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_eb1d4a678e8f876a.gif) 
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_15e6748fc8b2a4cf.gif) 
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_eb1d4a678e8f876a.gif) 
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_15e6748fc8b2a4cf.gif)
 
-![Shape18](RackMultipart20230203-1-ayduto_html_eb1d4a678e8f876a.gif) ![Shape19](RackMultipart20230203-1-ayduto_html_15e6748fc8b2a4cf.gif) ![Shape20](RackMultipart20230203-1-ayduto_html_eb1d4a678e8f876a.gif) ![Shape21](RackMultipart20230203-1-ayduto_html_15e6748fc8b2a4cf.gif)
-
-![Shape22](RackMultipart20230203-1-ayduto_html_eb1d4a678e8f876a.gif) ![Shape23](RackMultipart20230203-1-ayduto_html_15e6748fc8b2a4cf.gif) ![Shape24](RackMultipart20230203-1-ayduto_html_eb1d4a678e8f876a.gif) ![Shape25](RackMultipart20230203-1-ayduto_html_15e6748fc8b2a4cf.gif)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_eb1d4a678e8f876a.gif) 
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_15e6748fc8b2a4cf.gif) 
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_eb1d4a678e8f876a.gif) 
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_15e6748fc8b2a4cf.gif)
 
 # **Chapter 4:**
 
 # **Sensors**
 
-![](RackMultipart20230203-1-ayduto_html_4e02a96789721166.png)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_4e02a96789721166.png)
 
 **AIM:** After completing this chapter you should be able to describe the sensors on the Initio robot and use Python to get information from them.
 
@@ -247,8 +264,7 @@ The Initio robot has two different kinds of sensors:
 You can use Python to get values from the sensors.
 
 **The Ultrasonic Sensor**
-
-![](RackMultipart20230203-1-ayduto_html_da6287a1e951bd9d.png)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_da6287a1e951bd9d.png)
 
 The Ultrasonic Sensor
 
@@ -262,33 +278,34 @@ initio.getDistance(); returns the distance in cm to the nearest reflecting objec
 
 Type initio.getDistance()
 
-![](RackMultipart20230203-1-ayduto_html_8a8c6dfac4a8dbe0.png)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_8a8c6dfac4a8dbe0.png)
 
 **Question 1:** What value do you get?
 
-![Shape26](RackMultipart20230203-1-ayduto_html_864afe9b13ccde87.gif)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_864afe9b13ccde87.gif)
 
-**Question 2:** Try pointing the sensor at the ceiling or a far wall and getting the distance. ![](RackMultipart20230203-1-ayduto_html_8a8c6dfac4a8dbe0.png)
+**Question 2:** Try pointing the sensor at the ceiling or a far wall and getting the distance.
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_8a8c6dfac4a8dbe0.png)
 
 What value do you get?
-
-![Shape27](RackMultipart20230203-1-ayduto_html_864afe9b13ccde87.gif)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_864afe9b13ccde87.gif)
 
 **Question 3:** Now try putting an object close to the sensor.
 
-![](RackMultipart20230203-1-ayduto_html_8a8c6dfac4a8dbe0.png)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_8a8c6dfac4a8dbe0.png)
 
 What value do you get?
 
-![Shape28](RackMultipart20230203-1-ayduto_html_864afe9b13ccde87.gif)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_864afe9b13ccde87.gif)
 
 The ultrasonic sensor is the sensor you can move using the initio.setServo command discussed in WS3.
 
 Place an object in front of the robot but a little to one side of the ultrasonic sensor. Use initio.setServo to move the sensor and see what difference it makes to the result from initio.getDistance()
 
-**Question 4:** What command(s) did you type to move the sensor in order to detect the object? ![](RackMultipart20230203-1-ayduto_html_8a8c6dfac4a8dbe0.png)
+**Question 4:** What command(s) did you type to move the sensor in order to detect the object? 
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_8a8c6dfac4a8dbe0.png)
 
-![Shape29](RackMultipart20230203-1-ayduto_html_864afe9b13ccde87.gif)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_864afe9b13ccde87.gif)
 
 **Infrared Sensors**
 
@@ -296,7 +313,7 @@ The Initio's infrared sensors are organised into two groups: sensors for detecti
 
 There are two sensors for detecting obstacles:
 
-![](RackMultipart20230203-1-ayduto_html_fcb3f0a4bb5c53.jpg)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_fcb3f0a4bb5c53.jpg)
 
 The Obstacle Sensors
 
@@ -316,15 +333,14 @@ returns **True** if either of the Obstacle sensors detect an obstacle and **Fals
 
 **Question 5:** Use a ruler and the obstacle sensor commands to work out how far away something needs to be to count as an obstacle.
 
-![Shape30](RackMultipart20230203-1-ayduto_html_6edf01497c71d2ad.gif)Answer:
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_6edf01497c71d2ad.gif)Answer:
 
 **Question 6:** Is this answer the same both obstacle sensors? YES/NO
 
 The Initio's other infrared sensors are used to detect how dark the colour of the surface the robot stands on is. These are referred to as "line sensors" since their primary use is for detecting black lines on white surfaces.
 
 There are two line sensors and you will need to turn your Initio over in order to see them.
-
-![](RackMultipart20230203-1-ayduto_html_dbfde23b60fe445.png)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_dbfde23b60fe445.png)
 
 The Line Sensors
 
@@ -338,15 +354,15 @@ returns state of Left IR Line sensor
 
 returns state of Right IR Line sensor
 
-**Question 7:** Get a piece of white paper with a black line drawn on it. What do the python commands return if the Pi2Go is over the black line? ![](RackMultipart20230203-1-ayduto_html_7472a28e29da5d7f.png)
+**Question 7:** Get a piece of white paper with a black line drawn on it. What do the python commands return if the Pi2Go is over the black line? 
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_7472a28e29da5d7f.png)
 
-![Shape31](RackMultipart20230203-1-ayduto_html_864afe9b13ccde87.gif)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_864afe9b13ccde87.gif)
 
 **Question 8:** What do they return if the Pi2Go is over the white parts of the paper
 
-![](RackMultipart20230203-1-ayduto_html_7472a28e29da5d7f.png)
-
-![Shape32](RackMultipart20230203-1-ayduto_html_864afe9b13ccde87.gif)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_7472a28e29da5d7f.png)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_864afe9b13ccde87.gif)
 
 **Remember:** When you have finished working with the robot, type initio.cleanup()at the command line, quit IDLE, then select Shutdown from the Raspberry Pi menu item. Once the robot has shut down, switch it off.
 
@@ -357,14 +373,13 @@ returns state of Right IR Line sensor
 **Aim:** This chapter 5 provides additional activities for investigating the Initio robot sensors. It assumes familiarity with the material in chapters 1-4.
 
 **Exercise 1:** Because the ultrasonic sensor uses echoes to detect distances it can be affected by the angle at which its sound wave hits an object.
-
-![](RackMultipart20230203-1-ayduto_html_1190530dd4769d0.png)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_1190530dd4769d0.png)
 
 Ultrasonic Sensor with Obstacle Directly in Front of It
 
 When the sound from the ultrasonic sensor hits an obstacle squarely then the echo bounces straight back to the sensor.
 
-![](RackMultipart20230203-1-ayduto_html_8a3613325cce14b4.png)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_8a3613325cce14b4.png)
 
 Ultrasonic Sensor with an Obstacle at an Angle to it.
 
@@ -414,7 +429,7 @@ You can execute your program by selecting **Run \> Run Module**
 
 **Question 1:** Try this now. What happens?
 
-![Shape33](RackMultipart20230203-1-ayduto_html_171a981b58617c74.gif)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_171a981b58617c74.gif)
 
 If you are lucky this will have run smoothly. If not, you will have received an error message and will need to check your program for spelling errors.
 
@@ -447,10 +462,9 @@ initio.sleep(10)
 initio.stop()
 
 **Question 1:** What happens?
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_19e583425b917010.gif)
 
-![Shape34](RackMultipart20230203-1-ayduto_html_19e583425b917010.gif)
-
-![Shape35](RackMultipart20230203-1-ayduto_html_19e583425b917010.gif)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_19e583425b917010.gif)
 
 **The Sleep Command:** The command time.sleep(_seconds_); makes the program pause for the number of seconds before executing the next command.
 
@@ -458,11 +472,11 @@ initio.stop()
 
 **Question 2:** What did you change?
 
-![Shape36](RackMultipart20230203-1-ayduto_html_19e583425b917010.gif)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_19e583425b917010.gif)
 
-![Shape37](RackMultipart20230203-1-ayduto_html_19e583425b917010.gif)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_19e583425b917010.gif)
 
-![Shape38](RackMultipart20230203-1-ayduto_html_19e583425b917010.gif)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_19e583425b917010.gif)
 
 **Exercise 2:** Write a program to make the robot wait for 30 seconds (giving you time to unplug the monitor and keyboard), move forward for 10 seconds, turn for 10 seconds and then stop.
 
@@ -528,15 +542,14 @@ Note also that we have colons after the if and the else.
 
 **Question 1:** Create a file containing this program and execute it. What happens?
 
-![Shape39](RackMultipart20230203-1-ayduto_html_19e583425b917010.gif)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_19e583425b917010.gif)
 
 **Exercise 1:** Describe how you would test your program to make sure it was working correctly both when there was an obstacle and when there wasn't.
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_19e583425b917010.gif)
 
-![Shape40](RackMultipart20230203-1-ayduto_html_19e583425b917010.gif)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_19e583425b917010.gif)
 
-![Shape41](RackMultipart20230203-1-ayduto_html_19e583425b917010.gif)
-
-![Shape42](RackMultipart20230203-1-ayduto_html_19e583425b917010.gif)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_19e583425b917010.gif)
 
 **Question 2:** Perform your tests. Is your program working correctly? YES/NO
 
@@ -550,7 +563,7 @@ instead of else:
 
 **Question 3:** How many cases do you need to consider to test your program?
 
-![Shape43](RackMultipart20230203-1-ayduto_html_cbae661b886e1830.gif)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_cbae661b886e1830.gif)
 
 **Question 4:** Does the description of the exercise tell you what the program should do in all cases? YES/NO
 
@@ -588,15 +601,15 @@ Notice that we start reversing _before_ we execute the while loop. This is becau
 
 **Question 1:** Create a file containing this program and execute it. What happens?
 
-![Shape44](RackMultipart20230203-1-ayduto_html_19e583425b917010.gif)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_19e583425b917010.gif)
 
 **Question 2:** What sort of tests would you need to perform to check the program was working properly in all cases?
 
-![Shape45](RackMultipart20230203-1-ayduto_html_19e583425b917010.gif)
+!![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_19e583425b917010.gif)
 
-![Shape46](RackMultipart20230203-1-ayduto_html_19e583425b917010.gif)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_19e583425b917010.gif)
 
-![Shape47](RackMultipart20230203-1-ayduto_html_19e583425b917010.gif)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_19e583425b917010.gif)
 
 # **Chapter 11:**
 
