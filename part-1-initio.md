@@ -66,6 +66,8 @@ or (if you are using the Elecrow 5 inch monitor):
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_4e02a96789721166.png)
 
+<img src="https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_4e02a96789721166.png"  width="60%" >
+
 **AIM:** After completing this chapter you should be able to use the Linux Command line to start up the Python interpreter and the Python command line to use simple print commands. You should also be able to stop the Python interpreter.
 
 **You Need:** To complete this chapter you need to have an Initio that is connected to a keyboard, mouse and monitor (see chapter 1).
