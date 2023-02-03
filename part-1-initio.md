@@ -1,5 +1,7 @@
-| **Programming in Python with the Initio Robot: Part 1** | 0 |
-| --- | --- |
+---
+layout: page
+title: Programming in Python with the Initio Robot: Part 1
+---
 
 # **Programming in Python with the Initio Robot:**
 
