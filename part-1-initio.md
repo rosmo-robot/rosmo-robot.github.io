@@ -67,7 +67,7 @@ or (if you are using the Elecrow 5 inch monitor):
 
 
 
-<img src="https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_4e02a96789721166.png"  width="15%" >**AIM:** After completing this chapter you should be able to use the Linux Command line to start up the Python interpreter and the Python command line to use simple print commands. You should also be able to stop the Python interpreter.
+<img src="https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_4e02a96789721166.png"  width="10%" >**AIM:** After completing this chapter you should be able to use the Linux Command line to start up the Python interpreter and the Python command line to use simple print commands. You should also be able to stop the Python interpreter.
 
 **You Need:** To complete this chapter you need to have an Initio that is connected to a keyboard, mouse and monitor (see chapter 1).
 
@@ -87,7 +87,7 @@ For simple programming tasks we can use the _Python Command Line Interpreter_. W
 
 pi@raspberrypi:~ $ idle3
 
-What happens when you do this? ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_d150c0cf5b07359e.png)
+What happens when you do this? ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_8a8c6dfac4a8dbe0.png)
 
 ![Shape](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_7114a32ca6f37588.gif)
 
@@ -112,7 +112,7 @@ You should now be in the Python Interpreter which should look like the above. Yo
 Then press Return
 
 What happens? 
-![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_d150c0cf5b07359e.png)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_8a8c6dfac4a8dbe0.png)
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_7114a32ca6f37588.gif)
 
@@ -166,9 +166,7 @@ Otherwise carry on to chapter 3.
 
 # **Python Statements and Initio Commands**
 
-![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_4e02a96789721166.png)
-
-**AIM:** After completing this chapter you should be able to control your Initio robot using simple statements issued at the Python Command Line and be able to explain what a statement in a programming language is.
+<img src="https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_4e02a96789721166.png"  width="10%" >**AIM:** After completing this chapter you should be able to control your Initio robot using simple statements issued at the Python Command Line and be able to explain what a statement in a programming language is.
 
 **You Need:** To complete this chapter you need to have an Initio that is connected to a keyboard, mouse and monitor (chapter 1) and to understand how to start and stop IDLE from the Linux Command Line (chapter 2).
 
@@ -256,9 +254,7 @@ Try typing the following:
 
 # **Sensors**
 
-![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_4e02a96789721166.png)
-
-**AIM:** After completing this chapter you should be able to describe the sensors on the Initio robot and use Python to get information from them.
+<img src="https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_4e02a96789721166.png"  width="10%" >**AIM:** After completing this chapter you should be able to describe the sensors on the Initio robot and use Python to get information from them.
 
 **You Need:** To complete this chapter you need to have an Initio that is connected to a keyboard, mouse and monitor (chapter 1) and to understand how to start IDLE from the Linux Command Line (chapter 2) and how to control the pan/tilt servos (chapter 3).
 
@@ -766,9 +762,7 @@ initio.stop()
 
 # **Logic and Control**
 
-![](RackMultipart20230203-1-ayduto_html_4e02a96789721166.png)
-
-**AIM:** This chapter provides additional programs using logic, if statements and while loops for you to write for your Initio. It assumes familiarity with chapters 1-12.
+<img src="https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_4e02a96789721166.png"  width="10%" >**AIM:** This chapter provides additional programs using logic, if statements and while loops for you to write for your Initio. It assumes familiarity with chapters 1-12.
 
 **Exercise 1** : Write a program that will pan the "head" of the Initio to the left if there is an obstacle on the left and to the right if there is an obstacle on the right.
 
