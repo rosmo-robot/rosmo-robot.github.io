@@ -1,0 +1,3539 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 7.0.4.2 (Linux)"/>
+	<meta name="created" content="2020-02-01T14:23:00"/>
+	<meta name="changedby" content="Dennis, Louise"/>
+	<meta name="changed" content="2020-02-01T14:40:00"/>
+	<meta name="AppVersion" content="16.0000"/>
+	<style type="text/css">
+		@page { size: 8.27in 11.69in; margin-left: 1.25in; margin-right: 1.25in; margin-top: 0.49in; margin-bottom: 0.49in }
+		p { margin-bottom: 0.1in; direction: ltr; line-height: 115%; text-align: left; orphans: 2; widows: 2; background: transparent }
+		a:link { color: #000080; so-language: zxx; text-decoration: underline }
+	</style>
+</head>
+<body lang="en-GB" link="#000080" vlink="#800000" dir="ltr">
+<div title="header"><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 115%; orphans: 0; widows: 0">
+	<br/>
+
+	</p>
+	<table width="681" cellpadding="9" cellspacing="0">
+		<col width="635"/>
+
+		<col width="10"/>
+
+		<tr valign="bottom">
+			<td width="635" style="border-top: none; border-bottom: 1px solid #000000; border-left: none; border-right: none; padding: 0in"><p align="right" style="border: none; padding: 0in; orphans: 0; widows: 0">
+				<font color="#000000"><font face="Calibri, serif"><b>Programming
+				in Python with the Initio Robot: Part 1</b></font></font></p>
+			</td>
+			<td width="10" bgcolor="#943734" style="background: #943734" style="border-top: none; border-bottom: 1px solid #943734; border-left: none; border-right: none; padding: 0in"><p style="border: none; padding: 0in; orphans: 0; widows: 0">
+				<font color="#ffffff"><span style="background: #c0c0c0"><sdfield type=PAGE subtype=RANDOM format=PAGE>33</sdfield></span></font></p>
+			</td>
+		</tr>
+	</table>
+	<p style="margin-bottom: 0.47in; border: none; padding: 0in; line-height: 100%">
+	<br/>
+
+	</p>
+</div><p align="center" style="margin-bottom: 0in; line-height: 100%">
+<font face="Calibri, serif"><font size="6" style="font-size: 24pt"><b>Programming
+in Python with the Initio Robot:</b></font></font><font face="Calibri, serif"><font size="6" style="font-size: 24pt">
+</font></font><font color="#00ff00"><font face="Calibri, serif"><font size="6" style="font-size: 24pt"><b>Part
+1</b></font></font></font></p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><font size="5" style="font-size: 20pt"><b>Chapter
+1:</b></font></font><font face="Calibri, serif"><font size="5" style="font-size: 20pt">
+</font></font><font color="#00ff00"><font face="Calibri, serif"><font size="5" style="font-size: 20pt"><b>Getting
+Started</b></font></font></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>AIM:</b></font><font face="Calibri, serif">
+After following this chapter you should be able to connect a
+keyboard, mouse and monitor to your Initio robot and switch it on
+ready for use.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">Your
+Initio robot has several USB ports, an HDMI port and a micro USB
+port.  </font>
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_6a403d7e31911d56.png" name="image4.png" align="bottom" width="482" height="362" border="0"/>
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">HDMI
+and Micro USB port locations</font></p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_e55fb6c65abe11d9.png" name="image9.png" align="bottom" width="491" height="369" border="0"/>
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">USB
+Ports</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">You
+should </font><font face="Calibri, serif"><b>connect your monitor</b></font><font face="Calibri, serif">
+to the HDMI port and </font><font face="Calibri, serif"><b>your
+keyboard and mouse</b></font><font face="Calibri, serif"> to two of
+the USB ports.</font></p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<img src="Part1-Initio_html_f33d1b3bc266a9bc.jpg" name="image5.jpg" align="bottom" width="306" height="230" border="0"/>
+<img src="Part1-Initio_html_e4a913df93fdc9d3.jpg" name="image2.jpg" align="bottom" width="307" height="231" border="0"/>
+</p>
+<p align="center" style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Calibri, serif">The Elecrow 5 inch monitor:  USB port
+(for power) and the HDMI Port</font></p>
+<p align="center" style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Calibri, serif">If you are using the Elecrow 5 inch
+monitor then it can be powered from the Initio.  Connect one of the
+USB ports on the Initio to the Micro USB port on the monitor.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">If
+you also have an external power supply it can be connected to the
+Micro USB port on the Initio.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Switch
+your robot on using the On/Off Switch.</b></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_dd19a0bb66d13ceb.png" name="image8.png" align="bottom" width="517" height="388" border="0"/>
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">The
+On/Off Switch</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">Your
+final setup should look something like this.  </font>
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_c3e6a75cb39013f8.jpg" name="image3.jpg" align="bottom" width="521" height="391" border="0"/>
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">or
+(if you are using the Elecrow 5 inch monitor):</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_344013f6fb247f8a.jpg" name="image7.jpg" align="bottom" width="524" height="393" border="0"/>
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><font size="5" style="font-size: 20pt"><b>Chapter
+2: </b></font></font><font color="#00b050"><font face="Calibri, serif"><font size="5" style="font-size: 20pt"><b>Command
+Lines</b></font></font></font></p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_4e02a96789721166.png" name="Image1" align="left" hspace="14" width="86" height="86" border="0"/>
+<br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>AIM:
+</b></font><font face="Calibri, serif">After completing this chapter
+you should be able to use the Linux Command line to start up the
+Python interpreter and the Python command line to use simple print
+commands.  You should also be able to stop the Python interpreter.</font></p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>You
+Need: </b></font><font face="Calibri, serif">To complete this chapter
+you need to have an Initio that is connected to a keyboard, mouse and
+monitor (see chapter 1).</font></p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">The
+Initio robot is controlled using a Raspberry Pi computer that runs
+the Linux operating system.  You will be doing most of your work at
+the </font><font face="Calibri, serif"><i>Linux command line</i></font><font face="Calibri, serif">.
+ To do this you need to open the Terminal application from the menu
+bar. </font>
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_adb802fbd8d99d26.png" name="image5.png" align="bottom" width="390" height="133" border="0"/>
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">Raspberry
+Pi Menu bar, with the Terminal application circled</font></p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_2ac4c0e1c8bfbd6e.png" name="image6.png" align="bottom" width="663" height="355" border="0"/>
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><font color="#ff0000"><font face="Calibri, serif"><b>A
+Terminal window</b></font></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Calibri, serif">If you are using an Elecrow 5 inch
+monitor then your terminal window will be slightly larger than the
+monitor.  </font><font face="Calibri, serif"><i>Resize the window</i></font><font face="Calibri, serif">
+using the mouse so that it fits into the screen space available.</font></p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">For
+simple programming tasks we can use the </font><font face="Calibri, serif"><i>Python
+Command Line Interpreter</i></font><font face="Calibri, serif">.  We
+are going to use this from within an </font><font face="Calibri, serif"><i>integrated
+development environment </i></font><font face="Calibri, serif">called
+IDLE.  To start IDLE type </font><font face="Courier, serif">idle3</font><font face="Calibri, serif">
+at the Linux Command Line.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Courier, serif">pi@raspberrypi:~
+$ idle3</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">What
+happens when you do this?</font><img src="Part1-Initio_html_d150c0cf5b07359e.png" name="Image2" align="left" hspace="14" width="37" height="75" border="0"/>
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_8c5365f1cd79807e.gif" name="Shape1" alt="Shape1" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_8c5365f1cd79807e.gif" name="Shape2" alt="Shape2" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_2f62231a5921dd84.png" name="image3.png" align="left" hspace="14" width="546" height="401" border="0"/>
+<br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_5aba8d0cec6c33c8.gif" name="Shape3" alt="Shape3" align="left"/>
+<br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_256da95c437a5afe.gif" name="Shape4" alt="Shape4" align="left"/>
+<span id="Frame1" dir="ltr" style="float: left; width: 0.97in; height: 0.69in; border: none; padding: 0in; background: #ffffff"><p style="margin-bottom: 0in; line-height: 100%">
+	<font color="#000000"><font face="Calibri, serif"><font size="2" style="font-size: 10pt"><b>3
+	signs (</b></font></font></font><font color="#ff0000"><font face="Calibri, serif"><b>&gt;&gt;&gt;</b></font></font><font color="#000000"><font face="Calibri, serif"><font size="2" style="font-size: 10pt"><b>)
+	are called the prompt</b></font></font></font></p>
+	<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+	</p>
+</span><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">The
+Python Command Line Interpreter in IDLE</font></p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">You
+should now be in the Python Interpreter which should look like the
+above.  You DO NOT need to type the “prompt” (</font><font color="#ff0000"><font face="Calibri, serif"><b>&gt;&gt;&gt;</b></font></font><font face="Calibri, serif">)
+before any python commands.</font></p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%; background: #f2f2f2">
+<font color="#000000"><font face="Calibri, serif"><b>Step 1: Type </b></font></font>
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Courier, serif"><font size="3" style="font-size: 13pt"><b>print(“Hello
+World”)</b></font></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><font size="3" style="font-size: 13pt">Then
+press Return</font></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">What
+happens?</font><img src="Part1-Initio_html_d150c0cf5b07359e.png" name="Image3" align="left" hspace="14" width="37" height="75" border="0"/>
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_8c5365f1cd79807e.gif" name="Shape5" alt="Shape5" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%; background: #f2f2f2">
+<font face="Calibri, serif"><b>Step 2: Type the following commands
+followed by Return</b></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_51bcf916153185f5.gif" name="Shape6" alt="Shape6" align="left" hspace="14" vspace="6"/>
+<img src="Part1-Initio_html_51bcf916153185f5.gif" name="Shape7" alt="Shape7" align="left" hspace="14" vspace="6"/>
+<span id="Frame2" dir="ltr" style="float: left; width: 0.82in; height: 1.55in; border: none; padding: 0in; background: #ffffff"><p align="center" style="margin-bottom: 0in; line-height: 100%">
+	<font color="#00b050"><font face="Calibri, serif"><b>MOVE </b></font></font>
+	</p>
+</span>
+<span id="Frame3" dir="ltr" style="float: left; width: 0.82in; height: 1.55in; border: none; padding: 0in; background: #ffffff"><p align="center" style="margin-bottom: 0in; line-height: 100%">
+	<font color="#00b050"><font face="Calibri, serif"><b>MOVE </b></font></font>
+	</p>
+</span><font face="Courier, serif"><font size="3"><b>import robohat
+as initio</b></font></font>
+<img src="Part1-Initio_html_76f099e986ed7a4a.png" name="image1.png" align="left" hspace="14" width="66" height="105" border="0"/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Courier, serif"><font size="3" style="font-size: 13pt"><b>initio.init()</b></font></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Courier, serif"><font size="3" style="font-size: 13pt"><b>initio.forward(10)</b></font></font><img src="Part1-Initio_html_e55fb6c65abe11d9.png" name="image23.png" align="left" hspace="14" width="105" height="75" border="0"/>
+<img src="Part1-Initio_html_e55fb6c65abe11d9.png" name="image22.png" align="left" hspace="14" width="105" height="75" border="0"/>
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Courier, serif"><font size="3" style="font-size: 13pt"><b>initio.stop()</b></font></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_8ab1715de1992492.gif" name="Shape8" alt="Shape8" align="left"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">What
+happens?</font><img src="Part1-Initio_html_d150c0cf5b07359e.png" name="Image4" align="left" hspace="14" width="37" height="75" border="0"/>
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_8c5365f1cd79807e.gif" name="Shape9" alt="Shape9" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_8c5365f1cd79807e.gif" name="Shape10" alt="Shape10" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_8c5365f1cd79807e.gif" name="Shape11" alt="Shape11" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">You
+can use </font><font face="Calibri, serif"><i>ctrl-p </i></font><font face="Calibri, serif">(pressing
+control and p at the same time) to scroll back through previous
+commands.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Step
+3: Try replaying some commands using </b></font><font face="Calibri, serif"><i><b>ctrl-p</b></i></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">You
+will learn more about controlling the Initio from the Python Command
+Line in worksheet WS3.</font></p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"> 
+</p>
+<p align="justify" style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Calibri, serif"><b>IMPORTANT:</b></font><font face="Calibri, serif">
+You can also start IDLE from the Raspberry Pi menu.  However, if you
+do this it will not be able to control the Initio properly. </font>
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">If
+you have finished working with your robot type:</font></p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Courier, serif"><font size="3" style="font-size: 13pt"><b>initio.cleanup()</b></font></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><font size="3" style="font-size: 13pt">Otherwise
+carry on to chapter 3.</font></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><font size="5" style="font-size: 20pt"><b>Chapter
+3: </b></font></font><font color="#00b050"><font face="Calibri, serif"><font size="5" style="font-size: 20pt"><b>Python
+Statements and Initio Commands</b></font></font></font></p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_4e02a96789721166.png" name="image2.png" align="left" hspace="14" width="86" height="86" border="0"/>
+<br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>AIM:
+</b></font><font face="Calibri, serif">After completing this chapter
+you should be able to control your Initio robot using simple
+statements issued at the Python Command Line and be able to explain
+what a statement in a programming language is.  </font>
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>You
+Need: </b></font><font face="Calibri, serif">To complete this chapter
+you need to have an Initio that is connected to a keyboard, mouse and
+monitor (chapter 1) and to understand how to start and stop IDLE from
+the Linux Command Line (chapter 2).</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Set
+up your robot and start IDLE.</b></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Remember:
+You can scroll back through commands in IDLE by typing </b></font><font face="Calibri, serif"><i><b>ctrl-p</b></i></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">In
+order to control your robot you need to </font><font face="Calibri, serif"><i>initialise
+it properly.</i></font><font face="Calibri, serif"> To initialise
+your robot type the following at the Python Command Line</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Courier, serif">&gt;&gt;
+import robohat as initio</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Courier, serif">&gt;&gt;
+initio.init()</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">Now
+you can use simple commands to control your robot.  Try typing the
+following:</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Courier, serif">&gt;&gt;
+initio.forward(20)</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Courier, serif">&gt;&gt;
+initio.stop()</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_8a8c6dfac4a8dbe0.png" name="Image5" align="left" hspace="14" width="38" height="75" border="0"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Question
+1: </b></font><font face="Calibri, serif">What happens?</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_8c5365f1cd79807e.gif" name="Shape12" alt="Shape12" align="left" hspace="1" vspace="2"/>
+<img src="Part1-Initio_html_8c5365f1cd79807e.gif" name="Shape13" alt="Shape13" align="left" hspace="1" vspace="2"/>
+
+  
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">Each
+of these commands</font> <font face="Courier, serif">initio.init(),
+initio.forward(20), initio.stop()</font> is a <i>python statement.</i>
+ <font face="Calibri, serif">Statements are the basic commands that
+are used to build up programs.  You have several commands available
+to you for operating the Initio robot.  </font>
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">These
+commands are described in the box on the next page.  Not that parts
+in </font><font face="Calibri, serif"><i>italics</i></font><font face="Calibri, serif">
+are inputs to the commands which you have to select.    So for
+</font><font color="#373737"><font face="Calibri, serif"><b>initio.spinLeft(</b></font></font><font color="#373737"><font face="Calibri, serif"><i>speed</i></font></font><font color="#373737"><font face="Calibri, serif"><b>)
+</b></font></font><font color="#373737"><font face="Calibri, serif">you
+have to replace </font></font><font color="#373737"><font face="Calibri, serif"><i>speed</i></font></font><font color="#373737"><font face="Calibri, serif">
+with a number between 0 and 100.</font></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0.1in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font color="#373737"><font face="Calibri, serif"><b>initio.stop()</b></font></font></p>
+<p style="margin-bottom: 0.1in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font color="#373737"><font face="Calibri, serif"><b>initio.forward(</b></font></font><font color="#373737"><font face="Calibri, serif"><i>speed</i></font></font><font color="#373737"><font face="Calibri, serif"><b>)</b></font></font><font color="#373737"><font face="Calibri, serif">
+where </font></font><font color="#373737"><font face="Calibri, serif"><i>speed
+</i></font></font><font color="#373737"><font face="Calibri, serif">is
+a number and  0 &lt;= </font></font><font color="#373737"><font face="Calibri, serif"><i>speed</i></font></font><font color="#373737"><font face="Calibri, serif">
+&lt;= 100</font></font></p>
+<p style="margin-bottom: 0.1in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font color="#373737"><font face="Calibri, serif"><b>initio.reverse(</b></font></font><font color="#373737"><font face="Calibri, serif"><i>speed</i></font></font><font color="#373737"><font face="Calibri, serif"><b>)
+</b></font></font><font color="#373737"><font face="Calibri, serif">where
+</font></font><font color="#373737"><font face="Calibri, serif"><i>speed
+</i></font></font><font color="#373737"><font face="Calibri, serif">is
+a number and  0 &lt;= </font></font><font color="#373737"><font face="Calibri, serif"><i>speed</i></font></font><font color="#373737"><font face="Calibri, serif">
+&lt;= 100</font></font></p>
+<p style="margin-bottom: 0.1in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font color="#373737"><font face="Calibri, serif"><b>initio.spinLeft(</b></font></font><font color="#373737"><font face="Calibri, serif"><i>speed</i></font></font><font color="#373737"><font face="Calibri, serif"><b>)
+</b></font></font><font color="#373737"><font face="Calibri, serif">where
+</font></font><font color="#373737"><font face="Calibri, serif"><i>speed
+</i></font></font><font color="#373737"><font face="Calibri, serif">is
+a number and  0 &lt;= </font></font><font color="#373737"><font face="Calibri, serif"><i>speed</i></font></font><font color="#373737"><font face="Calibri, serif">
+&lt;= 100</font></font></p>
+<p style="margin-bottom: 0.1in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font color="#373737"><font face="Calibri, serif"><b>initio.spinRight(</b></font></font><font color="#373737"><font face="Calibri, serif"><i>speed</i></font></font><font color="#373737"><font face="Calibri, serif"><b>)
+</b></font></font><font color="#373737"><font face="Calibri, serif">where
+</font></font><font color="#373737"><font face="Calibri, serif"><i>speed
+</i></font></font><font color="#373737"><font face="Calibri, serif">is
+a number and  0 &lt;= </font></font><font color="#373737"><font face="Calibri, serif"><i>speed</i></font></font><font color="#373737"><font face="Calibri, serif">
+&lt;= 100</font></font></p>
+<p style="margin-bottom: 0.1in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font color="#373737"><font face="Calibri, serif"><b>initio.turnForward(</b></font></font><font color="#373737"><font face="Calibri, serif"><i>leftSpeed,
+rightSpeed</i></font></font><font color="#373737"><font face="Calibri, serif"><b>)
+</b></font></font><font color="#373737"><font face="Calibri, serif">where
+</font></font><font color="#373737"><font face="Calibri, serif"><i>leftSpeed
+</i></font></font><font color="#373737"><font face="Calibri, serif">and
+</font></font><font color="#373737"><font face="Calibri, serif"><i>rightSpeed</i></font></font><font color="#373737"><font face="Calibri, serif">
+are numbers and 0 &lt;= </font></font><font color="#373737"><font face="Calibri, serif"><i>leftSpeed,
+rightSpeed</i></font></font><font color="#373737"><font face="Calibri, serif">
+&lt;= 100</font></font></p>
+<p style="margin-bottom: 0.1in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font color="#373737"><font face="Calibri, serif"><b>initio.turnReverse(</b></font></font><font color="#373737"><font face="Calibri, serif"><i>leftSpeed,
+rightSpeed</i></font></font><font color="#373737"><font face="Calibri, serif"><b>)
+</b></font></font><font color="#373737"><font face="Calibri, serif">where
+</font></font><font color="#373737"><font face="Calibri, serif"><i>leftSpeed
+</i></font></font><font color="#373737"><font face="Calibri, serif">and
+</font></font><font color="#373737"><font face="Calibri, serif"><i>rightSpeed</i></font></font><font color="#373737"><font face="Calibri, serif">
+are numbers and 0 &lt;= </font></font><font color="#373737"><font face="Calibri, serif"><i>leftSpeed,
+rightSpeed</i></font></font><font color="#373737"><font face="Calibri, serif">
+&lt;= 100</font></font></p>
+<p style="margin-bottom: 0.1in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font color="#373737"><font face="Calibri, serif"><b>initio.setServo(</b></font></font><font color="#373737"><font face="Calibri, serif"><i>servo,
+angle</i></font></font><font color="#373737"><font face="Calibri, serif"><b>):</b></font></font><font color="#373737"><font face="Calibri, serif">
+where </font></font><font color="#373737"><font face="Calibri, serif"><i>servo
+</i></font></font><font color="#373737"><font face="Calibri, serif">is
+either 0 or 1  and -90 &lt;=</font></font><font color="#373737"><font face="Calibri, serif"><i>
+angle </i></font></font><font color="#373737"><font face="Calibri, serif">&lt;=
+90</font></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">Try
+typing the following:</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Courier, serif">&gt;&gt;
+initio.setServo(0, 20)</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_8a8c6dfac4a8dbe0.png" name="Image6" align="left" hspace="14" width="38" height="75" border="0"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Question
+2: </b></font><font face="Calibri, serif">What happens?</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_8c5365f1cd79807e.gif" name="Shape14" alt="Shape14" align="left" hspace="1" vspace="2"/>
+<img src="Part1-Initio_html_8c5365f1cd79807e.gif" name="Shape15" alt="Shape15" align="left" hspace="1" vspace="2"/>
+
+  
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Courier, serif">initio.setServo
+</font><font face="Calibri, serif">controls two </font><font face="Calibri, serif"><i>servo
+motors</i></font><font face="Calibri, serif"> that move the sensor at
+the front of the robot (you will learn about the sensor in worksheet
+4)</font><font face="Calibri, serif"><i>.  </i></font><font face="Calibri, serif">It
+takes two inputs: the number for the servo (0 is for </font><font face="Calibri, serif"><i>tilt</i></font><font face="Calibri, serif">
+which moves the sensor up and down.  1 is for </font><font face="Calibri, serif"><i>pan</i></font><font face="Calibri, serif">
+which moves the sensor from side to side), followed by the angle in
+degrees you want to move it to (where 0 means it is pointing forwards
+dead centre).  So the command you just typed gets the servo to pan 45
+degrees from the centre point.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">Try
+typing the following:</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Courier, serif">&gt;&gt;
+initio.setServo(1, -45)</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_8a8c6dfac4a8dbe0.png" name="Image7" align="left" hspace="14" width="38" height="75" border="0"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Question
+3: </b></font><font face="Calibri, serif">What happens?</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_8c5365f1cd79807e.gif" name="Shape16" alt="Shape16" align="left" hspace="1" vspace="2"/>
+<img src="Part1-Initio_html_8c5365f1cd79807e.gif" name="Shape17" alt="Shape17" align="left" hspace="1" vspace="2"/>
+
+  
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Question
+4: </b></font><font face="Calibri, serif">Try four commands from the
+table.  What do they do?</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Command
+                                     Result</b></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_84cee51b119dc74.gif" name="Shape18" alt="Shape18" align="left" hspace="1" vspace="2"/>
+<img src="Part1-Initio_html_1b60fc02ef970569.gif" name="Shape19" alt="Shape19" align="left" hspace="1" vspace="2"/>
+<img src="Part1-Initio_html_84cee51b119dc74.gif" name="Shape20" alt="Shape20" align="left" hspace="1" vspace="2"/>
+<img src="Part1-Initio_html_1b60fc02ef970569.gif" name="Shape21" alt="Shape21" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%">  
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_84cee51b119dc74.gif" name="Shape22" alt="Shape22" align="left" hspace="1" vspace="2"/>
+<img src="Part1-Initio_html_1b60fc02ef970569.gif" name="Shape23" alt="Shape23" align="left" hspace="1" vspace="2"/>
+<img src="Part1-Initio_html_84cee51b119dc74.gif" name="Shape24" alt="Shape24" align="left" hspace="1" vspace="2"/>
+<img src="Part1-Initio_html_1b60fc02ef970569.gif" name="Shape25" alt="Shape25" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><font size="5" style="font-size: 20pt"><b>Chapter
+4: </b></font></font><font color="#00b050"><font face="Calibri, serif"><font size="5" style="font-size: 20pt"><b>Sensors</b></font></font></font></p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_4e02a96789721166.png" name="Image8" align="left" hspace="14" width="86" height="86" border="0"/>
+<br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>AIM:
+</b></font><font face="Calibri, serif">After completing this chapter
+you should be able to describe the sensors on the Initio robot and
+use Python to get information from them. </font>
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>You
+Need: </b></font><font face="Calibri, serif">To complete this chapter
+you need to have an Initio that is connected to a keyboard, mouse and
+monitor (chapter 1) and to understand how to start IDLE from the
+Linux Command Line (chapter 2) and how to control the pan/tilt servos
+(chapter 3).</font></p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">The
+Initio robot has two different kinds of sensors:</font></p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<ol>
+	<li><p align="justify" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%">
+	<font color="#00b050"><font face="Calibri, serif"><font size="4" style="font-size: 14pt"><b>Ultrasonic:</b></font></font></font><font color="#000000"><font face="Calibri, serif"><b>
+	</b></font></font><font color="#000000"><font face="Calibri, serif">It
+	has an ultrasonic sensor which uses sound and echoes to measure
+	distances.</font></font></p>
+</ol>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<ol start="2">
+	<li><p align="justify" style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%">
+	<font color="#00b050"><font face="Calibri, serif"><font size="4" style="font-size: 14pt"><b>Infrared:</b></font></font></font><font color="#000000"><font face="Calibri, serif">
+	It has several infrared sensors that measure how much infrared light
+	is reflected.  These can be used both to measure distances (like
+	with the ultrasonic sensor) and to measure colour – for instance a
+	black surface reflects less infra-red light than a white surface.</font></font></p>
+</ol>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">You
+can use Python to get values from the sensors.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><u><b>The
+Ultrasonic Sensor</b></u></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_da6287a1e951bd9d.png" name="Image9" align="bottom" width="456" height="355" border="0"/>
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">The
+Ultrasonic Sensor</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><font color="#373737"><font face="Calibri, serif">Locate
+the ultrasonic sensor on your Initio robot.  </font></font>
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><font color="#373737"><font face="Calibri, serif">There
+is one command you can use to get information from the ultrasonic
+sensor.  This is:</font></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font color="#373737"><font face="Courier, serif">&gt;&gt;&gt;
+initio.getDistance()</font></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font color="#373737"><font face="Courier, serif">initio.getDistance();</font></font><font color="#373737"><font face="Calibri, serif">
+returns the distance in cm to the nearest reflecting object. A value
+of zero means it does not detect an object</font></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><font color="#373737">Type
+  </font><font color="#373737"><font face="Courier, serif">initio.getDistance()</font></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_8a8c6dfac4a8dbe0.png" name="Image10" align="left" hspace="14" width="38" height="75" border="0"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font color="#373737"><font face="Calibri, serif"><b>Question
+1: </b></font></font><font color="#373737"><font face="Calibri, serif">What
+value do you get?</font></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_73358f66e889525e.gif" name="Shape26" alt="Shape26" align="left" hspace="1" vspace="2"/>
+<font color="#373737"><font face="Calibri, serif"><br/>
+</font></font><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Question
+2: </b></font><font face="Calibri, serif">Try pointing the sensor at
+the ceiling or a far wall and getting the distance.</font><img src="Part1-Initio_html_8a8c6dfac4a8dbe0.png" name="Image11" align="left" hspace="14" width="38" height="75" border="0"/>
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font color="#373737"><font face="Calibri, serif">What
+value do you get?</font></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_73358f66e889525e.gif" name="Shape27" alt="Shape27" align="left" hspace="1" vspace="2"/>
+<font color="#373737"><font face="Calibri, serif"><br/>
+</font></font><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Question
+3: </b></font><font face="Calibri, serif">Now try putting an object
+close to the sensor.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_8a8c6dfac4a8dbe0.png" name="Image12" align="left" hspace="14" width="38" height="75" border="0"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font color="#373737"><font face="Calibri, serif">What
+value do you get?</font></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_73358f66e889525e.gif" name="Shape28" alt="Shape28" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<font color="#373737"><font face="Calibri, serif">The ultrasonic
+sensor is the sensor you can move using the </font></font><font color="#373737"><font face="Courier, serif">initio.setServo
+</font></font><font color="#373737"><font face="Calibri, serif">command
+discussed in WS3.  </font></font>
+</p>
+<p style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<font color="#373737"><font face="Calibri, serif">Place an object in
+front of the robot but a little to one side of the ultrasonic sensor.
+  Use </font></font><font color="#373737"><font face="Courier, serif">initio.setServo</font></font><font color="#373737"><font face="Calibri, serif">
+to move the sensor and see what difference it makes to the result
+from </font></font><font color="#373737"><font face="Courier, serif">initio.getDistance()</font></font></p>
+<p style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<font color="#373737"><font face="Calibri, serif"><b>Question 4: </b></font></font><font color="#373737"><font face="Calibri, serif">What
+command(s) did you type to move the sensor in order to detect the
+object?</font></font><img src="Part1-Initio_html_8a8c6dfac4a8dbe0.png" name="Image13" align="left" hspace="14" width="38" height="75" border="0"/>
+</p>
+<p style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<img src="Part1-Initio_html_73358f66e889525e.gif" name="Shape29" alt="Shape29" align="left" hspace="1" vspace="2"/>
+<br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<font color="#373737"><font face="Calibri, serif"><u><b>Infrared
+Sensors</b></u></font></font></p>
+<p style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<font color="#373737"><font face="Calibri, serif">The Initio’s
+infrared sensors are organised into two groups: sensors for detecting
+obstacles and sensors for detecting lines.  </font></font>
+</p>
+<p style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<font color="#373737"><font face="Calibri, serif">There are two
+sensors for detecting obstacles:</font></font></p>
+<p align="center" style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<img src="Part1-Initio_html_fcb3f0a4bb5c53.jpg" name="image6.jpg" align="bottom" width="526" height="396" border="0"/>
+</p>
+<p align="center" style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<font color="#373737"><font face="Calibri, serif">The Obstacle
+Sensors</font></font></p>
+<p align="justify" style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<font color="#373737"><font face="Calibri, serif">There are three
+commands for getting information from the obstacle sensors:</font></font></p>
+<p style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<font color="#373737"><font face="Courier, serif">&gt;&gt;&gt;
+initio.irLeft()</font></font></p>
+<p align="justify" style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<font color="#373737"><font face="Calibri, serif">returns </font></font><font color="#00b050"><font face="Calibri, serif"><b>True</b></font></font><font color="#373737"><font face="Calibri, serif">
+if the Left IR Obstacle sensor detects an obstacle and </font></font><font color="#ff0000"><font face="Calibri, serif"><b>False</b></font></font><font color="#373737"><font face="Calibri, serif">
+otherwise</font></font></p>
+<p style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<font color="#373737"><font face="Courier, serif">&gt;&gt;&gt;
+initio.irRight()</font></font></p>
+<p align="justify" style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<font color="#373737"><font face="Calibri, serif">returns </font></font><font color="#00b050"><font face="Calibri, serif"><b>True</b></font></font><font color="#373737"><font face="Calibri, serif">
+if the Right IR Obstacle sensor detects an obstacle and </font></font><font color="#ff0000"><font face="Calibri, serif"><b>False
+</b></font></font><font color="#373737"><font face="Calibri, serif">otherwise</font></font></p>
+<p style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<font color="#373737"><font face="Courier, serif">&gt;&gt;&gt;
+initio.irAll()</font></font></p>
+<p align="justify" style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<font color="#373737"><font face="Calibri, serif">returns </font></font><font color="#00b050"><font face="Calibri, serif"><b>True</b></font></font><font color="#373737"><font face="Calibri, serif">
+if either of the Obstacle sensors detect an obstacle and </font></font><font color="#ff0000"><font face="Calibri, serif"><b>False</b></font></font><font color="#373737"><font face="Calibri, serif">
+otherwise</font></font></p>
+<p align="justify" style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<br/>
+<br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<font color="#373737"><font face="Calibri, serif"><b>Question 5: </b></font></font><font color="#373737"><font face="Calibri, serif">Use
+a ruler and the obstacle sensor commands to work out how far away
+something needs to be to count as an obstacle.</font></font></p>
+<p style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<img src="Part1-Initio_html_237e3aecf0c38324.gif" name="Shape30" alt="Shape30" align="left" hspace="1" vspace="2"/>
+<font color="#373737"><font face="Calibri, serif">Answer:
+</font></font>
+</p>
+<p align="justify" style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<br/>
+<br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<font color="#373737"><font face="Calibri, serif"><b>Question 6: </b></font></font><font color="#373737"><font face="Calibri, serif">Is
+this answer the same both obstacle sensors?  YES/NO</font></font></p>
+<p align="justify" style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<font color="#373737"><font face="Calibri, serif">The Initio’s
+other infrared sensors are used to detect how dark the colour of the
+surface the robot stands on is.  These are referred to as “line
+sensors” since their primary use is for detecting black lines on
+white surfaces.</font></font></p>
+<p align="justify" style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<font color="#373737"><font face="Calibri, serif">There are two line
+sensors and you will need to turn your Initio over in order to see
+them.</font></font></p>
+<p align="center" style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<img src="Part1-Initio_html_dbfde23b60fe445.png" name="image10.png" align="bottom" width="529" height="397" border="0"/>
+</p>
+<p align="center" style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<font color="#373737"><font face="Calibri, serif">The Line Sensors</font></font></p>
+<p align="justify" style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<font color="#373737"><font face="Calibri, serif">There are two
+command for getting information from the line sensors:</font></font></p>
+<p style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<font color="#373737"><font face="Courier, serif">&gt;&gt;&gt;
+initio.irLeftLine()</font></font></p>
+<p style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<font color="#373737"><font face="Calibri, serif">returns state of
+Left IR Line sensor</font></font></p>
+<p style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<font color="#373737"><font face="Courier, serif">&gt;&gt;&gt;
+initio.irRightLine()</font></font></p>
+<p style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<font color="#373737"><font face="Calibri, serif">returns state of
+Right IR Line sensor</font></font></p>
+<p align="justify" style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<font color="#373737"><font face="Calibri, serif"><b>Question 7: </b></font></font><font color="#373737"><font face="Calibri, serif">Get
+a piece of white paper with a black line drawn on it.  What do the
+python commands return if the Pi2Go is over the black line?</font></font><img src="Part1-Initio_html_7472a28e29da5d7f.png" name="Image14" align="left" hspace="14" width="38" height="78" border="0"/>
+</p>
+<p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%">
+<img src="Part1-Initio_html_73358f66e889525e.gif" name="Shape31" alt="Shape31" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 100%">
+<font color="#373737"><font face="Calibri, serif"><b>Question 8: </b></font></font><font color="#373737"><font face="Calibri, serif">What
+do they return if the Pi2Go is over the white parts of the paper</font></font></p>
+<p style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<img src="Part1-Initio_html_7472a28e29da5d7f.png" name="Image15" align="left" hspace="14" width="38" height="78" border="0"/>
+<br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_73358f66e889525e.gif" name="Shape32" alt="Shape32" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Remember:
+</b></font><font face="Calibri, serif">When you have finished working
+with the robot, type </font><font face="Courier, serif">initio.cleanup()</font><font face="Calibri, serif">at
+the command line, quit IDLE, then select Shutdown from the Raspberry
+Pi menu item.  Once the robot has shut down, switch it off.</font> 
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><font size="5" style="font-size: 20pt"><b>Chapter
+5: </b></font></font><font color="#00b050"><font face="Calibri, serif"><font size="5" style="font-size: 20pt"><b>Exercises
+with Sensors</b></font></font></font></p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<font face="Calibri, serif"><b>Aim:</b></font><font face="Calibri, serif">
+ This chapter 5 provides additional activities for investigating the
+Initio robot sensors.  It assumes familiarity with the material in
+chapters 1-4.</font></p>
+<p style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<font color="#373737"><font face="Calibri, serif"><b>Exercise 1:
+</b></font></font><font color="#373737"><font face="Calibri, serif">Because
+the ultrasonic sensor uses echoes to detect distances it can be
+affected by the angle at which its sound wave hits an object.  </font></font>
+</p>
+<p style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<br/>
+<br/>
+
+</p>
+<p align="center" style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<img src="Part1-Initio_html_1190530dd4769d0.png" name="Image16" align="bottom" width="307" height="153" border="0"/>
+</p>
+<p align="center" style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<font color="#373737"><font face="Calibri, serif">Ultrasonic Sensor
+with Obstacle Directly in Front of It</font></font></p>
+<p style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<font color="#373737"><font face="Calibri, serif">When the sound from
+the ultrasonic sensor hits an obstacle squarely then the echo bounces
+straight back to the sensor.</font></font></p>
+<p align="center" style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<img src="Part1-Initio_html_8a3613325cce14b4.png" name="Image17" align="bottom" width="307" height="153" border="0"/>
+</p>
+<p align="center" style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<font color="#373737"><font face="Calibri, serif">Ultrasonic Sensor
+with an Obstacle at an Angle to it.</font></font></p>
+<p style="margin-bottom: 0.1in; border: none; padding: 0in; line-height: 100%">
+<font color="#373737"><font face="Calibri, serif">When the sound from
+the ultrasonic sensor hits an obstacle at an angle then the echo can
+bounce away from it.</font></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><font color="#373737"><font face="Calibri, serif"><b>Experiment
+Aim:</b></font></font><font color="#373737"><font face="Calibri, serif">
+ The aim of this experiment is to discover the angle at which your
+Initio robot’s ultrasonic sensor can not detect an object.</font></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font color="#373737"><font face="Calibri, serif"><b>Method:</b></font></font><font color="#373737"><font face="Calibri, serif">
+To perform the experiment place the robot directly facing a flat
+surface such as a wall.  The pan/tilt servos should be set so the
+ultrasonic sensor is panned to 0 degrees (that is it is facing
+forward).   </font></font>
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font color="#373737"><font face="Calibri, serif">Take
+a distance reading from the ultrasonic sensor for each angle from 0
+to 90 and check the accuracy of the distance.  You may well need a
+tape measure as the angle increases.</font></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font color="#373737"><font face="Calibri, serif"><b>Results:</b></font></font><font color="#373737"><font face="Calibri, serif">
+ Record your results and state at what angle the sensor could no
+longer detect the obstacle.</font></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font color="#373737"><font face="Calibri, serif"><b>Exercise
+2: </b></font></font><font color="#373737"><font face="Calibri, serif">The
+same effect can be observed with the infrared sensors but will be
+harder to detect.  Firstly, you can not rotate the sensors you will
+need to rotate either the robot or the obstacle.  Secondly the
+sensors just return True or False depending upon how close the object
+is so you will have to make sure your flat surface is always close
+enough to the robot that it should return True.</font></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font color="#373737"><font face="Calibri, serif">Devise
+and run an experiment to find out at what angle the infrared sensors
+stop being accurate.</font></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><font size="5" style="font-size: 20pt"><b>Chapter
+6: </b></font></font><font color="#00ff00"><font face="Calibri, serif"><font size="5" style="font-size: 20pt"><b>Programs
+in Files</b></font></font></font></p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>AIM:
+</b></font><font face="Calibri, serif">After completing this chapter
+you should be able to write a Python program using IDLE’s program
+editor and execute it in IDLE.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>You
+Need: </b></font><font face="Calibri, serif">To complete this chapter
+you need to have an Initio that is connected to a keyboard, mouse and
+monitor (chapter 1) and to understand how to start and stop IDLE from
+the Linux Command Line (chapter 2).</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">You
+can control your Initio by writing commands at the Python command
+line.  However, for longer programs, or programs you wish to run
+several times this can become tedious.  To get around this you can
+write a Python program in a file.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">We
+are going to consider the following Python program</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">import robohat as initio</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">initio.init()</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">initio.forward(10)</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">initio.setServo(0, -45)</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">initio.stop()</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">To
+write this program we are going to use the editor that comes with
+IDLE.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">Select
+</font><font face="Calibri, serif"><b>File &gt; New File</b></font><font face="Calibri, serif">
+in IDLE.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">Type
+the program above into this file (make sure you spell everything
+correctly).  You can save the file using the </font><font face="Calibri, serif"><b>File
+</b></font><font face="Calibri, serif">menu.  We suggest you create a
+folder for your Python programs.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">You
+can execute your program by selecting </font><font face="Calibri, serif"><b>Run
+&gt; Run Module</b></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Question
+1: </b></font><font face="Calibri, serif">Try this now.  What
+happens?</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_72fc0e0210887a48.gif" name="Shape33" alt="Shape33" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">If
+you are lucky this will have run smoothly.  If not, you will have
+received an error message and will need to check your program for
+spelling errors.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Exercise
+1: </b></font><font face="Calibri, serif">Modify your program so that
+it pans the ultrasonic sensor to 45 degrees first and then moves it
+back to 0 after the Initio has stopped.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><a name="_6za2b8k3yb5"></a><a name="_3yyqk4u28yht"></a>
+<br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><font size="5" style="font-size: 20pt"><b>Chapter
+7: </b></font></font><font color="#00ff00"><font face="Calibri, serif"><font size="5" style="font-size: 20pt"><b>The
+Time Module</b></font></font></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>AIM:
+</b></font><font face="Calibri, serif">After completing this chapter
+you should be able to use commands from Python’s Time  module to
+delay execution of commands on the Initio.  You should also be able
+to explain how to import a module into Python.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>You
+Need: </b></font><font face="Calibri, serif">To complete this chapter
+you need to have an Initio that is connected to a keyboard, mouse and
+monitor (chapter 1), to understand how to start and stop IDLE from
+the Linux Command Line (chapter 2), and to be able to use files to
+store Programs (chapter 6).  You also need to know the commands to
+operate the Initio motors (chapter 3).</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">When
+we program, we don’t always want to write everything the program
+should do from scratch.  When someone has already solved a problem,
+for instance, delaying the execution of a command, then we would like
+to be able to use their solution.  This is done by importing </font><font face="Calibri, serif"><i>modules
+</i></font><font face="Calibri, serif">(in some languages called
+libraries) of pre-programmed commands into our program.  </font>
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">You
+are already using a module in your programs.  The statement import
+robohat as initio; at the start of all your programs is importing the
+robohat module which contains the commands for operating your Initio
+robot and renaming this module initio.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">In
+this chapter we will use the time module to delay the execution of
+some of those commands.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">Create
+a file containing the following program and execute it:</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">import robohat as initio, time</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">initio.init()</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">initio.forward(10)</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">initio.sleep(10)</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">initio.stop()</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Question
+1: </b></font><font face="Calibri, serif">What happens?</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_b8d9eee08f9724c0.gif" name="Shape34" alt="Shape34" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_b8d9eee08f9724c0.gif" name="Shape35" alt="Shape35" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>The
+Sleep Command:  </b></font><font face="Calibri, serif">The command
+</font><font face="Courier, serif">time.sleep(</font><font face="Courier, serif"><i>seconds</i></font><font face="Courier, serif">);
+</font><font face="Calibri, serif">makes the program pause for the
+number of seconds before executing the next command.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Exercise
+1:</b></font><font face="Calibri, serif"> Adapt the program to make
+the robot move forward for 20 seconds before stopping.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Question
+2: </b></font><font face="Calibri, serif">What did you change?</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_b8d9eee08f9724c0.gif" name="Shape36" alt="Shape36" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_b8d9eee08f9724c0.gif" name="Shape37" alt="Shape37" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_b8d9eee08f9724c0.gif" name="Shape38" alt="Shape38" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Exercise
+2: </b></font><font face="Calibri, serif">Write a program to make the
+robot wait for 30 seconds (giving you time to unplug the monitor and
+keyboard), move forward for 10 seconds, turn for 10 seconds and then
+stop.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">Write
+your program below:</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Remember:
+</b></font><font face="Calibri, serif">When you have finished working
+with the robot, type </font><font face="Courier, serif">initio.cleanup()</font><font face="Calibri, serif">at
+the command line, quit IDLE, then select Shutdown from the Raspberry
+Pi menu item.  Once the robot has shut down, switch it off.</font></p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><font size="5" style="font-size: 20pt"><b>Chapter
+8: </b></font></font><font color="#00ff00"><font face="Calibri, serif"><font size="5" style="font-size: 20pt"><b>Simple
+Programs</b></font></font></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>AIM:
+</b></font><font face="Calibri, serif">This chapter provides
+additional simple programs for you to write for your Initio.   It
+assumes familiarity with chapters 1-7.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Exercise
+1</b></font><font face="Calibri, serif">: </font><font face="Calibri, serif"><b>
+</b></font><font face="Calibri, serif">Write a program that will spin
+the robot for 2 seconds, then take a distance sensor reading and
+print it to the screen and stop.  To print the value of the sensor
+use:  </font><font face="Courier, serif">print(initio.getDistance())</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Exercise
+2</b></font><font face="Calibri, serif">: </font><font face="Calibri, serif"><b>
+</b></font><font face="Calibri, serif">Write a program which will
+make the robot tilt its ultrasonic sensor upwards for 5 seconds, then
+down for 5 seconds and then return it to the centre.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Exercise
+3</b></font><font face="Calibri, serif">: </font><font face="Calibri, serif"><b>
+</b></font><font face="Calibri, serif">Write a program so that your
+robot drives around in a circle taking readings from its two infrared
+distance sensors roughly every quarter circle.  Some experimentation
+will be needed to work out how long a quarter turn takes for your
+robot.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Exercise
+4:  </b></font><font face="Calibri, serif">Write a program where the
+robot moves forward changing speed every 10 seconds for a total of 30
+seconds.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Exercise
+5</b></font><font face="Calibri, serif">: </font><font face="Calibri, serif"><b>
+</b></font><font face="Calibri, serif">Write a program so that the
+robot </font><font face="Calibri, serif"><i>nods its head </i></font><font face="Calibri, serif">(tilts
+its ultrasonic sensor up and then down like in exercise 2).  Then it
+moves forward for 10 seconds and nods its head again.  Then it spins
+on the spot for 10 seconds then nods its head again.  Then it
+reverses for 10 seconds and nods its head a final time.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Exercise
+6</b></font><font face="Calibri, serif">: </font><font face="Calibri, serif"><b>
+</b></font><font face="Calibri, serif">Create a short obstacle course
+for your robot.  For instance, a gap between two books it must move
+through, then a turn to move between two rows of books.  </font>
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">Write
+a program that will move your robot from the start position to the
+end position in your obstacle course.  To do this you will need to
+experiment to find out how long it needs to move forward in each
+stage and how long it needs to turn for in each stage.</font></p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><font size="5" style="font-size: 20pt"><b>Chapter
+9:</b></font></font><font color="#00ff00"><font face="Calibri, serif"><font size="5" style="font-size: 20pt"><b>
+If</b></font></font></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>AIM:
+</b></font><font face="Calibri, serif">After completing this chapter
+you should be able to use if statements in Python to create more
+complex programs.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>You
+Need: </b></font><font face="Calibri, serif">To complete this chapter
+you need to have an Initio that is connected to a keyboard, mouse and
+monitor (chapter 1), to understand how to start and stop IDLE from
+the Linux Command Line (chapter 2), and to be able to use files to
+store Programs (chapter 6).  You also need to know the commands to
+operate the Initio motors and sensors (chapters 3 &amp; 4), and the
+time.sleep command (chapter 7).</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">We
+want programs to be more flexible than simply following a series of
+instructions.  We want them to do different things in different
+circumstances.  For instance, we might want our Initio rover to move
+backwards if there is an obstacle in front of it and forwards
+otherwise.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">The
+following program will do this:</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">import robohat as initio, time</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">initio.init()</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">if (initio.getDistance() &lt; 50):</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+   <font face="Courier, serif">print(initio.getDistance())</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+   <font face="Courier, serif">initio.reverse(10)</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">else:</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+   <font face="Courier, serif">initio.forward(10)</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">time.sleep(10)</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">initio.stop()</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">There
+are a few things to note here.  Python uses spaces to tell when
+something is part of a block of code inside an if statement.  This
+feature is unique to Python and is not used in many other programming
+languages.  So in the program above Python knows that it should print
+out the value from the ultrasonic sensor and then execute</font>
+<font face="Courier, serif">initio.reverse(10) </font><font face="Calibri, serif">if
+there is an obstacle closer than 50 cm because both statements follow
+after the</font> <font face="Courier, serif">if </font><font face="Calibri, serif">and
+are </font><font face="Calibri, serif"><i>indented</i></font><font face="Calibri, serif">
+- there is a space in front of the statement.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">Similarly
+it knows that </font> <font face="Courier, serif">initio.reverse(10)</font>
+<font face="Calibri, serif">should be executed if there is no
+obstacle because it follows after the else and is indented.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">Note
+also that we have colons after the if and the else.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Question
+1: </b></font><font face="Calibri, serif">Create a file containing
+this program and execute it.  What happens?</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_b8d9eee08f9724c0.gif" name="Shape39" alt="Shape39" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Exercise
+1: </b></font><font face="Calibri, serif">Describe how you would test
+your program to make sure it was working correctly both when there
+was an obstacle and when there wasn’t.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_b8d9eee08f9724c0.gif" name="Shape40" alt="Shape40" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_b8d9eee08f9724c0.gif" name="Shape41" alt="Shape41" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_b8d9eee08f9724c0.gif" name="Shape42" alt="Shape42" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Question
+2: </b></font><font face="Calibri, serif">Perform your tests.  Is
+your program working correctly?  YES/NO</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Exercise
+2: </b></font><font face="Calibri, serif">Write a program using an if
+statement that will turn left if there is an obstacle on the right
+and turn right if there is an obstacle on the left.  </font>
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1.00pt solid #000000; padding: 0.03in; line-height: 100%">
+<font face="Calibri, serif"><i>Hint:  </i></font><font color="#ff0000"><font face="Calibri, serif">To
+do this you may want to use </font></font><font color="#ff0000"><font face="Courier, serif">elif</font></font><font color="#ff0000"><font face="Calibri, serif">
+which means (else if) - e.g. </font></font>
+</p>
+<p style="margin-bottom: 0in; border: 1.00pt solid #000000; padding: 0.03in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1.00pt solid #000000; padding: 0.03in; line-height: 100%">
+<font color="#ff0000"><font face="Courier, serif">elif
+(initio.irLeft()):</font></font></p>
+<p style="margin-bottom: 0in; border: 1.00pt solid #000000; padding: 0.03in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1.00pt solid #000000; padding: 0.03in; line-height: 100%">
+<font color="#ff0000"><font face="Calibri, serif">instead of </font></font><font color="#ff0000"><font face="Courier, serif">else:</font></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Question
+3: </b></font><font face="Calibri, serif">How many cases do you need
+to consider to test your program?  </font>
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_f42e1a513da5533e.gif" name="Shape43" alt="Shape43" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Question
+4: </b></font><font face="Calibri, serif">Does the description of the
+exercise tell you what the program should do in all cases?   YES/NO</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Exercise
+3: </b></font><font face="Calibri, serif">Modify the program so that
+the robot reverses for 10 seconds if there is an obstacle and then
+turns for 10 seconds.  If there isn’t an obstacle the robot moves
+forward.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">Write
+your program below</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Remember:
+</b></font><font face="Calibri, serif">When you have finished working
+with the robot, type </font><font face="Courier, serif">initio.cleanup()</font><font face="Calibri, serif">at
+the command line, quit IDLE, then select Shutdown from the Raspberry
+Pi menu item.  Once the robot has shut down, switch it off.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font color="#464646"><font face="Calibri, serif"><font size="1" style="font-size: 8pt">.</font></font></font></p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><font size="5" style="font-size: 20pt"><b>Chapter
+10: </b></font></font><font color="#00ff00"><font face="Calibri, serif"><font size="5" style="font-size: 20pt"><b>While
+Loops</b></font></font></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>AIM:</b></font><font face="Calibri, serif">
+After completing this chapter you should be able to use while loops
+in Python programs.  You should also be able to construct conditions
+using the Python logical operator not</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>You
+Need: </b></font><font face="Calibri, serif">To complete this chapter
+you need to have an Initio that is connected to a keyboard, mouse and
+monitor (chapter 1), to understand how to start and stop IDLE from
+the Linux Command Line (chapter 2), and to be able to use files to
+store Programs (chapter 6).  You also need to know the commands to
+operate the Initio motors and sensors (chapters 3 &amp; 4).</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">A
+while loop allows a Python program to continue executing some
+statement </font><font face="Calibri, serif"><i>while </i></font><font face="Calibri, serif">something
+remains true.  For instance, we might want our Initio to keep
+reversing while there is an obstacle.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">import robohat as initio</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">initio.init()</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">initio.reverse(10)</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">while (initio.irCentre()):</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+   <font face="Courier, serif">print(“Reversing”)</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">initio.stop()</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">Notice
+that we start reversing </font><font face="Calibri, serif"><i>before</i></font><font face="Calibri, serif">
+we execute the while loop.  This is because once you start your
+Initio moving, it carries on doing that until it is told to do
+something else.  So, we are simply using the while loop prevent the
+program moving on to the stop command.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Question
+1: </b></font><font face="Calibri, serif">Create a file containing
+this program and execute it.  What happens?</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_b8d9eee08f9724c0.gif" name="Shape44" alt="Shape44" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Question
+2: </b></font><font face="Calibri, serif">What sort of tests would
+you need to perform to check the program was working properly in all
+cases?</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_b8d9eee08f9724c0.gif" name="Shape45" alt="Shape45" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_b8d9eee08f9724c0.gif" name="Shape46" alt="Shape46" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_b8d9eee08f9724c0.gif" name="Shape47" alt="Shape47" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><a name="_qtf5w3as9w17"></a>
+<br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><font size="5" style="font-size: 20pt"><b>Chapter
+11:  </b></font></font><font color="#00ff00"><font face="Calibri, serif"><font size="5" style="font-size: 20pt"><b>Using
+Logic in Conditions</b></font></font></font></p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>AIM:
+</b></font><font face="Calibri, serif">After completing this chapter
+you should be able to use logic to construct more complex conditions
+for If statements.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>You
+Need: </b></font><font face="Calibri, serif">To complete this chapter
+you need to have an Initio that is connected to a keyboard, mouse and
+monitor (chapter 1), to understand how to start and stop IDLE from
+the Linux Command Line (chapter 2), and to be able to use files to
+store Programs (chapter 6).  You also need to know the commands to
+operate the Initio motors and sensors (chapters 3 &amp; 4) and how to
+use while statements in Python (chapter 10).</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Problem:</b></font><font face="Calibri, serif">
+You will have noticed that it is very cumbersome to operate your
+Initio while it is connected to the keyboard, mouse and monitor. 
+Ideally you would have time after your program started running to
+disconnect everything.  </font>
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">Consider
+the program below</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">import robohat as initio, time</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">initio.init()</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">while (initio.getDistance() &gt; 5):</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+   <font face="Courier, serif">print(“Waiting”)</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">initio.setServo(0, 20)</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">time.sleep(1)</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">initio.setServo(0, 0)</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Question
+1: </b></font><font face="Calibri, serif">What do you expect this
+program to do?</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_b60507a086a31674.gif" name="Shape48" alt="Shape48" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Question
+2: </b></font><font face="Calibri, serif">Execute the program.  Did
+it do what you expected? YES/NO.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Exercise
+1: </b></font><font face="Calibri, serif"> Modify the program by
+adding a second while loop so that the Initio ultrasonic sensor
+continues to be tilted upwards until the object closer than 5cm moves
+away. </font>
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Logic
+in conditions:  </b></font><font face="Calibri, serif">You can use
+</font><font face="Calibri, serif"><i>logic</i></font><font face="Calibri, serif">
+to make the conditions of your Python loops and if statements more
+complex.  The main </font><font face="Calibri, serif"><i>logical
+operators</i></font><font face="Calibri, serif"> are not, and and or.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">We
+can use these to build up logical expressions so, for instance:</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<table width="680" cellpadding="9" cellspacing="0">
+	<col width="465"/>
+
+	<col width="177"/>
+
+	<tr valign="top">
+		<td width="465" style="border: 1px solid #000000; padding: 0in 0.08in"><p style="orphans: 0; widows: 0">
+			<font face="Courier, serif">initio.irLeft()</font></p>
+		</td>
+		<td width="177" style="border: 1px solid #000000; padding: 0in 0.08in"><p style="orphans: 0; widows: 0">
+			<font face="Calibri, serif">returns</font> <font face="Courier, serif">True</font>
+			<font face="Calibri, serif">if the there is is an obstacle on the
+			Left.</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="465" style="border: 1px solid #000000; padding: 0in 0.08in"><p style="orphans: 0; widows: 0">
+			<font face="Courier, serif">not (initio.irLeft())</font> 
+			</p>
+		</td>
+		<td width="177" style="border: 1px solid #000000; padding: 0in 0.08in"><p style="orphans: 0; widows: 0">
+			<font face="Calibri, serif">returns</font> <font face="Courier, serif">True</font>
+			<font face="Calibri, serif">if there is not an obstacle on the
+			Left.</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="465" style="border: 1px solid #000000; padding: 0in 0.08in"><p style="orphans: 0; widows: 0">
+			<font face="Courier, serif">(initio.irRight()</font> <font face="Courier, serif">
+			or initio.irLeft())</font>  
+			</p>
+		</td>
+		<td width="177" style="border: 1px solid #000000; padding: 0in 0.08in"><p style="orphans: 0; widows: 0">
+			<font face="Calibri, serif">returns</font> <font face="Courier, serif">True</font>
+			<font face="Calibri, serif">if there is and obstacle on the Right
+			or the Left.</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="465" style="border: 1px solid #000000; padding: 0in 0.08in"><p style="orphans: 0; widows: 0">
+			<font face="Courier, serif">(initio.irRight()</font> <font face="Courier, serif">
+			and initio.irLeft())</font> 
+			</p>
+		</td>
+		<td width="177" style="border: 1px solid #000000; padding: 0in 0.08in"><p style="orphans: 0; widows: 0">
+			<font face="Calibri, serif">returns</font> <font face="Courier, serif">True</font>
+			<font face="Calibri, serif">if tthere is and obstacle on the Right
+			and the Left.</font></p>
+		</td>
+	</tr>
+</table>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Exercise
+2: </b></font><font face="Calibri, serif">Modify your program so that
+if there is nothing closer to the robot than 5cm then the Initio
+moves forward.  Then when something gets closer than 5cm, the Initio
+stops moving.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">What
+expression are you using in the condition?</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_b60507a086a31674.gif" name="Shape49" alt="Shape49" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">You
+can make conditions more and more complex by composing the logical
+operators.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Exercise
+3: </b></font><font face="Calibri, serif">Create a program so that if
+there is no obstacle on the Left or the Right then the Initio goes
+forward.  Then when there is an obstacle on either side the Initio
+stops moving.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">What
+expression are you using in the condition?</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_b60507a086a31674.gif" name="Shape50" alt="Shape50" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Remember:
+</b></font><font face="Calibri, serif">When you have finished working
+with the robot, type </font><font face="Courier, serif">pi2go.cleanup()</font><font face="Calibri, serif">at
+the command line, quit IDLE, then select Shutdown from the Raspberry
+Pi menu item.  Once the robot has shut down, switch it off.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><a name="_t6kui8j2gwhc"></a>
+<font color="#464646"><font face="Calibri, serif"><font size="1" style="font-size: 8pt">.</font></font></font></p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><font size="5" style="font-size: 20pt"><b>Chapter
+12: </b></font></font><font color="#00ff00"><font face="Calibri, serif"><font size="5" style="font-size: 20pt"><b>More
+Loops</b></font></font></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>AIM:
+</b></font><font face="Calibri, serif">After completing this chapter
+you should be able to use </font><font face="Courier, serif">break,
+continue </font><font face="Calibri, serif">and</font><font face="Courier, serif">
+while True:</font><font face="Calibri, serif"> in programs</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>You
+Need: </b></font><font face="Calibri, serif">To complete this chapter
+you need to have an Initio that is connected to a keyboard, mouse and
+monitor (chapter 1), to understand how to start and stop IDLE from
+the Linux Command Line (chapter 2), and to be able to use files to
+store Programs (chapter 6).  You also need to know the commands to
+operate the Initio motors and sensors (chapters 3 &amp; 4).  You
+should be able to use If statements (chapter 9) and while loops
+(chapter 10) in Python programs.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">Loops
+are fundamental to programming.  However, there are a few constructs
+that make them much more flexible and easy to use.  </font>
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Break:
+</b></font><font face="Calibri, serif">The command </font><font face="Courier, serif">break</font><font face="Calibri, serif">
+is used to “break out” of a </font><font face="Calibri, serif"><b>while
+</b></font><font face="Calibri, serif">loop.  It is normally used
+inside an </font><font face="Calibri, serif"><b>if </b></font><font face="Calibri, serif">statement
+and will stop the loop without executing anything that comes after
+it.  </font>
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">Consider
+the following program</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">import robohat as initio</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">import time</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">initio.init()</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">while (not initio.irLeft()):</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+    <font face="Courier, serif">if (initio.irRight()):</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+        <font face="Courier, serif">break</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+    <font face="Courier, serif">initio.forward(10)</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+    <font face="Courier, serif">time.sleep(10)</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">initio.stop()   </font>
+</p>
+<p style="margin-bottom: 0in; line-height: 100%">    
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Question
+1: </b></font><font face="Calibri, serif">What does it do?</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_b8d9eee08f9724c0.gif" name="Shape51" alt="Shape51" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_b8d9eee08f9724c0.gif" name="Shape52" alt="Shape52" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_b8d9eee08f9724c0.gif" name="Shape53" alt="Shape53" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Continue:
+</b></font><font face="Calibri, serif">Continue is used to mean start
+executing the loop back from the beginning, skipping the rest of the
+code.  An obvious use of continue is when you simply want a loop to
+execute until something happens.</font></p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">Consider
+the following program</font></p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">import robohat as initio</font></p>
+<p align="justify" style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">import time</font></p>
+<p align="justify" style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">initio.init()</font></p>
+<p align="justify" style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">while (not initio.irLeft()):</font></p>
+<p align="justify" style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+    <font face="Courier, serif">continue</font></p>
+<p align="justify" style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+ 
+</p>
+<p align="justify" style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">initio.forward(10)</font></p>
+<p align="justify" style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">while (not initio.irRight()):</font></p>
+<p align="justify" style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+    <font face="Courier, serif">continue</font></p>
+<p align="justify" style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Courier, serif">initio.stop()</font></p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Question
+2: </b></font><font face="Calibri, serif">What does it do?</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_b8d9eee08f9724c0.gif" name="Shape54" alt="Shape54" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_b8d9eee08f9724c0.gif" name="Shape55" alt="Shape55" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_b8d9eee08f9724c0.gif" name="Shape56" alt="Shape56" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>While
+True:  </b></font><font face="Calibri, serif">Lastly, we can use the
+construct </font><font face="Courier, serif">while True: </font><font face="Calibri, serif">in
+order to create a loop that just keeps executing until someone
+presses Control-C to exit the program or a </font><font face="Calibri, serif"><b>break</b></font><font face="Calibri, serif">
+statement is used.</font></p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Exercise
+1: </b></font><font face="Calibri, serif">Write a program using </font><font face="Courier, serif">while
+True: </font><font face="Calibri, serif">and </font><font face="Courier, serif">break.</font><font face="Calibri, serif">
+ Where the robot starts moving the left IR sensor detects an obstacle
+and then it stops.</font></p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Exercise
+2:  </b></font><font face="Calibri, serif">Write a program using
+</font><font face="Courier, serif">break, continue, elif </font><font face="Calibri, serif">and
+</font><font face="Courier, serif">while True</font><font face="Calibri, serif">
+that does the following.</font></p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<ol>
+	<li><p align="justify" style="margin-bottom: 0in; line-height: 100%">
+	<font face="Calibri, serif">If there is something in front of both
+	the right and left IR sensors the program and robot stop.</font></p>
+	<li><p align="justify" style="margin-bottom: 0in; line-height: 100%">
+	<font face="Calibri, serif">If there is something in front of the
+	right sensor the robot should spin left and print “spinning to
+	avoid obstacle”</font></p>
+	<li><p align="justify" style="margin-bottom: 0in; line-height: 100%">
+	<font face="Calibri, serif">If there is something in front of the
+	left sensor the robot should spin right and print “spinning to
+	avoid obstacle”</font></p>
+	<li><p align="justify" style="margin-bottom: 0in; line-height: 100%">
+	<font face="Calibri, serif">Otherwise the robot should move forward
+	and print nothing.</font></p>
+	<li><p align="justify" style="margin-bottom: 0in; line-height: 100%">
+	<font face="Calibri, serif">Use </font><font face="Calibri, serif"><u>only
+	one</u></font><font face="Calibri, serif"> print statement.</font></p>
+</ol>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><font size="5" style="font-size: 20pt"><b>Chapter
+13: </b></font></font><font color="#00ff00"><font face="Calibri, serif"><font size="5" style="font-size: 20pt"><b>Logic
+and Control</b></font></font></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_4e02a96789721166.png" name="Image18" align="left" hspace="14" width="86" height="86" border="0"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>AIM:
+</b></font><font face="Calibri, serif">This chapter provides
+additional programs using logic, if statements and while loops for
+you to write for your Initio.   It assumes familiarity with chapters
+1-12.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Exercise
+1</b></font><font face="Calibri, serif">: </font><font face="Calibri, serif"><b>
+</b></font><font face="Calibri, serif">Write a program that will pan
+the “head” of the Initio to the left if there is an obstacle on
+the left and to the right if there is an obstacle on the right.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Exercise
+2</b></font><font face="Calibri, serif">: </font><font face="Calibri, serif"><b>
+</b></font><font face="Calibri, serif"> </font><font face="Calibri, serif"><b>
+</b></font><font face="Calibri, serif">Write a program that behaves
+as follows:  When an obstacle is detected on the left the program
+starts printing out the value from the ultrasonic distance sensor. 
+When an obstacle is detected on the right it stops printing the
+distance out.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Exercise
+3</b></font><font face="Calibri, serif">: </font><font face="Calibri, serif"><b>
+</b></font><font face="Calibri, serif">Extend your program from
+exercise 1 so it keeps moving the Initio head as obstacles appear and
+disappear.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Exercise
+4:  </b></font><font face="Calibri, serif">Write a program that will
+make the Initio reverse if there are obstacles on both the left and
+right side.  Once the obstacles both disappear it should stop
+reversing.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Exercise
+5</b></font><font face="Calibri, serif">: </font><font face="Calibri, serif"><b>
+</b></font><font face="Calibri, serif">Write a program that will make
+the Initio move forward if there is no obstacle in front of it
+(determined using the ultrasonic sensor) or to either side.  Once an
+obstacle appears somewhere it should stop moving.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Exercise
+6</b></font><font face="Calibri, serif">: </font><font face="Calibri, serif"><b>
+  </b></font><font face="Calibri, serif">Adapt your programs from
+exercises 4 and 5 so that the robot reverses until there are no
+obstacles and then moves forward until there is an obstacle and keeps
+repeating this.</font></p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><font size="5" style="font-size: 20pt"><b>Chapter
+14: </b></font></font><font color="#00ff00"><font face="Calibri, serif"><font size="5" style="font-size: 20pt"><b>Obstacle
+Avoidance</b></font></font></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>AIM:
+</b></font><font face="Calibri, serif">After completing this
+worksheet you should be able to integrate your Python programming
+knowledge to create obstacle avoidance behaviour in your Initio
+robot.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>You
+Need: </b></font><font face="Calibri, serif">To complete this
+worksheet you need to have an Initio that is connected to a keyboard,
+mouse and monitor (see WS1), to understand how to start and stop IDLE
+from the Linux Command Line (see WS2), and to be able to use files to
+store Programs (WS5).  You also need to know the commands to operate
+the Initio motors and sensors (WS3 &amp; WS4).  You should be able to
+use If statements (WS7) and while loops (WS8) in Python programs.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Challenge:
+</b></font><font face="Calibri, serif">Implement obstacle avoidance
+behaviour on an Initio robot.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Designing
+the program: </b></font><font face="Calibri, serif">Before you can
+implement a behaviour, you should try to define what that behaviour
+involves.  In this challenge we will define obstacle avoidance
+behaviour to mean: “The Initio should move forwards while there is
+nothing closer than 50cm (an obstacle) and should turn (either right
+or left) when there is an obstacle (something closer than 50cm)”.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">We
+can illustrate this with a flow chart</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_94b606294f095445.gif" name="Shape57" alt="Shape57" align="left" hspace="14"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Question
+1: </b></font><font face="Calibri, serif">What sensor and motion
+commands do you expect to use for this challenge?</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_a354adc95fc0c255.gif" name="Shape58" alt="Shape58" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_a354adc95fc0c255.gif" name="Shape59" alt="Shape59" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif">You
+can go ahead and attempt to write the program now – or you can
+follow the suggested steps below.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Calibri, serif"><b>Step 1: </b></font><font face="Calibri, serif">Write
+a python program containing a while loop, which will make your Initio
+move forward while there is no obstacle and then stop when an
+obstacle appears.  Test your program works.</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Calibri, serif"><b>Step 2: </b></font><font face="Calibri, serif">Extend
+your program so that you have a Python program that will move forward
+while there is no obstacle, then will turn while there is an
+obstacle, and then stops.  Test your program works.</font></p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; border: 1px solid #000000; padding: 0.01in 0.06in; line-height: 100%">
+<font face="Calibri, serif"><b>Step 3: </b></font><font face="Calibri, serif">Now
+you want to extend the program so instead of going around one while
+loop (while there is no obstacle) and then a second (while there is
+an obstacle) and then stopping, it instead repeats going around the
+two while loops.  You can do this with a third while loop that
+contains the other two and which starts with</font> <font face="Courier, serif">while
+True:</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Question
+2:  </b></font><font face="Calibri, serif">Write out how you are
+going to test that your program works.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_a354adc95fc0c255.gif" name="Shape60" alt="Shape60" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_a354adc95fc0c255.gif" name="Shape61" alt="Shape61" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_a354adc95fc0c255.gif" name="Shape62" alt="Shape62" align="left" hspace="1" vspace="2"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Question
+3:  </b></font><font face="Calibri, serif">Execute your program. 
+Does it work?  YES/NO</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Extending
+the Program:  </b></font><font face="Calibri, serif">While you have
+successfully implemented obstacle avoidance behaviour, the behaviour
+of your program isn’t as nice as you might like.  For instance, you
+have to use Ctrl-C to stop the program running and then stop the
+Initio at the Python command line.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Exercise
+1: </b></font><font face="Calibri, serif">Extend the program so you
+can stop and start it easily by waving your hand really close to the
+ultrasonic sensor (e.g. closer than 5cm).  You might want to look at
+WS9 for hints about this.  You will want it to start when something
+is closer than 5cm followed by being further away than 5cm (the hand
+appears and then moves away) otherwise it may start and then
+immediately stop because the hand is still there.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Calibri, serif"><b>Exercise
+2</b></font><font face="Calibri, serif">: </font><font face="Calibri, serif"><b>
+</b></font><font face="Calibri, serif">Write a program that will
+follow a line.  You should use the same techniques you used to design
+and develop your obstacle avoidance program.  You can test it using
+the line following mat supplied as a resource with these worksheets. 
+Your program design should involve the robot moving forward when its
+line sensors are either side of the line and turning left or right as
+appropriate if one of the line sensors detects the line.  You will
+have to move the robot to a suitable starting position.</font></p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%"><img src="Part1-Initio_html_2564f9499a036598.png" name="Image19" align="left" hspace="14" vspace="14" width="214" height="55" border="0"/>
+<img src="Part1-Initio_html_b2aa39ffa07d747c.png" name="Image20" align="left" hspace="14" vspace="14" width="105" height="37" border="0"/>
+<img src="Part1-Initio_html_b2aa39ffa07d747c.png" name="Image21" align="left" hspace="14" vspace="14" width="105" height="37" border="0"/>
+<img src="Part1-Initio_html_b2aa39ffa07d747c.png" name="Image22" align="left" hspace="14" vspace="14" width="105" height="37" border="0"/>
+<br/>
+
+</p>
+<p align="justify" style="margin-bottom: 0in; line-height: 100%">
+<font face="Calibri, serif"><font size="1" style="font-size: 8pt">University
+of Liverpool, 2019</font></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><font color="#464646"><font face="Calibri, serif"><font size="1" style="font-size: 8pt">This
+work is licensed under a </font></font></font><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><font color="#049ccf"><font face="Calibri, serif"><font size="1" style="font-size: 8pt">Creative
+Commons Attribution-NonCommercial-ShareAlike 4.0 International
+License</font></font></font></a><font color="#464646"><font face="Calibri, serif"><font size="1" style="font-size: 8pt">.</font></font></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<div title="footer"><p align="center" style="margin-top: 0.47in; margin-bottom: 0in; line-height: 100%">
+	<br/>
+
+	</p>
+</div>
+</body>
+</html>
