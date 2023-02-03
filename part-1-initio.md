@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Programming in Python with the Initio Robot: Part 1
+title: build a robot
 ---
+Programming in Python with the Rosmo Robot: Part 1
 
 # **Programming in Python with the Initio Robot:**
 
