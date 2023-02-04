@@ -1,24 +1,15 @@
 ---
 layout: page
-title: build a robot
+title: Programming in Python with the Initio Robot
 ---
 
----
-layout: page
-title: build a robot
----
 
 University of Liverpool, 2019 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-# **Programming in Python with the Initio Robot:**
-
-#
 
 # **Part 1**
 
 # **Chapter 1:**
-
-#
 
 # **Getting Started**
 
@@ -59,6 +50,8 @@ Your final setup should look something like this.
 or (if you are using the Elecrow 5 inch monitor):
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Part1-Initio/Part1-Initio_html_344013f6fb247f8a.jpg)
+
+Alternatively you might like to use [Wetty](https://github.com/butlerx/wetty#readme) & [AngryIP](https://angryip.org/) to access your robot
 
 # **Chapter 2:**
 
