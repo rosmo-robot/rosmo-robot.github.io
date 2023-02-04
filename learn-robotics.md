@@ -23,6 +23,7 @@ Derived from work by Mithi [🐳](https://mithi.github.io/deep-blueberry) [☕�
 # 3) Python
 
 - [Pyrobots](https://www.csc.liv.ac.uk/~lad/pyrobots/exercises.html) eg [Test document](https://rosmo-robot.github.io/part-1-initio/)
+- [Example project](https://github.com/DIT112-V19/group-03) connected to Smartcar Microcontroller
 - [Autonomous Robotics - ENPM 809T](https://github.com/govindak-umd/Autonomous_Robotics)
 - [Python Robotics](https://atsushisakai.github.io/PythonRobotics/getting_started.html)
 
