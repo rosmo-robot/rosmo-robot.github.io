@@ -1,16 +1,17 @@
 ---
 layout: page
-title: build a robot
+title: Learn Robotics
 ---
-
-Derived from work by Mithi [🐳](https://mithi.github.io/deep-blueberry) [☕️](https://ko-fi.com/minimithi) 
 
 # Objectives
  -  Get at strong foundation in open-source electronics and prototyping
  -  Gain intuition on mechanical prototyping and design with dc brush motors, servo motors and stepper motors
  -  Apply basic machine learning and computer vision to a small project
 
-A series of resources to use with the open-hardware [Smartcar 2.0 robot](https://github.com/rosmo-robot/smartcar_shield#platform) (In development)
+A series of resources to use with the open-hardware [Smartcar 2.0 robot](https://github.com/rosmo-robot/smartcar_shield#platform)
+(In development)
+
+Derived from work by Mithi [🐳](https://mithi.github.io/deep-blueberry) [☕️](https://ko-fi.com/minimithi) 
 
 # 1) Circuitpython/Mu
 
@@ -37,7 +38,7 @@ A series of resources to use with the open-hardware [Smartcar 2.0 robot](https:/
 - [♥️ Robot Academy][series1], Peter Corke, Queensland University of Technology
 - [MIT Open Courseware: Robotics][series9] 
 - Coursera: [Robotics Specialization][series3], University of Pennsylvania
-- Coursera: [Modern Robotics Specialization][series4] | [book][series11a] + [📺 channel][series11b], Northwestern University
+- Coursera: [Modern Robotics Specialization][series4]  [book][series11a] + [📺 channel][series11b], Northwestern University
 - Coursera: [Self-Driving Cars][series10], University of Toronto
 - :dollar: Udacity: [Robotics Nanodegree][series5]
 - :dollar: Udacity: [Intro to Self-Driving Cars Nanodegree][series6b]
@@ -147,11 +148,11 @@ A series of resources to use with the open-hardware [Smartcar 2.0 robot](https:/
 
 
 # Useful Concepts and Tools
-- CAD Tools: [Autodesk Fusion 360][tools10] | [OnShape][tools12]
+- CAD Tools: [Autodesk Fusion 360][tools10]  [OnShape][tools12]
 - [♥️ 🐳 Deep Learning][tools1]
 - [Hackertools: The Missing Semester of Your CS Education][tools15], MIT Open Learning
-- Kalman Filters: [Roger R. Labbe][tools2] | [Balzer82][tools11]
-- Control Systems: [📺 Steve Brunton][tools3] | [📺 Brian Douglas][tools4] | [Tyler Veness][tool5]
+- Kalman Filters: [Roger R. Labbe][tools2]  [Balzer82][tools11]
+- Control Systems: [📺 Steve Brunton][tools3]  [📺 Brian Douglas][tools4] | [Tyler Veness][tool5]
 - Algorithms and Data Structures, C++, Python, Octave
 - [♥️ More courses](https://github.com/mithi/robotics-coursework/issues/6#issuecomment-629713457)
 
