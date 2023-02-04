@@ -1,4 +1,9 @@
-# [🐳](https://mithi.github.io/deep-blueberry) [☕️](https://ko-fi.com/minimithi) 
+---
+layout: page
+title: build a robot
+---
+
+Derived from work by Mithi [🐳](https://mithi.github.io/deep-blueberry) [☕️](https://ko-fi.com/minimithi) 
 
 # Objectives
  -  Get at strong foundation in open-source electronics and prototyping
