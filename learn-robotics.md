@@ -8,8 +8,8 @@ title: Learn Robotics
  -  Gain intuition on mechanical prototyping and design with dc brush motors, servo motors and stepper motors
  -  Apply basic machine learning and computer vision to a small project
 
-A series of resources to use with the open-hardware [Smartcar 2.0 robot](https://github.com/rosmo-robot/smartcar_shield#platform)
-(In development)
+A series of resources to use with the open-hardware [Smartcar 2.0 robot](
+https://github.com/rosmo-robot/smartcar_shield#smartcar-20-in-development) (In development)
 
 Derived from work by Mithi [🐳](https://mithi.github.io/deep-blueberry) [☕️](https://ko-fi.com/minimithi) 
 
