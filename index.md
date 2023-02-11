@@ -36,6 +36,5 @@ Licence: CERN-OHL-P
  * Compatible with [Turtlebot mounting plates](https://craftcloud3d.com/configuration/4766265f-74b2-4e84-ae75-2e6df596f9b7)
  * Optional Mount plate for [affordable Lidar](https://github.com/n1kn4x/xv11_lidar_python#ros-2-driver-for-xv-11-lidar)
 
-[Read more](https://github.com/rosmo-robot/smartcar_shield#smartcar-20-bom-in-development)
- 
+[Read more](https://github.com/rosmo-robot/smartcar_shield#smartcar-10-existing)
 
