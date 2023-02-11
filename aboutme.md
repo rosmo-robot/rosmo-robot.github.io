@@ -1,51 +1,18 @@
 ---
 layout: page
-title: build a robot
+title: Projects
 ---
 
-## Smartcar 2.0 (In development)
+![ROSmo tracked](https://pbs.twimg.com/media/FUa95gJXsAEfBqj?format=jpg)
 
-Licence: CERN-OHL-P
+Rosmo is a project to make small openhardware robots for educational and hobbyist use. We aim to design capable robots which can be assembled without soldering. It's a modular set of open-hardware components that can be assembled into robots of different complexity and price. 
 
- Features;
- 
- * Supporting variety of [Software](https://github.com/samuk/learn-robotics/blob/master/README.MD#objectives)
- * Mounting space for Pi,Jetson Nano, [AI-64](https://beagleboard.org/ai-64) or similar
- * Reference implimentation of Arduino / [Smartcar Library](https://github.com/rosmo-robot/smartcar_shield/blob/master/README.md#software)
- * Reference implimentation of [ROS2/Linorobot2](https://github.com/linorobot/linorobot2#linorobot2)
- * Use of [MicroMod MCU](https://www.sparkfun.com/micromod#processor_boards)
- * Support for the I2C/SPI [Featherwings](https://github.com/adafruit/awesome-feather#featherwings), including [Airlift](https://learn.adafruit.com/adafruit-airlift-featherwing-esp32-wifi-co-processor-featherwing/pinouts) 
- * Use of 3s Lipo batteries
- * Dual motor drivers for 4x4 mecanum drive
- * [UEXT sockets](https://www.olimex.com/Products/Modules/)
- * [mikroBUS socket](https://www.mikroe.com/mikrobus-shuttle-127mm-2x8-pin-box-header-smd-male)
- * Expanded I2C/ SPI connectors using [Breakout Garden](https://shop.pimoroni.com/collections/breakout-garden), [Qwiic](https://soldered.com/categories/easyc-2/)
- * Compatible with [Turtlebot mounting plates](https://craftcloud3d.com/configuration/4766265f-74b2-4e84-ae75-2e6df596f9b7)
- * Optional Mount plate for [affordable Lidar](https://github.com/n1kn4x/xv11_lidar_python#ros-2-driver-for-xv-11-lidar)
+We value modularity. The project started working with the M5stack system. The robot you see above is the culmination of that work. We built a [chassis](https://github.com/rosmo-robot/Rosmo_3D/tree/main/V2/2.10), [ESP32dev board](https://github.com/rosmo-robot/Open-Core-M5stack/tree/main/2.2) and [ESC](https://github.com/rosmo-robot/Rosmo_ESC) in this 5cmx5cm profile. We learnt a lot doing this. Unfortunately the parts crisis has meant that the ESC is not obtainable until at least 2023. We continue to test and develop using the small numnber of ESC boards we have produced.
+
+We also identified some issues with the M5stack system, in particular the header is hard to obtain at resonable prices. We've therefore pivoted our work to do more work with the Feather footprint to give a wider array of add-on boards. Whilst the Feather is great it is very small. We made a Feather to Micro:bit converter the [Feather:bit board](https://github.com/rosmo-robot/Feather-Bit/tree/main/v1) the intention is to use this board in two versions of a ~10cm x ~10cm robot.
+
+We also built a small 2WD platform to use it with [Rosmo:Bot](https://github.com/rosmo-robot/micro-bot/tree/master/Hardware/V3) which uses cheaper brushed motors. 
+![Brushed](https://raw.githubusercontent.com/rosmo-robot/micro-bot/master/Hardware/V3/Front.JPG)
 
 
-### Project Status
 
- * One developer interested in supporting Arduino/Smartcar shield 
- * One developer interested in supporting ROS2
- * Some experience of PCB design
- * [Template Kicad files](https://github.com/rosmo-robot/smartcar_shield/tree/master/extras/kicad) created
- * PCB volunteer starting work on the project
- 
-The Rosmo project is working with a volunteer PCB designer to produce a first iteration of the Smartcar 2.0 robot. This involves the design and layout of two interconnected PCB's;
-
-1) The 'Modules' board - Significant revision from v1 that you see above. See below for concept layouts & BOM
-
-![Optional compute concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/modules.png)
-
-2) the 'Motor board - Largely unchanged mechanically from the V1 board you see above, additional motor driver to enable mecanum drive
-
-
-![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/motors.png)
-
-Longer term
-
-- Offering an alternate/upgraded BLDC motor board using SimpleFOC, but re-using the 'Modules' board
-
-
-[Read more](https://github.com/rosmo-robot/smartcar_shield#smartcar-20-bom-in-development)
