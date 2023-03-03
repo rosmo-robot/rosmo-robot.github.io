@@ -6,7 +6,7 @@ subtitle: Open hardware robot components.
 
 ## Smartcar 2.0 (In development)
 
-1) The 'Modules' board - Includes standoffs for common single board computers (in development)
+1) The 'Modules' board - Includes standoffs for common single board computers (in development) It stacks on top of the Motors board using two of the common 40pin stacking headers.
 
 ![Optional compute concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/modules.png)
 
