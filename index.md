@@ -20,7 +20,7 @@ Modules board with a Jetson Nano
 
 
 The Motors board - 
- ![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/motors.png)
+ ![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/motors.png)
 
 
 Longer term
