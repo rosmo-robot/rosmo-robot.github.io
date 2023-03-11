@@ -13,14 +13,14 @@ Modules board with a AI-64
 
 Modules board with a Pi4 
 
-![Optional compute concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/modules.png)
+ ![Optional compute concept](https://github.com/rosmo-robot/smartcar_shield/master/extras/images/modules.png)
 
 Modules board with a Jetson Nano
-![Modules Jetson](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/img/jetson-stack.png)
+ ![Modules Jetson](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/img/jetson-stack.png)
 
 
 The Motors board - 
-![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/motors.png)
+ ![Dual driver concept](https://github.com/rosmo-robot/smartcar_shield/master/extras/images/motors.png)
 
 
 Longer term
