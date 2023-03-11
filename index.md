@@ -6,18 +6,22 @@ subtitle: Open hardware robot components.
 
 ## Smartcar 2.0 (In development)
 
+The 'Modules' board Includes standoffs for common single board computers, It stacks on top of the Motors board using two of the common 40pin stacking headers. 
+
+Modules board with a AI-64
 ![Stack](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/img/modulesstack.png)
 
-1) The 'Modules' board with a Pi - Includes standoffs for common single board computers (in development) It stacks on top of the Motors board using two of the common 40pin stacking headers.
+Modules board with a Pi4 
 
 ![Optional compute concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/modules.png)
 
-2) the 'Motors' board - (somewhat complete)
+Modules board with a Jetson Nano
+![Modules Jetson](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/img/jetson-stack.png)
 
+
+The Motors board - 
 ![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/motors.png)
 
-
-![Modules Jetson](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/img/jetson-stack.png)
 
 Longer term
 
