@@ -13,7 +13,7 @@ Modules board with a AI-64
 
 Modules board with a Pi4 
 
- ![Optional compute concept](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img//modules.png)
+ ![Optional compute concept](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/modules.png)
 
 Modules board with a Jetson Nano
  ![Modules Jetson](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/jetson-stack.png)
