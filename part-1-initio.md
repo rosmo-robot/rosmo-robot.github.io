@@ -3,7 +3,139 @@ layout: page
 title: Programming in Python with the Initio Robot
 ---
 
+---
+title: "Tile Info Test"
+author: "Allen OBrien"
+date: "6/11/2020"
+output:
+  html_document:
+    df_print: paged
+  bookdown::html_document2:
+    keep_md: no
+    self-contained: yes
+---
 
+ ```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(fontawesome)
+```
+
+ ```{css, echo=FALSE}
+.info-tile {
+  height: 20vw;
+  width: 30vw;
+  max-width: 290px;
+  max-height: 200px;
+  background: #ef69b9;
+  display: inline-block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-wrap: break-word;
+  line-height: 5vw;
+  font-size: 5vw;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  margin:0.5%
+}
+
+.info-tile:hover {
+  opacity:0.5;
+}
+
+.info-tile-large-text {
+  display: inline-block;
+  padding-left: 1vw;
+  margin-top: 2.5vw;
+  margin-bottom:4vw;
+}
+
+.info-tile-small-text {
+  display: inline-block;
+  font-size: 40%;
+  padding-left: 1vw;
+}
+
+.info-tile-img {
+  position: absolute;
+  left: 52%;
+  top: 15%;
+  opacity: .4;
+  height: 10vw;
+  font-size:10vw;
+}
+
+/* At large media widths */
+@media screen and (min-width: 1000px) {
+  .info-tile {
+    font-size: 50px;
+    line-height: 65px;
+  }
+  
+  .info-tile-large-text {
+    display: inline-block;
+    padding-left: 10px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .info-tile-small-text {
+    display: inline-block;
+    font-size: 40%;
+    padding-left: 10px;
+  }
+  
+  .info-tile-img{
+    position: absolute;
+    left: 52%;
+    top: 15%;
+    //opacity: .4;
+    height: 100px;
+    font-size: 100px;
+  }
+}
+```
+
+```{js, echo = FALSE}
+
+// Set destination for clicks on the id tabs after page is ready
+$(document).ready ( function () {
+
+// When tile 1 (#tile1) is clicked, navigate to the report-details tab.
+$( "#tile1" ).on( "click", function() {
+$('.nav-pills li a[href="#first-content-tab"]').tab('show');
+});
+
+// Repeat for other tiles, or create a function/loop to reduce code
+
+});
+```
+
+# Report  {- .tabset .tabset-fade .tabset-pills}
+
+## Highlights {-}
+
+<div>
+  <div class="info-tile" id="tile1" style = "background: #d40072;">
+   <span class = "info-tile-large-text">1234</span> <br />
+   <span class = "info-tile-small-text">Details</span> 
+  </div>
+  
+  <div class="info-tile" id="tile2" style = "background: #00aad2;">
+   <span class = "info-tile-large-text">1234</span> <br />
+   <span class = "info-tile-small-text">Details</span> 
+  </div>
+</div>
+
+## First Content Tab {-}
+
+# {-}
+
+
+
+
+
+-----------
 University of Liverpool, 2019 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 
