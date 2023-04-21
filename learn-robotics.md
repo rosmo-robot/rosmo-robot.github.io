@@ -17,10 +17,14 @@ Derived from work by Mithi [🐳](https://mithi.github.io/deep-blueberry) [☕�
 
 - [Microblocks](https://microblocks.fun/)
 
-# 2) Arduino
+# 2) Micropython
+
+- [Explaining computers](https://www.explainingcomputers.com/pi_pico_w_robot.html)
+
+# 3) Arduino
 - [Smartcar](https://github.com/platisd/smartcar_shield/tree/master/examples/Car) Projects from [2019](https://github.com/DIT112-V19), [2020](https://github.com/DIT112-V20/) [2021](https://github.com/DIT112-V21/)
 
-# 3) Python
+# 4) Python
 
 - [Pyrobots](https://www.csc.liv.ac.uk/~lad/pyrobots/exercises.html) eg [Test document](https://rosmo-robot.github.io/part-1-initio/)
 - [Example project](https://github.com/DIT112-V19/group-03) connected to Smartcar Microcontroller
