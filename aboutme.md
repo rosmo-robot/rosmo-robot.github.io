@@ -2,10 +2,57 @@
 layout: page
 title: Projects
 ---
+## Smartcar 2.0 (In development)
+
+The 'Modules' board Includes standoffs for common single board computers, It stacks on top of the Motors board using two of the common 40pin stacking headers. 
+
+Modules board with a AI-64
+![Stack](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/modulesstack.png)
+
+Modules board with a Pi4 
+
+ ![Optional compute concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/modules.png)
+
+Modules board with a Jetson Nano
+ ![Modules Jetson](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/jetson-stack.png)
+
+
+The Motors board - 
+ ![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/motors.png)
+
+
+Longer term
+
+- Offering an alternate/upgraded [BLDC motor board using SimpleFOC](https://github.com/rosmo-robot/smartcar_shield/blob/master/README.md#bldc-version), but re-using the 'Modules' board
+
+Licence: CERN-OHL-P
+
+ Features;
+ 
+ * Supporting variety of [Software](https://rosmo-robot.github.io/learn-robotics/)
+ * Mounting space for Pi, Jetson Nano/orin carrier, OrangePi5, [AI-64](https://beagleboard.org/ai-64) or similar
+ * Use of [MicroMod MCU](https://www.sparkfun.com/micromod#processor_boards)
+ * Use of 3s LifePO4/ Lipo batteries
+ * Dual motor drivers for 4x4/ mecanum drive
+ * [UEXT socket](https://www.olimex.com/Products/Modules/)
+ * [mikroBUS sockets](https://www.mikroe.com/mikrobus-shuttle-127mm-2x8-pin-box-header-smd-male)
+ * I2C/ SPI connectors using [Breakout Garden](https://shop.pimoroni.com/collections/breakout-garden), [Qwiic](https://soldered.com/categories/easyc-2/)
+
+[Read more](https://github.com/rosmo-robot/smartcar_shield#smartcar-10-existing)
+
+
+Smartcar Version 1
+
+Version 2 shares code, dimensions and motors with the original [Smartcar platform](https://github.com/rosmo-robot/smartcar_shield#smartcar-10-existing)
+![smartcar1](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/smart.jpg)
+
+
+## History of Rosmo
+
 
 ![ROSmo tracked](https://pbs.twimg.com/media/FUa95gJXsAEfBqj?format=jpg)
 
-Rosmo is a project to make small openhardware robots for educational and hobbyist use. We aim to design capable robots which can be assembled without soldering. It's a modular set of open-hardware components that can be assembled into robots of different complexity and price. 
+
 
 We value modularity. The project started working with the M5stack system. The robot you see above is the culmination of that work. We built a [chassis](https://github.com/rosmo-robot/Rosmo_3D/tree/main/V2/2.10), [ESP32dev board](https://github.com/rosmo-robot/Open-Core-M5stack/tree/main/2.2) and [ESC](https://github.com/rosmo-robot/Rosmo_ESC) in this 5cmx5cm profile. We learnt a lot doing this. Unfortunately the parts crisis has meant that the ESC is not obtainable until at least 2023. We continue to test and develop using the small numnber of ESC boards we have produced.
 
