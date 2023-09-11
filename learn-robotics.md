@@ -5,29 +5,18 @@ title: XRP-X4
  ![Bot](https://raw.githubusercontent.com/samuk/IntroToRoboticsV2/main/course/ros2/xrp4.jpeg)
 # XRP-4 BOM (WIP) 100% open hardware
 
-1x [XRP Open hardware XRP PCB](http://docs.sparkfun.com/SparkFun_XRP_Controller/hardware_overview/), with encoders. No wifi transport for pico yet. Could be used with [open hardware pico](https://www.olimex.com/Products/MicroPython/RP2040-PICO30/open-source-hardware)
-
-1x [Motor & components holder PCB](https://easyeda.com/editor#id=81d27c6661e44d299dccd2ad059dcec8) (Untested WIP just register and one click order from JLPCB if you're feeling brave)
-
-1x [1mm > 1.5mm Pack of cables](https://www.aliexpress.com/item/32800824381.html)
-
-1x [Pack of 1mm 6p JST SH connectors](https://s.click.aliexpress.com/e/_DDIr1m7)
-
-1x [Pack of 1.5mm 6P JST ZH connectors](https://www.aliexpress.com/item/32911443586.html)
-
-4x [6v 150RPM Bringsmart motors](https://s.click.aliexpress.com/e/_DC72ruf)
-
-4x [N20 wheels](https://s.click.aliexpress.com/e/_DBjDZqx)
-
-4x [N20 mounts](https://s.click.aliexpress.com/e/_Dm7LWRD)
-
-1x pack [18mm female standoffs](https://www.aliexpress.com/item/32539100523.html)
-
-1x pack [M3 x 6mm screw](https://www.aliexpress.com/item/32539100523.html)
-
-1x [Battery cable](https://www.aliexpress.com/item/1005003207076823.html)
-
-1X [9v Battery](https://s.click.aliexpress.com/e/_DdPChq3)
+- 1x [XRP Open hardware XRP PCB](http://docs.sparkfun.com/SparkFun_XRP_Controller/hardware_overview/), with encoders. No wifi transport for pico yet. Could be used with [open hardware pico](https://www.olimex.com/Products/MicroPython/RP2040-PICO30/open-source-hardware)
+- 1x [Motor & components holder PCB](https://easyeda.com/editor#id=81d27c6661e44d299dccd2ad059dcec8) (Untested WIP just register and one click order from JLPCB if you're feeling brave)
+- 1x [1mm > 1.5mm Pack of cables](https://www.aliexpress.com/item/32800824381.html)
+- 1x [Pack of 1mm 6p JST SH connectors](https://s.click.aliexpress.com/e/_DDIr1m7)
+- 1x [Pack of 1.5mm 6P JST ZH connectors](https://www.aliexpress.com/item/32911443586.html)
+- 4x [6v 150RPM Bringsmart motors](https://s.click.aliexpress.com/e/_DC72ruf)
+- 4x [N20 wheels](https://s.click.aliexpress.com/e/_DBjDZqx)
+- 4x [N20 mounts](https://s.click.aliexpress.com/e/_Dm7LWRD)
+- 1x pack [18mm female standoffs](https://www.aliexpress.com/item/32539100523.html)
+- 1x pack [M3 x 6mm screw](https://www.aliexpress.com/item/32539100523.html)
+- 1x [Battery cable](https://www.aliexpress.com/item/1005003207076823.html)
+- 1X [9v Battery](https://s.click.aliexpress.com/e/_DdPChq3)
 
 Or alternately a upgraded  or [18650 battery](https://s.click.aliexpress.com/e/_DClgys7) or open hardware [18650 battery](https://oshwlab.com/wagiminator/fp6277-power-bank)
 
@@ -37,56 +26,39 @@ Or alternately a upgraded  or [18650 battery](https://s.click.aliexpress.com/e/_
 )
 
 
-
  ![Bot](https://raw.githubusercontent.com/samuk/IntroToRoboticsV2/main/course/ros2/ultrasonic-xrp4.jpeg
 )
 
-[On-board compute. Beagleboard Play](https://www.beagleboard.org/boards/beagleplay)
-
-[Camera - Maxlab](https://github.com/maxlab-io/tokay-lite-pcb)
-
-[TOF - Sparkfun](https://www.sparkfun.com/products/19013)
-
-[OLED/Eyes - Adafruit](https://www.adafruit.com/product/5297#description)
-
-[Line finder - ZIO](https://github.com/ZIOCC/Zio-Line-Finder-Qwiic-4-Transceivers-)
-
-[Ultrasonic - ZIO](https://github.com/ZIOCC/Zio-Qwiic-Ultrasonic-Distance-Sensor) 
-
-[Servo - Zio](https://github.com/rosmo-robot/Qwiic_Servo_Driver_PCA9685/) for [mini arm](https://www.thingiverse.com/thing:5683010)
+- [On-board compute. Beagleboard Play](https://www.beagleboard.org/boards/beagleplay)
+- [Camera - Maxlab](https://github.com/maxlab-io/tokay-lite-pcb)
+- [TOF - Sparkfun](https://www.sparkfun.com/products/19013)
+- [OLED/Eyes - Adafruit](https://www.adafruit.com/product/5297#description)
+- [Line finder - ZIO](https://github.com/ZIOCC/Zio-Line-Finder-Qwiic-4-Transceivers-)
+- [Ultrasonic - ZIO](https://github.com/ZIOCC/Zio-Qwiic-Ultrasonic-Distance-Sensor) 
+- [Servo - Zio](https://github.com/rosmo-robot/Qwiic_Servo_Driver_PCA9685/) for [mini arm](https://www.thingiverse.com/thing:5683010)
 
 
 # How to run this bot with ROS2 (WIP)
 
-Install [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
+- Install [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
+- Download the [OVA file](https://archive.org/details/ros-2_OVA_0_1) (work in progress) and load it in Virtualbox. ~6Gb ~5hr download.
+- Start the virtual machine (password is ros2)
+- In the linux desktop Open VScode
+- If using a ESP3 configure [platformio.ini](https://github.com/rosmo-robot/linorobot2_hardware_ESP32_Pico/blob/master/firmware/platformio.ini) to match, defaults to PicoW.
+- Build the firmware and flash to your device.
+- Put the device in your robot car & start it
+- Search the network for your-robot-ip using AngryIP
+- Launch ROS2
+- Open [http://your-robot-ip:8888/](https://github.com/dheera/rosboard/pull/100) in a browser and control the car
+- Have fun
 
-Download the [OVA file](https://archive.org/details/ros-2_OVA_0_1) (work in progress) and load it in Virtualbox. ~6Gb ~5hr download.
+# Other PicoW or ESP32 cars
 
-Start the virtual machine (password is ros2)
+- [Edurob](https://github.com/IDiAL-IMSL/Edurob/tree/main) not yet available for sale
 
-In the linux desktop Open VScode
+- [Wukong 2040](https://www.elecfreaks.com/elecfreaks-wukong2040-breakout-board-for-raspberry-pi-pico.html) no encoders, closed hardware
 
-If using a ESP3 configure [platformio.ini](https://github.com/rosmo-robot/linorobot2_hardware_ESP32_Pico/blob/master/firmware/platformio.ini) to match, defaults to PicoW.
-
-Build the firmware and flash to your device.
-
-Put the device in your robot car & start it
-
-Search the network for your-robot-ip using AngryIP
-
-Launch ROS2
-
-Open [http://your-robot-ip:8888/](https://github.com/dheera/rosboard/pull/100) in a browser and control the car
-
-Have fun
-
-# Other PicoW or ESP32 cars may work too
-
-[Edurob](https://github.com/IDiAL-IMSL/Edurob/tree/main) not yet available for sale
-
-[Wukong 2040](https://www.elecfreaks.com/elecfreaks-wukong2040-breakout-board-for-raspberry-pi-pico.html) no encoders
-
-[ESP cam car](https://www.aliexpress.com/item/1005005439195049.html), no encoders
+- [ESP cam car](https://www.aliexpress.com/item/1005005439195049.html), no encoders, closed hardware
 
 # Notes on software installed on the Ubuntu 22.04 Virtualbox image, or compute module
 
@@ -127,6 +99,8 @@ Angryip?
  -  Get at strong foundation in open-source electronics and prototyping
  -  Gain intuition on mechanical prototyping and design with dc brush motors, servo motors and stepper motors
  -  Apply basic machine learning and computer vision to a small project
+
+# Older notes on robotics education   
 
 Derived from work by Mithi [🐳](https://mithi.github.io/deep-blueberry) [☕️](https://ko-fi.com/minimithi) 
 
