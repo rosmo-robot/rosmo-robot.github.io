@@ -4,47 +4,22 @@ title: Rosmo
 subtitle: Open hardware robot components.
 ---
 
-## Smartcar 2.0 (In development)
+Rosmo is a project to make small openhardware robots for educational and hobbyist use. We aim to design capable robots which can be assembled without soldering. It's a modular set of open-hardware components that can be assembled into robots of different complexity and price. 
 
-The 'Modules' board Includes standoffs for common single board computers, It stacks on top of the Motors board using two of the common 40pin stacking headers. 
+## XRP-X4
+A small PCB based robot based on the circuit board from [Experiential robotics Platform.](https://experientialrobotics.org/)
 
-Modules board with a AI-64
-![Stack](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/modulesstack.png)
+[XRP-X4 documentation](https://rosmo-robot.github.io/learn-robotics/)
 
-Modules board with a Pi4 
-
- ![Optional compute concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/modules.png)
-
-Modules board with a Jetson Nano
- ![Modules Jetson](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/jetson-stack.png)
+ ![Dual driver concept](https://github.com/samuk/IntroToRoboticsV2/blob/main/course/ros2/compute-xrp4.jpeg?raw=true)
 
 
-The Motors board - 
- ![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/motors.png)
+## Smartcar 2.0
 
+A slightly larger and more powerful car
 
-Longer term
+![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/motors.png)
 
-- Offering an alternate/upgraded [BLDC motor board using SimpleFOC](https://github.com/rosmo-robot/smartcar_shield/blob/master/README.md#bldc-version), but re-using the 'Modules' board
-
-Licence: CERN-OHL-P
-
- Features;
- 
- * Supporting variety of [Software](https://rosmo-robot.github.io/learn-robotics/)
- * Mounting space for Pi, Jetson Nano/orin carrier, OrangePi5, [AI-64](https://beagleboard.org/ai-64) or similar
- * Use of [MicroMod MCU](https://www.sparkfun.com/micromod#processor_boards)
- * Use of 3s LifePO4/ Lipo batteries
- * Dual motor drivers for 4x4/ mecanum drive
- * [UEXT socket](https://www.olimex.com/Products/Modules/)
- * [mikroBUS sockets](https://www.mikroe.com/mikrobus-shuttle-127mm-2x8-pin-box-header-smd-male)
- * I2C/ SPI connectors using [Breakout Garden](https://shop.pimoroni.com/collections/breakout-garden), [Qwiic](https://soldered.com/categories/easyc-2/)
-
-[Read more](https://github.com/rosmo-robot/smartcar_shield#smartcar-10-existing)
-
-Smartcar Version 1
-
-Version 2 shares code, dimensions and motors with the original [Smartcar platform](https://github.com/rosmo-robot/smartcar_shield#smartcar-10-existing)
-![smartcar1](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/smart.jpg)
+[Smartcar 2.0 documentation.](https://rosmo-robot.github.io/aboutme/)
 
 
