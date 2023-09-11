@@ -11,7 +11,7 @@ title: XRP-X4
 - 1x [Pack of 1mm 6p JST SH connectors](https://s.click.aliexpress.com/e/_DDIr1m7)
 - 1x [Pack of 1.5mm 6P JST ZH connectors](https://www.aliexpress.com/item/32911443586.html)
 - 4x [6v 150RPM Bringsmart motors](https://s.click.aliexpress.com/e/_DC72ruf)
-- 4x [N20 rubber wheels](https://s.click.aliexpress.com/e/_DBjDZqx) or [3mm shaft Mecanum wheels A](https://www.aliexpress.com/item/1005003264388589.html)[B](https://www.aliexpress.com/item/32977691906.html)or [C](https://www.thingiverse.com/thing:1358552)
+- 4x [N20 rubber wheels](https://s.click.aliexpress.com/e/_DBjDZqx) or [3mm shaft Mecanum wheels A](https://www.aliexpress.com/item/1005003264388589.html),[B](https://www.aliexpress.com/item/32977691906.html)or [C](https://www.thingiverse.com/thing:1358552)
 - 4x [N20 mounts](https://s.click.aliexpress.com/e/_Dm7LWRD)
 - 1x pack [18mm female standoffs](https://www.aliexpress.com/item/32539100523.html)
 - 1x pack [M3 x 6mm screw](https://www.aliexpress.com/item/32539100523.html)
