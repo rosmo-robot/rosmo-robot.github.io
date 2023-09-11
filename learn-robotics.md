@@ -5,7 +5,7 @@ title: XRP-X4
  ![Bot](https://raw.githubusercontent.com/samuk/IntroToRoboticsV2/main/course/ros2/xrp4.jpeg)
 # XRP-4 BOM (WIP) 100% open hardware
 
-- 1x [XRP Open hardware XRP PCB](http://docs.sparkfun.com/SparkFun_XRP_Controller/hardware_overview/), with encoders. No wifi transport for pico yet. Could be used with [open hardware pico](https://www.olimex.com/Products/MicroPython/RP2040-PICO30/open-source-hardware)
+- 1x [XRP Open hardware XRP PCB](http://docs.sparkfun.com/SparkFun_XRP_Controller/hardware_overview/)
 - 1x [Motor & components holder PCB](https://easyeda.com/editor#id=949370ce6c864b5090fffa824b774df2) (Untested WIP just register and one click order from JLPCB if you're feeling brave)
 - 1x [1mm > 1.5mm Pack of cables](https://www.aliexpress.com/item/32800824381.html)
 - 1x [Pack of 1mm 6p JST SH connectors](https://s.click.aliexpress.com/e/_DDIr1m7)
