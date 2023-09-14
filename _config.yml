@@ -14,9 +14,10 @@ author: Rosmo
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Smartcar 2.0: "aboutme"
-  Subscribe: "subscribe"
-  XRP-X4: "learn-robotics"
+ Open Robotics Project: "open-robotics-project"
+ XRP-X4: "learn-robotics"
+ Smartcar 2.0: "aboutme"
+ Subscribe: "subscribe"
   #Resources:
    # - Beautiful Jekyll: "https://beautifuljekyll.com"
     #- Learn markdown: "https://www.markdowntutorial.com/"
