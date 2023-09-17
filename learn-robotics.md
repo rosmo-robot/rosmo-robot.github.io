@@ -36,6 +36,7 @@ Or alternately a upgraded  or [18650 battery](https://s.click.aliexpress.com/e/_
 - [Line finder - ZIO](https://github.com/ZIOCC/Zio-Line-Finder-Qwiic-4-Transceivers-)
 - [Ultrasonic - ZIO](https://github.com/ZIOCC/Zio-Qwiic-Ultrasonic-Distance-Sensor) 
 - [Servo - Zio](https://github.com/rosmo-robot/Qwiic_Servo_Driver_PCA9685/) for [mini arm](https://www.thingiverse.com/thing:5683010)
+- [Cube standoff](https://www.aliexpress.com/item/1005005880192495.html)
 
 
 # How to run this bot with ROS2 (WIP)
