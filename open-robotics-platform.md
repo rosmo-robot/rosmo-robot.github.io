@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Open Robotics Project
+title: Open Robotics Platform
 ---
 
 Some ideas for [Open Robotics platform](https://openroboticplatform.com/designrules)
