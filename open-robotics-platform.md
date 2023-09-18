@@ -2,6 +2,17 @@
 layout: page
 title: Open Robotics Project
 ---
+
+Some ideas for [Open Robotics platform](https://openroboticplatform.com/designrules)
+
+* Enhanced with blocks for mounting sensors vertically
+* 10mm x 10mm spacing option
+* Push fit as option using [3D print parts](https://learn.adafruit.com/stemma-lego-base-plates/overview)
+* PCB bases
+* Mikroe breakout - Mikroe connector
+
+Some PCB that can be ordered
+
 ## 100mm x 100mm at 20mm spacing
 Click image to order PCB
 
