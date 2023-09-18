@@ -4,21 +4,15 @@ title: Projects
 ---
 ## Smartcar 2.0 (In development)
 
-The 'Modules' board Includes standoffs for common single board computers, It stacks on top of the Motors board using two of the common 40pin stacking headers. 
+The 'Modules' board v1 is for Pi Pico/ Waveshare ESP32-S3, It stacks on top of the Motors board using two of the common 40pin stacking headers. 
 
-Modules board with a AI-64
-![Stack](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/modulesstack.png)
-
-Modules board with a Pi4 
-
- ![Optional compute concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/modules.png)
-
-Modules board with a Jetson Nano
- ![Modules Jetson](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/jetson-stack.png)
+ ![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/45smartcar.jpeg)
 
 
-The Motors board - 
- ![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/motors.png)
+ ![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/front-smartcar.jpeg)
+
+
+ ![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/pcb.jpeg)
 
 
 Longer term
