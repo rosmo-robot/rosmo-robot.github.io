@@ -18,22 +18,14 @@ A small PCB based robot based on the circuit board from [Experiential robotics P
 
 A slightly larger and more powerful car
 
-![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/motors.png)
+![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/45smartcar.jpeg)
 
 [Smartcar 2.0 documentation.](https://rosmo-robot.github.io/aboutme/)
 
 ## Open robotics platform
 
-Simple & clever project [Open Robotics platform](https://openroboticplatform.com/designrules)
+[Open Robotics platform PCBs](https://rosmo-robot.github.io/open-robotics-platform/)
 
-* Enhanced with blocks for mounting sensors vertically
-* 10mm x 10mm spacing option
-* Push fit as option using [3D print parts](https://learn.adafruit.com/stemma-lego-base-plates/overview)
-* Pico breakout
-* Micromod
-* PCB bases
-* Mikroe breakout - Mikroe connector
-* Power module
 
 
 
