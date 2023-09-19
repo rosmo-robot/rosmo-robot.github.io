@@ -1,11 +1,13 @@
 ---
 layout: page
-title: Projects
+title: Ziobot
 ---
 
 Developing ideas from the [XRP-X4](https://rosmo-robot.github.io/learn-robotics/)
 
-Trying to have a less weird footprint than the XRP-X4, but keeping 100mm x 100mm top plate. 
+Trying to have a less weird footprint than the XRP-X4, but keeping within 100mm x 100mm. 
+
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/chassis.png)
 
  ## Tentative BOM 
 
@@ -16,10 +18,10 @@ Trying to have a less weird footprint than the XRP-X4, but keeping 100mm x 100mm
 - 2x or 4x [N20 mounts](https://s.click.aliexpress.com/e/_Dm7LWRD)
 - 1x pack [18mm female standoffs](https://www.aliexpress.com/item/32539100523.html)
 - 1x pack [M3 x 6mm screw](https://www.aliexpress.com/item/32539100523.html)
-- [1x or 2x 18650 battery](https://s.click.aliexpress.com/e/_DClgys7) or open hardware [18650 battery](https://oshwlab.com/wagiminator/fp6277-power-bank)
+- [1x or 2x 18650 battery](https://s.click.aliexpress.com/e/_DnPRBEj) or open hardware [18650 battery](https://oshwlab.com/wagiminator/fp6277-power-bank)
 
 ## Optional extras
-- [Cube standoff][https://www.aliexpress.com/item/1005005880192495.html]
+- [10mm Cube standoff](https://www.aliexpress.com/item/1005005880192495.html)
 - TOF Zio or [Sparkfun](https://www.sparkfun.com/products/19013)
 - [2x OLED/Eyes - Zio](https://www.adafruit.com/product/5297#description)
 - [Line finder - ZIO](https://github.com/ZIOCC/Zio-Line-Finder-Qwiic-4-Transceivers-)
