@@ -7,7 +7,7 @@ Developing ideas from the [XRP-X4](https://rosmo-robot.github.io/learn-robotics/
 
 Trying to have a less weird footprint than the XRP-X4, but keeping 100mm x 100mm top plate. 
 
-!! Tentative BOM 
+ ## Tentative BOM 
 
 - [Olimex S3](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware) & Qwiic cable or any other board with a Qwiic and sufficient pins to handle 8x encoder signal. eg [unexpected maker pro or feather](https://esp32s3.com/)
 - [Zio motor driver](https://www.smart-prototyping.com/Zio-4-DC-Motor-Controller.html?search=motor)
@@ -18,7 +18,7 @@ Trying to have a less weird footprint than the XRP-X4, but keeping 100mm x 100mm
 - 1x pack [M3 x 6mm screw](https://www.aliexpress.com/item/32539100523.html)
 - [1x or 2x 18650 battery](https://s.click.aliexpress.com/e/_DClgys7) or open hardware [18650 battery](https://oshwlab.com/wagiminator/fp6277-power-bank)
 
-!! optional extras
+## Optional extras
 - [Cube standoff][https://www.aliexpress.com/item/1005005880192495.html]
 - TOF Zio or [Sparkfun](https://www.sparkfun.com/products/19013)
 - [2x OLED/Eyes - Zio](https://www.adafruit.com/product/5297#description)
