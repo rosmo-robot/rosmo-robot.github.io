@@ -128,6 +128,10 @@ Derived from work by Mithi [🐳](https://mithi.github.io/deep-blueberry) [☕�
 - [Linorobot2](https://github.com/linorobot/linorobot2#linorobot2)
 - [Visual circuit](https://github.com/JdeRobot/VisualCircuit#visual-circuit)
 
+# Stem robots
+
+[Xiaogui](https://twitter.com/wgy421)
+[Fluffbug](https://github.com/deshipu/fluffbug/tree/main/fluffbug-v8.2)
 
 
 # Further Courses
