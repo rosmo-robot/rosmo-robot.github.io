@@ -11,6 +11,7 @@ Trying to have a less weird footprint than the XRP-X4, but keeping within 100mm 
 
 ## Tentative BOM 
 
+- 5 pieces [PCB plate](https://oshwlab.com/rosmo/open-robot-platform) fabricated, or not depending on user preference/budget
 - [Olimex S3](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware) & Qwiic cable or any other board with a Qwiic and sufficient pins to handle 8x encoder signal. eg [unexpected maker pro or feather](https://esp32s3.com/)
 - [Zio motor driver](https://www.smart-prototyping.com/Zio-4-DC-Motor-Controller.html?search=motor)
 - 2x or 4x [6v 150RPM Bringsmart motors](https://s.click.aliexpress.com/e/_DC72ruf)
