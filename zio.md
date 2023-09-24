@@ -7,7 +7,7 @@ Developing ideas from the [XRP-X4](https://rosmo-robot.github.io/learn-robotics/
 
 Trying to have a less weird footprint than the XRP-X4, but keeping within 100mm x 100mm. 
 
-![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Ziobot-board-side.png)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/weird-board.png)
 
 ## Tentative BOM 
 
