@@ -15,15 +15,10 @@ The 'Modules' board v1 is for Pi Pico/ Waveshare ESP32-S3, It stacks on top of t
  ![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/pcb.jpeg)
 
 
-Longer term
-
-- Offering an alternate/upgraded [BLDC motor board using SimpleFOC](https://github.com/rosmo-robot/smartcar_shield/blob/master/README.md#bldc-version), but re-using the 'Modules' board
-
 Licence: CERN-OHL-P
 
- Features;
+## V1 Features;
  
- * Supporting variety of [Software](https://rosmo-robot.github.io/learn-robotics/)
  * Mounting space for Pi, Jetson Nano/orin carrier, OrangePi5, [AI-64](https://beagleboard.org/ai-64) or similar
  * Use of [MicroMod MCU](https://www.sparkfun.com/micromod#processor_boards)
  * Use of 3s LifePO4/ Lipo batteries
@@ -32,13 +27,17 @@ Licence: CERN-OHL-P
  * [mikroBUS sockets](https://www.mikroe.com/mikrobus-shuttle-127mm-2x8-pin-box-header-smd-male)
  * I2C/ SPI connectors using [Breakout Garden](https://shop.pimoroni.com/collections/breakout-garden), [Qwiic](https://soldered.com/categories/easyc-2/)
 
-[Read more](https://github.com/rosmo-robot/smartcar_shield#smartcar-10-existing)
+## Target software
+
+  * Microblocks[microblocks.fun/]
+  * [Micropython](https://github.com/Open-STEM/XRP_MicroPython)
+  * [Arduino](https://github.com/rosmo-robot/smartcar_shield)
+  * [ROS2](https://robofoundry.medium.com/running-linorobot2-hardware-based-on-micro-ros-on-esp32-wroom-32d-using-wifi-transport-d971026f3e08)
 
 
-Smartcar Version 1
+[Read more](https://github.com/rosmo-robot/smartcar_shield)
 
-Version 2 shares code, dimensions and motors with the original [Smartcar platform](https://github.com/rosmo-robot/smartcar_shield#smartcar-10-existing)
-![smartcar1](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/smart.jpg)
+
 
 
 ## History of Rosmo
