@@ -29,7 +29,7 @@ Licence: CERN-OHL-P
 
 ## Target software
 
-  * Microblocks[microblocks.fun/]
+  * [Microblocks](microblocks.fun/)
   * [Micropython](https://github.com/Open-STEM/XRP_MicroPython)
   * [Arduino](https://github.com/rosmo-robot/smartcar_shield)
   * [ROS2](https://robofoundry.medium.com/running-linorobot2-hardware-based-on-micro-ros-on-esp32-wroom-32d-using-wifi-transport-d971026f3e08)
@@ -40,7 +40,7 @@ Licence: CERN-OHL-P
 
 
 
-## History of Rosmo
+## History of Rosmo project
 
 
 ![ROSmo tracked](https://pbs.twimg.com/media/FUa95gJXsAEfBqj?format=jpg)
