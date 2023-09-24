@@ -30,7 +30,7 @@ Licence: CERN-OHL-P
 ## Target software
 
   * [Microblocks](microblocks.fun/)
-  * [Micropython](https://github.com/Open-STEM/XRP_MicroPython)
+  * [Micropython](https://github.com/Open-STEM/XRP_MicroPython)[mecanum](https://thepihut.com/blogs/raspberry-pi-tutorials/build-a-raspberry-pi-pico-robot-with-mecanum-wheels)
   * [Arduino](https://github.com/rosmo-robot/smartcar_shield)
   * [ROS2](https://robofoundry.medium.com/running-linorobot2-hardware-based-on-micro-ros-on-esp32-wroom-32d-using-wifi-transport-d971026f3e08)
 
