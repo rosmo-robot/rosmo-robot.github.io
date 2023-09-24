@@ -7,11 +7,11 @@ Developing ideas from the [XRP-X4](https://rosmo-robot.github.io/learn-robotics/
 
 Trying to have a less weird footprint than the XRP-X4, but keeping within 100mm x 100mm. 
 
-![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/less-mad.png)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Ziobot-board-side.png)
 
 ## Tentative BOM 
 
-- 5 pieces [PCB plate](https://oshwlab.com/rosmo/open-robot-platform) fabricated, or not depending on user preference/budget
+- 5 pieces [PCB plate](https://easyeda.com/editor#id=1b3f25e39623491a86f54dee53e0bef0|a7b537fbb9da40e5b189efd041921d19) fabricated, or not depending on user preference/budget
 - [Olimex S3](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware) & Qwiic cable or any other board with a Qwiic and sufficient pins to handle 8x encoder signal. eg [unexpected maker pro or feather](https://esp32s3.com/)
 - [Zio motor driver](https://www.smart-prototyping.com/Zio-4-DC-Motor-Controller.html?search=motor)
 - 2x or 4x [6v 150RPM Bringsmart motors](https://s.click.aliexpress.com/e/_DC72ruf)
