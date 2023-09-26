@@ -21,6 +21,11 @@ Trying to have a less weird footprint than the XRP-X4, but keeping within 100mm 
 - 1x pack [M3 x 6mm screw](https://www.aliexpress.com/item/32539100523.html)
 - [1x or 2x 18650 battery](https://s.click.aliexpress.com/e/_DnPRBEj) or open hardware [18650 battery](https://oshwlab.com/wagiminator/fp6277-power-bank)
 
+## Configurations
+- 2WD
+- 4WD
+- Mecanum
+
 ## Optional extras
 - [10mm Cube standoff](https://www.aliexpress.com/item/1005005880192495.html)
 - TOF Zio or [Sparkfun](https://www.sparkfun.com/products/19013)
@@ -30,4 +35,13 @@ Trying to have a less weird footprint than the XRP-X4, but keeping within 100mm 
 - [Servo - Zio](https://github.com/rosmo-robot/Qwiic_Servo_Driver_PCA9685/) for [mini arm](https://www.thingiverse.com/thing:5683010)
 - [On-board compute. Beagleboard Play](https://www.beagleboard.org/boards/beagleplay)
 - [Camera - Maxlab](https://github.com/maxlab-io/tokay-lite-pcb) or OpenMV
+- IMU TBC [LSM6DSOX](https://www.adafruit.com/product/4438)  [BMI270 6DOF](https://www.sparkfun.com/products/22398) [LSM6DSV16X 6DOF](https://www.sparkfun.com/products/21336) [ISM330DHCX 6DOF A](https://www.sparkfun.com/products/20176) [ISM330DHCX 6DOF B](https://www.adafruit.com/product/4502)
+
+## Software
+- Micropython & Blockly 2WD mode [XRP micropython & Blockly code/ docs](https://introtoroboticsv2.readthedocs.io/en/latest/course/XRPIntro/installing_tools.html)
+- 4WD [Microblocks Library](https://microblocks.fun/)? Mecanum
+- 2WD ROS2 [Hadabot](https://www.hadabot.com/build-learn.html)
+- 4WD/ Mecanum ROS2 [Linorobot2](https://github.com/rosmo-robot/linorobot2_hardware_hippo_esp32_fix/tree/master)
+
+
 
