@@ -35,7 +35,11 @@ Trying to have a less weird footprint than the XRP-X4, but keeping within 100mm 
 - [Servo - Zio](https://github.com/rosmo-robot/Qwiic_Servo_Driver_PCA9685/) for [mini arm](https://www.thingiverse.com/thing:5683010)
 - [On-board compute. Beagleboard Play](https://www.beagleboard.org/boards/beagleplay)
 - [Camera - Maxlab](https://github.com/maxlab-io/tokay-lite-pcb) or OpenMV
-- IMU TBC [LSM6DSOX](https://www.adafruit.com/product/4438)  [BMI270 6DOF](https://www.sparkfun.com/products/22398) [LSM6DSV16X 6DOF](https://www.sparkfun.com/products/21336) [ISM330DHCX 6DOF A](https://www.sparkfun.com/products/20176) [ISM330DHCX 6DOF B](https://www.adafruit.com/product/4502)
+- IMU TBC
+  - [LSM6DSOX](https://www.adafruit.com/product/4438) [Micropthon](https://github.com/jposada202020/MicroPython_LSM6DSOX) [Arduino](https://registry.platformio.org/libraries/sparkfun/SparkFun%20Qwiic%206Dof%20-%20LSM6DSO)
+  -  [BMI270 6DOF](https://www.sparkfun.com/products/22398) [Micropthon](https://github.com/jposada202020/MicroPython_BMI270) [Arduino](https://registry.platformio.org/libraries/sparkfun/SparkFun%20BMI270%20Arduino%20Library)
+  - [LSM6DSV16X 6DOF](https://www.sparkfun.com/products/21336) no Micropthon [Arduino](https://registry.platformio.org/libraries/sparkfun/SparkFun%206DoF%20LSM6DSV16X)
+  - [ISM330DHCX 6DOF A](https://www.sparkfun.com/products/20176) [ISM330DHCX 6DOF B](https://www.adafruit.com/product/4502) Micropthon Arduino
 
 ## Software
 - Micropython & Blockly 2WD mode [XRP micropython & Blockly code/ docs](https://introtoroboticsv2.readthedocs.io/en/latest/course/XRPIntro/installing_tools.html)
