@@ -18,6 +18,7 @@ Trying to have a less weird footprint than the XRP-X4, but keeping within 100mm 
 - 2x or 4x [N20 rubber wheels](https://s.click.aliexpress.com/e/_DBjDZqx) or [3mm shaft Mecanum wheels A](https://www.aliexpress.com/item/1005003264388589.html),[B](https://www.aliexpress.com/item/32977691906.html) or [C](https://www.thingiverse.com/thing:1358552)
 - 2x or 4x [N20 mounts](https://s.click.aliexpress.com/e/_Dm7LWRD)
 - 1x pack [18mm female standoffs](https://www.aliexpress.com/item/32539100523.html)
+- 1x [Qwiic > Male pin cable](https://www.aliexpress.com/item/1005005796723171.html)
 - 1x pack [M3 x 6mm screw](https://www.aliexpress.com/item/32539100523.html)
 - [1x or 2x 18650 battery](https://s.click.aliexpress.com/e/_DnPRBEj) or open hardware [18650 battery](https://oshwlab.com/wagiminator/fp6277-power-bank)
 
