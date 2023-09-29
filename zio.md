@@ -54,7 +54,8 @@ Next iteration will be narrower and attempts to abstract the microcontroller so 
   - [LSM6DSV16X 6DOF](https://www.sparkfun.com/products/21336) no Micropthon [Arduino](https://registry.platformio.org/libraries/sparkfun/SparkFun%206DoF%20LSM6DSV16X)
   - [ISM330DHCX 6DOF A](https://www.sparkfun.com/products/20176) [ISM330DHCX 6DOF B](https://www.adafruit.com/product/4502) Micropthon Arduino
 
-## Software
+## Software todo
+- Simple [Webui remote control](https://github.com/rosmo-robot/ESP32-robot-car-controller)
 - Micropython & Blockly 2WD mode [XRP micropython & Blockly code/ docs](https://introtoroboticsv2.readthedocs.io/en/latest/course/XRPIntro/installing_tools.html)
 - 4WD [Microblocks Library](https://microblocks.fun/)? Mecanum
 - 2WD ROS2 [Hadabot](https://www.hadabot.com/build-learn.html)
