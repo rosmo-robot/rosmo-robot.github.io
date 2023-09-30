@@ -57,8 +57,7 @@ Next iteration will be narrower and attempts to abstract the microcontroller so 
 
 ## Software todo
 - Simple [Webui remote control](https://github.com/rosmo-robot/ESP32-robot-car-controller)
-- Micropython & Blockly 2WD mode [XRP micropython & Blockly code/ docs](https://introtoroboticsv2.readthedocs.io/en/latest/course/XRPIntro/installing_tools.html)
-- 4WD [Microblocks Library](https://microblocks.fun/)? Mecanum
+- 4WD [Bipes](https://bipes.net.br/ide/)
 - 2WD ROS2 [Hadabot](https://www.hadabot.com/build-learn.html)
 - 4WD/ Mecanum ROS2 [Linorobot2](https://github.com/rosmo-robot/linorobot2_hardware_hippo_esp32_fix/tree/master)
 
