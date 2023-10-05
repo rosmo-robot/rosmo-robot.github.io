@@ -91,6 +91,10 @@ git config --system core.longpaths true
 
 git clone https://github.com/rosmo-robot/linorobot2_hardware_ESP32_Pico -b $ROS_DISTRO
 
+boot config.txt
+- camera_auto_detect=0 (will be 1 by default)
+- start_x=1
+
 Angryip?
 
 [Rosboard fork](https://github.com/dheera/rosboard/pull/100)
