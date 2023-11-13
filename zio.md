@@ -24,7 +24,7 @@ Next iteration will be narrower and attempts to abstract the microcontroller so 
 ## Tentative BOM 
 
 - 5 pieces [PCB plate](https://easyeda.com/editor#id=a7b537fbb9da40e5b189efd041921d19) fabricated, or not depending on user preference/budget
-- [Olimex S3](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware) & Qwiic cable or any other board with a Qwiic and sufficient pins to handle 8x encoder signal. eg [unexpected maker pro or feather](https://esp32s3.com/)
+- 1 ESP32-S3 [Pico S3](https://www.nologo.tech/product/esp32/esp32s3Pico/esp32S3Pico.html?spm=a2g0s.imconversation.0.0.33073e5fnnUtHY) or [Olimex S3](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware) & Qwiic cable or any other board with a Qwiic and sufficient pins to handle 8x encoder signal. eg [unexpected maker pro or feather](https://esp32s3.com/)
 - [Zio motor driver](https://www.smart-prototyping.com/Zio-4-DC-Motor-Controller.html?search=motor)
 - 2x or 4x [6v 150RPM Bringsmart motors](https://s.click.aliexpress.com/e/_DC72ruf)
 - 2x or 4x [N20 rubber wheels](https://s.click.aliexpress.com/e/_DBjDZqx) or [3mm shaft Mecanum wheels A](https://www.aliexpress.com/item/1005003264388589.html),[B](https://www.aliexpress.com/item/32977691906.html) or [C](https://www.thingiverse.com/thing:1358552)
@@ -40,6 +40,7 @@ Next iteration will be narrower and attempts to abstract the microcontroller so 
 - Mecanum
 
 ## Optional extras
+- [Pico breakout](https://kitronik.co.uk/products/5341-kitronik-pin-breakout-for-the-raspberry-pi-pico) (no soldering robot)
 - [10mm Cube standoff](https://www.aliexpress.com/item/1005005880192495.html)
 - TOF Zio or [Sparkfun](https://www.sparkfun.com/products/19013)
 - [2x OLED/Eyes - Zio](https://www.adafruit.com/product/5297#description)
