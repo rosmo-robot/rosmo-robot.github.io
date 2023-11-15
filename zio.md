@@ -23,7 +23,7 @@ Next iteration in fabrication now will be narrower for less weird footprint
 
 ## Tentative BOM 
 
-- 5 pieces [PCB plate](https://easyeda.com/editor#id=1b3f25e39623491a86f54dee53e0bef0|114c0e2ec15d45d299df65ca081edad3|5e8e66fb71d3418f95368a9810358f31|bac055aca973401aad9f94f164579690|c2b86b7602c04d51a5476f564102b098|a7b537fbb9da40e5b189efd041921d19|9ebfcefe733547e0bd5e777a57a508a9|09360a70d3f14fe889b995b0f205c326|ed7bf6bec1d84141b0ffcad5324ab305|0634545cc70b4f4b93420755ef8c2a53|d6af3cfeff7b4122b9d451a06e533f33) fabricated, or not depending on user preference/budget
+- 5 pieces [PCB plate](https://easyeda.com/editor#id=d6af3cfeff7b4122b9d451a06e533f33) fabricated, or not depending on user preference/budget
 - 1 ESP32-S3 [Pico S3](https://www.nologo.tech/product/esp32/esp32s3Pico/esp32S3Pico.html?spm=a2g0s.imconversation.0.0.33073e5fnnUtHY) or [Olimex S3](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware) & Qwiic cable or any other board with a Qwiic and sufficient pins to handle 8x encoder signal. eg [unexpected maker pro or feather](https://esp32s3.com/)
 - [Zio motor driver](https://www.smart-prototyping.com/Zio-4-DC-Motor-Controller.html?search=motor)
 - 2x or 4x [6v 150RPM Bringsmart motors](https://s.click.aliexpress.com/e/_DC72ruf)
