@@ -12,9 +12,9 @@ Next iteration in fabrication now will be narrower for less weird footprint
 ## BOM (WIP)
 
 - 5 pieces [PCB plate](https://easyeda.com/editor#id=d6af3cfeff7b4122b9d451a06e533f33) fabricated, or not depending on user preference/budget
-- 1 ESP32-S3 [Pico S3](https://www.nologo.tech/product/esp32/esp32s3Pico/esp32S3Pico.html?spm=a2g0s.imconversation.0.0.33073e5fnnUtHY) or [Olimex S3](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware) & Qwiic cable or any other board with a Qwiic and sufficient pins to handle 8x encoder signal. eg [unexpected maker pro or feather](https://esp32s3.com/)
+- 1 ESP32-S3 [Pico S3](https://www.aliexpress.com/item/1005005789200684.html) [info](https://www.nologo.tech/product/esp32/esp32s3Pico/esp32S3Pico.html?spm=a2g0s.imconversation.0.0.33073e5fnnUtHY) [source](https://pan.baidu.com/s/1PdL6_7a4BFeiIn1E9jWOIw?spm=a2g0s.imconversation.0.0.884d3e5fKHLRxw&pwd=8888#list/path=%2Fsharelink53413994-546503655568332%2FESP32-S3%20%E8%B5%84%E6%96%99%20V1.1-20230804%2FHardware&parentPath=%2Fsharelink53413994-546503655568332)
 - [Zio motor driver](https://www.smart-prototyping.com/Zio-4-DC-Motor-Controller.html?search=motor)
-- 2x or 4x [6v 150RPM Bringsmart motors](https://s.click.aliexpress.com/e/_DC72ruf)
+- 2x or 4x [6v 150RPM $Bringsmart motors](https://s.click.aliexpress.com/e/_DC72ruf) or [$$Pololu](https://www.pololu.com/category/60/micro-metal-gearmotors)
 - 2x or 4x [N20 rubber wheels](https://s.click.aliexpress.com/e/_DBjDZqx) or [3mm shaft Mecanum wheels A](https://www.aliexpress.com/item/1005003264388589.html),[B](https://www.aliexpress.com/item/32977691906.html) or [C](https://www.thingiverse.com/thing:1358552)
 - 2x or 4x [N20 mounts](https://s.click.aliexpress.com/e/_Dm7LWRD)
 - 1x pack [18mm female standoffs](https://www.aliexpress.com/item/32539100523.html)
@@ -28,7 +28,7 @@ Next iteration in fabrication now will be narrower for less weird footprint
 - Mecanum
 
 ## Optional extras
-- [Pico breakout](https://kitronik.co.uk/products/5341-kitronik-pin-breakout-for-the-raspberry-pi-pico) (no soldering robot)
+- [Pico breakout](https://kitronik.co.uk/products/5341-kitronik-pin-breakout-for-the-raspberry-pi-pico) (for no soldering/ fabrication robot)
 - [10mm Cube standoff](https://www.aliexpress.com/item/1005005880192495.html)
 - TOF Zio or [Sparkfun](https://www.sparkfun.com/products/19013)
 - [2x OLED/Eyes - Zio](https://www.adafruit.com/product/5297#description)
@@ -54,10 +54,16 @@ Top plate removed to expose battery layer
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/purple-motor.jpeg)
 Battery layer removed to expose motor controller, microcontroller, exposed motor/encoder connections. [Mikrobus click](https://www.mikroe.com/click?interface=analog,i2c,spi,analog,i2c,spi&categories*=sensors,display-and-led,interface,wireless-connectivity,sensors,display-and-led,interface,wireless-connectivity) footprint Not shown are screw terminals as I haven't soldered them yet.
 
+## Alternate MCU
+ - [Olimex S3](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware) & Qwiic cable or any other board with a Qwiic and sufficient pins to handle 8x encoder signal. eg 
+ - [unexpected maker pro or feather](https://esp32s3.com/)
+
 ## Alternate IMU
 -  [BMI270 6DOF](https://www.sparkfun.com/products/22398) [Micropthon](https://github.com/jposada202020/MicroPython_BMI270) [Arduino](https://registry.platformio.org/libraries/sparkfun/SparkFun%20BMI270%20Arduino%20Library)
   - [LSM6DSV16X 6DOF](https://www.sparkfun.com/products/21336) no Micropthon [Arduino](https://registry.platformio.org/libraries/sparkfun/SparkFun%206DoF%20LSM6DSV16X)
   - [ISM330DHCX 6DOF A](https://www.sparkfun.com/products/20176) [ISM330DHCX 6DOF B](https://www.adafruit.com/product/4502) Micropthon Arduino
+
+    
 
 
 
