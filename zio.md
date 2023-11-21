@@ -22,11 +22,6 @@ Next iteration in fabrication now will be narrower for less weird footprint
 - 1x pack [M3 x 6mm screw](https://www.aliexpress.com/item/32539100523.html)
 - [1x or 2x 18650 battery](https://s.click.aliexpress.com/e/_DnPRBEj) or open hardware [18650 battery](https://oshwlab.com/wagiminator/fp6277-power-bank)
 
-## Configurations
-- 2WD
-- 4WD
-- Mecanum
-
 ## Optional extras
 - [Pico breakout](https://kitronik.co.uk/products/5341-kitronik-pin-breakout-for-the-raspberry-pi-pico) (for no soldering/ fabrication robot)
 - [10mm Cube standoff](https://www.aliexpress.com/item/1005005880192495.html)
@@ -39,20 +34,17 @@ Next iteration in fabrication now will be narrower for less weird footprint
 - [IMU - LSM6DSOX](https://www.adafruit.com/product/4438) [Micropthon](https://github.com/jposada202020/MicroPython_LSM6DSOX) [Arduino](https://registry.platformio.org/libraries/sparkfun/SparkFun%20Qwiic%206Dof%20-%20LSM6DSO)
 -  [On-board compute. Beagleboard Play](https://www.beagleboard.org/boards/beagleplay)
 - [Camera - Maxlab](https://github.com/maxlab-io/tokay-lite-pcb) or OpenMV
+
+  ## Configurations
+- 2WD
+- 4WD
+- Mecanum
   
 
-## Software todo
-- Simple [Webui remote control](https://github.com/rosmo-robot/ESP32-robot-car-controller)
-- 4WD [Bipes](https://bipes.net.br/ide/)
-- 2WD ROS2 [Hadabot](https://www.hadabot.com/build-learn.html)
+## Software WIP
+- [Webui remote control](https://github.com/rosmo-robot/ESP32-robot-car-controller)
+- 4WD [Microblocks](https://discord.gg/TCpHYbcvkS )
 - 4WD/ Mecanum ROS2 [Linorobot2](https://github.com/rosmo-robot/linorobot2_hardware_hippo_esp32_fix/tree/master)
-
-## Older iterations
-
-![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/purplebattery.jpeg)
-Top plate removed to expose battery layer
-![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/purple-motor.jpeg)
-Battery layer removed to expose motor controller, microcontroller, exposed motor/encoder connections. [Mikrobus click](https://www.mikroe.com/click?interface=analog,i2c,spi,analog,i2c,spi&categories*=sensors,display-and-led,interface,wireless-connectivity,sensors,display-and-led,interface,wireless-connectivity) footprint Not shown are screw terminals as I haven't soldered them yet.
 
 ## Alternate MCU
  - [Olimex S3](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware) & Qwiic cable or any other board with a Qwiic and sufficient pins to handle 8x encoder signal. eg 
@@ -62,6 +54,13 @@ Battery layer removed to expose motor controller, microcontroller, exposed motor
 -  [BMI270 6DOF](https://www.sparkfun.com/products/22398) [Micropthon](https://github.com/jposada202020/MicroPython_BMI270) [Arduino](https://registry.platformio.org/libraries/sparkfun/SparkFun%20BMI270%20Arduino%20Library)
   - [LSM6DSV16X 6DOF](https://www.sparkfun.com/products/21336) no Micropthon [Arduino](https://registry.platformio.org/libraries/sparkfun/SparkFun%206DoF%20LSM6DSV16X)
   - [ISM330DHCX 6DOF A](https://www.sparkfun.com/products/20176) [ISM330DHCX 6DOF B](https://www.adafruit.com/product/4502) Micropthon Arduino
+
+## Older iterations
+
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/purplebattery.jpeg)
+Top plate removed to expose battery layer
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/purple-motor.jpeg)
+Battery layer removed to expose motor controller, microcontroller, exposed motor/encoder connections. [Mikrobus click](https://www.mikroe.com/click?interface=analog,i2c,spi,analog,i2c,spi&categories*=sensors,display-and-led,interface,wireless-connectivity,sensors,display-and-led,interface,wireless-connectivity) footprint Not shown are screw terminals as I haven't soldered them yet.
 
     
 
