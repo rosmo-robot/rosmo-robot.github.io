@@ -42,6 +42,7 @@ Next iteration in fabrication now will be narrower for less weird footprint
   
 
 ## Software WIP
+- [Platformio C++ demo](https://github.com/rosmo-robot/zio_demo)
 - [Webui remote control](https://github.com/rosmo-robot/ESP32-robot-car-controller)
 - 4WD [Microblocks](https://discord.gg/TCpHYbcvkS )
 - 4WD/ Mecanum ROS2 [Linorobot2](https://github.com/rosmo-robot/linorobot2_hardware_hippo_esp32_fix/tree/master)
