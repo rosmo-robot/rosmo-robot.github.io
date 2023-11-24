@@ -39,6 +39,16 @@ Or alternately a upgraded  or [18650 battery](https://s.click.aliexpress.com/e/_
 - [Cube standoff](https://www.aliexpress.com/item/1005005880192495.html)
 
 
+ ![Bot](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/signal-2023-11-24-230734.jpeg)
+
+ ![Bot](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/profile-xrp.jpeg)
+
+ ![Bot](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/bottom-xrp.jpeg)
+
+![Bot](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/top-xrp.jpeg)
+
+
+
 # How to run this bot with ROS2 (WIP)
 
 - Install [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
