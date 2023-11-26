@@ -12,8 +12,7 @@ Rosmo is a project to make small openhardware robots for educational and hobbyis
 
 [Ziobot documentation](https://rosmo-robot.github.io/zio/)
 
- ![Ziobot](
-https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/purple.jpeg)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/pen.jpeg)
 
 ## XRP-X4
 A small PCB based robot based on the circuit board from [Experiential robotics Platform.](https://experientialrobotics.org/)
