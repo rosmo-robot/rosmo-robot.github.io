@@ -13,6 +13,8 @@ title: Open Hardware Pi Pico
 
 #Shields
 
+[Pico > Pi hat](https://github.com/bablokb/pcb-pico-pi-base)
+
 [MPPT](https://github.com/LucyJenkins/MPPT-Raspberry-pi-Pico-Shield)
 
 [Olimex breakout](https://www.olimex.com/Products/MicroPython/RP2040-PICO-PC/open-source-hardware)  SD card, HDMI display, Audio, USB keyboard, Li-Po charger and battery support, UEXT connector, and I2C connector.
@@ -20,3 +22,5 @@ title: Open Hardware Pi Pico
 [CNC](https://github.com/spark404/rp2040_cnc)
 
 [Dual relay](https://oshwlab.com/micr0_kevin/raspberry-pi-pico-strapper)
+
+[Stepper 2WD car](https://hackaday.io/project/190661-trundlebot-the-educational-robot)
