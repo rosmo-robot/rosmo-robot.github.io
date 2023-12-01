@@ -13,9 +13,13 @@ title: Open Hardware Pi Pico
 
 # Shields
 
-[Olimex breakout](https://www.olimex.com/Products/MicroPython/RP2040-PICO-PC/open-source-hardware)  SD card, HDMI display, Audio, USB keyboard, Li-Po charger and battery support, UEXT connector, and I2C connector.
+[Olimex breakout](https://www.olimex.com/Products/MicroPython/RP2040-PICO-PC/open-source-hardware)  SD card, HDMI display, Audio, USB keyboard, Li-Po charger and battery support
 
 [Pico > Pi hat](https://github.com/bablokb/pcb-pico-pi-base)
+
+[Cowbell proto](https://www.adafruit.com/product/5703)
+
+[Cowbell RTC, MicrSD](https://www.adafruit.com/product/5703
 
 [Pico > Uno](https://lectronz.com/products/raspberry-pi-pico-to-uno-flexypin-adapter)
 
