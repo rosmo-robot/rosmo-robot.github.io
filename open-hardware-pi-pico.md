@@ -13,6 +13,8 @@ title: Open Hardware Pi Pico
 
 # Shields
 
+[XRP robotics board](https://docs.sparkfun.com/SparkFun_XRP_Controller/hardware_overview/)
+
 [Olimex breakout](https://www.olimex.com/Products/MicroPython/RP2040-PICO-PC/open-source-hardware)  SD card, HDMI display, Audio, USB keyboard, Li-Po charger and battery support
 
 [Pico > Pi hat](https://github.com/bablokb/pcb-pico-pi-base)
@@ -21,10 +23,11 @@ title: Open Hardware Pi Pico
 
 [Cowbell RTC, MicrSD](https://www.adafruit.com/product/5703)
 
+[Cowbell CanBus](https://www.adafruit.com/product/5728)
+
 [Pico > Uno](https://lectronz.com/products/raspberry-pi-pico-to-uno-flexypin-adapter)
 
 [MPPT](https://github.com/LucyJenkins/MPPT-Raspberry-pi-Pico-Shield)
-
 
 [CNC](https://github.com/spark404/rp2040_cnc)
 
