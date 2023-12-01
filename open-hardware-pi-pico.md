@@ -34,3 +34,10 @@ title: Open Hardware Pi Pico
 [Dual relay](https://oshwlab.com/micr0_kevin/raspberry-pi-pico-strapper)
 
 [Stepper 2WD car](https://hackaday.io/project/190661-trundlebot-the-educational-robot)
+
+# Expansion
+
+Considering expanding the width of the headers into a [new 28mm wide format](https://hackaday.io/project/183129-rosmo-robot/log/225663-pico-shields-feather-micromod-mikrobus) that would introduce compatibility with existing standards
+
+ ![Bot](https://cdn.hackaday.io/images/8189841701444565885.png)
+
