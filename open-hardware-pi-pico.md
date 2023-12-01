@@ -19,7 +19,7 @@ title: Open Hardware Pi Pico
 
 [Cowbell proto](https://www.adafruit.com/product/5703)
 
-[Cowbell RTC, MicrSD](https://www.adafruit.com/product/5703
+[Cowbell RTC, MicrSD](https://www.adafruit.com/product/5703)
 
 [Pico > Uno](https://lectronz.com/products/raspberry-pi-pico-to-uno-flexypin-adapter)
 
