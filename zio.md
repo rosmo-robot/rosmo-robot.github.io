@@ -50,7 +50,7 @@ Developing ideas from the [XRP-X4](https://rosmo-robot.github.io/learn-robotics/
 
 ## Software WIP
 - [Platformio C++ demo](https://github.com/rosmo-robot/zio_demo)
-- [Webui remote control](https://github.com/rosmo-robot/ESP32-robot-car-controller)
+- [Webui remote control](https://github.com/donskytech/platformio-projects/tree/main/esp32-projects/esp32-robot-car-websockets)
 - 4WD [Microblocks](https://discord.gg/TCpHYbcvkS )
 - 4WD/ Mecanum ROS2 [Linorobot2](https://github.com/rosmo-robot/linorobot2_hardware_hippo_esp32_fix/tree/master)
 
