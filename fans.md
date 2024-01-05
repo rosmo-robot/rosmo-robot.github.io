@@ -16,6 +16,7 @@ Trying to have batteries mounted inside the unit for portability.
 - [Fan Guard](https://s.click.aliexpress.com/e/_DdcIc5J)
 - [Filter pm501hf](https://www.amazon.co.uk/gp/product/B095NYMKSW)
 - [USB Powerbank](https://s.click.aliexpress.com/e/_DlrY1Xn)
+- [4x 18650](https://s.click.aliexpress.com/e/_DnorZfP)
 - [Mount for powerbank](https://s.click.aliexpress.com/e/_Dekx8rF)
 - [M4 Thumb screw](https://s.click.aliexpress.com/e/_DEny27j)
 - [M4 threaded bar](https://s.click.aliexpress.com/e/_DFfXG5r)
