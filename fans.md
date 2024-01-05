@@ -13,7 +13,7 @@ Trying to have batteries mounted inside the unit for portability.
 - [PCB base](https://easyeda.com/editor#project_id=69e252659aa143b1a4d3303e6b92e5d8)
 - [Cheap Fan - Arctic](https://www.amazon.co.uk/gp/product/B08QNCMQDL)
 - [Alt- Good Fan - Silent wings](https://www.bequiet.com/en/casefans/3704)
-- [Fan Guard](https://s.click.aliexpress.com/e/_DmushUt)
+- [Fan Guard](https://s.click.aliexpress.com/e/_DdcIc5J)
 - [Filter pm501hf](https://www.amazon.co.uk/gp/product/B095NYMKSW)
 - [USB Powerbank](https://s.click.aliexpress.com/e/_DlrY1Xn)
 - [Mount for powerbank](https://s.click.aliexpress.com/e/_Dekx8rF)
