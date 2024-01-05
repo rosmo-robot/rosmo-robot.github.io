@@ -8,6 +8,8 @@ title: Filters
 
 Above image and concept from [@thefandilier](https://twitter.com/TheFandelier/status/1742667052652036240)
 
+Trying to have batteries mounted inside the unit for portability.
+
 - [PCB base](https://easyeda.com/editor#project_id=69e252659aa143b1a4d3303e6b92e5d8)
 - [Cheap Fan - Arctic](https://www.amazon.co.uk/gp/product/B08QNCMQDL)
 - [Alt- Good Fan - Silent wings](https://www.bequiet.com/en/casefans/3704)
