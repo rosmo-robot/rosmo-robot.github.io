@@ -18,6 +18,10 @@ Trying to have batteries mounted inside the unit for portability.
 - [Alt - cheap filter](https://s.click.aliexpress.com/e/_DdaHIa1) [UK](https://www.amazon.co.uk/PUREBURG-Replacement-Compatible-TaoTronics-Purifiers/dp/B08LPFWZLM)
 - [USB Powerbank](https://s.click.aliexpress.com/e/_DlrY1Xn)
 - [4x 18650](https://s.click.aliexpress.com/e/_DnorZfP)
+
+# Open hardware
+- [5v - 12v step up](https://oshwlab.com/nominalanimal/5v-to-12v-pwm-fan-converter)
+- [12v speed control](https://oshwlab.com/selakerelias/555-pwm-fan-ctrl-egend-design-rev-1-5-runda-kanter)
 - [Mount for powerbank](https://s.click.aliexpress.com/e/_Dekx8rF)
 - [M4 Thumb screw](https://s.click.aliexpress.com/e/_DEny27j)
 - [M4 threaded bar](https://s.click.aliexpress.com/e/_DFfXG5r)
