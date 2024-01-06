@@ -24,5 +24,6 @@ Trying to have batteries mounted inside the unit for portability.
 - [M4 standoff](https://www.aliexpress.com/item/33003860557.html)
 - [Voltage converter/switch](https://s.click.aliexpress.com/e/_DmHSzNx)
 - [USB cable](https://s.click.aliexpress.com/e/_Dk9oK6h)
+- [Carry bag](https://s.click.aliexpress.com/e/_Dlq7Cmp)
 
 
