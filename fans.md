@@ -14,7 +14,7 @@ Trying to have batteries mounted inside the unit for portability.
 - [Cheap Fan - Arctic](https://www.amazon.co.uk/gp/product/B08QNCMQDL)
 - [Alt- Good Fan - Silent wings](https://www.bequiet.com/en/casefans/3704)
 - [Fan Guard](https://s.click.aliexpress.com/e/_DdcIc5J)
-- [Filter pm501hf](https://www.amazon.co.uk/gp/product/B095NYMKSW)
+- [Filter pm501hf 9cm ID, 15cm OD 10.8cm tall, ](https://www.amazon.co.uk/gp/product/B095NYMKSW)
 - [Alt - cheap filter](https://s.click.aliexpress.com/e/_DdaHIa1) [UK](https://www.amazon.co.uk/PUREBURG-Replacement-Compatible-TaoTronics-Purifiers/dp/B08LPFWZLM)
 - [USB Powerbank](https://s.click.aliexpress.com/e/_DlrY1Xn)
 - [4x 18650](https://s.click.aliexpress.com/e/_DnorZfP)
