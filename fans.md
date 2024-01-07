@@ -37,7 +37,8 @@ Instructions
 
 Some of the Aliexpress links are affiliate, cos why not. Battery version currently untested pending parts.
 
-  Filter dimensions are ID 9cm, OD 15cm, height 10.8cm 
+PM501HF/ Pureburg filter dimensions are ID 9cm, OD 15cm, height 10.8cm. 
+Other alternate filters are documented [here](https://docs.google.com/spreadsheets/d/1Q_fc5bSIAu39S0ul11GZo1ceT6CzgtsB5BUwUmopudY/edit#gid=1695103502] by [@ridgeocean](https://twitter.com/RidgeOcean)
 
 
 
