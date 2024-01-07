@@ -2,7 +2,7 @@
 layout: page
 title: Filters
 ---
-# Portable rechargable air filter for a UK context
+# Affordable filter for a UK/US context
 
 ![Img](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/c560f18de47292f9d2853b5763952330212167a6/assets/img/fans2.jpeg)
 
