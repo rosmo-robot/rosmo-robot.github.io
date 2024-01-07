@@ -10,26 +10,17 @@ Above image and concept from [@thefandilier](https://twitter.com/TheFandelier/st
 
 Trying to have batteries mounted inside the unit for portability.
 
-- [PCB base](https://easyeda.com/editor#project_id=69e252659aa143b1a4d3303e6b92e5d8)
-- [Cheap Fan - Arctic](https://www.amazon.co.uk/gp/product/B08QNCMQDL)
-- [Alt- Good Fan - Silent wings](https://www.bequiet.com/en/casefans/3704)
+# Wired
+- [120mm USB fan with speed control](https://s.click.aliexpress.com/e/_DexuWxT)
 - [Fan Guard](https://s.click.aliexpress.com/e/_DdcIc5J)
-- [Filter pm501hf 9cm ID, 15cm OD 10.8cm tall, ](https://www.amazon.co.uk/gp/product/B095NYMKSW)
-- [Alt - cheap filter](https://s.click.aliexpress.com/e/_DdaHIa1) [UK](https://www.amazon.co.uk/PUREBURG-Replacement-Compatible-TaoTronics-Purifiers/dp/B08LPFWZLM)
-- [USB Powerbank](https://s.click.aliexpress.com/e/_DlrY1Xn)
-- [4x 18650](https://s.click.aliexpress.com/e/_DnorZfP)
-- [Mount for powerbank](https://s.click.aliexpress.com/e/_Dekx8rF)
-- [M4 Thumb screw](https://s.click.aliexpress.com/e/_DEny27j)
-- [M4 threaded bar](https://s.click.aliexpress.com/e/_DFfXG5r)
-- [M4 standoff](https://www.aliexpress.com/item/33003860557.html)
-- [Voltage converter/switch](https://s.click.aliexpress.com/e/_DmHSzNx)
-- [USB cable](https://s.click.aliexpress.com/e/_Dk9oK6h)
-- [Carry bag](https://s.click.aliexpress.com/e/_Dlq7Cmp)
-- [Mesh bag](https://s.click.aliexpress.com/e/_DlAEfyD)
+- [Filter pm501hf 9cm ID, 15cm OD 10.8cm tall,UK ](https://www.amazon.co.uk/gp/product/B095NYMKSW) [US](https://www.amazon.com/PUREBURG-Replacement-Compatible-TaoTronics-Purifiers/dp/B08LPFWZLM) [Int](https://s.click.aliexpress.com/e/_DdaHIa1)
 
-# Open hardware
-- [5v - 12v step up](https://oshwlab.com/nominalanimal/5v-to-12v-pwm-fan-converter)
-- [12v speed control](https://oshwlab.com/selakerelias/555-pwm-fan-ctrl-egend-design-rev-1-5-runda-kanter)
+# 5v  
+- [$4.14 5v fan](https://www.aliexpress.us/item/3256805969209310.html)
+- [£2.11 speed control screw terminal](https://www.aliexpress.us/item/3256806217989688.html)
+- [£2.20 USB cable > Wire](https://www.aliexpress.us/item/3256804818757342.html)
+- [Ikea battery pack UK](https://www.ikea.com/gb/en/p/varmfront-power-bank-dark-blue-10555645/) [US](https://www.ikea.com/us/en/p/varmfront-portable-charger-dark-blue-00559615/)
+- [GD90 cap](https://s.click.aliexpress.com/e/_DkL8mK1)
 
 
 
