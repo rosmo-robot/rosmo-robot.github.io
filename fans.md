@@ -14,7 +14,7 @@ Above image and concept from [@thefandilier](https://twitter.com/TheFandelier/st
 
 # Portable 5v +£22 (+$28)
 - [$3 mini battery pack](https://s.click.aliexpress.com/e/_DE7j8Vr)
-- [3x 18650 batteries](https://s.click.aliexpress.com/e/_DdfBurF)
+- [3x 18650 batteries](https://s.click.aliexpress.com/e/_DdfBurF) [~3000Mah](https://www.youtube.com/watch?v=S2wpiWNMru0)
 - [$4.15 120mm 5v fan](https://www.aliexpress.us/item/3256805969209310.html)
 - [$2.51 Fan Guard](https://s.click.aliexpress.com/e/_DdcIc5J)
 - [$1.70 3mm bungee cord to attach fan](https://s.click.aliexpress.com/e/_DDbUsep)
