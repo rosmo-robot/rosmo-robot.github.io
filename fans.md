@@ -13,13 +13,13 @@ Above image and concept from [@thefandilier](https://twitter.com/TheFandelier/st
 - [~$10 Filter PM501HF, UK ](https://www.amazon.co.uk/gp/product/B095NYMKSW), [US](https://www.amazon.com/PUREBURG-Replacement-Compatible-TaoTronics-Purifiers/dp/B08LPFWZLM), [Int](https://s.click.aliexpress.com/e/_DdaHIa1), [About](http://www.pureburg.com/index.php/our-qualifications)
 
 # Portable 5v +£22 (+$28)
+- [$12 mini battery pack](https://s.click.aliexpress.com/e/_DFx9D6l)
 - [$4.15 120mm 5v fan](https://www.aliexpress.us/item/3256805969209310.html)
 - [$2.51 Fan Guard](https://s.click.aliexpress.com/e/_DdcIc5J)
 - [$1.70 3mm bungee cord to attach fan](https://s.click.aliexpress.com/e/_DDbUsep)
 - [$2.35 speed control screw terminal](https://www.aliexpress.us/item/3256806217989688.html)
 - [$2.34 right angle USB A cable > Wire](https://s.click.aliexpress.com/e/_DkfCuGz)
 - [$3.53 GD90 cap](https://s.click.aliexpress.com/e/_DkL8mK1)
-- [$12 mini battery pack](https://s.click.aliexpress.com/e/_DFx9D6l)
 
   ![img](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/bungee.jpeg)
 
