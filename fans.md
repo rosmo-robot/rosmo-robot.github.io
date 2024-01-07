@@ -21,6 +21,8 @@ Above image and concept from [@thefandilier](https://twitter.com/TheFandelier/st
 - [£4 GD90 cap](https://s.click.aliexpress.com/e/_DkL8mK1)
 - [£17 Ikea battery pack UK](https://www.ikea.com/gb/en/p/varmfront-power-bank-dark-blue-10555645/),[US](https://www.ikea.com/us/en/p/varmfront-portable-charger-dark-blue-00559615/)
 
+  ![img](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/bungee.jpeg)
+
 Will require some crafting
 - Small phillips
 - Craft knife
@@ -39,6 +41,8 @@ Some of the Aliexpress links are affiliate, cos why not. Battery version current
 
 PM501HF/ Pureburg filter dimensions are ID 9cm, OD 15cm, height 10.8cm. 
 Other alternate filters are documented [here](https://docs.google.com/spreadsheets/d/1Q_fc5bSIAu39S0ul11GZo1ceT6CzgtsB5BUwUmopudY/edit#gid=1695103502) by [@ridgeocean](https://twitter.com/RidgeOcean)
+
+![img](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/red-fan.jpeg)
 
 
 
