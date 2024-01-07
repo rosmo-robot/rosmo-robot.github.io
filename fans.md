@@ -8,7 +8,7 @@ title: Filters
 
 Above image and concept from [@thefandilier](https://twitter.com/TheFandelier/status/1742667052652036240)
 
-# Wired ~$23
+# Wired ~$20
 - [~$10 120mm USB fan with speed control](https://s.click.aliexpress.com/e/_DexuWxT)
 - [~$10 Filter pm501hf 9cm ID, 15cm OD 10.8cm tall, UK ](https://www.amazon.co.uk/gp/product/B095NYMKSW), [US](https://www.amazon.com/PUREBURG-Replacement-Compatible-TaoTronics-Purifiers/dp/B08LPFWZLM), [Int](https://s.click.aliexpress.com/e/_DdaHIa1), [About](http://www.pureburg.com/index.php/our-qualifications)
 
