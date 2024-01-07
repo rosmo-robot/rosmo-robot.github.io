@@ -8,11 +8,11 @@ title: Filters
 
 Above image and concept from [@thefandilier](https://twitter.com/TheFandelier/status/1742667052652036240)
 
-# Wired ~$20
+# Wired ~£15 ($20)
 - [~$10 120mm USB fan with speed control](https://s.click.aliexpress.com/e/_DexuWxT)
 - [~$10 Filter PM501HF, UK ](https://www.amazon.co.uk/gp/product/B095NYMKSW), [US](https://www.amazon.com/PUREBURG-Replacement-Compatible-TaoTronics-Purifiers/dp/B08LPFWZLM), [Int](https://s.click.aliexpress.com/e/_DdaHIa1), [About](http://www.pureburg.com/index.php/our-qualifications)
 
-# Portable 5v +$44
+# Portable 5v +£34 (+$44)
 - [$4.15 120mm 5v fan](https://www.aliexpress.us/item/3256805969209310.html)
 - [$2.51 Fan Guard](https://s.click.aliexpress.com/e/_DdcIc5J)
 - [$1.70 3mm bungee cord to attach fan](https://s.click.aliexpress.com/e/_DDbUsep)
