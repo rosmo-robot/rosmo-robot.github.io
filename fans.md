@@ -10,7 +10,7 @@ Above image and concept from [@thefandilier](https://twitter.com/TheFandelier/st
 
 # Wired ~$23
 - [~$10 20mm USB fan with speed control](https://s.click.aliexpress.com/e/_DexuWxT)
-- [~$10 Filter pm501hf 9cm ID, 15cm OD 10.8cm tall, UK ](https://www.amazon.co.uk/gp/product/B095NYMKSW), [US](https://www.amazon.com/PUREBURG-Replacement-Compatible-TaoTronics-Purifiers/dp/B08LPFWZLM), [Int](https://s.click.aliexpress.com/e/_DdaHIa1)
+- [~$10 Filter pm501hf 9cm ID, 15cm OD 10.8cm tall, UK ](https://www.amazon.co.uk/gp/product/B095NYMKSW), [US](https://www.amazon.com/PUREBURG-Replacement-Compatible-TaoTronics-Purifiers/dp/B08LPFWZLM), [Int](https://s.click.aliexpress.com/e/_DdaHIa1), [About](http://www.pureburg.com/index.php/our-qualifications)
 
 # Portable 5v + ~$35
 - [£4 5v fan](https://www.aliexpress.us/item/3256805969209310.html)
