@@ -13,7 +13,8 @@ Above image and concept from [@thefandilier](https://twitter.com/TheFandelier/st
 - [~$10 Filter PM501HF, UK ](https://www.amazon.co.uk/gp/product/B095NYMKSW), [US](https://www.amazon.com/PUREBURG-Replacement-Compatible-TaoTronics-Purifiers/dp/B08LPFWZLM), [Int](https://s.click.aliexpress.com/e/_DdaHIa1), [About](http://www.pureburg.com/index.php/our-qualifications)
 
 # Portable 5v +£22 (+$28)
-- [$12 mini battery pack](https://s.click.aliexpress.com/e/_DFx9D6l)
+- [$3 mini battery pack](https://s.click.aliexpress.com/e/_DE7j8Vr)
+- [3x 18650 batteries](https://s.click.aliexpress.com/e/_DdfBurF)
 - [$4.15 120mm 5v fan](https://www.aliexpress.us/item/3256805969209310.html)
 - [$2.51 Fan Guard](https://s.click.aliexpress.com/e/_DdcIc5J)
 - [$1.70 3mm bungee cord to attach fan](https://s.click.aliexpress.com/e/_DDbUsep)
