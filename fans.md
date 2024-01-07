@@ -13,7 +13,7 @@ Trying to have batteries mounted inside the unit for portability.
 # Wired
 - [120mm USB fan with speed control](https://s.click.aliexpress.com/e/_DexuWxT)
 - [Fan Guard](https://s.click.aliexpress.com/e/_DdcIc5J)
-- [Filter pm501hf 9cm ID, 15cm OD 10.8cm tall,UK ](https://www.amazon.co.uk/gp/product/B095NYMKSW), [US](https://www.amazon.com/PUREBURG-Replacement-Compatible-TaoTronics-Purifiers/dp/B08LPFWZLM), [Int](https://s.click.aliexpress.com/e/_DdaHIa1)
+- [Filter pm501hf 9cm ID, 15cm OD 10.8cm tall, UK ](https://www.amazon.co.uk/gp/product/B095NYMKSW), [US](https://www.amazon.com/PUREBURG-Replacement-Compatible-TaoTronics-Purifiers/dp/B08LPFWZLM), [Int](https://s.click.aliexpress.com/e/_DdaHIa1)
 
 # 5v  
 - [$4.14 5v fan](https://www.aliexpress.us/item/3256805969209310.html)
