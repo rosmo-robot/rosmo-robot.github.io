@@ -17,12 +17,16 @@ Above image and concept from [@thefandilier](https://twitter.com/TheFandelier/st
 - [~$3 Fan Guard](https://s.click.aliexpress.com/e/_DdcIc5J)
 - [3mm bungee cord to attach fan](https://s.click.aliexpress.com/e/_DDbUsep)
 - [£2.11 speed control screw terminal](https://www.aliexpress.us/item/3256806217989688.html)
-- [£2.20 USB A cable > Wire](https://www.aliexpress.us/item/3256804818757342.html)
-- [90 USB A](https://www.aliexpress.us/item/1005005589536726.html)
+- [£2.34 right angle USB A cable > Wire](https://s.click.aliexpress.com/e/_DkfCuGz)
 - [£4 GD90 cap](https://s.click.aliexpress.com/e/_DkL8mK1)
 - [£17 Ikea battery pack UK](https://www.ikea.com/gb/en/p/varmfront-power-bank-dark-blue-10555645/),[US](https://www.ikea.com/us/en/p/varmfront-portable-charger-dark-blue-00559615/)
 
-  Some of the Aliexpress links are affiliate, cos why not. Battery version currently untested pending parts.
+Will require some crafting
+- Small phillips
+- Craft knife
+- Drill maybe
+
+Some of the Aliexpress links are affiliate, cos why not. Battery version currently untested pending parts.
 
   Filter dimensions are ID 9cm, OD 15cm, height 10.8cm 
 
