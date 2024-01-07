@@ -12,7 +12,6 @@ Above image and concept from [@thefandilier](https://twitter.com/TheFandelier/st
 - [~$10 20mm USB fan with speed control](https://s.click.aliexpress.com/e/_DexuWxT)
 - [~$10 Filter pm501hf 9cm ID, 15cm OD 10.8cm tall, UK ](https://www.amazon.co.uk/gp/product/B095NYMKSW), [US](https://www.amazon.com/PUREBURG-Replacement-Compatible-TaoTronics-Purifiers/dp/B08LPFWZLM), [Int](https://s.click.aliexpress.com/e/_DdaHIa1)
 
-
 # Portable 5v + ~$35
 - [£4 5v fan](https://www.aliexpress.us/item/3256805969209310.html)
 - [~$3 Fan Guard](https://s.click.aliexpress.com/e/_DdcIc5J)
@@ -20,8 +19,8 @@ Above image and concept from [@thefandilier](https://twitter.com/TheFandelier/st
 - [£2.11 speed control screw terminal](https://www.aliexpress.us/item/3256806217989688.html)
 - [£2.20 USB A cable > Wire](https://www.aliexpress.us/item/3256804818757342.html)
 - [90 USB A](https://www.aliexpress.us/item/1005005589536726.html)
-- [£17 Ikea battery pack UK](https://www.ikea.com/gb/en/p/varmfront-power-bank-dark-blue-10555645/),[US](https://www.ikea.com/us/en/p/varmfront-portable-charger-dark-blue-00559615/)
 - [£4 GD90 cap](https://s.click.aliexpress.com/e/_DkL8mK1)
+- [£17 Ikea battery pack UK](https://www.ikea.com/gb/en/p/varmfront-power-bank-dark-blue-10555645/),[US](https://www.ikea.com/us/en/p/varmfront-portable-charger-dark-blue-00559615/)
 
   Some of the Aliexpress links are affiliate, cos why not. Battery version currently untested pending parts.
 
