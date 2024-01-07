@@ -26,6 +26,15 @@ Will require some crafting
 - Craft knife
 - Drill maybe
 
+Instructions
+- Place GD90 cap in the bottom of the filter
+- Place battery on top & estimate position of USB socket
+- In GD90 cap, cut out USB socket, hole for speed control switch & Make cable hole for USB cable
+- Cut female end of USB cable and pass through the hole.
+- Place speed control circuit board into hole and secure with nut
+- Attach power and fan cables to the speed controller
+- Put all the bits together
+
 Some of the Aliexpress links are affiliate, cos why not. Battery version currently untested pending parts.
 
   Filter dimensions are ID 9cm, OD 15cm, height 10.8cm 
