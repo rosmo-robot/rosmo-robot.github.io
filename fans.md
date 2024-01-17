@@ -11,7 +11,7 @@ Above image and concept from [@thefandilier](https://twitter.com/TheFandelier/st
   ![img](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/cordlessfan.jpeg)
 
 # Portable 150mm filter 5v +£32 (+$38)
-- $10 Filter PM501HF, UK , US, Int, About
+- [~$10 Filter PM501HF, UK ](https://www.amazon.co.uk/gp/product/B095NYMKSW), [US](https://www.amazon.com/PUREBURG-Replacement-Compatible-TaoTronics-Purifiers/dp/B08LPFWZLM), [Int](https://s.click.aliexpress.com/e/_DdaHIa1), [About](http://www.pureburg.com/index.php/our-qualifications)
 - [$3 mini battery pack](https://s.click.aliexpress.com/e/_DBj81Fr)
 - [$12.15 3x 18650 batteries](https://s.click.aliexpress.com/e/_DdfBurF) [~3000Mah](https://www.youtube.com/watch?v=S2wpiWNMru0)
 - [$4.15 120mm 5v fan](https://www.aliexpress.us/item/3256805969209310.html)
@@ -40,13 +40,15 @@ Instructions
 
   [img](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/fab-base.jpeg)
 
+=======================================
   # Wired 150mm filter ~£15 ($20)
 - [~$10 120mm USB fan with speed control](https://s.click.aliexpress.com/e/_DexuWxT), [UK](https://www.amazon.co.uk/ELUTENG-3-Degree-Portable-Powered-Compatible/dp/B06XQWMFDQ) [US](https://www.amazon.com/Portable-Flat-Screen-Receiver-Playstation-Computer/dp/B08ZSJFNMS)
 - [~$10 Filter PM501HF, UK ](https://www.amazon.co.uk/gp/product/B095NYMKSW), [US](https://www.amazon.com/PUREBURG-Replacement-Compatible-TaoTronics-Purifiers/dp/B08LPFWZLM), [Int](https://s.click.aliexpress.com/e/_DdaHIa1), [About](http://www.pureburg.com/index.php/our-qualifications)
 
+======================================
   # Micro 60mm filter
   Somewhat documented here [https://github.com/samuk/DIY-HEPA/](https://github.com/samuk/DIY-HEPA/)
-
+=========================================
 # Notes
 
 Some of the Aliexpress links are affiliate, cos why not. Battery versions currently untested pending parts.
