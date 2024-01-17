@@ -20,7 +20,7 @@ Above image and concept from [@thefandilier](https://twitter.com/TheFandelier/st
 - [$2.35 speed control screw terminal](https://www.aliexpress.us/item/3256806217989688.html)
 - [$2.34 right angle USB A cable > Wire](https://s.click.aliexpress.com/e/_DkfCuGz)
 - [$3.53 GD90 cap](https://s.click.aliexpress.com/e/_DkL8mK1)
-- [3d print joiner (optional)](https://github.com/samuk/DIY-HEPA/)
+- [3d print joiner (optional)](https://github.com/samuk/DIY-HEPA/)[buy](https://craftcloud3d.com/offer/89dae6f9-1ad9-4ffa-87e2-3f60e6987b8c?utm_source=craftcloud&utm_campaign=shareable_cart)
 
   ![img](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/bungee.jpeg)
 
