@@ -25,7 +25,8 @@ Optional battery upgrade
     
   
 
-# Portable 150mm filter 5v +£32 (+$38)
+# Portable 150mm filter 5v $38
+![img](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/red-fan.jpeg)
 - [~$10 Filter PM501HF, UK ](https://www.amazon.co.uk/gp/product/B095NYMKSW), [US](https://www.amazon.com/PUREBURG-Replacement-Compatible-TaoTronics-Purifiers/dp/B08LPFWZLM), [Int](https://s.click.aliexpress.com/e/_DdaHIa1), [About](http://www.pureburg.com/index.php/our-qualifications)
 - [$3 mini battery pack](https://s.click.aliexpress.com/e/_DBj81Fr)
 - [$12.15 3x 18650 batteries](https://s.click.aliexpress.com/e/_DdfBurF) [~3000Mah](https://www.youtube.com/watch?v=S2wpiWNMru0)
@@ -71,9 +72,8 @@ Above image and concept from [@thefandilier](https://twitter.com/TheFandelier/st
 
 
 
-
-  # Micro 60mm filter
-  Somewhat documented here [https://github.com/samuk/DIY-HEPA/](https://github.com/samuk/DIY-HEPA/)
+# Micro 60mm filter
+Somewhat documented here [https://github.com/samuk/DIY-HEPA/](https://github.com/samuk/DIY-HEPA/)
 
 # Notes
 Some of the Aliexpress links are affiliate, cos why not. Battery versions currently untested pending parts.
@@ -84,7 +84,7 @@ Other alternate filters are documented [here](https://docs.google.com/spreadshee
 
 [Deep dive into PC fans](https://itsairborne.com/choosing-a-pc-fan-for-an-air-purifier-the-only-fans-guide-feaf497af20c)
 
-![img](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/red-fan.jpeg)
+
 
 
 
