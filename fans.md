@@ -10,6 +10,29 @@ Above image and concept from [@thefandilier](https://twitter.com/TheFandelier/st
 
   ![img](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/cordlessfan.jpeg)
 
+
+
+# Mini 60mm filter 33mm BLDC fan
+
+![img](https://raw.githubusercontent.com/samuk/DIY-HEPA/main/pictures/minifan.jpeg)
+![viv](https://raw.githubusercontent.com/samuk/DIY-HEPA/main/pictures/fan.mp4)
+
+- [~$10 2 pc 60mm x 85mm Filter](https://www.amazon.ca/PUREBURG-Replacement-Compatible-Enrichment-PEPERSFIL/dp/B09ZTPW2RG)
+- [~$8 9v battery](https://s.click.aliexpress.com/e/_DltS6aD)
+- [~$20 Mini Brushless fan](https://s.click.aliexpress.com/e/_De0ZDWd)[Mini brushless fan (noisy)](https://s.click.aliexpress.com/e/_DnrYcG5)
+- [~$3 9v to barrel connector](https://s.click.aliexpress.com/e/_Dk15hwV)
+- [~$3 Barrel to screw terminal](https://de.aliexpress.com/item/1005004281570915.html)
+- [~$5 40mm fan guard](https://s.click.aliexpress.com/e/_DEc7xq5)
+- [~$3 2.5mm bungee cord](https://www.aliexpress.com/item/1005003969896128.html)
+
+Optional battery upgrade
+
+  - [XT-60 > Barrel jack](https://s.click.aliexpress.com/e/_DC9xekl)
+  - [3s Lipo](https://s.click.aliexpress.com/e/_DkawNMv)
+  - [3s Lipo USB charger](https://s.click.aliexpress.com/e/_DncAPA5)
+    
+  
+
 # Portable 150mm filter 5v +£32 (+$38)
 - [~$10 Filter PM501HF, UK ](https://www.amazon.co.uk/gp/product/B095NYMKSW), [US](https://www.amazon.com/PUREBURG-Replacement-Compatible-TaoTronics-Purifiers/dp/B08LPFWZLM), [Int](https://s.click.aliexpress.com/e/_DdaHIa1), [About](http://www.pureburg.com/index.php/our-qualifications)
 - [$3 mini battery pack](https://s.click.aliexpress.com/e/_DBj81Fr)
