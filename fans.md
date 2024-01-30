@@ -10,7 +10,8 @@ title: Filters
 
 - [~$10 2 pc 60mm x 85mm Filter](https://www.amazon.ca/PUREBURG-Replacement-Compatible-Enrichment-PEPERSFIL/dp/B09ZTPW2RG)
 - [~$8 9v battery](https://s.click.aliexpress.com/e/_DltS6aD)
-- [~$20 Mini Brushless fan](https://s.click.aliexpress.com/e/_De0ZDWd)[Mini brushless fan (noisy)](https://s.click.aliexpress.com/e/_DnrYcG5)
+- [~$20 Mini Brushless fan (adjustable](https://s.click.aliexpress.com/e/_De0ZDWd)
+- [$5 alternative Mini brushless fan (noisy)](https://s.click.aliexpress.com/e/_DnrYcG5)
 - [~$3 9v to barrel connector](https://s.click.aliexpress.com/e/_Dk15hwV)
 - [~$3 Barrel to screw terminal](https://de.aliexpress.com/item/1005004281570915.html)
 - [~$5 40mm fan guard](https://s.click.aliexpress.com/e/_DEc7xq5)
