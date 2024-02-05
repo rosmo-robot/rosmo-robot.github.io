@@ -21,7 +21,7 @@ So just make sure you have everything with you according to this table:
 | BO Motor Wheel            | [65 mm diameter, 25 mm thickness](https://www.aliexpress.com/item/1005005910261919.html)           | 2        |
 | Motor Mounts              | Separate Left & Right 3D Printed Mounts   | 2        |  
 | Caster Wheel              |                                           | 1        |
-| Beaglebone AI-64  |                              | 1        |
+| Beaglebone Play AI-64 (optional)  | [Beagleboard](https://www.beagleboard.org/boards)                             | 1        |
 | SD Card                   | 16 GB Class 10 SD Card with Pre-loaded OS and Codes | 1 |
 | ESP32-S3              | [For running MicroROS](https://www.aliexpress.com/item/1005005789200684.html)                 | 1        |
 | Card Reader               | For reconfiguring SD Card                 | 1        |
@@ -35,12 +35,12 @@ So just make sure you have everything with you according to this table:
 | Motor Driver              | [Zio H-bridge Motor Driver](https://www.smart-prototyping.com/Zio-4-DC-Motor-Controller.html?search=motor)          | 1        |
 | Jumper Wires              | Female to Female                          | 6        |
 | Hex Spacers               | 45mm height M3 Hex Metal Spacers          | 18       |
-| M3 10 mm Bolts            |                                           | 40       |
-| M3 25 mm Bolts            |                                           | 4        |
-| M3 Nuts                   |                                           | 44       |
-| M3 Washers                |                                           | 4        |
-| M2 10 mm Bolts            |                                           | 2        |
-| M2 Nuts                   |                                           | 2        |
+| M3 10 mm Bolts            | [Bolt pack](https://www.aliexpress.com/item/1005002046118328.html)                                          | 40       |
+| M3 25 mm Bolts            | From Bolt pack                                          | 4        |
+| M3 Nuts                   | From Bolt pack                                          | 44       |
+| M3 Washers                | From Bolt pack                                          | 4        |
+| M2 10 mm Bolts            | From Bolt pack                                         | 2        |
+| M2 Nuts                   | From Bolt pack                                        | 2        |
 | Screw Driver              | 2 in 1 Flat and Philips Head Screw Driver with Tester | 1 |
 | Optional LiDAR Kit                 | with LiDAR module, USB Cable and Data Convertor Box | 1 |
 
