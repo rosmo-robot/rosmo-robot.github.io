@@ -56,11 +56,11 @@ Take the following components:
 * BO Motor x 1 
 > Please note to take the BO Motor, whose shaft points in the left direction when the 2-way-tape is facing downward and the wires are pointing you. Refer to the picture below. This is your Left Motor.
 
-![](https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/blob/master/imgs/assembly/IMG_4385.JPG) 
+![](https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4385.JPG) 
 
 Now attach the Motor Bracket on the flat side of the motor in a way that the screw holes are facing outwards and at the bottom side and also the holes of the motor align with the farther most holes of the motor brackets. After that put the 10 mm M3 bolts in the bottom holes. Do not tighten these bolts with nuts yet.
 
-<img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/blob/master/imgs/assembly/IMG_4386.JPG" width="400"/>. <img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/blob/master/imgs/assembly/IMG_4387.JPG" width="400"/>
+<img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4386.JPG" width="400"/>. <img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4387.JPG" width="400"/>
 
 Now thread both the 25 mm M3 bolts from the outer end (from the side where there is a shaft) of the motor and attach them with nuts on the other end. Repeat the procedure for the other motor as well. So now you have two motors with the shaft facing outwards and screw holes facing inwards and the 2-way-sticking tape facing downwards.
 
