@@ -32,7 +32,6 @@ Developing ideas from the [XRP-X4](https://rosmo-robot.github.io/learn-robotics/
 - [1x or 2x 18650 battery](https://s.click.aliexpress.com/e/_DnPRBEj) or open hardware [18650 battery](https://oshwlab.com/wagiminator/fp6277-power-bank)
 
 ## Optional extras
-- [Pico breakout](https://kitronik.co.uk/products/5341-kitronik-pin-breakout-for-the-raspberry-pi-pico) (for no soldering/ fabrication robot)
 - [10mm Cube standoff](https://www.aliexpress.com/item/1005005880192495.html)
 - [TOF Zio](https://www.smart-prototyping.com/Zio/Zio-TOF-Distance-Sensor-RFD77402.html) or [Sparkfun](https://www.sparkfun.com/products/19013)
 - [2x OLED/Eyes - Zio](https://www.adafruit.com/product/5297#description)
@@ -40,7 +39,8 @@ Developing ideas from the [XRP-X4](https://rosmo-robot.github.io/learn-robotics/
 - [Ultrasonic - ZIO](https://github.com/ZIOCC/Zio-Qwiic-Ultrasonic-Distance-Sensor) 
 - [Servo - Zio](https://github.com/rosmo-robot/Qwiic_Servo_Driver_PCA9685/) for [mini arm](https://www.thingiverse.com/thing:5683010)
 - [LED - Zio](https://www.smart-prototyping.com/Zio-Qwiic-RGB-LED-APA102)
-- [IMU - LSM6DSOX](https://www.adafruit.com/product/4438) [Micropthon](https://github.com/jposada202020/MicroPython_LSM6DSOX) [Arduino](https://registry.platformio.org/libraries/sparkfun/SparkFun%20Qwiic%206Dof%20-%20LSM6DSO)
+- [IMU - BNO085](https://www.adafruit.com/product/4754)
+
 -  [On-board compute. Beagleboard Play](https://www.beagleboard.org/boards/beagleplay)
 - [Camera - Maxlab](https://github.com/maxlab-io/tokay-lite-pcb) or OpenMV
 
@@ -62,6 +62,7 @@ Developing ideas from the [XRP-X4](https://rosmo-robot.github.io/learn-robotics/
 
 ## Alternate IMU
 -  [BMI270 6DOF](https://www.sparkfun.com/products/22398) [Micropthon](https://github.com/jposada202020/MicroPython_BMI270) [Arduino](https://registry.platformio.org/libraries/sparkfun/SparkFun%20BMI270%20Arduino%20Library)
+   - [IMU - LSM6DSOX](https://www.adafruit.com/product/4438) [Micropthon](https://github.com/jposada202020/MicroPython_LSM6DSOX) [Arduino](https://registry.platformio.org/libraries/sparkfun/SparkFun%20Qwiic%206Dof%20-%20LSM6DSO)
   - [LSM6DSV16X 6DOF](https://www.sparkfun.com/products/21336) no Micropthon [Arduino](https://registry.platformio.org/libraries/sparkfun/SparkFun%206DoF%20LSM6DSV16X)
   - [ISM330DHCX 6DOF A](https://www.sparkfun.com/products/20176) [ISM330DHCX 6DOF B](https://www.adafruit.com/product/4502) Micropthon Arduino
 
