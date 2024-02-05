@@ -26,7 +26,7 @@ Make sure you have everything with you according to this table:
 | SD Card                   | [32 GB Class 10 SD Card](https://www.westerndigital.com/products/memory-cards/sandisk-extreme-uhs-i-microsd?sku=SDSQXAF-032G-GN6MA) | 1 |
 | Raspberry Pi Power Cable  | Standard USB to USB Type C Cable          | 1        |
 | Li-ion Battery            | [11.1 V 2300 mAh](https://www.aliexpress.com/item/4000598161301.html)                          | 1        |
-| Battery Charger           | [ 3 Amp DC Adaptor](https://www.aliexpress.com/item/1005003531881703.html)                     | 1        |
+| Battery Charger/ adaptor           | [ 3 Amp DC Adaptor](https://www.aliexpress.com/item/1005003531881703.html)                     | 1        |
 | Battery Splitter           |[Splitter](https://www.aliexpress.com/item/1005001839122224.html)         | 1        |
 | Jumper Wires              | Female to Female                          | 6        |
 | Hex Spacers               | 45mm height M3 Hex Metal Spacers          | 18       |
@@ -65,23 +65,29 @@ Now thread both the 25 mm M3 bolts from the outer end (from the side where there
 <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4390.JPG" width="250"/>  <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4391.JPG" width="250"/>  <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4392.JPG" width="250"/>
 <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4394.JPG" width="250"/>  <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4395.JPG" width="250"/>  <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4396.JPG" width="250"/>
 
-Now take one of the Chassis plates and place it in the following orientation. The Top is the Front of the Robot and your right and left are the right and left of the robot respectively. Remove the protective paper covering from both the sides to get shiny acrylic inside.
+Now take one of the Chassis plates and place it in the following orientation. The Top is the Front of the Robot and your right and left are the right and left of the robot respectively. 
 
-<img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/plate.png" width="350"/>  <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4397.JPG" width="450"/>
+<img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/plate.png" width="350"/> 
+<img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4397.JPG" width="450"/>
 
 Now use the red highlighted holes and put the 10mm M3 bolts through them and tighten them with nuts from below. You can also remove the double-sided tape cover and use it to secure your motors in place for additional strength. If you are facing any problem in building your robot, you could [Join our Discord Community](https://discord.gg/5tBAUJjC) and ask your doubts or questions over there. Our community will be there to help and guide you through the complete process.
 
-<img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/holes001.png" width="300"/>  <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4398.JPG" width="250"/> <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4399.JPG" width="250"/>
+<img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/holes001.png" width="300"/>  
+<img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4398.JPG" width="250"/> 
+<img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4399.JPG" width="250"/>
 
 Take the caster wheel, remove the plastic covering, and using a pair of nut and bolt, fix it in the highlighted hole from the bottom side. You can use more than one nut and bolt to secure it in place, but one is more than enough
 
-<img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/holes002.png" width="250"/>  <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4400.JPG" width="200"/> <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4401.JPG" width="200"/>
-<img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4402.JPG" width="200"/>
+<img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/holes002.png" width="250"/>  
+<img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4400.JPG" width="200"/> 
+<img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4401.JPG" width="200"/>
+<img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4402.JPG" width="200"/>
 
 Now you can attach wheels to the motors after which take 6 Hex spacers along with 18 nuts and fix them in these highlighted holes. Also, you can attach the battery in the centre using double-sided tape.
 
-<img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4403.JPG" width="350"/>
-<img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/holes003.png" width="450"/>  <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4404.JPG" width="400"/>
+<img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4403.JPG" width="350"/>
+<img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/holes003.png" width="450"/>  
+<img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4404.JPG" width="400"/>
 <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4405.JPG" width="400"/>
 
 With this you have the base of your TortoiseBot ready!
@@ -91,18 +97,19 @@ With this you have the base of your TortoiseBot ready!
 Now let's make the Heart of our Robot. The place where the blood (electrons) are pumped all over our TortoiseBot's body.
 USB module will give power to Raspberry Pi.
 
-##### 💡 If you receive this power distribution module follow below steps.
-Here we have the Motor Driver and the Power Distribution Module. Take another Chassis plate and keep the orientation the same as the previous one. Also have the Zio Motor Driver, USB Power Distribution module and the Data Convertor from LiDAR's box handy. You can disconnect the wire from LiDAR as we will attach it later. 
+Here we have the Motor Driver and the Battery Charger/ adaptor. Take another Chassis plate and keep the orientation the same as the previous one. Also have the Zio Motor Driver,  and the Data Convertor from LiDAR's box handy. You can disconnect the wire from LiDAR as we will attach it later. 
 
-<img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/plate.png" width="350"/>  <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4406.JPG" width="450"/>
+<img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/plate.png" width="350"/> 
+<img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4406.JPG" width="450"/>
 
 Once you have it all, you can attach Motor Driver and LiDAR Data Converter Module each with 4 pairs of nuts and bolts through the blue and green highlighted holes respectively. Make sure the heatsink of the motor driver is facing the front link in the picture while attaching. Similarly, while attaching the LiDAR data convertor, the wires should be on the top side and the USB ports should be facing you on the backside of the robot. Also, you can fix the USB Power Module Simply with Double-sided tape on the given position.
 
-<img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/holes004.png" width="250"/>  <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4407.JPG" width="200"/> <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4408.JPG" width="200"/>
-<img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4409.JPG" width="200"/>
+<img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/holes004.png" width="250"/> 
+<img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4407.JPG" width="200"/> 
+<img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4408.JPG" width="200"/>
+<img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4409.JPG" width="200"/>
 
-
-```
+``
 
 Make sure your connections are proper. If you are facing any problem in building your robot, you could [Join our Discord Community](https://discord.gg/5tBAUJjC) and ask your doubts or questions over there. Our community will be there to help and guide you through the complete process.
 
