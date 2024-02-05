@@ -20,8 +20,8 @@ Developing ideas from the [XRP-X4](https://rosmo-robot.github.io/learn-robotics/
 
 ## BOM (WIP)
 
-- 5 pieces [PCB plate](https://easyeda.com/editor#id=69415ef7785b4ad29ea97032be2ffa39) fabricated, or not depending on user preference/budget
-- 1x ESP32-S3 [Pico S3](https://www.aliexpress.com/item/1005005789200684.html) [info](https://www.nologo.tech/product/esp32/esp32s3Pico/esp32S3Pico.html?spm=a2g0s.imconversation.0.0.33073e5fnnUtHY) [source](https://pan.baidu.com/s/1PdL6_7a4BFeiIn1E9jWOIw?spm=a2g0s.imconversation.0.0.884d3e5fKHLRxw&pwd=8888#list/path=%2Fsharelink53413994-546503655568332%2FESP32-S3%20%E8%B5%84%E6%96%99%20V1.1-20230804%2FHardware&parentPath=%2Fsharelink53413994-546503655568332)
+- 5 pieces [PCB plate](https://easyeda.com/editor#id=144a1a06572f48fca974494ad7a75ebc) fabricated, or not depending on user preference/budget
+- 1x ESP32-S3 [Olimex S3](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware)
 - 1x [Zio motor driver](https://www.smart-prototyping.com/Zio-4-DC-Motor-Controller.html?search=motor)
 - 2x or 4x [6v 150RPM $Bringsmart motors](https://s.click.aliexpress.com/e/_DC72ruf) or [$$Pololu](https://www.pololu.com/category/60/micro-metal-gearmotors)
 - 2x or 4x [N20 rubber wheels](https://s.click.aliexpress.com/e/_DBjDZqx) or [3mm shaft Mecanum wheels A](https://www.aliexpress.com/item/1005003264388589.html),[B](https://www.aliexpress.com/item/32977691906.html) or [C](https://www.thingiverse.com/thing:1358552)
