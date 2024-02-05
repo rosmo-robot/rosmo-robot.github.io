@@ -22,7 +22,6 @@ Make sure you have everything with you according to this table:
 | Motor Driver              | [Zio H-bridge Motor Driver](https://www.smart-prototyping.com/Zio-4-DC-Motor-Controller.html?search=motor)          | 1        |
 | ESP32-S3              | [For running MicroROS](https://www.aliexpress.com/item/1005005789200684.html)                 | 1        |
 | BO Motor Wheel            | [65 mm diameter, 25 mm thickness](https://www.aliexpress.com/item/1005005910261919.html)           | 2        |
-| Motor Mounts              | Separate Left & Right 3D Printed Mounts   | 2        |  
 | Caster Wheel              | [bearing](https://www.aliexpress.com/item/1005005883966772.html)
 | SD Card                   | [32 GB Class 10 SD Card](https://www.westerndigital.com/products/memory-cards/sandisk-extreme-uhs-i-microsd?sku=SDSQXAF-032G-GN6MA) | 1 |
 | Raspberry Pi Power Cable  | Standard USB to USB Type C Cable          | 1        |
