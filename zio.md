@@ -3,7 +3,7 @@ layout: page
 title: Ziobot
 ---
 
-Developing ideas from the [XRP-X4](https://rosmo-robot.github.io/learn-robotics/) aiming for modularity, open hardware.
+Developing ideas from the [XRP-X4](https://rosmo-robot.github.io/learn-robotics/) aiming for modularity, 100% open hardware, ROS2 support.
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/pen.jpeg)
 
@@ -20,7 +20,7 @@ Developing ideas from the [XRP-X4](https://rosmo-robot.github.io/learn-robotics/
 
 ## BOM (WIP)
 
-- 5 pieces [PCB plate](https://easyeda.com/editor#id=d6af3cfeff7b4122b9d451a06e533f33) fabricated, or not depending on user preference/budget
+- 5 pieces [PCB plate](https://easyeda.com/editor#id=69415ef7785b4ad29ea97032be2ffa39) fabricated, or not depending on user preference/budget
 - 1x ESP32-S3 [Pico S3](https://www.aliexpress.com/item/1005005789200684.html) [info](https://www.nologo.tech/product/esp32/esp32s3Pico/esp32S3Pico.html?spm=a2g0s.imconversation.0.0.33073e5fnnUtHY) [source](https://pan.baidu.com/s/1PdL6_7a4BFeiIn1E9jWOIw?spm=a2g0s.imconversation.0.0.884d3e5fKHLRxw&pwd=8888#list/path=%2Fsharelink53413994-546503655568332%2FESP32-S3%20%E8%B5%84%E6%96%99%20V1.1-20230804%2FHardware&parentPath=%2Fsharelink53413994-546503655568332)
 - 1x [Zio motor driver](https://www.smart-prototyping.com/Zio-4-DC-Motor-Controller.html?search=motor)
 - 2x or 4x [6v 150RPM $Bringsmart motors](https://s.click.aliexpress.com/e/_DC72ruf) or [$$Pololu](https://www.pololu.com/category/60/micro-metal-gearmotors)
