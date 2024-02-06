@@ -144,13 +144,9 @@ Finally, for stage number 2, connect Qwiic cable to the motor driver's pins,
 This is the easiest layer to assemble. 
 
 
-<img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4427.JPG" width="250"/> <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4434.JPG" width="250"/>  <img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/chassis/images/holes008.png" width="300"/>
 
 Attach the ESP32 to the breadboad. Now place this breadboard on top of your assembled robot and pass the LiDAR Data Wire from the GREEN highlighted hole and all other Jumper Wires ( 7 in total ) from the BLUE highlighted hole. And finally, bolt it all down using the RED highlighted holes.
 
-<img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4435.JPG" width="450"/> <img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/chassis/images/holes009.png" width="350"/> 
-<img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4436.JPG" width="400"/> 
-<img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4437.JPG" width="400"/>
 
 Use the USB A to USB C cable to connect the powerbank to the ESP32. You can pass the wire through the inside of the spacers in order to keep everything clean and no wires hanging around. 
 
