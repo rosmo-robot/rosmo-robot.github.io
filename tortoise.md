@@ -67,18 +67,16 @@ Now thread both the 25 mm M3 bolts from the outer end (from the side where there
 
 Now take one of the Chassis plates and place it in the following orientation. The Top is the Front of the Robot and your right and left are the right and left of the robot respectively. 
 
-<img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/plate.png" width="350"/> 
 <img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4397.JPG" width="450"/>
 
 Now use the red highlighted holes and put the 10mm M3 bolts through them and tighten them with nuts from below. You can also remove the double-sided tape cover and use it to secure your motors in place for additional strength. If you are facing any problem in building your robot, you could [Join our Discord Community](https://discord.gg/5tBAUJjC) and ask your doubts or questions over there. Our community will be there to help and guide you through the complete process.
 
-<img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/holes001.png" width="300"/>  
 <img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4398.JPG" width="250"/> 
 <img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4399.JPG" width="250"/>
 
 Take the caster wheel, remove the plastic covering, and using a pair of nut and bolt, fix it in the highlighted hole from the bottom side. You can use more than one nut and bolt to secure it in place, but one is more than enough
 
-<img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/holes002.png" width="250"/>  
+<img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/chassis/holes002.png" width="250"/>  
 <img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4400.JPG" width="200"/> 
 <img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4401.JPG" width="200"/>
 <img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4402.JPG" width="200"/>
@@ -86,7 +84,7 @@ Take the caster wheel, remove the plastic covering, and using a pair of nut and 
 Now you can attach wheels to the motors after which take 6 Hex spacers along with 18 nuts and fix them in these highlighted holes. Also, you can attach the battery in the centre using double-sided tape.
 
 <img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4403.JPG" width="350"/>
-<img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/holes003.png" width="450"/>  
+<img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/chassis/holes003.png" width="450"/>  
 <img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4404.JPG" width="400"/>
 <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4405.JPG" width="400"/>
 
@@ -104,7 +102,7 @@ Here we have the Motor Driver and the Battery Charger/ adaptor. Take another Cha
 
 Once you have it all, you can attach Motor Driver and LiDAR Data Converter Module each with 4 pairs of nuts and bolts through the blue and green highlighted holes respectively. Make sure the heatsink of the motor driver is facing the front link in the picture while attaching. Similarly, while attaching the LiDAR data convertor, the wires should be on the top side and the USB ports should be facing you on the backside of the robot. Also, you can fix the USB Power Module Simply with Double-sided tape on the given position.
 
-<img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/holes004.png" width="250"/> 
+<img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/chassis/holes004.png" width="250"/> 
 <img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4407.JPG" width="200"/> 
 <img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4408.JPG" width="200"/>
 <img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4409.JPG" width="200"/>
@@ -118,10 +116,10 @@ Make sure your connections are proper. If you are facing any problem in building
 Now take the base of the robot and the plate you made just now and place them second above the first one. While placing it, make sure you pass the motor wires from the highlighted holes. Left hole for left motor wires and right hole for right motor wire. Don't bolt the plate down yet. 
 
 <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4413.JPG" width="300"/> 
-<img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/holes005.png" width="200"/>  <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4414.JPG" width="300"/> 
+<img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/chassis/holes005.png" width="200"/>  <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4414.JPG" width="300"/> 
 
 <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4415.JPG" width="250"/> 
-<img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/holes006.png" width="300"/>  
+<img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/chassisholes006.png" width="300"/>  
 <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4416.JPG" width="250"/> 
 
 Now, look at the wires of your Left Side. Make a note of which coloured wire is at the top and which one is at the bottom. You should also be able to see this written on the info that came with the motor. In this case, for the left motor, our bottom wire is RED and the top wire is GREEN. So keeping that in mind, we will connect our top wire (GREEN) in the front of the motor driver (towards the heatsink) and the bottom wire (RED) towards the backside (near other connection points). Refer to the images below and the connection sheet provided with your kit. Please make sure these connections are made properly or else your Robot will not move in the expected directions. Similarly, if we have a look at our motor on the right side, the top wire is RED in this case and the bottom wire is GREEN. So again we will connect the top wire (RED) towards the side of the heatsink and the bottom wire (GREEN) towards the connection side. Note to cross-check the connections. This is the most important step of building the robot.
@@ -133,7 +131,7 @@ Now, look at the wires of your Left Side. Make a note of which coloured wire is 
 
 After that use, the RED highlighted holes to bolt down the spacers and use the BLUE highlighted holes to add more spacers on top of the existing spacers through the TortoiseBot Chassis Plate like in the picture. Also, use the GREEN highlighted holes to add more spacers which you can tighten with nuts from the bottom.
 
-<img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/holes007.png" width="350"/>  <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4423.JPG" width="500"/>
+<img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/chassis/holes007.png" width="350"/>  <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4423.JPG" width="500"/>
 
 Finally, for stage number 2, connect all of your remaining female-to-female jumper wires (6) to the motor driver's pins,  Make sure to remove the short jumpers from the enable pins. Keep them safe as you may need them later in the future. Also, make sure you don't connect the wires to the inner pins of enables. All the connections will be in one line. And with this, you are done with building the second level of TortoiseBot. 50% done. More 2 to go...
 
@@ -145,11 +143,13 @@ Finally, for stage number 2, connect all of your remaining female-to-female jump
 
 This is the easiest layer to assemble. But before you do this step, you need to make a couple of changes to your SD Card in order to connect your robot to your Wi-Fi. Follow these steps to [configure your SD Card with your Wi-Fi connection](https://raw.githubusercontent.com//rigbetellabs/tortoisebot/wiki/3.-TortoiseBot-Setup#31-configure-your-sd-card-with-your-wi-fi-connection). Once you are done with it, put your SD card back in your Beagle in the orientation shown in the image. And then use the RED highlighted holes to attach the Beagle with a new Chassis Plate using 4 pairs of nuts and bolts.
 
-<img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4427.JPG" width="250"/> <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4434.JPG" width="250"/>  <img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/holes008.png" width="300"/>
+<img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4427.JPG" width="250"/> <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4434.JPG" width="250"/>  <img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/chassis/holes008.png" width="300"/>
 
 Now place this plate on top of your assembled robot and pass the LiDAR Data Wire from the GREEN highlighted hole and all other Jumper Wires ( 7 in total ) from the BLUE highlighted hole. And finally, bolt it all down using the RED highlighted holes.
 
-<img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4435.JPG" width="450"/> <img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/holes009.png" width="350"/>  <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4436.JPG" width="400"/> <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4437.JPG" width="400"/>
+<img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4435.JPG" width="450"/> <img src="https://github.com/rigbetellabs/tortoisebot_docs/master/chassis/imgs//holes009.png" width="350"/> 
+<img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4436.JPG" width="400"/> 
+<img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4437.JPG" width="400"/>
 
 Use the included USB A to USB C cable to connect the Power Distribution Board to the beagle. You can pass the wire through the inside of the spacers in order to keep everything clean and no wires hanging around. Also, connect all 7 jumper wires to Raspberry Pi based upon the connections given on the connection sheet. You can also refer [Raspberry Pi GPIO diagram](https://www.raspberrypi-spy.co.uk/wp-content/uploads/2012/06/Raspberry-Pi-GPIO-Header-with-Photo.png) for checking out the pin numbers.
 
@@ -165,7 +165,7 @@ Also, connect the USB cable that comes with LiDAR and plug the USB A end in one 
 
 Now take 6 Pairs of Nuts and Spacers and attach them through the RED highlighted holes.
 
-<img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/holes010.png" width="350"/>  
+<img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/chassis/holes010.png" width="350"/>  
 <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4445.JPG" width="450"/>
 
 ### 2.2.4 The Final Layer
@@ -177,7 +177,7 @@ Grab the final plate. This is where we will be attaching all our sensors i.e. Li
 
 Now use the RED highlighted holes to assemble the Camera Mount Top to the Chassis Plate at its underside using 2 pairs of nuts and bolts. Refer to the picture for more clarity.
 
-<img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/holes011.png" width="450"/>
+<img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/chassis/holes011.png" width="450"/>
 <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4449.JPG" width="350"/>
 
 Now take the Bottom Camera mount and Raspberry Pi Camera and fix them together using M2 Nut and Bolts. The Small ones. I am using a self-tapping screw here, but along with your kit, you might have got nuts and bolts. So use that to secure the camera in place. The step-like design is to accommodate the ribbon cable connector of the camera. So make sure it is flushed while attaching.
@@ -198,7 +198,7 @@ Take the rest of the assembled Robot, and attach the Raspberry Pi Camera to Rasp
 <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4458.JPG" width="550"/> 
 <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4460.JPG" width="310"/> 
 <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4464.JPG" width="275"/> 
-<img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/holes010.png" width="325"/> 
+<img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/chassis/holes010.png" width="325"/> 
 <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4465.JPG" width="275"/> 
 
 Now take the LiDAR and attach the LiDAR cable to its bottom as shown in the image. Then pass the wire through the small notch around the circle and then pass the LiDAR motor through the big hole and making sure the wire is passed through the notch properly. Take 2 more pairs of nut bolts and use them to secure the LiDAR in place.
