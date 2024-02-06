@@ -217,5 +217,5 @@ Now take the LiDAR and attach the LiDAR cable to its bottom as shown in the imag
 
 # 3. Linorobot Setup
 
-Once you are done with assembling the robot, you could start [Setting up linorobot](ttps://robofoundry.medium.com/building-cheapest-ros2-robot-using-esp32-part-1-hardware-build-af0044de68ce)
-) so that it could connect to your Local Wi-Fi and you could start coding it using ROS
+Once you are done with assembling the robot, you could start [Setting up linorobot](https://robofoundry.medium.com/building-cheapest-ros2-robot-using-esp32-part-1-hardware-build-af0044de68ce)
+ so that it could connect to your Local Wi-Fi and you could start coding it using ROS
