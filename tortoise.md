@@ -17,7 +17,7 @@ Make sure you have everything with you according to this table:
 
 | Components                | Description                               | Quantity |
 | ------------------------- | ----------------------------------------- | -------- |
-| TortoiseBot ORP Chassis Plates | [Custom PCB Chassis](https://github.com/rosmo-robot/open-robotics-platform/tree/main/2wd-TT-motor)      | 4        |
+| TortoiseBot ORP Chassis Plates | [Custom PCB Chassis](https://github.com/rosmo-robot/open-robotics-platform/tree/main/2wd-TT-motor)      | 5       |
 | BO Motor with encoder                  | [60 RPM motor & bracket](https://www.aliexpress.com/item/1005005737025799.html)                | 2        |
 | Motor Driver              | [Zio H-bridge Motor Driver](https://www.smart-prototyping.com/Zio-4-DC-Motor-Controller.html?search=motor)          | 1        |
 | Olimex ESP32-S3              | [For running MicroROS](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware)                | 1        |
@@ -26,9 +26,9 @@ Make sure you have everything with you according to this table:
 | USB powerbank           |[ battery case](https://www.aliexpress.com/item/1005005637445437.html)         | 1        |
 | 3x 18650           |[Batteries](https://s.click.aliexpress.com/e/_DdfBurF)         | 1        |
 | USB > Motor driver cable         |[JST cable](https://www.aliexpress.com/item/1005004192966816.html)         | 1        |
-| Breadboard              | [For mounting ESP32](https://www.aliexpress.com/item/1005001704653648.html)                      | 6        |
-| Qwiic cable             | [For connecting ESP32](https://www.aliexpress.com/item/1005005796723171.html)                      | 6        |
-| 2.54mm screw terminals for breadboard         | [For connecting encoder](https://www.aliexpress.com/item/1005001677869988.html)                      | 6        |
+| Breadboard              | [For mounting ESP32](https://www.aliexpress.com/item/1005001704653648.html)                      | 1      |
+| Qwiic cable             | [For connecting ESP32](https://www.aliexpress.com/item/1005005796723171.html)                      | 1        |
+| 2.54mm screw terminals for breadboard         | [For connecting encoder](https://www.aliexpress.com/item/1005001677869988.html)                      | 4       |
 | Hex Spacers               | [45mm height M3 standoff](https://www.aliexpress.com/item/32539100523.html)          | 18       |
 | M3 10 mm Bolts            | [Bolt pack](https://www.aliexpress.com/item/1005002046118328.html)                                          | 40       |
 | M3 25 mm Bolts            | From Bolt pack                                          | 4        |
@@ -37,7 +37,7 @@ Make sure you have everything with you according to this table:
 | M2 10 mm Bolts            | From Bolt pack                                         | 2        |
 | M2 Nuts                   | From Bolt pack                                        | 2        |
 | Screw Driver              | 2 in 1 Flat and Philips Head Screw Driver with Tester | 1 |
-| Optional LiDAR Kit                 | with LiDAR module, USB Cable and Data Convertor Box | 1 |
+| Optional LiDAR Kit                 |  [LiDAR module, USB Cable and Data Convertor Box](https://www.amazon.co.uk/DTOF-D300-Distance-Obstacle-Education/dp/B0B1V8D36H/ref=sr_1_1?crid=2BSZJ4XVN2S12&keywords=ld19+lidar&qid=1707070916&sprefix=ld19+lidar%2Caps%2C254&sr=8-1) | 1 |
 
 ## 2.2 Assembly
 
