@@ -97,7 +97,7 @@ USB module will give power to Raspberry Pi.
 
 Here we have the Motor Driver and the Battery Charger/ adaptor. Take another Chassis plate and keep the orientation the same as the previous one. Also have the Zio Motor Driver,  and the Data Convertor from LiDAR's box handy. You can disconnect the wire from LiDAR as we will attach it later. 
 
-<img src="https://github.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/plate.png" width="350"/> 
+<img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/chassis/images/plate.png" width="350"/> 
 <img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4406.JPG" width="450"/>
 
 Once you have it all, you can attach Motor Driver and LiDAR Data Converter Module each with 4 pairs of nuts and bolts through the blue and green highlighted holes respectively. Make sure the heatsink of the motor driver is facing the front link in the picture while attaching. Similarly, while attaching the LiDAR data convertor, the wires should be on the top side and the USB ports should be facing you on the backside of the robot. Also, you can fix the USB Power Module Simply with Double-sided tape on the given position.
