@@ -208,7 +208,7 @@ Now take the LiDAR and attach the LiDAR cable to its bottom as shown in the imag
 <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4468.JPG" width="275"/> 
 <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4469.JPG" width="225"/> 
 <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4470.JPG" width="225"/> 
-<img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4471.JPG" width="400"/
+<img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4471.JPG" width="400"/> 
 
 <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4472.JPG" width="400"/> 
 <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4473.JPG" width="400"/> 
