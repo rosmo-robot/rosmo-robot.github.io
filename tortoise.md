@@ -24,8 +24,9 @@ Make sure you have everything with you according to this table:
 | BO Motor Wheel            | [65 mm diameter, 25 mm thickness](https://www.aliexpress.com/item/1005005910261919.html)           | 2        |
 | Caster Wheel              | [bearing](https://www.aliexpress.com/item/1005005883966772.html)
 | SD Card                   | [32 GB Class 10 SD Card](https://www.westerndigital.com/products/memory-cards/sandisk-extreme-uhs-i-microsd?sku=SDSQXAF-032G-GN6MA) | 1 |
-| Raspberry Pi Power Cable  | Standard USB to USB Type C Cable          | 1        |
+| xt60 > barrel  | [barrel connector](https://www.aliexpress.com/item/1005005929917821.html)        | 1        |
 | Li-ion Battery            | [11.1 V 2300 mAh](https://www.aliexpress.com/item/4000598161301.html)                          | 1        |
+| fuse       | [help keep the smoke in](https://www.aliexpress.com/item/33061078323.html)                          | 1        |
 | Battery Charger/ adaptor           | [ 3 Amp DC Adaptor](https://www.aliexpress.com/item/1005003531881703.html)                     | 1        |
 | Battery Splitter           |[Splitter](https://www.aliexpress.com/item/1005001839122224.html)         | 1        |
 | Breadboard              | [For mounting ESP32](https://www.aliexpress.com/item/1005001704653648.html)                      | 6        |
