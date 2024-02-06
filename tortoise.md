@@ -17,7 +17,7 @@ Make sure you have everything with you according to this table:
 
 | Components                | Description                               | Quantity |
 | ------------------------- | ----------------------------------------- | -------- |
-| TortoiseBot ORP Chassis Plate | [Custom PCB Chassis](https://easyeda.com/editor#id=09360a70d3f14fe889b995b0f205c326)      | 4        |
+| TortoiseBot ORP Chassis Plates | [Custom PCB Chassis](https://github.com/rosmo-robot/open-robotics-platform/tree/main/2wd-TT-motor)      | 4        |
 | BO Motor with encoder                  | [60 RPM with socket & mounts](https://www.aliexpress.com/item/1005005737025799.html)                | 2        |
 | Motor Driver              | [Zio H-bridge Motor Driver](https://www.smart-prototyping.com/Zio-4-DC-Motor-Controller.html?search=motor)          | 1        |
 | ESP32-S3              | [For running MicroROS](https://www.aliexpress.com/item/1005005789200684.html)                 | 1        |
