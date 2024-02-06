@@ -147,7 +147,7 @@ This is the easiest layer to assemble. But before you do this step, you need to 
 
 Now place this plate on top of your assembled robot and pass the LiDAR Data Wire from the GREEN highlighted hole and all other Jumper Wires ( 7 in total ) from the BLUE highlighted hole. And finally, bolt it all down using the RED highlighted holes.
 
-<img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4435.JPG" width="450"/> <img src="https://github.com/rigbetellabs/tortoisebot_docs/master/chassis/imgs//holes009.png" width="350"/> 
+<img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4435.JPG" width="450"/> <img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/chassis/images/holes009.png" width="350"/> 
 <img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4436.JPG" width="400"/> 
 <img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4437.JPG" width="400"/>
 
