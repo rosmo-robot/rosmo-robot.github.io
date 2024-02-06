@@ -7,7 +7,7 @@ subtitle: Tortoisebot
 This document is based on the work of [rigbetellabs](https://github.com/rigbetellabs/tortoisebot_docs)
 
 ## 1.1 Checklist
-Let's get started by laying out everything. You may want to cross reference the [Robofoundry article](https://robofoundry.medium.com/building-cheapest-ros2-robot-using-esp32-part-1-hardware-build-af0044de68ce)
+Let's get started by laying out everything. 
 
 Note there are some changes to this version so the photos may not match exactly.
 
@@ -28,7 +28,7 @@ Make sure you have everything with you according to this table:
 | Li-ion Battery            | [11.1 V 2300 mAh](https://www.aliexpress.com/item/4000598161301.html)                          | 1        |
 | Battery Charger/ adaptor           | [ 3 Amp DC Adaptor](https://www.aliexpress.com/item/1005003531881703.html)                     | 1        |
 | Battery Splitter           |[Splitter](https://www.aliexpress.com/item/1005001839122224.html)         | 1        |
-| Jumper Wires              | Female to Female                          | 6        |
+| Breadboard              | [For mounting ESP32](https://www.aliexpress.com/item/1005001704653648.html)                      | 6        |
 | Hex Spacers               | 45mm height M3 Hex Metal Spacers          | 18       |
 | M3 10 mm Bolts            | [Bolt pack](https://www.aliexpress.com/item/1005002046118328.html)                                          | 40       |
 | M3 25 mm Bolts            | From Bolt pack                                          | 4        |
@@ -37,9 +37,6 @@ Make sure you have everything with you according to this table:
 | M2 10 mm Bolts            | From Bolt pack                                         | 2        |
 | M2 Nuts                   | From Bolt pack                                        | 2        |
 | Screw Driver              | 2 in 1 Flat and Philips Head Screw Driver with Tester | 1 |
-| Beaglebone Play AI-64 (option)  | [Beagleboard](https://www.beagleboard.org/boards)                             | 1        |
-| Raspberry Pi Camera (option)      | Rev 1.3, 5 MP Camera                      | 1        |
-| Camera Mount   (option)           | 3D printed top and bottom Camera Mount pieces | 2    |
 | Optional LiDAR Kit                 | with LiDAR module, USB Cable and Data Convertor Box | 1 |
 
 ## 2.2 Assembly
@@ -133,15 +130,15 @@ After that use, the RED highlighted holes to bolt down the spacers and use the B
 
 <img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/chassis/images/holes007.png" width="350"/>  <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4423.JPG" width="500"/>
 
-Finally, for stage number 2, connect all of your remaining female-to-female jumper wires (6) to the motor driver's pins,  Make sure to remove the short jumpers from the enable pins. Keep them safe as you may need them later in the future. Also, make sure you don't connect the wires to the inner pins of enables. All the connections will be in one line. And with this, you are done with building the second level of TortoiseBot. 50% done. More 2 to go...
-
+Finally, for stage number 2, connect Qwiic cable to the motor driver's pins,  
 <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4424.JPG" width="400"/>  
 <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4425.JPG" width="400"/> 
 <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4426.JPG" width="800"/>
 
-### 2.2.3 The Brain Layer - Where Beagle Lives
+### 2.2.3 The Brain Layer - Where ESP32 lives
 
-This is the easiest layer to assemble. But before you do this step, you need to make a couple of changes to your SD Card in order to connect your robot to your Wi-Fi. Follow these steps to [configure your SD Card with your Wi-Fi connection](https://raw.githubusercontent.com//rigbetellabs/tortoisebot/wiki/3.-TortoiseBot-Setup#31-configure-your-sd-card-with-your-wi-fi-connection). Once you are done with it, put your SD card back in your Beagle in the orientation shown in the image. And then use the RED highlighted holes to attach the Beagle with a new Chassis Plate using 4 pairs of nuts and bolts.
+This is the easiest layer to assemble. 
+
 
 <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4427.JPG" width="250"/> <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4434.JPG" width="250"/>  <img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/chassis/images/holes008.png" width="300"/>
 
