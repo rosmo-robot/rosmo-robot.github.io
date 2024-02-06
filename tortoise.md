@@ -92,9 +92,9 @@ With this you have the base of your TortoiseBot ready!
 ### 2.2.2 Electronics Layer
 
 Now let's make the Heart of our Robot. The place where the blood (electrons) are pumped all over our TortoiseBot's body.
-USB module will give power to Raspberry Pi.
+the USB powerbank will give power to the motor driver and ESP32.
 
-Here we have the Motor Driver and the Battery Charger/ adaptor. Take another Chassis plate and keep the orientation the same as the previous one. Also have the Zio Motor Driver,  and the Data Convertor from LiDAR's box handy. You can disconnect the wire from LiDAR as we will attach it later. 
+Here we have the Motor Driver and the powerbank. Take another Chassis plate and keep the orientation the same as the previous one. Also have the Zio Motor Driver,  If your using one also the Data Convertor from LiDAR. You can disconnect the wire from LiDAR as we will attach it later. 
 
 <img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/chassis/images/plate.png" width="350"/> 
 <img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4406.JPG" width="450"/>
@@ -144,16 +144,16 @@ This is the easiest layer to assemble.
 
 <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4427.JPG" width="250"/> <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4434.JPG" width="250"/>  <img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/chassis/images/holes008.png" width="300"/>
 
-Now place this plate on top of your assembled robot and pass the LiDAR Data Wire from the GREEN highlighted hole and all other Jumper Wires ( 7 in total ) from the BLUE highlighted hole. And finally, bolt it all down using the RED highlighted holes.
+Attach the ESP32 to the breadboad. Now place this breadboard on top of your assembled robot and pass the LiDAR Data Wire from the GREEN highlighted hole and all other Jumper Wires ( 7 in total ) from the BLUE highlighted hole. And finally, bolt it all down using the RED highlighted holes.
 
 <img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4435.JPG" width="450"/> <img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/chassis/images/holes009.png" width="350"/> 
 <img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4436.JPG" width="400"/> 
 <img src="https://raw.githubusercontent.com/rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4437.JPG" width="400"/>
 
-Use the included USB A to USB C cable to connect the Power Distribution Board to the beagle. You can pass the wire through the inside of the spacers in order to keep everything clean and no wires hanging around. Also, connect all 7 jumper wires to Raspberry Pi based upon the connections given on the connection sheet. You can also refer [Raspberry Pi GPIO diagram](https://www.raspberrypi-spy.co.uk/wp-content/uploads/2012/06/Raspberry-Pi-GPIO-Header-with-Photo.png) for checking out the pin numbers.
+Use the USB A to USB C cable to connect the powerbank to the ESP32. You can pass the wire through the inside of the spacers in order to keep everything clean and no wires hanging around. 
 
 
-Also, connect the USB cable that comes with LiDAR and plug the USB A end in one of the USB 3.0 Ports of the Raspberry Pi which is highlighted in blue colour and another end to the LiDAR Data Box. If you are facing any problem in building your robot, you could [Join our Discord Community](https://discord.gg/5tBAUJjC) and ask your doubts or questions over there. Our community will be there to help and guide you through the complete process.
+Lidar detail to go here
 
 <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4438.JPG" width="550"/> 
 <img src="https://raw.githubusercontent.com//rigbetellabs/tortoisebot_docs/master/imgs/assembly/IMG_4439.JPG" width="310"/> 
