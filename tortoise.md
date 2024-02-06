@@ -37,7 +37,9 @@ Make sure you have everything with you according to this table:
 | M2 10 mm Bolts            | From Bolt pack                                         | 2        |
 | M2 Nuts                   | From Bolt pack                                        | 2        |
 | Screw Driver              | 2 in 1 Flat and Philips Head Screw Driver with Tester | 1 |
+| Optional IMU                   | [MPU6500](https://www.adafruit.com/product/3886) or [BNO085](https://www.adafruit.com/product/4754)                                     | 2        |
 | Optional LiDAR Kit                 |  [LiDAR module, USB Cable and Data Convertor Box](https://www.amazon.co.uk/DTOF-D300-Distance-Obstacle-Education/dp/B0B1V8D36H/ref=sr_1_1?crid=2BSZJ4XVN2S12&keywords=ld19+lidar&qid=1707070916&sprefix=ld19+lidar%2Caps%2C254&sr=8-1) | 1 |
+
 
 ## 2.2 Assembly
 
