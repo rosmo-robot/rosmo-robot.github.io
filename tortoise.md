@@ -4,7 +4,7 @@ title: Rosmo
 subtitle: Tortoisebot
 ---
 ## Attribution
-This document is based on the work of [rigbetellabs](https://github.com/rigbetellabs/tortoisebot_docs)
+This document is based on the work of [rigbetellabs](https://github.com/rigbetellabs/tortoisebot_docs) it is adapted to use ROS2 on ESP32 and to have [Open Robotic Platform](https://openroboticplatform.com/library) mount holes.
 
 ## 1.1 Checklist
 Let's get started by laying out everything. 
