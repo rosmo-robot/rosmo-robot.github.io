@@ -17,11 +17,13 @@ Developing ideas from the [XRP-X4](https://rosmo-robot.github.io/learn-robotics/
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/signal-2023-12-03-173143.mp4)
 
-<video src="https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/top-off-ziobot.mp4" controls="controls" style="max-width: 730px;">
+<video src="https://github.com/rosmo-robot/zio_demo/assets/400875/2a7d44ed-8b35-4954-bf69-88f5d1b43024" controls="controls" style="max-width: 730px;">
 </video>
 
-<video src="https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/ziobot-moves.mp4" controls="controls" style="max-width: 730px;">
+<video src="https://github.com/rosmo-robot/zio_demo/assets/400875/8500637e-e9ad-4a71-80ed-6da3dec69c0c" controls="controls" style="max-width: 730px;">
 </video>
+
+
 
 
 
