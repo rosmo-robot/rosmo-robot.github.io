@@ -41,8 +41,8 @@ Note a previous iteration of this project used the Pi Pico dimensions, if you wa
 
 ## Optional extras
 - [10mm Cube standoff](https://www.aliexpress.com/item/1005005880192495.html)
-- [TOF Zio](https://www.smart-prototyping.com/Zio/Zio-TOF-Distance-Sensor-RFD77402.html) or [Sparkfun](https://www.sparkfun.com/products/19013)
-- [2x OLED/Eyes - Zio](https://www.adafruit.com/product/5297#description)
+- [TOF [Adafruit](https://www.adafruit.com/product/3317) [Zio](https://www.smart-prototyping.com/Zio/Zio-TOF-Distance-Sensor-RFD77402.html) or [Sparkfun](https://www.sparkfun.com/products/19013)
+- [OLED/Eyes - Zio](https://www.smart-prototyping.com/Zio-Qwiic-OLED-Display-1_5inch-128x128?search=oled)
 - [Line finder - ZIO](https://github.com/ZIOCC/Zio-Line-Finder-Qwiic-4-Transceivers-)
 - [Ultrasonic - ZIO](https://github.com/ZIOCC/Zio-Qwiic-Ultrasonic-Distance-Sensor) 
 - [Servo - Zio](https://github.com/rosmo-robot/Qwiic_Servo_Driver_PCA9685/) for [mini arm](https://www.thingiverse.com/thing:5683010)
