@@ -2,6 +2,7 @@
 layout: page
 title: Ziobot
 ---
+Open hardware ROS2 robot.
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/pen.jpeg)
 
@@ -16,7 +17,7 @@ title: Ziobot
 | Ziobot ORP Chassis Plates | [Custom PCB Chassis](https://easyeda.com/editor#id=144a1a06572f48fca974494ad7a75ebc) get [fabricated at JLPCB](https://passport.jlcpcb.com/#/login?response_type=code&client_id=34495309ae47483ebf71827b5bcb591c&redirect_url=https%3A%2F%2Fjlcpcb.com%2Fquote%2Feda%3FeadLink%3D2%2526uuid%3D14228fde15ff42158045d32f5a947a14&state=RDPqofFaHWeXoV4oRNQJkmP28Dy7Dc1pSmrNnbR2%2BoK0iuZDs8YBVdB29kKNa7AN6AUwv9Yt%2FNXdQpHICFCsDw%3D%3D&from=jlcpcb), or solder your own     | 5       |
 | BO Motor with encoder     | [6v 150RPM $Bringsmart motors](https://s.click.aliexpress.com/e/_DC72ruf) or [$$Pololu](https://www.pololu.com/category/60/micro-metal-gearmotors)              | 2        |
 | Motor Driver              | [Zio H-bridge Motor Driver](https://www.smart-prototyping.com/Zio-4-DC-Motor-Controller.html?search=motor)          | 1        |
-| Olimex ESP32-S3              | [For running MicroROS](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware)                | 1        |
+| Olimex ESP32-S3              | [For running MicroROS](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware)                 | 1        |
 | N20 Wheel            | [N20 rubber wheels](https://s.click.aliexpress.com/e/_DBjDZqx) or [3mm shaft Mecanum wheels A](https://www.aliexpress.com/item/1005003264388589.html),[B](https://www.aliexpress.com/item/32977691906.html) or [C](https://www.thingiverse.com/thing:1358552)          | 4   |
 | Motor mount         | [N20 mounts](https://s.click.aliexpress.com/e/_Dm7LWRD)
 | USB powerbank           |[ battery case](https://www.aliexpress.com/item/1005005637445437.html) [1x or 2x 18650 battery](https://s.click.aliexpress.com/e/_DnPRBEj) or open hardware [18650 battery](https://oshwlab.com/wagiminator/fp6277-power-bank)        | 1        |
@@ -35,7 +36,8 @@ title: Ziobot
 | Optional IMU                   | [MPU6500](https://www.adafruit.com/product/3886) or [BNO085](https://www.adafruit.com/product/4754)                                     | 2        |
 | Optional LiDAR Kit                 |  [LiDAR module, USB Cable and Data Convertor Box](https://www.amazon.co.uk/DTOF-D300-Distance-Obstacle-Education/dp/B0B1V8D36H/ref=sr_1_1?crid=2BSZJ4XVN2S12&keywords=ld19+lidar&qid=1707070916&sprefix=ld19+lidar%2Caps%2C254&sr=8-1) | 1 |
 
-Note a previous iteration of this project used the Pi Pico dimensions, if you wanted that the [PCB is here](https://easyeda.com/editor#id=eeb19402fb144276a4a609fe449ea995|69415ef7785b4ad29ea97032be2ffa39)
+
+Note a previous iteration of this project used the Pi Pico dimensions, if you wanted that the [PCB is here](https://easyeda.com/editor#id=69415ef7785b4ad29ea97032be2ffa39)
 
 ## Optional extras
 - [10mm Cube standoff](https://www.aliexpress.com/item/1005005880192495.html)
