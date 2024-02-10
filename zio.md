@@ -41,7 +41,7 @@ Note a previous iteration of this project used the Pi Pico dimensions, if you wa
 
 ## Optional extras
 - [10mm Cube standoff](https://www.aliexpress.com/item/1005005880192495.html)
-- [TOF [Adafruit](https://www.adafruit.com/product/3317) [Zio](https://www.smart-prototyping.com/Zio/Zio-TOF-Distance-Sensor-RFD77402.html) or [Sparkfun](https://www.sparkfun.com/products/19013)
+- [TOF Adafruit](https://www.adafruit.com/product/3317) [Zio](https://www.smart-prototyping.com/Zio/Zio-TOF-Distance-Sensor-RFD77402.html) or [Sparkfun](https://www.sparkfun.com/products/19013)
 - [OLED/Eyes - Zio](https://www.smart-prototyping.com/Zio-Qwiic-OLED-Display-1_5inch-128x128?search=oled)
 - [Line finder - ZIO](https://github.com/ZIOCC/Zio-Line-Finder-Qwiic-4-Transceivers-)
 - [Ultrasonic - ZIO](https://github.com/ZIOCC/Zio-Qwiic-Ultrasonic-Distance-Sensor) 
@@ -65,8 +65,15 @@ Note a previous iteration of this project used the Pi Pico dimensions, if you wa
 
   ## Configurations
 - 2WD
-- 4WD
-- Mecanum
+
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/2wd-4wd.jpeg)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/2wd.jpeg)
+
+ - 4WD/ Mecanum
+
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/4wd-side.jpeg)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/4wd.jpeg)
+
   
 
 ## Software WIP
