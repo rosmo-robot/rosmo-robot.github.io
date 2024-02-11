@@ -49,6 +49,7 @@ Note a previous iteration of this project used the Pi Pico dimensions, if you wa
 - [LED - Zio](https://www.smart-prototyping.com/Zio-Qwiic-RGB-LED-APA102)
 - [On-board compute. Beagleboard Play](https://www.beagleboard.org/boards/beagleplay)
 - [Camera - Maxlab](https://github.com/maxlab-io/tokay-lite-pcb) or OpenMV
+- [Loader attachment (closed hardware)](https://www.dfrobot.com/product-2006.html)
 
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/zio.jpeg)
