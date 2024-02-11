@@ -92,19 +92,37 @@ apt-get update
 
 sudo apt remove unattended-upgrades
 
-sudo apt install lubuntu-desktop thonny nemo chromium
-
-mkdir install
-
-cd install
+[ssh in](https://dev.to/developertharun/easy-way-to-ssh-into-virtualbox-machine-any-os-just-x-steps-5d9i)
 
 wget https://raw.githubusercontent.com/linorobot/ros2me/master/install
+
+chmod 777 install
 
 ./install
 
 wget https://raw.githubusercontent.com/linorobot/linorobot2/humble/install_linorobot2.bash
 
 bash install_linorobot2.bash
+
+---------------------------
+
+
+
+
+
+
+
+
+
+sudo apt install lubuntu-desktop thonny nemo chromium
+
+mkdir install
+
+cd install
+
+
+
+
 
 install https://code.visualstudio.com/
 
