@@ -100,9 +100,13 @@ chmod 777 install
 
 ./install
 
-wget https://raw.githubusercontent.com/linorobot/linorobot2/humble/install_linorobot2.bash
+source /opt/ros/humble/setup.bash
+    cd /tmp
+    wget https://raw.githubusercontent.com/linorobot/linorobot2/humble/install_linorobot2.bash
+    bash install_linorobot2.bash <robot_type> <laser_sensor> <depth_sensor>
+    source ~/.bashrc
 
-bash install_linorobot2.bash
+
 
 ---------------------------
 
