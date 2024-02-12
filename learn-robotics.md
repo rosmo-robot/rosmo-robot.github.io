@@ -92,7 +92,7 @@ apt-get update
 
 sudo apt remove unattended-upgrades
 
-[ssh in](https://dev.to/developertharun/easy-way-to-ssh-into-virtualbox-machine-any-os-just-x-steps-5d9i)
+[ssh in](https://dev.to/developertharun/easy-way-to-ssh-into-virtualbox-machine-any-os-just-x-steps-5d9i) ssh -p 3022 ros2@127.0.0.1
 
 wget https://raw.githubusercontent.com/linorobot/ros2me/master/install
 
