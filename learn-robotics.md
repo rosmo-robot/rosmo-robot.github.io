@@ -106,6 +106,9 @@ source /opt/ros/humble/setup.bash
     bash install_linorobot2.bash <robot_type> <laser_sensor> <depth_sensor>
     source ~/.bashrc
 
+git clone -b esp32_zio https://github.com/hippo5329/linorobot2_hardware.git
+https://github.com/hippo5329/linorobot2_hardware/wiki    
+
 
 
 ---------------------------
