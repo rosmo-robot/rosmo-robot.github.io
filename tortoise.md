@@ -26,9 +26,9 @@ Make sure you have everything with you according to this table:
 | USB powerbank           |[ battery case](https://www.aliexpress.com/item/1005005637445437.html)         | 1        |
 | 3x 18650           |[Batteries](https://s.click.aliexpress.com/e/_DdfBurF)         | 1        |
 | USB > Motor driver cable         |[JST cable](https://www.aliexpress.com/item/1005004192966816.html)         | 1        |
-| Breadboard              | [For mounting ESP32](https://www.aliexpress.com/item/1005001704653648.html)                      | 1      |
+| PCB or Breadboard              | [Breadboad (if you don't have a PCB to break out ESP32)](https://www.aliexpress.com/item/1005001704653648.html)                      | 1      |
+| 2.54mm screw terminals for breadboard/ PCB         | [For connecting encoder](https://www.aliexpress.com/item/1005001677869988.html)                      | 4       |
 | Qwiic cable             | [For connecting ESP32](https://www.aliexpress.com/item/1005005796723171.html)                      | 1        |
-| 2.54mm screw terminals for breadboard         | [For connecting encoder](https://www.aliexpress.com/item/1005001677869988.html)                      | 4       |
 | Hex Spacers               | [45mm height M3 standoff](https://www.aliexpress.com/item/32539100523.html)          | 18       |
 | M3 10 mm Bolts            | [Bolt pack](https://www.aliexpress.com/item/1005002046118328.html)                                          | 40       |
 | M3 25 mm Bolts            | From Bolt pack                                          | 4        |
