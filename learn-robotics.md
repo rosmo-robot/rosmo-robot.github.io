@@ -117,6 +117,8 @@ https://github.com/hippo5329/linorobot2_hardware/wiki#installation
 
 git clone -b esp32_zio https://github.com/hippo5329/linorobot2_hardware.git
 
+dmesg | grep tty
+
 
 
 
