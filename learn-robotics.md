@@ -92,13 +92,35 @@ apt-get update
 
 sudo apt remove unattended-upgrades
 
-[ssh in](https://dev.to/developertharun/easy-way-to-ssh-into-virtualbox-machine-any-os-just-x-steps-5d9i) ssh -p 3022 ros2@127.0.0.1
+[ssh](https://dev.to/developertharun/easy-way-to-ssh-into-virtualbox-machine-any-os-just-x-steps-5d9i) -p 3022 ros2@127.0.0.1
 
 wget https://raw.githubusercontent.com/linorobot/ros2me/master/install
+
+nano install
 
 chmod 777 install
 
 ./install
+
+source /opt/ros/humble/setup.bash
+
+cd /tmp
+
+wget https://github.com/hippo5329/linorobot2/raw/humble/install_linorobot2.bash
+
+
+bash install_linorobot2.bash 2wd ld19
+
+source ~/.bashrc
+
+https://github.com/hippo5329/linorobot2_hardware/wiki#installation
+
+
+
+
+
+
+
 
 source /opt/ros/humble/setup.bash
     cd /tmp
