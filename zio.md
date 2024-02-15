@@ -52,6 +52,17 @@ Note a previous iteration of this project used the Pi Pico dimensions, if you wa
 - [Camera - Maxlab](https://github.com/maxlab-io/tokay-lite-pcb) or OpenMV
 - [Loader attachment (closed hardware)](https://www.dfrobot.com/product-2006.html) [Grabber attachment](https://www.dfrobot.com/product-2128.html)
 
+  
+
+## Software WIP
+
+### Microblocks
+- [Microblocks](https://discord.gg/TCpHYbcvkS ) Zio driver now supported
+
+  ### Ros2
+- [Linorobot2](https://github.com/hippo5329/linorobot2_hardware/blob/master/config/custom/pico_zio_config.h) Zio driver now supported.
+
+
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/zio.jpeg)
 
@@ -80,13 +91,6 @@ Note a previous iteration of this project used the Pi Pico dimensions, if you wa
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/4wd.jpeg)
 
   
-
-## Software WIP
-- [Platformio C++ demo](https://github.com/rosmo-robot/zio_demo)
-- [Webui remote control](https://github.com/donskytech/platformio-projects/tree/main/esp32-projects/esp32-robot-car-websockets)
-- 4WD [Microblocks](https://discord.gg/TCpHYbcvkS )
-- 4WD/ Mecanum ROS2 [Linorobot2](https://github.com/hippo5329/linorobot2_hardware/blob/master/config/custom/pico_zio_config.h)
-
 ## Alternate MCU
  - [Olimex S3](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware) & Qwiic cable or any other board with a Qwiic and sufficient pins to handle 8x encoder signal. eg 
  - [unexpected maker pro or feather](https://esp32s3.com/)
