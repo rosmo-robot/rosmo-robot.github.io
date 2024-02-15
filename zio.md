@@ -60,7 +60,7 @@ Note a previous iteration of this project used the Pi Pico dimensions, if you wa
 - [Microblocks](https://discord.gg/TCpHYbcvkS ) Zio driver now supported
 
   ### Ros2
-- [Linorobot2](https://github.com/hippo5329/linorobot2_hardware/blob/master/config/custom/pico_zio_config.h) Zio driver now supported.
+- [Linorobot2](https://github.com/hippo5329/linorobot2_hardware/tree/esp32_zio) Zio driver now supported.
 
 
 
