@@ -60,13 +60,13 @@ Note a previous iteration of this project used the Pi Pico dimensions, if you wa
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/microblocks.png)
 
-Provides a block programing interface
+- Provides a block programing interface 
 
-- Can provide an [Android app](http://www.microblocks.fun/wifigamepad/gamepadwifiremote.apk)
+- Can provide an [Android app](http://www.microblocks.fun/wifigamepad/gamepadwifiremote.apk) & [detailed instructions](http://www.microblocks.fun/en/wifi/gamepad)
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/wsgamepad-start.jpg)
 
-Use the [Pilot version](https://microblocks.fun/download) from the bottom of the downloads page
+Use the [Pilot version](https://microblocks.fun/download) from the bottom of the downloads page. Then to quickly get started download this raw [UBP file](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/img/ziopublicwifiremote.ubp) and open it in the Microblocks app.
 
 
 
