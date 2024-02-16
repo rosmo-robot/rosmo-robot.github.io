@@ -56,10 +56,23 @@ Note a previous iteration of this project used the Pi Pico dimensions, if you wa
 
 ## Software WIP
 
-### Microblocks
-- [Microblocks](https://discord.gg/TCpHYbcvkS ) Zio driver now supported
+### Microblocks - Best if you're just starting
 
-  ### Ros2
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/microblocks.png)
+
+Provides a block programing interface
+
+- Can provide an [Android app](http://www.microblocks.fun/wifigamepad/gamepadwifiremote.apk)
+
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/wsgamepad-start.jpg)
+
+Use the [Pilot version](https://microblocks.fun/download) from the bottom of the downloads page
+
+
+
+
+  ### Ros2 - Best if you want to learn ROS2
+  
 - [Linorobot2](https://github.com/hippo5329/linorobot2_hardware/tree/esp32_zio) Zio driver now supported.
 - [Virtual machine for download](https://drive.google.com/file/d/1itU1ZYsxZf3GO9LMmP3NauBo0db6XsqN/view?usp=sharing) Ubuntu 22.04 with ROS2/Linorobot. For use with [Virtualbox](https://www.virtualbox.org/wiki/Downloads) 
 - On a Linux host; sudo adduser $YOUR-USER vboxusers then follow [this guide](https://roboticsbackend.com/control-arduino-from-ubuntu-virtualbox/) reboot your computer
