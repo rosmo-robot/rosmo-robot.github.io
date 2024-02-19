@@ -4,15 +4,12 @@ title: Ziobot
 ---
 Open hardware ROS2 robot.
 
-
+<video src="https://github.com/rosmo-robot/zio_demo/assets/400875/a9e81594-8d13-4ccd-9438-b3a10081cebc" controls="controls" style="max-width: 730px;">
 <video src="https://github.com/rosmo-robot/zio_demo/assets/400875/4d8f3e58-93ae-484d-b4bf-076c96f3a7d6" controls="controls" style="max-width: 730px;">
 
 
-<video src="https://github.com/rosmo-robot/zio_demo/assets/400875/a9e81594-8d13-4ccd-9438-b3a10081cebc" controls="controls" style="max-width: 730px;">
-
-
 ## BOM 
-~£60 ~$75 can be reduced, by using existing powerbank for example
+~£60 ~$75 for 4wd can be reduced, by using existing powerbank for example
 
 | Components                | Description                               | Quantity |
 | ------------------------- | ----------------------------------------- | -------- |
