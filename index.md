@@ -14,25 +14,20 @@ Rosmo is a project to make small openhardware robots for educational and hobbyis
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/pen.jpeg)
 
-## XRP-X4
-A small PCB based robot based on the circuit board from [Experiential robotics Platform.](https://experientialrobotics.org/)
 
-[XRP-X4 documentation](https://rosmo-robot.github.io/learn-robotics/)
+## Open robotics platform
 
- ![Dual driver concept](https://github.com/samuk/IntroToRoboticsV2/blob/main/course/ros2/compute-xrp4.jpeg?raw=true)
-
+[Open Robotics platform PCBs](https://rosmo-robot.github.io/open-robotics-platform/)
 
 ## Smartcar 2.0
 
-A slightly larger and more powerful car
+A slightly larger and more powerful car, project on pause
 
 ![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/45smartcar.jpeg)
 
 [Smartcar 2.0 documentation.](https://rosmo-robot.github.io/aboutme/)
 
-## Open robotics platform
 
-[Open Robotics platform PCBs](https://rosmo-robot.github.io/open-robotics-platform/)
 
 
 
