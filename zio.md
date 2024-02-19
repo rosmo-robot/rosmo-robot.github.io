@@ -4,11 +4,12 @@ title: Ziobot
 ---
 Open hardware ROS2 robot.
 
-![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/claw.jpeg)
+
+<video src="https://github.com/rosmo-robot/zio_demo/assets/400875/4d8f3e58-93ae-484d-b4bf-076c96f3a7d6" controls="controls" style="max-width: 730px;">
 
 
-<video src="https://github.com/rosmo-robot/zio_demo/assets/400875/2a7d44ed-8b35-4954-bf69-88f5d1b43024" controls="controls" style="max-width: 730px;">
-</video>
+<video src="https://github.com/rosmo-robot/zio_demo/assets/400875/a9e81594-8d13-4ccd-9438-b3a10081cebc" controls="controls" style="max-width: 730px;">
+
 
 ## BOM 
 ~£60 ~$75 can be reduced, by using existing powerbank for example
@@ -82,6 +83,7 @@ Current status: I2C comms with Zio driver established and wheel spinning, but no
 - cd /linorobot2_hardware/firmware
 - pio run -e esp32_zio -t upload
 
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/claw.jpeg)
 
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/zio.jpeg)
@@ -122,8 +124,10 @@ Current status: I2C comms with Zio driver established and wheel spinning, but no
 </video>
 
 
-
 ## Older iterations
+
+<video src="https://github.com/rosmo-robot/zio_demo/assets/400875/2a7d44ed-8b35-4954-bf69-88f5d1b43024" controls="controls" style="max-width: 730px;">
+</video>
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/purple.jpeg)
 
