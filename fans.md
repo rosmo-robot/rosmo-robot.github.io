@@ -6,7 +6,7 @@ title: Filters
 # Mini 60mm filter 33mm BLDC fan
 
 ![img](https://raw.githubusercontent.com/samuk/DIY-HEPA/main/pictures/minifan.jpeg)
-![video](https://raw.githubusercontent.com/samuk/DIY-HEPA/main/pictures/fan.mp4)
+[video](https://raw.githubusercontent.com/samuk/DIY-HEPA/main/pictures/fan.mp4)
 
 - [~$10 2 pc 60mm x 85mm Filter](https://www.amazon.ca/PUREBURG-Replacement-Compatible-Enrichment-PEPERSFIL/dp/B09ZTPW2RG)
 - [~$8 9v battery](https://s.click.aliexpress.com/e/_DltS6aD)
