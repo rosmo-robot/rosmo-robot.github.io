@@ -2,7 +2,7 @@
 layout: page
 title: Ziobot
 ---
-Open hardware ROS2 robot. Pre-release version
+Open hardware ROS2 robot.
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/claw.jpeg)
 
@@ -11,6 +11,7 @@ Open hardware ROS2 robot. Pre-release version
 </video>
 
 ## BOM 
+~£60 ~$75 can be reduced, by using existing powerbank for example
 
 | Components                | Description                               | Quantity |
 | ------------------------- | ----------------------------------------- | -------- |
@@ -26,17 +27,16 @@ Open hardware ROS2 robot. Pre-release version
 | Qwiic cable             | [For connecting ESP32](https://www.aliexpress.com/item/1005005796723171.html)                      | 1        |
 | 2.54mm screw terminals      | [For connecting encoder](https://www.aliexpress.com/item/1005001677869988.html)                      | 4       |
 | Hex Spacers               | [45mm height M3 standoff](https://www.aliexpress.com/item/32539100523.html)          | 18       |
-| M3 10 mm Bolts            | [Bolt pack](https://www.aliexpress.com/item/1005002046118328.html)                                          | 40       |
-| M3 25 mm Bolts            | From Bolt pack                                          | 4        |
-| M3 Nuts                   | From Bolt pack                                          | 44       |
+| M2 Bolts            | [400pc Bolt pack](https://www.aliexpress.com/item/1005002046118328.html)                                          | 40       |
+| M3 Bolts            | From Bolt pack                                          | 4        |
+| M3 Nuts                   | From Bolt pack                                          | 25      |
 | M3 Washers                | From Bolt pack                                          | 4        |
-| M2 10 mm Bolts            | From Bolt pack                                         | 2        |
 | M2 Nuts                   | From Bolt pack                                        | 2        |
 | Screw Driver              | 2 in 1 Flat and Philips Head Screw Driver with Tester | 1 |
 | Optional IMU                   | [MPU6500](https://www.adafruit.com/product/3886) or [BNO085](https://www.adafruit.com/product/4754)                                     | 2        |
 | Optional LiDAR Kit                 |  [LiDAR module, USB Cable and Data Convertor Box](https://www.amazon.co.uk/DTOF-D300-Distance-Obstacle-Education/dp/B0B1V8D36H/ref=sr_1_1?crid=2BSZJ4XVN2S12&keywords=ld19+lidar&qid=1707070916&sprefix=ld19+lidar%2Caps%2C254&sr=8-1) | 1 |
 
-Parts excluding PCB and motor driver are available on this [List](https://www.aliexpress.com/p/wishlist/shareReflux.html?groupId=H3r6Ix9p3i%2BvbdGhQpxk4HzpYMoqXal2lBW1GCdCX4A%3D)
+Parts excluding PCB and motor driver are available on this [List](https://www.aliexpress.com/p/wishlist/shareReflux.html?groupId=H3r6Ix9p3i%2BvbdGhQpxk4HzpYMoqXal2lBW1GCdCX4A%3D) ensure you get correct quantities, eg 4x wheels and motors. 
 
 
 Note a previous iteration of this project used the Pi Pico dimensions, if you wanted that the [PCB is here](https://easyeda.com/editor#id=69415ef7785b4ad29ea97032be2ffa39)
