@@ -84,18 +84,18 @@ to cross {
 to down {
   comment 'Code needed.'
   'zio4motor_init' 64
-  'zio4motor_setMotor' 'A' -50
-  'zio4motor_setMotor' 'B' -50
-  'zio4motor_setMotor' 'C' -50
-  'zio4motor_setMotor' 'D' -50
+  'zio4motor_setMotor' 'A' 50
+  'zio4motor_setMotor' 'B' 50
+  'zio4motor_setMotor' 'C' 50
+  'zio4motor_setMotor' 'D' 50
 }
 
 to left {
   'zio4motor_init' 64
-  'zio4motor_setMotor' 'A' 50
-  'zio4motor_setMotor' 'B' -50
-  'zio4motor_setMotor' 'C' -50
-  'zio4motor_setMotor' 'D' 50
+  'zio4motor_setMotor' 'A' -50
+  'zio4motor_setMotor' 'B' 50
+  'zio4motor_setMotor' 'C' 50
+  'zio4motor_setMotor' 'D' -50
 }
 
 to 'process event' {
@@ -135,10 +135,10 @@ fwd, bwd, left, right, square, triangle, circle, cross
 to right {
   comment 'Code needed.'
   'zio4motor_init' 64
-  'zio4motor_setMotor' 'A' -50
-  'zio4motor_setMotor' 'B' 50
-  'zio4motor_setMotor' 'C' 50
-  'zio4motor_setMotor' 'D' -50
+  'zio4motor_setMotor' 'A' 50
+  'zio4motor_setMotor' 'B' -50
+  'zio4motor_setMotor' 'C' -50
+  'zio4motor_setMotor' 'D' 50
 }
 
 to showConnectionInfo {
@@ -157,17 +157,17 @@ to square {
 
 to triangle {
   setServoAngle 14 85
-  waitMillis 1000
+  waitMillis 3000
   setServoAngle 14 -80
 }
 
 to up {
   comment 'Code needed.'
   'zio4motor_init' 64
-  'zio4motor_setMotor' 'A' 50
-  'zio4motor_setMotor' 'B' 50
-  'zio4motor_setMotor' 'C' 50
-  'zio4motor_setMotor' 'D' 50
+  'zio4motor_setMotor' 'A' -50
+  'zio4motor_setMotor' 'B' -50
+  'zio4motor_setMotor' 'C' -50
+  'zio4motor_setMotor' 'D' -50
 }
 
 script 257 50 {
