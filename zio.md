@@ -18,7 +18,7 @@ Open hardware ROS2 robot.
 | Ziobot ORP Chassis Plates | [Custom PCB Chassis](https://easyeda.com/editor#id=144a1a06572f48fca974494ad7a75ebc) get [fabricated at JLPCB](https://passport.jlcpcb.com/#/login?response_type=code&client_id=34495309ae47483ebf71827b5bcb591c&redirect_url=https%3A%2F%2Fjlcpcb.com%2Fquote%2Feda%3FeadLink%3D2%2526uuid%3D14228fde15ff42158045d32f5a947a14&state=RDPqofFaHWeXoV4oRNQJkmP28Dy7Dc1pSmrNnbR2%2BoK0iuZDs8YBVdB29kKNa7AN6AUwv9Yt%2FNXdQpHICFCsDw%3D%3D&from=jlcpcb), or solder your own     | 5       |
 | Motor with encoder     | [6v 150RPM $Bringsmart motors](https://s.click.aliexpress.com/e/_DC72ruf) or [$$Pololu](https://www.pololu.com/category/60/micro-metal-gearmotors)              | 2        |
 | Motor Driver              | [Zio H-bridge Motor Driver](https://www.smart-prototyping.com/Zio-4-DC-Motor-Controller.html?search=motor)          | 1        |
-|  ESP32-S3-C1              | [Olimex open hardware](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware) or [generic version](https://www.aliexpress.com/item/1005006028969168.html)        | 1        |
+|  ESP32-S3-C1              | [Olimex open hardware](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware), [UK](https://thepihut.com/products/olimex-esp32-s3-devkit-lipo-development-board) [US](https://www.digikey.com/en/products/detail/olimex-ltd/ESP32-S3-DEVKIT-LIPO-EA/22157950) or [generic version](https://www.aliexpress.com/item/1005006028969168.html)        | 1        |
 | N20 Wheel            | [N20 rubber wheels](https://s.click.aliexpress.com/e/_DBjDZqx) or [3mm shaft Mecanum wheels A](https://www.aliexpress.com/item/1005003264388589.html),[B](https://www.aliexpress.com/item/32977691906.html) or [C](https://www.thingiverse.com/thing:1358552)          | 4   |
 | Motor mount         | [N20 mounts](https://s.click.aliexpress.com/e/_Dm7LWRD)
 | USB powerbank           |[ battery case](https://www.aliexpress.com/item/1005005637445437.html) [1x or 2x 18650 battery](https://s.click.aliexpress.com/e/_DnPRBEj) or open hardware [18650 battery](https://oshwlab.com/wagiminator/fp6277-power-bank)        | 1        |
@@ -33,8 +33,8 @@ Open hardware ROS2 robot.
 | M3 Washers                | From Bolt pack                                          | 4        |
 | M2 Nuts                   | From Bolt pack                                        | 2        |
 | Screw Driver              | 2 in 1 Flat and Philips Head Screw Driver with Tester | 1 |
-| Optional IMU                   | [MPU6500](https://www.adafruit.com/product/3886) or [BNO085](https://www.adafruit.com/product/4754)                                     | 2        |
-| Optional LiDAR Kit                 |  [LiDAR module, USB Cable and Data Convertor Box](https://www.amazon.co.uk/DTOF-D300-Distance-Obstacle-Education/dp/B0B1V8D36H/ref=sr_1_1?crid=2BSZJ4XVN2S12&keywords=ld19+lidar&qid=1707070916&sprefix=ld19+lidar%2Caps%2C254&sr=8-1) | 1 |
+| Optional IMU | [MPU6500](https://www.adafruit.com/product/3886) or [BNO085](https://www.adafruit.com/product/4754)                                     | 2        |
+| Optional LiDAR Kit for use with ROS2 |  [LiDAR module, USB Cable and Data Convertor Box](https://www.amazon.co.uk/DTOF-D300-Distance-Obstacle-Education/dp/B0B1V8D36H/ref=sr_1_1?crid=2BSZJ4XVN2S12&keywords=ld19+lidar&qid=1707070916&sprefix=ld19+lidar%2Caps%2C254&sr=8-1) | 1 |
 
 Parts excluding PCB and motor driver are available on this [List](https://www.aliexpress.com/p/wishlist/shareReflux.html?groupId=H3r6Ix9p3i%2BvbdGhQpxk4HzpYMoqXal2lBW1GCdCX4A%3D) ensure you get correct quantities, eg 4x wheels and motors. 
 
@@ -42,8 +42,9 @@ Parts excluding PCB and motor driver are available on this [List](https://www.al
 Note a previous iteration of this project used the Pi Pico dimensions, if you wanted that the [PCB is here](https://easyeda.com/editor#id=69415ef7785b4ad29ea97032be2ffa39)
 
 ## Optional extras
+- [Loader attachment (closed hardware)](https://www.dfrobot.com/product-2006.html) [Grabber attachment](https://www.dfrobot.com/product-2128.html)
 - [10mm Cube standoff](https://www.aliexpress.com/item/1005005880192495.html)
-- [TOF Adafruit](https://www.adafruit.com/product/3317) [Zio](https://www.smart-prototyping.com/Zio/Zio-TOF-Distance-Sensor-RFD77402.html) or [Sparkfun](https://www.sparkfun.com/products/19013)
+- [TOF Adafruit](https://www.adafruit.com/product/3317) or [Sparkfun](https://www.sparkfun.com/products/19013)
 - [OLED/Eyes - Zio](https://www.smart-prototyping.com/Zio-Qwiic-OLED-Display-1_5inch-128x128?search=oled)
 - [Line finder - ZIO](https://github.com/ZIOCC/Zio-Line-Finder-Qwiic-4-Transceivers-)
 - [Ultrasonic - ZIO](https://github.com/ZIOCC/Zio-Qwiic-Ultrasonic-Distance-Sensor) 
@@ -51,19 +52,18 @@ Note a previous iteration of this project used the Pi Pico dimensions, if you wa
 - [LED - Zio](https://www.smart-prototyping.com/Zio-Qwiic-RGB-LED-APA102)
 - [On-board compute. Beagleboard Play](https://www.beagleboard.org/boards/beagleplay)
 - [Camera - Maxlab](https://github.com/maxlab-io/tokay-lite-pcb) or OpenMV
-- [Loader attachment (closed hardware)](https://www.dfrobot.com/product-2006.html) [Grabber attachment](https://www.dfrobot.com/product-2128.html)
 
   
 
 ## Microblocks Software - Best if you're just starting
 
-Current status: Mostly working but you have to build in Platformio to get ESP32-S3 support
+Current status: Working but you have to build in Platformio to get ESP32-S3 support
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/microblocks.png)
 
 - Provides a block programing interface 
 
-- Can provide an [Android app](http://www.microblocks.fun/wifigamepad/gamepadwifiremote.apk) & [detailed instructions](http://www.microblocks.fun/en/wifi/gamepad)
+- Provides an [Android app](http://www.microblocks.fun/wifigamepad/gamepadwifiremote.apk)  for remote control & [detailed instructions](http://www.microblocks.fun/en/wifi/gamepad)
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/wsgamepad-start.jpg)
 
