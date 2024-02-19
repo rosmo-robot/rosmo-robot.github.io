@@ -6,41 +6,15 @@ title: XRP-X4
  ![Bot](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/lid.jpeg)
 
 
+# XRP-4 > Ziobot
 
-# XRP-4 BOM (WIP) 100% open hardware
-
-- 1x [XRP Open hardware XRP PCB](http://docs.sparkfun.com/SparkFun_XRP_Controller/hardware_overview/)
-- 1x [Motor & components holder PCB](https://easyeda.com/editor#id=949370ce6c864b5090fffa824b774df2) (Untested WIP just register and one click order from JLPCB if you're feeling brave)
-- 1x [1mm > 1.5mm Pack of cables](https://www.aliexpress.com/item/32800824381.html)
-- 1x [Pack of 1mm 6p JST SH connectors](https://s.click.aliexpress.com/e/_DDIr1m7)
-- 1x [Pack of 1.5mm 6P JST ZH connectors](https://www.aliexpress.com/item/32911443586.html)
-- 4x [6v 150RPM Bringsmart motors](https://s.click.aliexpress.com/e/_DC72ruf)
-- 4x [N20 rubber wheels](https://s.click.aliexpress.com/e/_DBjDZqx) or [3mm shaft Mecanum wheels A](https://www.aliexpress.com/item/1005003264388589.html),[B](https://www.aliexpress.com/item/32977691906.html) or [C](https://www.thingiverse.com/thing:1358552)
-- 4x [N20 mounts](https://s.click.aliexpress.com/e/_Dm7LWRD)
-- 1x pack [18mm female standoffs](https://www.aliexpress.com/item/32539100523.html)
-- 1x pack [M3 x 6mm screw](https://www.aliexpress.com/item/32539100523.html)
-- 1x [Battery cable](https://www.aliexpress.com/item/1005003207076823.html)
-- 1X [9v Battery](https://s.click.aliexpress.com/e/_DdPChq3)
-
-Or alternately a upgraded  or [18650 battery](https://s.click.aliexpress.com/e/_DClgys7) or open hardware [18650 battery](https://oshwlab.com/wagiminator/fp6277-power-bank)
+This work has now moved to [ziobot](https://rosmo-robot.github.io/zio/) the PCB and components found there can be used with the XRP robotics kit.
 
 
 
 ![Bot](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/bat.jpeg)
 
 ![Bot](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/stripped.jpeg)
-
-# Additional components
-
-
-- [On-board compute. Beagleboard Play](https://www.beagleboard.org/boards/beagleplay)
-- [Camera - Maxlab](https://github.com/maxlab-io/tokay-lite-pcb)
-- [TOF - Sparkfun](https://www.sparkfun.com/products/19013)
-- [OLED/Eyes - Adafruit](https://www.adafruit.com/product/5297#description)
-- [Line finder - ZIO](https://github.com/ZIOCC/Zio-Line-Finder-Qwiic-4-Transceivers-)
-- [Ultrasonic - ZIO](https://github.com/ZIOCC/Zio-Qwiic-Ultrasonic-Distance-Sensor) 
-- [Servo - Zio](https://github.com/rosmo-robot/Qwiic_Servo_Driver_PCA9685/) for [mini arm](https://www.thingiverse.com/thing:5683010)
-- [Cube standoff](https://www.aliexpress.com/item/1005005880192495.html)
 
 
 
@@ -64,19 +38,6 @@ Or alternately a upgraded  or [18650 battery](https://s.click.aliexpress.com/e/_
  ![Bot](https://raw.githubusercontent.com/samuk/IntroToRoboticsV2/main/course/ros2/ultrasonic-xrp4.jpeg
 )
 
-# How to run this bot with ROS2 (WIP)
-
-- Install [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
-- Download the [OVA file](https://archive.org/details/ros-2_OVA_0_1) (work in progress) and load it in Virtualbox. ~6Gb ~5hr download.
-- Start the virtual machine (password is ros2)
-- In the linux desktop Open VScode
-- If using a ESP3 configure [platformio.ini](https://github.com/rosmo-robot/linorobot2_hardware_ESP32_Pico/blob/master/firmware/platformio.ini) to match, defaults to PicoW.
-- Build the firmware and flash to your device.
-- Put the device in your robot car & start it
-- Search the network for your-robot-ip using AngryIP
-- Launch ROS2
-- Open [http://your-robot-ip:8888/](https://github.com/dheera/rosboard/pull/100) in a browser and control the car
-- Have fun
 
 # Other PicoW or ESP32 cars
 
@@ -121,49 +82,6 @@ dmesg | grep tty
 
 
 
-
-
-
-
----------------------------
-
-
-
-
-
-
-
-
-
-sudo apt install lubuntu-desktop thonny nemo chromium
-
-mkdir install
-
-cd install
-
-
-
-
-
-install https://code.visualstudio.com/
-
-Install platformio
-
-Install vscode extensions c/c++ & platformio manually "code --install-extension myextension.vsix
-
-git config --system core.longpaths true
-
-git clone https://github.com/rosmo-robot/linorobot2_hardware_ESP32_Pico -b $ROS_DISTRO
-
-boot config.txt
-- camera_auto_detect=0 (will be 1 by default)
-- start_x=1
-
-Angryip?
-
-[Rosboard fork](https://github.com/dheera/rosboard/pull/100)
-
-
 # Objectives
  -  Get at strong foundation in open-source electronics and prototyping
  -  Gain intuition on mechanical prototyping and design with dc brush motors, servo motors and stepper motors
@@ -196,7 +114,7 @@ Derived from work by Mithi [🐳](https://mithi.github.io/deep-blueberry) [☕�
 - [Linorobot2](https://github.com/linorobot/linorobot2#linorobot2)
 - [Visual circuit](https://github.com/JdeRobot/VisualCircuit#visual-circuit)
 
-# Stem robots
+# Legged Stem robots
 
 [Xiaogui](https://twitter.com/wgy421)
 [Fluffbug](https://github.com/deshipu/fluffbug/tree/main/fluffbug-v8.2)
