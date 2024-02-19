@@ -23,7 +23,6 @@ Open hardware ROS2 robot.
 | 3x 18650           |[Batteries](https://s.click.aliexpress.com/e/_DdfBurF)         | 1        |
 | USB > Motor driver cable         |[JST cable](https://www.aliexpress.com/item/1005004192966816.html)         | 1        |
 | Qwiic cable             | [For connecting ESP32](https://www.aliexpress.com/item/1005005796723171.html)                      | 1        |
-| 2.54mm screw terminals      | [For connecting encoder](https://www.aliexpress.com/item/1005001677869988.html)                      | 4       |
 | Hex Spacers               | [45mm height M3 standoff](https://www.aliexpress.com/item/32539100523.html)          | 18       |
 | M2 Bolts & nuts           | [400pc Bolt pack](https://www.aliexpress.com/item/1005002046118328.html)                                          | 40       |
 | M3 Bolts  & nuts          | From Bolt pack                                          | 4        |
@@ -33,6 +32,7 @@ Open hardware ROS2 robot.
 
 Parts excluding PCB and motor driver are available on this [List](https://www.aliexpress.com/p/wishlist/shareReflux.html?groupId=H3r6Ix9p3i%2BvbdGhQpxk4HzpYMoqXal2lBW1GCdCX4A%3D) ensure you get correct quantities, eg 4x wheels and motors. 
 
+If you don't get JLPCB to fabricate the PCB you'll also need some 2.54mm screw terminals or a breadboard [For connecting encoder](https://www.aliexpress.com/item/1005001677869988.html)
 
 Note a previous iteration of this project used the Pi Pico dimensions, if you wanted that the [PCB is here](https://easyeda.com/editor#id=69415ef7785b4ad29ea97032be2ffa39)
 
