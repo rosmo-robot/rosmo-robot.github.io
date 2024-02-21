@@ -5,7 +5,6 @@ title: Rosmo
 Open hardware ROS2 robot.
 
 <video src="https://github.com/rosmo-robot/zio_demo/assets/400875/a9e81594-8d13-4ccd-9438-b3a10081cebc" controls="controls" style="max-width: 730px;"></video>
-<video src="https://github.com/rosmo-robot/zio_demo/assets/400875/4d8f3e58-93ae-484d-b4bf-076c96f3a7d6" controls="controls" style="max-width: 730px;"></video>
 
 
 ## BOM 
@@ -51,6 +50,9 @@ Note a previous iteration of this project used the Pi Pico dimensions, if you wa
   
 
 ## Microblocks Software - Best if you're just starting
+
+<video src="https://github.com/rosmo-robot/zio_demo/assets/400875/4d8f3e58-93ae-484d-b4bf-076c96f3a7d6" controls="controls" style="max-width: 730px;"></video>
+
 
 Current status: Working but you have to build in Platformio to get ESP32-S3 support
 
