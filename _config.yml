@@ -14,8 +14,8 @@ author: Rosmo
 # --- List of links in the navigation bar --- #
 
 navbar-links:
- Ziobot: "zio"
- Subscribe: "subscribe"
+ Build: "build"
+  Subscribe: "subscribe"
   #Resources:
    # - Beautiful Jekyll: "https://beautifuljekyll.com"
     #- Learn markdown: "https://www.markdowntutorial.com/"
