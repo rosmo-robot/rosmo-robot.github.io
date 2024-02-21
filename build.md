@@ -10,6 +10,8 @@ title: Projects
 Introduction
 ============
 
+This documentation is very work in progress. (obviously)
+
 Rosmo Robot aims to level the STEM playing field globally and create a future generation of STEM innovators 
 and technology leaders.
 
@@ -33,7 +35,7 @@ Rosmo can be used for two different applications:
 * A robot to introduce new **Students and hobbyists to ROS2 programming** with
   the same tools, languages, and libraries used in professional and industrial robots.
   To learn about using the Rosmo Robot for ROS2, you should refer
-  to the `standard documentation <https://rosmo-robot.github.io/zio>`_.
+  to the `[ROS2 documentation](https://rosmo-robot.github.io/ros)
 
 Software Tools
 ==============
@@ -44,7 +46,7 @@ especially for the Rosmo Robotand other general-purpose tools that may also work
 Programming Languages
 ---------------------
 
-The Ziobotteam supports two programming languages for the Rosmo Robot
+The Ziobot team currently supports two programming languages for the Rosmo Robot
 
 **Microblocks**
     A graphical programming system based on Scratch to make
