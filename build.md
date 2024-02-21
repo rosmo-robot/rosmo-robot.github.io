@@ -10,7 +10,7 @@ title: Projects
 Introduction
 ============
 
-The Rosmo Robotaims to level the STEM playing field globally and create a future generation of STEM innovators 
+Rosmo Robot aims to level the STEM playing field globally and create a future generation of STEM innovators 
 and technology leaders.
 
 The robot kits are designed to operate autonomously and perform 
