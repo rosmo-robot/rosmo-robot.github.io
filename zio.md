@@ -64,8 +64,6 @@ Current status: Working but you have to build in Platformio to get ESP32-S3 supp
 
 Use the [Pilot version](https://microblocks.fun/download) from the bottom of the downloads page. Then to quickly get started download this raw [UBP file](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/img/ziopublicwifiremote.ubp) and open it in the Microblocks app.
 
-
-
 ## Ros2 - Best if you want to learn ROS2
 
 Current status: I2C comms with Zio driver established and wheel spinning, but not working fully yet 
@@ -78,9 +76,11 @@ Current status: I2C comms with Zio driver established and wheel spinning, but no
 - pio run -e esp32_zio -t upload
 -  ros2 launch linorobot2_bringup bringup.launch.py micro_ros_transport:=udp4 micro_ros_port:=8888
 
+## Micropython
+Doesn't exist yet, might be interesting to do something with [ESP32_Car_Platform](https://github.com/jppang/ESP32_Car_Platform/tree/main/software) & [Motor driver code](https://github.com/ZIOCC/Qwiic_4-Ch_DC_Motor_Controller/tree/master/micropython) at some point
 
-
-
+## Arduino 
+Doesn't exist yet, might be interesting to do something with [Smartcar Shield](https://github.com/platisd/smartcar_shield?tab=readme-ov-file#software) at some point
 
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/claw.jpeg)
