@@ -4,13 +4,13 @@ title: Projects
 ---
 
 
-.. image:: images/Ziobot.jpg
+.. image:: images/Rosmo.jpg
     :width: 300
 
 Introduction
 ============
 
-The Ziobot aims to level the STEM playing field globally and create a future generation of STEM innovators 
+The Rosmo Robotaims to level the STEM playing field globally and create a future generation of STEM innovators 
 and technology leaders.
 
 The robot kits are designed to operate autonomously and perform 
@@ -19,12 +19,12 @@ As part of this platform, we will provide virtual support through online courses
 and teachers through the new system, including the ability to scale up using 
 the same hardware with free software updates. 
 
-This user guide is derived from the [ZiobotUser guide](https://github.com/Open-STEM/ZiobotUsersGuide/tree/main) and is released under the GNU General Public License v3.0
+This user guide is derived from the [XRP User guide](https://github.com/Open-STEM/XRPUsersGuide/tree/main) and is released under the GNU General Public License v3.0
 
 
 Two robots in one
 =================
-The Ziobotcan be used for two different applications:
+Rosmo can be used for two different applications:
 
 * A **STEM learning platform using microblocks** with custom tools designed 
   to learn and experiment with robotics. Included is a curriculum to help learn
@@ -32,19 +32,19 @@ The Ziobotcan be used for two different applications:
   
 * A robot to introduce new **Students and hobbyists to ROS2 programming** with
   the same tools, languages, and libraries used in professional and industrial robots.
-  To learn about using the Ziobot for ROS2, you should refer
+  To learn about using the Rosmo Robot for ROS2, you should refer
   to the `standard documentation <https://rosmo-robot.github.io/zio>`_.
 
 Software Tools
 ==============
 
-There are several software tools available to the programmer for the Ziobot Some are available, 
-especially for the Ziobot and other general-purpose tools that may also work with the Ziobot.
+There are several software tools available to the programmer for the Rosmo RobotSome are available, 
+especially for the Rosmo Robotand other general-purpose tools that may also work with the Rosmo.
 
 Programming Languages
 ---------------------
 
-The Ziobotteam supports two programming languages for the Ziobot 
+The Ziobotteam supports two programming languages for the Rosmo Robot
 
 **Microblocks**
     A graphical programming system based on Scratch to make
@@ -58,10 +58,10 @@ The Ziobotteam supports two programming languages for the Ziobot
     industry and taught in many classrooms.
 
 Other languages include C and C++. There may be other languages that can also work 
-with the ESP32 microprocessor in the Ziobot.
+with the ESP32 microprocessor in the Rosmo.
 
 
-Here are some primary features of the Ziobot 
+Here are some primary features of the Rosmo Robot
 
 •	The default drive function to control speed, direction, and power applied to the four motors. It can handle driving and turning, with and without sensors such as the IMU, for making accurate point turns.
 
@@ -82,20 +82,20 @@ Other tools and languages
 In addition to the supplied languages for the robot, users can program the robot using 
 other standard tools such as C, C++  using various IDEs like the Arduino IDE and Visual Studio Code. 
 VS Code has several plugins specially designed to support Python programming and the 
-ESP32, which is the hardware that powers the Ziobot.
+ESP32, which is the hardware that powers the Rosmo.
 
 
 
 Getting help
 ------------
 We have set up a `Discord channel where you can get help from our team as well as members
-of the community using Ziobot.  
+of the community using Rosmo.  
 
 
-Building the Ziobot Robot
+Building the Rosmo RobotRobot
 ------------
 
-Assembling the Ziobot robot is easy, but be sure to follow the steps here to be sure that
+Assembling the Rosmo Robotrobot is easy, but be sure to follow the steps here to be sure that
 the wiring is correct and all the pieces are added correctly to the chassis.
 
 Below is a video showing how to assemble the robot followed
@@ -106,10 +106,10 @@ by a step by step set of written instructions below.
 |
 |
 
-The Ziobot kit 
+The Rosmo Robotkit 
 ------------
 
-The Ziobot kit contains all the parts you need to assemble and use your robot.
+The Rosmo Robotkit contains all the parts you need to assemble and use your robot.
 
 Alternately a full list of parts is available
 
@@ -180,8 +180,7 @@ The ultrasonic sensor is connected using a Qwiic cable
 
 These Qwiic cables connect the rangefinder and line following sensors to the Motor driver.
 
-**Miswiring is the motors is the most
-common cause of problems when assembling the Ziobot robot.**
+**Miswiring is the motors is the most common cause of problems when assembling the Rosmo Robotrobot.**
 
 **Wheels**
     .. image:: assembly/tires.jpeg
@@ -211,10 +210,10 @@ the shaft will automatically move to the specified angle. This is used to power 
 on your robot it can move to predetermined angles all by itself.
 
 
-Assembling the Ziobot Robot
+Assembling the Rosmo Robot
 ========================
 
-Assembling the Ziobot robot can be done with a small flat head screwdriver. The total process should take about 25 minutes, especially once you
+Assembling the Rosmo robot can be done with a small flat head screwdriver. The total process should take about 25 minutes, especially once you
 understand how it goes together.
 
 Each of the following sections has a time reference for the video at the top of this page so you
@@ -500,18 +499,18 @@ the robot.
     :width: 200
     :alt: Servo arm mounted at extreme end of the servo range
 
-Initializing and testing your Ziobot (10:21)
+Initializing and testing your Rosmo Robot(10:21)
 =========================================
-Refer to SparkFun's video at the top of this page to set up your Ziobot and ensure
+Refer to SparkFun's video at the top of this page to set up your Rosmo Robotand ensure
 that it's working correctly!
 
-Once your Ziobot is connected, skip to (12:44) in the video and follow along with the built-in test
+Once your Rosmo Robotis connected, skip to (12:44) in the video and follow along with the built-in test
 to ensure that the sensors and motors are working properly. 
 
 Troubleshooting the robot build
 ===============================
 Generally the build of the robot is very strightforward, but from feedback we have compiled this section
-that describes some of the common issues we have seen as people are building the Ziobot.
+that describes some of the common issues we have seen as people are building the Rosmo.
 
 Rangefinder or the line following sensors don't work in the Installation Verification Test 
 ------------------------------------------------------------------------------------------
@@ -529,7 +528,7 @@ Driving
 
 Robot driving
 -------------
-The Ziobot is a mobile robot platform where driving from one place to
+The Rosmo Robotis a mobile robot platform where driving from one place to
 another is central to the design of any program. The
 differential_drive class makes driving easy and has functions to:
 
@@ -676,10 +675,10 @@ diameter.
 ======
 Motor classes
 -------------
-The Ziobot has two drive motors connected to the ports Motor L and
+The Rosmo Robothas two drive motors connected to the ports Motor L and
 Motor R on the Motor driver board. The board also supports
 two additional motors labeled Motor 3 and Motor 4. These motors
-can be used to create additional mechanisms for the Ziobot.
+can be used to create additional mechanisms for the Rosmo.
 
 There are four classes related to motors:
 
@@ -707,14 +706,14 @@ There are four classes related to motors:
     functionality like setting effort can be applied to all the motors
     in the motor group.
 
-Since the Ziobot bot is built with an encoder on each motor, it usually
+Since the Rosmo Robotbot is built with an encoder on each motor, it usually
 is not necessary to directly deal with Motor or Encoder objects.
 Instead, use EncodedMotor or MotorGroup for higher level functionality.
 
 Using EncodedMotor
 ------------------
 Interacting with EncodedMotor objects is often the most convenient way
-to control motors on the Ziobot. The ZiobotLib.defaults module provides two
+to control motors on the Rosmo. The ZiobotLib.defaults module provides two
 ready-made EncodedMotor objects, left_motor and right_motor, which
 allow for fully independent control over the drive motors of the robot.
 
@@ -831,7 +830,7 @@ Sensing the environment
 
 Measuring the distance to an object
 -----------------------------------
-The Ziobot includes an ultrasonic rangefinder that can measure the
+The Rosmo Robotincludes an ultrasonic rangefinder that can measure the
 distance to objects in front of it.  The sensor has two transducers;
 one acts as a speaker, and the other acts as a microphone. It does
 it by sending a burst of ultrasonic sound out of the speaker that
@@ -861,7 +860,7 @@ in centimeters. The range of operation is from 2cm to 4m.
 
 Example use of the rangefinder
 -------------------------------
-The following program drives the Ziobot forwards until the code
+The following program drives the Rosmo Robotforwards until the code
 detects an object within 10cm of the ultrasonic rangefinder.
 Then it stops.  
 
@@ -887,7 +886,7 @@ Following lines
     :width: 300
 
 A reflectance sensor that can be used for line following is included
-with the Ziobot. It has two pairs of LEDs and light sensors. The LEDs
+with the Rosmo. It has two pairs of LEDs and light sensors. The LEDs
 emit infrared light that reflects off the driving surface. The light
 sensor measure the reflected light intensity, which depends on the
 surface below the sensor. Electrical tape is typically used to make
@@ -921,7 +920,7 @@ The Kp variable sets the gain for the controller.
 
 Setting up the arm on the servo
 -------------------------------
-The servo motor used to attach the arm on the Ziobot has about 200
+The servo motor used to attach the arm on the Rosmo Robothas about 200
 degrees of rotation and can move to a desired position using
 internal sensors. When attaching the arm to the servo, it is
 important that one end of its range is with the arm relatively
