@@ -4,7 +4,7 @@ title: Projects
 ---
 
 
-.. image:: images/XRP.jpg
+.. image:: images/Ziobot.jpg
     :width: 300
 
 Introduction
@@ -18,6 +18,8 @@ basic tasks. Its simple, tool-free assembly means robots can be built quickly,
 As part of this platform, we will provide virtual support through online courses and will guide students 
 and teachers through the new system, including the ability to scale up using 
 the same hardware with free software updates. 
+
+This user guide is derived from the [ZiobotUser guide](https://github.com/Open-STEM/ZiobotUsersGuide/tree/main) and is released under the GNU General Public License v3.0
 
 
 Two robots in one
@@ -37,7 +39,7 @@ Software Tools
 ==============
 
 There are several software tools available to the programmer for the Ziobot Some are available, 
-especially for the Ziobot and other general-purpose tools that may also work with the XRP.
+especially for the Ziobot and other general-purpose tools that may also work with the Ziobot.
 
 Programming Languages
 ---------------------
@@ -56,7 +58,7 @@ The Ziobotteam supports two programming languages for the Ziobot
     industry and taught in many classrooms.
 
 Other languages include C and C++. There may be other languages that can also work 
-with the ESP32 microprocessor in the XRP.
+with the ESP32 microprocessor in the Ziobot.
 
 
 Here are some primary features of the Ziobot 
@@ -80,7 +82,7 @@ Other tools and languages
 In addition to the supplied languages for the robot, users can program the robot using 
 other standard tools such as C, C++  using various IDEs like the Arduino IDE and Visual Studio Code. 
 VS Code has several plugins specially designed to support Python programming and the 
-ESP32, which is the hardware that powers the XRP.
+ESP32, which is the hardware that powers the Ziobot.
 
 
 
@@ -90,14 +92,13 @@ We have set up a `Discord channel where you can get help from our team as well a
 of the community using Ziobot.  
 
 
-======================
-Building the XRP Robot
-======================
+Building the Ziobot Robot
+------------
 
-Assembling the XRP robot is easy, but be sure to follow the steps here to be sure that
+Assembling the Ziobot robot is easy, but be sure to follow the steps here to be sure that
 the wiring is correct and all the pieces are added correctly to the chassis.
 
-Below is a video provided by SparkFun Electronics showing how to assemble the robot followed
+Below is a video showing how to assemble the robot followed
 by a step by step set of written instructions below.
 
 .. youtube:: JQyKhzlMSms
@@ -105,13 +106,14 @@ by a step by step set of written instructions below.
 |
 |
 
-The XRP kit (0:37)
-==================
+The Ziobot kit 
+------------
 
-The XRP kit contains all the parts you need to assemble and use your robot.
-You only need to supply 4 AA Batteries (preferably rechargeable) and a micro USB
-cable to connect your computer to the robot. The contents of the kit are shown
-to help you identify the parts during assembly.
+The Ziobot kit contains all the parts you need to assemble and use your robot.
+
+Alternately a full list of parts is available
+
+ The contents of the kit are shown to help you identify the parts during assembly.
 
 **Robot chassis**
     .. image:: assembly/chassis.jpeg
@@ -119,21 +121,19 @@ to help you identify the parts during assembly.
         :alt: Robot Chassis that holds all the components
 
 The chassis is a single-piece design that holds all of the robot components. It is designed
-with a rail system that is designed to make adding additional components easy and without
-the need for tools. All the robot parts simply snap onto the chassis to make assembly as
+using the Open Robot Platform that is designed to make adding additional components easy and without
+the need for tools. All the robot parts simply screw onto the chassis to make assembly as
 simple as possible. You can also 3D print your own parts to attach to the chassis.
 
 
-**Robot controller**
-
-    .. image:: assembly/robot_controller.jpeg
-        :width: 200
-        :alt: Robot controller circuit board
-
-The robot controller has the RP2040 microprocessor that reads the sensors inputs, runs
-the Python or Blockly program and drives the actuators (motors). It also has additional
+The robot chassis has headers to mount a ESP32-S3 microprocessor that reads the sensors inputs, runs
+the Python or Microblocks program and drives the actuators (motors). It also has additional
 components to sense accelerations and headings of the robot, and communicate over WiFi
 with your laptop or phone.
+
+**Motor Driver**
+
+The Zio motor driver which gives the robot it's name mounts underneath the chassis
 
 **Electronics parts**
 
@@ -158,34 +158,19 @@ the associated cables.
         :width: 200
         :alt: Battery case for AA cells
 
-The battery case holds 4 AA batteries. You can use any standard alkaline cells but
-rechargeable cells are prefered so that you don't have to keep replacing them as
-they run out of energy.
+The battery case holds 3x 18650 batteries. 
 
-**Ultrasonic rangefinder**
+**Ultrasonic rangefinder(optional)**
     .. image:: assembly/ultrasonic.jpeg
         :width: 200
         :alt: Ultrasonic rangefinder
 
-The ultrasonic wire has two power wires labeled Vcc (red wire) and Gnd (black wire). It also has two
-additional connections that operate the sensor and get range data. These are trig (blue wire) and
-echo (yellow wire). A common mistake when wiring this sensor is to get these two wired incorrectly.
+The ultrasonic sensor is connected using a Qwiic cable
 
-**Rangefinder bracket**
-    .. image:: assembly/rangefinder_bracket.jpeg
-        :width: 200
-        :alt: Ultrasonic sensor bracket
-
-
-**Reflectance sensor**
+**Reflectance sensor (optional)**
     .. image:: assembly/reflectance_sensor.jpeg
         :width: 200
         :alt: Reflelctance sensor for following or finding lines the robot drives over
-
-**Reflectance sensor bracket**
-    .. image:: assembly/reflectance_bracket.jpeg
-        :width: 200
-        :alt: Reflectance sensor bracket
 
 
 **Sensor cables**
@@ -193,28 +178,28 @@ echo (yellow wire). A common mistake when wiring this sensor is to get these two
         :width: 200
         :alt: Cables for rangefinder and line follower sensors
 
-These cables connect the rangefinder and line following sensors to the robot controller.
-**When installing these on the sensor end, you must be careful to install the wires correctly,
-so be sure to carefully read the instructions when attaching them.** Miswiring is the motors is the most
-common cause of problems when assembling the XRP robot.
+These Qwiic cables connect the rangefinder and line following sensors to the Motor driver.
 
-**Tires (o-rings)**
+**Miswiring is the motors is the most
+common cause of problems when assembling the Ziobot robot.**
+
+**Wheels**
     .. image:: assembly/tires.jpeg
         :width: 200
-        :alt: O-rings to be used as tires over the wheels
+        :alt:  tires over the wheels
 
-These o-rings are used to form tires to slip over the plastic wheels to give the robot
+These tires come mounted on plastic wheels to give the robot
 more traction, especially on smooth surfaces.
 
-**Servo motor**
+**Bucket kit(optional)**
     .. image:: assembly/servo.jpeg
         :width: 200
-        :alt: Servo motor for the robot arm
+        :alt: 
 
-**Servo arm**
+**Grabber (optional)**
     .. image:: assembly/servo_arm.jpeg
         :width: 300
-        :alt: Servo arm for lifting objects
+        :alt:Grabber kit for lifting objects
 
 **Servo bracket**
     .. image:: assembly/servo_bracket.jpeg
@@ -225,35 +210,24 @@ The servo is a special type of motor such that when programmed with a position
 the shaft will automatically move to the specified angle. This is used to power the arm
 on your robot it can move to predetermined angles all by itself.
 
-**Casters**
-    .. image:: assembly/casters.jpeg
-        :width: 200
-        :alt: Nylon balls to use as front wheel casters
 
-The casters simply provide a low friction contact point for the front of the robot to 
-allow the two rear drive wheels to easily steer the robot forwards, backwards, or any angle.
-
-Assembling the XRP Robot
+Assembling the Ziobot Robot
 ========================
 
-Assembling the XRP robot can be done without the use of tools with the optional exception of screwing
-the servo arm to the servo. The total process should take about 15 minutes, especially once you
+Assembling the Ziobot robot can be done with a small flat head screwdriver. The total process should take about 25 minutes, especially once you
 understand how it goes together.
 
 Each of the following sections has a time reference for the video at the top of this page so you
 can see how to assemble that part. We suggest that you view the entire video before starting the
 assembly so you can get a good overview of how it goes together.
 
-Inserting the robot controller into the chassis (1:18)
+Inserting ESP32 into the chassis (1:18)
 ------------------------------------------------------
 
 .. note::
  
-    If you look at the connectors on the edge of the controller board labeled "Line", "extra", "qwiik", and "range"
-    have very small pieces of tape covering the openings. Remove the tape from all four connectors before inserting
-    the board in the chassis.
 
-Insert the robot controller circuit board into the chassis as shown in the following picture.
+Insert the ESP32-S3 into the chassis as shown in the following picture.
 Observe the orientation of the board where the battery connector (5) istowards the back of the
 robot as shown. Also the top corners of the board are inserted part way into the corner
 pockets as shown at (1) and (2). The clips in the chassis (3) and (4) are designed to hold the chassis
@@ -288,29 +262,7 @@ The battery pack is installed by:
         :width: 200
         :alt: Battery pack being inserted into the chassis.
 
-Adding the battery cover (2:29)
--------------------------------
 
-The battery cover is very easy to install, just line up the two tabs on the battery cover with the two
-slots in the chassis just outside of the battery case. Then the clip snaps into place as you push the
-battery cover into place.
-
-    .. image:: assembly/battery_cover_pegs.jpeg
-        :width: 200
-        :alt: Battery cover tabs inserting into the chassis slots
-
-    .. image:: assembly/battery_cover_all.jpg
-        :width: 200
-        :alt: Battery cover fully seated waiting to be snapped into place
-
-Inserting the casters into the chassis (3:06)
----------------------------------------------
-Install the white front casters (balls) into the chassis by pushing them into place.
-Once they are installed, the casters should rotate freely.
-
-    .. image:: assembly/installing_casters.jpg
-        :width: 300
-        :alt: Nylon casters inserted into the chassis
 
 Adding the motors
 -----------------
@@ -321,7 +273,7 @@ robots more control and accuracy as your are writing progams to operate it.
 Putting the wheels onto the motors (3:22)
 -----------------------------------------
 
-The wheels press fit onto the white motor shafts. Notice that the motor shafts have two flat sides
+The wheels press fit onto the  motor shafts. Notice that the motor shafts have two flat sides
 that correspond to the flat edges in the center of the wheel. The wheel is pressed over the
 motor shaft so that the center part of the wheel that sticks out is closest to the motor body and
 that the wheel is pressed all the way onto the motor shaft.
@@ -334,28 +286,22 @@ that the wheel is pressed all the way onto the motor shaft.
         :width: 200
         :alt: The wheels mounted on the motors
 
-Putting the tires onto the wheels (3:45)
-----------------------------------------
-
-The tires are rubber o-rings that slip into the groove on the outside rim of the wheel. Simply stretch
-the o-ring to get it to move into place. These will provide friction when the robot is driving,
-especially on smooth surfaces.
-
-    .. image:: assembly/tires_on_wheels.jpeg
-        :width: 300
-        :alt: Photo of one tire installed and one on top of the wheel
 
 Connecting the motor cables to the motors (3:52)
 ------------------------------------------------
 
-The motor cables connect the motor to the robot controller so that it can drive the drive the motors
-and receive data from the motor encoder sensors that provide position and speed information for
+The motor cables connect the motor to the Motor driver so that it can drive the drive the motors
+
+
+
+
+Connecting the encoders to the ESP32-S3 (3:52)
+------------------------------------------------
+
+The ESP32-S3 microcontroller must receive data from the motor encoder sensors that provide position and speed information for
 your robot program. This encoders all the robot to drive at a desired speed and drive for a desired
 distance.
 
-The wider connector on the cable is inserted into the motor. Notice that pins (wires) on the motor
-connector are closer to one side than the other. Similarly, the holes on the connector attached to the
-cable are closer to one side. 
 
     .. image:: assembly/cables_on_motors.jpeg
         :width: 200
@@ -367,7 +313,7 @@ Installing the motors into the chassis (4:09)
 The motors snap into the chassis from the bottom once the wheels and cables are installed. The motor
 is oriented so that the wheel goes through the slot on the chassis as shown in the picture.
 Ideally you should push the wires from the motor through the opening in the chassis to the top of the
-chassis so they can be attached to the robot controller. Then seat the end of the motor opposite the
+chassis so they can be attached to the Motor driver. Then seat the end of the motor opposite the
 cable end, then snap the wheel side of the motor into place. Repeat for both motors.
 
     .. image:: assembly/motor_half_installed.jpg
@@ -378,29 +324,29 @@ cable end, then snap the wheel side of the motor into place. Repeat for both mot
         :width: 200
         :alt: Motor is fully seated in the chassis
 
-Photo of the controller board
+Photo of the Breakout headers
 -----------------------------
 Many of the following instructions require attaching cables to the connectors on the
-controller board on the robot. The printing on the board identifying the purposes of
+Breakout headers on the robot. The printing on the board identifying the purposes of
 each of the connectors and the pins is very small to fit on the small board. To make
 assembly easier, refer to the following photograph of the board if needed.
 
 .. image:: assembly/RobotController.jpg
     :width: 500
 
-Connecting the motor cables to the robot controller (4:43)
+Connecting the motor cables to the Motor driver (4:43)
 ----------------------------------------------------------
 
-The motor cables are connected to the white connectors on the side of the chassis labeled Motor L and Motor R
+The motor cables are connected to the Motor driver labeled Motor 1,2,3 and 4
 for the left and right motor cables.
 
     .. image:: assembly/left_motor_cable.jpeg
         :width: 200
-        :alt: Left motor cable inserted in the controller board
+        :alt: Left motor cable inserted in the Breakout headers
 
     .. image:: assembly/right_motor_cable.jpeg
         :width: 200
-        :alt: Right motor cable inserted in the controller board
+        :alt: Right motor cable inserted in the Breakout headers
 
 Adding the Sensors
 --------------------------------
@@ -473,7 +419,7 @@ Attach the rangefinder to the bracket as shown in the picture below.
 Connecting the cables for the line follower and rangefinder (6:55)
 ------------------------------------------------------------------
 The cables from the reflectance sensor (line follower) and the rangefinder are connected to
-the connectors on the controller board. Notice that there are labels on the board for each
+the connectors on the Breakout headers. Notice that there are labels on the board for each
 of these cables to help you get them into the right connectors. The line follower cable goes
 into the connector labeled Line and the rangefinder goes into the connector labeled Range.
 It is a good idea to put a small loop in the wire that can be tucked into the chassis
@@ -481,11 +427,11 @@ before connecting it to help keep the wiring neat and less likely to get snagged
 
     .. image:: assembly/line_connector.jpeg
         :width: 200
-        :alt: The line follower cable inserted into the connector on the controller board
+        :alt: The line follower cable inserted into the connector on the Breakout headers
     
     .. image:: assembly/range_connector.jpeg
         :width: 200
-        :alt: The range finder cable inserted into the connector on the controller board
+        :alt: The range finder cable inserted into the connector on the Breakout headers
 
 
 Attaching the servo
@@ -515,15 +461,15 @@ The servo snaps into the servo bracket as shown in the photo below.
         :width: 200
         :alt: The servo mounted in the bracket ready to snap onto the robot
 
-Connecting the servo cable to the robot controller (8:06)
+Connecting the servo cable to the Motor driver (8:06)
 ---------------------------------------------------------
-The servo cable is connected to the slot labeled Servo 1 on the robot controller board as shown in the
+The servo cable is connected to the slot labeled Servo 1 on the Motor driver board as shown in the
 photo below. Be sure to connect it as shown with the black wire connecting to the Gnd terminal on the Robot
-Controller board.
+Breakout headers.
 
     .. image:: assembly/servo_cable_installed.jpg
         :width: 200
-        :alt: The servo cable is installed into the controller board. Make sure to connect it as shown.
+        :alt: The servo cable is installed into the Breakout headers. Make sure to connect it as shown.
 
 Inserting the servo horn into the robot arm (8:27)
 --------------------------------------------------
@@ -554,23 +500,23 @@ the robot.
     :width: 200
     :alt: Servo arm mounted at extreme end of the servo range
 
-Initializing and testing your XRP (10:21)
+Initializing and testing your Ziobot (10:21)
 =========================================
-Refer to SparkFun's video at the top of this page to set up your XRP and ensure
+Refer to SparkFun's video at the top of this page to set up your Ziobot and ensure
 that it's working correctly!
 
-Once your XRP is connected, skip to (12:44) in the video and follow along with the built-in test
+Once your Ziobot is connected, skip to (12:44) in the video and follow along with the built-in test
 to ensure that the sensors and motors are working properly. 
 
 Troubleshooting the robot build
 ===============================
 Generally the build of the robot is very strightforward, but from feedback we have compiled this section
-that describes some of the common issues we have seen as people are building the XRP.
+that describes some of the common issues we have seen as people are building the Ziobot.
 
 Rangefinder or the line following sensors don't work in the Installation Verification Test 
 ------------------------------------------------------------------------------------------
 It is very easy to accidentally attach the rangefinder and line following sensor cables to the
-wrong connectors on the controller board. Be sure to verify that the rangefinder is in the
+wrong connectors on the Breakout headers. Be sure to verify that the rangefinder is in the
 connector marked "Range" and the line following sensor is in the connector marked "Line".
 
 If the connectors are reversed and you have to remove them, **be sure to only remove the connector
@@ -583,7 +529,7 @@ Driving
 
 Robot driving
 -------------
-The XRP is a mobile robot platform where driving from one place to
+The Ziobot is a mobile robot platform where driving from one place to
 another is central to the design of any program. The
 differential_drive class makes driving easy and has functions to:
 
@@ -730,10 +676,10 @@ diameter.
 ======
 Motor classes
 -------------
-The XRP has two drive motors connected to the ports Motor L and
-Motor R on the robot controller board. The board also supports
+The Ziobot has two drive motors connected to the ports Motor L and
+Motor R on the Motor driver board. The board also supports
 two additional motors labeled Motor 3 and Motor 4. These motors
-can be used to create additional mechanisms for the XRP.
+can be used to create additional mechanisms for the Ziobot.
 
 There are four classes related to motors:
 
@@ -761,21 +707,21 @@ There are four classes related to motors:
     functionality like setting effort can be applied to all the motors
     in the motor group.
 
-Since the XRP bot is built with an encoder on each motor, it usually
+Since the Ziobot bot is built with an encoder on each motor, it usually
 is not necessary to directly deal with Motor or Encoder objects.
 Instead, use EncodedMotor or MotorGroup for higher level functionality.
 
 Using EncodedMotor
 ------------------
 Interacting with EncodedMotor objects is often the most convenient way
-to control motors on the XRP. The XRPLib.defaults module provides two
+to control motors on the Ziobot. The ZiobotLib.defaults module provides two
 ready-made EncodedMotor objects, left_motor and right_motor, which
 allow for fully independent control over the drive motors of the robot.
 
-There are four motor controllers total on the XRP, numbered 1-4. 
+There are four motor controllers total on the Ziobot, numbered 1-4. 
 1 and 2 are the left and right motors, and 3 and 4 are labeled
-on the robot controller board. left_motor and right_motor objects
-are provided by default in the XRPLib.defaults module. Let's take
+on the Motor driver board. left_motor and right_motor objects
+are provided by default in the ZiobotLib.defaults module. Let's take
 a look at how we can use the left_motor object to set the left motor
 to an effort of 0.75.
 
@@ -792,12 +738,12 @@ Motor 3 to an effort of 0.75.
 .. image:: images/PictureMotor3.png
         :width: 300
 
-In Blockly, constructing motor objects is not necessary. Under the
+In Microblocks, constructing motor objects is not necessary. Under the
 "Individual Motors" category, each block takes in a parameter to specify
 which motor to use. This is all that is needed to set Motor 3 to an effort
-of 0.75 in Blockly:
+of 0.75 in Microblocks:
 
-.. image:: images/PictureMotor3Blockly.png
+.. image:: images/PictureMotor3Microblocks.png
         :width: 300
 
 Methods for EncodedMotor objects
@@ -849,7 +795,7 @@ implements the Controller abstract class.
 
 The example below sets the speed controller with custom PID tunings. For
 more information on controllers, refer to the page under Miscellaneous Topics.
-Currently, there is no support for custom controllers in Blockly.
+Currently, there is no support for custom controllers in Microblocks.
 
 .. image:: images/PicturePID.png
     :width: 300
@@ -885,7 +831,7 @@ Sensing the environment
 
 Measuring the distance to an object
 -----------------------------------
-The XRP includes an ultrasonic rangefinder that can measure the
+The Ziobot includes an ultrasonic rangefinder that can measure the
 distance to objects in front of it.  The sensor has two transducers;
 one acts as a speaker, and the other acts as a microphone. It does
 it by sending a burst of ultrasonic sound out of the speaker that
@@ -907,7 +853,7 @@ robot to detect.
     Interchanging the trigger and echo wires is a common
     error using that part.
 
-XRPLib has a rangefinder class that takes care of the sending and
+ZiobotLib has a rangefinder class that takes care of the sending and
 receiving signals to the sensor. All the program has to do is request
 the distance, and the library returns it. There is a single method
 called distance() that returns the distance to the nearest object
@@ -915,7 +861,7 @@ in centimeters. The range of operation is from 2cm to 4m.
 
 Example use of the rangefinder
 -------------------------------
-The following program drives the XRP forwards until the code
+The following program drives the Ziobot forwards until the code
 detects an object within 10cm of the ultrasonic rangefinder.
 Then it stops.  
 
@@ -941,7 +887,7 @@ Following lines
     :width: 300
 
 A reflectance sensor that can be used for line following is included
-with the XRP. It has two pairs of LEDs and light sensors. The LEDs
+with the Ziobot. It has two pairs of LEDs and light sensors. The LEDs
 emit infrared light that reflects off the driving surface. The light
 sensor measure the reflected light intensity, which depends on the
 surface below the sensor. Electrical tape is typically used to make
@@ -975,7 +921,7 @@ The Kp variable sets the gain for the controller.
 
 Setting up the arm on the servo
 -------------------------------
-The servo motor used to attach the arm on the XRP has about 200
+The servo motor used to attach the arm on the Ziobot has about 200
 degrees of rotation and can move to a desired position using
 internal sensors. When attaching the arm to the servo, it is
 important that one end of its range is with the arm relatively
