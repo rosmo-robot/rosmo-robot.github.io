@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects
+title: Build the ROSMO robot
 ---
 
 
@@ -30,7 +30,7 @@ Rosmo can be used for two different applications:
 
 * A **STEM learning platform using microblocks** with custom tools designed 
   to learn and experiment with robotics. Included is a curriculum to help learn
-  about robotics and programming. This use of the Ziobotis described in this document.
+  about robotics and programming. This use of the Rosmois described in this document.
   
 * A robot to introduce new **Students and hobbyists to ROS2 programming** with
   the same tools, languages, and libraries used in professional and industrial robots.
@@ -46,7 +46,7 @@ especially for the Rosmo Robotand other general-purpose tools that may also work
 Programming Languages
 ---------------------
 
-The Ziobot team currently supports two programming languages for the Rosmo Robot
+The Rosmo team currently supports two programming languages for the Rosmo Robot
 
 **Microblocks**
     A graphical programming system based on Scratch to make
@@ -60,7 +60,7 @@ The Ziobot team currently supports two programming languages for the Rosmo Robot
     industry and taught in many classrooms.
 
 Other languages include C and C++. There may be other languages that can also work 
-with the ESP32 microprocessor in the Rosmo.
+with the ESP32 microprocessor in Rosmo.
 
 
 Here are some primary features of the Rosmo Robot
@@ -267,7 +267,7 @@ The battery pack is installed by:
 
 Adding the motors
 -----------------
-The red hobby motors supplied with the kit include encoders (sensors to measure wheel rotation) to
+The  motors  include encoders (sensors to measure wheel rotation) to
 make it easy to program the robot to drive for specific distances and speeds. This will give your
 robots more control and accuracy as your are writing progams to operate it.
 
@@ -295,7 +295,6 @@ The motor cables connect the motor to the Motor driver so that it can drive the 
 
 
 
-
 Connecting the encoders to the ESP32-S3 (3:52)
 ------------------------------------------------
 
@@ -311,8 +310,8 @@ distance.
 Installing the motors into the chassis (4:09)
 ---------------------------------------------
 
-The motors snap into the chassis from the bottom once the wheels and cables are installed. The motor
-is oriented so that the wheel goes through the slot on the chassis as shown in the picture.
+The motors slide into the chassis from the bottom once the wheels and cables are installed. T
+.
 Ideally you should push the wires from the motor through the opening in the chassis to the top of the
 chassis so they can be attached to the Motor driver. Then seat the end of the motor opposite the
 cable end, then snap the wheel side of the motor into place. Repeat for both motors.
@@ -361,9 +360,20 @@ An ultrasonic (inaudible high frequency) short sound is sent from one of the tra
 is reflected back by nearby objects and received by the second transducer. The time of the
 sound round-trip is measured to determine distance to nearby objects.
 
-Wiring the sensors (5:11)
+Attaching the IMU (optional - recommended) (5:11)
 ------------------------------------------------
-The sensor cable is connected to the line following (reflectance) sensor as shown in the picture
+The IMU board is connected to the  as shown in the picture
+The connectors simply push over the sensor pins. Be sure that they are fully seated as shown in the picture and video
+to ensure a good connection.
+
+    .. image:: assembly/reflectance_wiring.jpeg
+        :width: 200
+        :alt: The cable attached to the reflectance sensor showing the order of the individual wires
+
+
+Wiring the line following sensors (optional) (5:11)
+------------------------------------------------
+The sensor board is connected to the line following (reflectance) sensor as shown in the picture
 below. Be sure to observe the order and color of the wires connecting to the sensor. The connectors
 simply push over the sensor pins. Be sure that they are fully seated as shown in the picture and video
 to ensure a good connection.
@@ -372,7 +382,18 @@ to ensure a good connection.
         :width: 200
         :alt: The cable attached to the reflectance sensor showing the order of the individual wires
 
-The rangefinder is wired by attaching the four wires from the sensor cable to the pins on the rangefinder
+Wiring the ultrasonic distance sensors (optional) (5:11)
+------------------------------------------------
+There are two approaches to distance sensorsis wired by attaching the four wires from the sensor cable to the pins on the rangefinder
+as shown in the picture below. Be sure to connect the wires to the pins in the right order.
+
+    .. image:: assembly/reflectance_with_wires.jpeg
+        :width: 200
+        :alt: Reflectance sensor with wires attach
+        
+Wiring the laser distance sensors (optional) (5:11)
+------------------------------------------------
+There are two approaches to distance sensorsis wired by attaching the four wires from the sensor cable to the pins on the rangefinder
 as shown in the picture below. Be sure to connect the wires to the pins in the right order.
 
     .. image:: assembly/reflectance_with_wires.jpeg
@@ -408,40 +429,15 @@ view of the assembly to see how the sensor is correctly positioned in the bracke
         :width: 200
         :alt: Side view of reflectance sensor showing how it fits into the bracket
 
-Attaching the rangefinder to the bracket (6:38)
------------------------------------------------
-Attach the rangefinder to the bracket as shown in the picture below.
 
-    .. image:: assembly/rangefinder_on_chassis.jpeg
-        :width: 200
-        :alt: Rangefinder mounted on the bracket and the chassis
-
-
-Connecting the cables for the line follower and rangefinder (6:55)
-------------------------------------------------------------------
-The cables from the reflectance sensor (line follower) and the rangefinder are connected to
-the connectors on the Breakout headers. Notice that there are labels on the board for each
-of these cables to help you get them into the right connectors. The line follower cable goes
-into the connector labeled Line and the rangefinder goes into the connector labeled Range.
-It is a good idea to put a small loop in the wire that can be tucked into the chassis
-before connecting it to help keep the wiring neat and less likely to get snagged.
-
-    .. image:: assembly/line_connector.jpeg
-        :width: 200
-        :alt: The line follower cable inserted into the connector on the Breakout headers
-    
-    .. image:: assembly/range_connector.jpeg
-        :width: 200
-        :alt: The range finder cable inserted into the connector on the Breakout headers
-
-
-Attaching the servo
+Attaching the Lifting bucket (Optional)
 -------------------
 The servo is used to rotate the arm to the desired position. It has the advantage
 over a normal motor in that it has sensors inside of it to allow it to move to
 a desired position that you can program.
 
-Attaching the servo bracket to the robot chassis (7:29)
+
+Attaching the grabber claw (Optional) (7:29)
 -----------------------------------------------------------
 The servo is attached to the robot by first inserting the ball end of the bracket into the upper
 slot on the back rail, then snapping the bottom part of the bracket over the bottom part of the rail.
@@ -454,7 +450,7 @@ slot on the back rail, then snapping the bottom part of the bracket over the bot
         :width: 200
         :alt: Pushing the bottom part of the servo bracket over the bottom part of the chassis rail
 
-Mounting the servo to the servo bracket (7:54)
+Attaching the Lidar (Optional and only supported when using ROS2)
 ----------------------------------------------
 The servo snaps into the servo bracket as shown in the photo below.
 
@@ -462,44 +458,7 @@ The servo snaps into the servo bracket as shown in the photo below.
         :width: 200
         :alt: The servo mounted in the bracket ready to snap onto the robot
 
-Connecting the servo cable to the Motor driver (8:06)
----------------------------------------------------------
-The servo cable is connected to the slot labeled Servo 1 on the Motor driver board as shown in the
-photo below. Be sure to connect it as shown with the black wire connecting to the Gnd terminal on the Robot
-Breakout headers.
 
-    .. image:: assembly/servo_cable_installed.jpg
-        :width: 200
-        :alt: The servo cable is installed into the Breakout headers. Make sure to connect it as shown.
-
-Inserting the servo horn into the robot arm (8:27)
---------------------------------------------------
-The servo horn is the small white plastic arm that attaches to the servo by pressing onto the
-servo shaft. There are several servo horns that come with the servo accessories. The one that
-you should use has a hole for attaching to the servo shaft at one end, and a small arm at the
-other end. It gets installed into the slot at the end of the larger black servo arm as shown
-in the picture below and the video. **Be sure to install the servo arm so that it is
-oriented as shown in the photo, in particular make sure that the mounting flange is
-facing the correct direction**. 
-
-    .. image:: assembly/servo_horn_install.jpeg
-        :width: 200
-        :alt: Servo horn (white piece) from the bag of servo accessories is installed in the servo arm
-
-Mounting the arm to the servo (8:45)
-------------------------------------
-The servo arm simply presses onto the white shaft on the servo. The servo shaft only has about 180
-degrees of rotation so it's important to install the arm so that it can move through its full range
-of motion while mounted on the robot. Holding the servo so that it's flat with the wires coming out to
-the left, the arm should be mounted so that it has 180 degrees of motion from front to back. That is
-the arm will never travel below the level of the servo body. You can see how this is done by looking
-at the video at the indicated time stamp. This image shows the servo at the end of its travel
-inside the robot chassis. The other end of the travel will be slightly below horizontal behind
-the robot.
-
-.. image:: assembly/mounted_servo_arm.png
-    :width: 200
-    :alt: Servo arm mounted at extreme end of the servo range
 
 Initializing and testing your Rosmo Robot(10:21)
 =========================================
@@ -715,14 +674,14 @@ Instead, use EncodedMotor or MotorGroup for higher level functionality.
 Using EncodedMotor
 ------------------
 Interacting with EncodedMotor objects is often the most convenient way
-to control motors on the Rosmo. The ZiobotLib.defaults module provides two
+to control motors on the Rosmo. The RosmoLib.defaults module provides two
 ready-made EncodedMotor objects, left_motor and right_motor, which
 allow for fully independent control over the drive motors of the robot.
 
-There are four motor controllers total on the Ziobot, numbered 1-4. 
+There are four motor controllers total on the Rosmo, numbered 1-4. 
 1 and 2 are the left and right motors, and 3 and 4 are labeled
 on the Motor driver board. left_motor and right_motor objects
-are provided by default in the ZiobotLib.defaults module. Let's take
+are provided by default in the RosmoLib.defaults module. Let's take
 a look at how we can use the left_motor object to set the left motor
 to an effort of 0.75.
 
@@ -854,7 +813,7 @@ robot to detect.
     Interchanging the trigger and echo wires is a common
     error using that part.
 
-ZiobotLib has a rangefinder class that takes care of the sending and
+RosmoLib has a rangefinder class that takes care of the sending and
 receiving signals to the sensor. All the program has to do is request
 the distance, and the library returns it. There is a single method
 called distance() that returns the distance to the nearest object
