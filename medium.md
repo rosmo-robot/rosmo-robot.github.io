@@ -2,17 +2,18 @@
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/larger.png)
 
-If you find you want a larger robot than the standard [10x8cm Rosmo platform](https://rosmo-robot.github.io/) this is a larger option that also uses the [Open Robotic Platform](https://openroboticplatform.com/designrules) mount holes. You'll note that the electronics components are shared between this verson and the smaller bot, making an upgrade easy and affordable. You can also re-use the 10x8 mounting plate from the smaller robot to save soldering/fabrication.
+If you find you want a larger robot than the standard [100x80mm Rosmo platform](https://rosmo-robot.github.io/) this is a larger option that also uses the [Open Robotic Platform](https://openroboticplatform.com/designrules) mount holes. You'll note that the electronics components are shared between this verson and the smaller bot, making an upgrade easy and affordable. You can also re-use the 100x80mm ESP32 mounting plate from the smaller robot to save soldering/fabrication cost.
 
 ## BOM 
 
-Status: untested work in progerss
+Status: untested work in progeress
+
 ~£? ~$? for 4wd can be reduced, by using existing powerbank for example
 
 | Components                | Description                               | Quantity |
 | ------------------------- | ----------------------------------------- | -------- |
 |  Rosmo-M Chassis Plates | [Custom PCB Chassis](https://easyeda.com/editor#id=2abad8a02be54c91a6b3277fe66bd864)     | 5       |
-| Motors with encoder, mount & 65mm wheels     | [JGA25](https://www.aliexpress.com/item/1005006213247803.html) [JGB-37](https://www.aliexpress.com/item/1005004242997257.html)         |      |
+| Motors with encoder, mount & 65mm wheels     | [JGA25](https://www.aliexpress.com/item/1005006213247803.html) or [JGB-37](https://www.aliexpress.com/item/1005004242997257.html)         |      |
 | Motor Driver              | [Zio H-bridge Motor Driver](https://www.smart-prototyping.com/Zio-4-DC-Motor-Controller.html?search=motor)          | 1        |
 |  ESP32-S3-C1              | [Olimex open hardware](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware), [UK](https://thepihut.com/products/olimex-esp32-s3-devkit-lipo-development-board) [US](https://www.digikey.com/en/products/detail/olimex-ltd/ESP32-S3-DEVKIT-LIPO-EA/22157950) or [generic version](https://www.aliexpress.com/item/1005006028969168.html)        | 1        |
 | USB powerbank           |[ battery case](https://www.aliexpress.com/item/1005005637445437.html) [1x or 2x 18650 battery](https://s.click.aliexpress.com/e/_DnPRBEj) or open hardware [18650 battery](https://oshwlab.com/wagiminator/fp6277-power-bank)        | 1        |
