@@ -1,4 +1,3 @@
-## Rosmo Medium
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/larger.png)
 
@@ -32,4 +31,4 @@ Status: untested work in progeress
 | Optional (recommended) IMU | [MPU6500](https://www.adafruit.com/product/3886) or [BNO085](https://www.adafruit.com/product/4754)                                     | 2        |
 | Optional LiDAR Kit for use with ROS2 |  [LiDAR module, USB Cable and Data Convertor Box](https://www.amazon.co.uk/DTOF-D300-Distance-Obstacle-Education/dp/B0B1V8D36H/ref=sr_1_1?crid=2BSZJ4XVN2S12&keywords=ld19+lidar&qid=1707070916&sprefix=ld19+lidar%2Caps%2C254&sr=8-1) | 1 |
 
-
+Please refer to the [100x80mm Rosmo platform](https://rosmo-robot.github.io/) page for software information.
