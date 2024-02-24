@@ -1,6 +1,8 @@
 ## Rosmo Medium
 
-If you find you want a larger robot than the standard 10x8cm platform this is a larger option. You'll note that the electronics components are shared between this verson and the smaller bot. You can also re-use the 10x8 mounting plate from the smaller robot to save soldering/fabrication
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/larger.png)
+
+If you find you want a larger robot than the standard [10x8cm Rosmo platform](rosmo-robot.github.io/) this is a larger option that also uses the [Open Robotic Platform](https://openroboticplatform.com/designrules) mount holes. You'll note that the electronics components are shared between this verson and the smaller bot, making an upgrade easy and affordable. You can also re-use the 10x8 mounting plate from the smaller robot to save soldering/fabrication.
 
 ## BOM 
 ~£? ~$? for 4wd can be reduced, by using existing powerbank for example
