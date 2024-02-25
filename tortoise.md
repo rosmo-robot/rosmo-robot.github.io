@@ -17,7 +17,7 @@ Make sure you have everything with you according to this table:
 
 | Components                | Description                               | Quantity |
 | ------------------------- | ----------------------------------------- | -------- |
-| TortoiseBot ORP Chassis Plates | [Custom PCB Chassis](https://github.com/rosmo-robot/open-robotics-platform/tree/main/2wd-TT-motor)      | 5       |
+| TortoiseBot ORP Chassis Plates | [Order](https://passport.jlcpcb.com/#/login?response_type=code&client_id=34495309ae47483ebf71827b5bcb591c&redirect_url=https%3A%2F%2Fjlcpcb.com%2Fquote%2Feda%3FeadLink%3D2%2526uuid%3D1190c3cd28c84d51874a54ab5101a928&state=RDPqofFaHWeXoV4oRNQJkmP28Dy7Dc1pSmrNnbR2%2BoIGCJoq6noE1LH%2Bwc4TZV1Ch7rxfYYzmTzlUYqU%2B3VHIQ%3D%3D&from=jlcpcb) [View/edit](https://github.com/rosmo-robot/open-robotics-platform/tree/main/2wd-TT-motor)      | 5       |
 | BO Motor with encoder                  | [60 RPM motor & bracket](https://www.aliexpress.com/item/1005005737025799.html)                | 2        |
 | Motor Driver              | [Zio H-bridge Motor Driver](https://www.smart-prototyping.com/Zio-4-DC-Motor-Controller.html?search=motor)          | 1        |
 | Olimex ESP32-S3              | [For running MicroROS](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware)                | 1        |
