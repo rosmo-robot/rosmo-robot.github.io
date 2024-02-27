@@ -12,7 +12,7 @@ Open hardware ROS2 robot.
 
 | Components                | Description                               | Quantity |
 | ------------------------- | ----------------------------------------- | -------- |
-|  Rosmo Chassis Plates | [Custom PCB Chassis](https://easyeda.com/editor#id=144a1a06572f48fca974494ad7a75ebc) get [fabricated at JLPCB](https://passport.jlcpcb.com/#/login?response_type=code&client_id=34495309ae47483ebf71827b5bcb591c&redirect_url=https%3A%2F%2Fjlcpcb.com%2Fquote%2Feda%3FeadLink%3D2%2526uuid%3D14228fde15ff42158045d32f5a947a14&state=RDPqofFaHWeXoV4oRNQJkmP28Dy7Dc1pSmrNnbR2%2BoK0iuZDs8YBVdB29kKNa7AN6AUwv9Yt%2FNXdQpHICFCsDw%3D%3D&from=jlcpcb), or solder your own     | 5       |
+|  Rosmo Chassis Plates | [Custom PCB Chassis](https://easyeda.com/editor#id=3403ce9a81fe4425908f98d88d95e6c7) get fabricated at JLPCB, or solder your own     | 5       |
 | Motor with encoder     | [6v 150RPM $Bringsmart motors](https://s.click.aliexpress.com/e/_DC72ruf) or [$$Pololu](https://www.pololu.com/category/60/micro-metal-gearmotors)              | 2        |
 | Motor Driver              | [Zio H-bridge Motor Driver](https://www.smart-prototyping.com/Zio-4-DC-Motor-Controller.html?search=motor)          | 1        |
 |  ESP32-S3-C1              | [Olimex open hardware](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware), [UK](https://thepihut.com/products/olimex-esp32-s3-devkit-lipo-development-board) [US](https://www.digikey.com/en/products/detail/olimex-ltd/ESP32-S3-DEVKIT-LIPO-EA/22157950) or [generic version](https://www.aliexpress.com/item/1005006028969168.html)        | 1        |
