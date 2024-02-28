@@ -2,9 +2,11 @@
 layout: page
 title: Rosmo
 ---
-Open hardware ROS2 robot.
+A Open-hardware micro-robot for ROS2 that can be assembled without soldering, or access to a 3D printer. 
 
-<video src="https://github.com/rosmo-robot/zio_demo/assets/400875/a9e81594-8d13-4ccd-9438-b3a10081cebc" controls="controls" style="max-width: 730px;"></video>
+Built using affordable components available worldwide. For hobbyists, universities, R&D.
+
+![](https://cdn.hackaday.io/images/2988771707607922324.jpeg)
 
 
 ## BOM 
@@ -47,7 +49,8 @@ Note a previous iteration of this project used the Pi Pico dimensions, if you wa
 - [On-board compute. Beagleboard Play](https://www.beagleboard.org/boards/beagleplay)
 - [Camera - Maxlab](https://github.com/maxlab-io/tokay-lite-pcb) or OpenMV
 
-  
+  <video src="https://github.com/rosmo-robot/zio_demo/assets/400875/a9e81594-8d13-4ccd-9438-b3a10081cebc" controls="controls" style="max-width: 730px;"></video>
+
 
 ## Microblocks Software - Best if you're just starting
 
