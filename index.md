@@ -79,7 +79,7 @@ Current status: I2C comms with Zio driver established and wheel spinning, but no
 - cd /linorobot2_hardware/config/custom
 - nano esp32s3_wifi_config.h put in your wifi credentials near the bottom of the file, set the agent IP to the address of your computer
 - cd /linorobot2_hardware/firmware
-- pio run -e esp32_zio -t upload
+- pio run -e esp32s3_wifi -t upload
 -  ros2 launch linorobot2_bringup bringup.launch.py micro_ros_transport:=udp4 micro_ros_port:=8888
 
 Notes on Virtualbox 
