@@ -73,13 +73,17 @@ Use the [Pilot version](https://microblocks.fun/download) from the bottom of the
 
 Current status: I2C comms with Zio driver established and wheel spinning, but not working fully yet 
   
-- [Linorobot2](https://github.com/hippo5329/linorobot2_hardware/tree/esp32_zio) Zio driver now supported.
+- [Linorobot2](https://github.com/hippo5329/linorobot2_hardware/tree/esp32s3-lipo-zio) Zio driver now supported.
 - [Virtual machine for download](https://drive.google.com/file/d/1itU1ZYsxZf3GO9LMmP3NauBo0db6XsqN/view?usp=sharing) Ubuntu 22.04 with ROS2/Linorobot. For use with [Virtualbox](https://www.virtualbox.org/wiki/Downloads) 
 - On a Linux host; sudo adduser $YOUR-USER vboxusers then follow [this guide](https://roboticsbackend.com/control-arduino-from-ubuntu-virtualbox/) reboot your computer
 - nano /linorobot2_hardware/config/custom put in your wifi credentials near the bottom of the file, set the agent IP to the address of your computer
 - cd /linorobot2_hardware/firmware
 - pio run -e esp32_zio -t upload
 -  ros2 launch linorobot2_bringup bringup.launch.py micro_ros_transport:=udp4 micro_ros_port:=8888
+
+Notes on Virtualbox 
+- git clone --branch esp32s3-lipo-zio https://github.com/hippo5329/linorobot2_hardware.git
+
 
 ## Micropython
 Doesn't exist yet, might be interesting to do something with [ESP32_Car_Platform](https://github.com/jppang/ESP32_Car_Platform/tree/main/software) & [Motor driver code](https://github.com/ZIOCC/Qwiic_4-Ch_DC_Motor_Controller/tree/master/micropython) at some point
