@@ -4,8 +4,7 @@ title: Build the ROSMO robot
 ---
 
 
-.. image:: images/Rosmo.jpg
-    :width: 300
+
 
 Introduction
 ============
@@ -100,27 +99,18 @@ Building the Rosmo RobotRobot
 Assembling the Rosmo Robotrobot is easy, but be sure to follow the steps here to be sure that
 the wiring is correct and all the pieces are added correctly to the chassis.
 
-Below is a video showing how to assemble the robot followed
-by a step by step set of written instructions below.
 
-.. youtube:: JQyKhzlMSms
-
-|
-|
-
-The Rosmo Robotkit 
+The Rosmo Robot kit 
 ------------
 
-The Rosmo Robotkit contains all the parts you need to assemble and use your robot.
-
-Alternately a full list of parts is available
+The Rosmo Robotkit contains all the parts you need to assemble and use your robot. Alternately a full list of parts is available
 
  The contents of the kit are shown to help you identify the parts during assembly.
 
-**Robot chassis**
-    .. image:: assembly/chassis.jpeg
-        :width: 200
-        :alt: Robot Chassis that holds all the components
+Robot chassis
+-----------
+  ![]()![image](https://github.com/rosmo-robot/rosmo-robot.github.io/assets/400875/c72a1d5d-9fa8-44ec-a847-4611be88fc95)
+
 
 The chassis is a single-piece design that holds all of the robot components. It is designed
 using the Open Robot Platform that is designed to make adding additional components easy and without
@@ -133,19 +123,16 @@ the Python or Microblocks program and drives the actuators (motors). It also has
 components to sense accelerations and headings of the robot, and communicate over WiFi
 with your laptop or phone.
 
-**Motor Driver**
+Motor Driver
+----------
 
-The Zio motor driver which gives the robot it's name mounts underneath the chassis
+The Zio motor driver  mounts underneath the chassis
 
-**Electronics parts**
+![](https://github.com/rosmo-robot/rosmo-robot.github.io/assets/400875/0eda5bb2-e8f9-429e-b31a-1ec19d3e5942)
 
-    .. image:: assembly/electronics_parts.jpeg
-        :width: 200
-        :alt: Electronics parts background
 
-The components in the bag of elctronics parts will each be shown individually below.
-
-**Motors and cables**
+Motors and cables
+---------
 
     .. image:: assembly/motors_and_cables.jpeg
         :width: 200
