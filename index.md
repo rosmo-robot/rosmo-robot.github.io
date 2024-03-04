@@ -2,26 +2,28 @@
 layout: page
 title: Rosmo
 ---
-A Open-hardware micro-robot for ROS2 that can be assembled without soldering, or access to a 3D printer. 
+A Open-hardware micro-robot for ROS2 that can be assembled without soldering, or access to a 3D printer. Built from modular components on the [Open Robotic Platform rules](https://openroboticplatform.com/designrules)
 
-Built using affordable components available worldwide. For hobbyists, universities, R&D.
+Using affordable components available worldwide. For hobbyists, universities, R&D.
 
 ![](https://cdn.hackaday.io/images/2988771707607922324.jpeg)
 
 
 ## BOM 
-~£60 ~$75 for 4wd can be reduced, by using existing powerbank for example
+~£60 ~$75 for 4wd can be reduced, by using existing powerbank for example.
+
+Parts excluding PCB and motor driver are available on this [List](https://www.aliexpress.com/p/wishlist/shareReflux.html?groupId=H3r6Ix9p3i%2BvbdGhQpxk4HzpYMoqXal2lBW1GCdCX4A%3D) ensure you get correct quantities, eg 4x wheels and motors. 
 
 | Components                | Description                               | Quantity |
 | ------------------------- | ----------------------------------------- | -------- |
 |  Rosmo Chassis Plates | [Custom PCB Chassis](https://easyeda.com/editor#id=3403ce9a81fe4425908f98d88d95e6c7) get fabricated at JLPCB, or solder your own     | 5       |
 | Motor with encoder & wheel     | [6v 150RPM $Bringsmart motors](https://s.click.aliexpress.com/e/_DlXTmi1) or [$$Pololu](https://www.pololu.com/category/60/micro-metal-gearmotors)              | 4       |
 | Motor Driver              | [Zio H-bridge Motor Driver](https://www.smart-prototyping.com/Zio-4-DC-Motor-Controller.html?search=motor)          | 1        |
-|  ESP32-S3-C1              | [Olimex open hardware](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware), [UK](https://thepihut.com/products/olimex-esp32-s3-devkit-lipo-development-board) [US](https://www.digikey.com/en/products/detail/olimex-ltd/ESP32-S3-DEVKIT-LIPO-EA/22157950) or [generic version](https://www.aliexpress.com/item/1005006028969168.html)        | 1        |
+|  ESP32-S3-C1              | [Olimex open hardware](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware), [UK](https://thepihut.com/products/olimex-esp32-s3-devkit-lipo-development-board) [US](https://www.digikey.com/en/products/detail/olimex-ltd/ESP32-S3-DEVKIT-LIPO-EA/22157950) or [generic version](https://s.click.aliexpress.com/e/_DBbQjGl)        | 1        |
 | USB powerbank           |[ battery case](https://www.aliexpress.com/item/1005005637445437.html) [1x or 2x 18650 battery](https://s.click.aliexpress.com/e/_DnPRBEj) or open hardware [18650 battery](https://oshwlab.com/wagiminator/fp6277-power-bank)        | 1        |
 | 3x 18650           |[Batteries](https://s.click.aliexpress.com/e/_DdfBurF)         | 1        |
-| USB > Motor driver cable         |[JST cable](https://www.aliexpress.com/item/1005004192966816.html)         | 1        |
-| Qwiic cable             | [For connecting ESP32](https://www.aliexpress.com/item/1005005796723171.html)                      | 1        |
+| USB > Motor driver cable         |[JST cable](https://s.click.aliexpress.com/e/_DnMT6K5)         | 1        |
+| Qwiic> Qwiic cable             | [For connecting ESP32](https://www.aliexpress.com/item/1005005796723171.html)                      | 1        |
 | Hex Spacers               | [45mm height M3 standoff](https://www.aliexpress.com/item/32539100523.html)          | 1    |
 | M2 Bolts & nuts           | [400pc Bolt pack](https://www.aliexpress.com/item/1005002046118328.html)                                          | 1      |
 | M3 Bolts  & nuts          | From Bolt pack                                          | 10        |
@@ -29,13 +31,12 @@ Built using affordable components available worldwide. For hobbyists, universiti
 | Optional IMU | [MPU6500](https://www.adafruit.com/product/3886) or [BNO085](https://www.adafruit.com/product/4754)                                     | 2        |
 | Optional LiDAR Kit for use with ROS2 |  [LiDAR module, USB Cable and Data Convertor Box](https://www.amazon.co.uk/DTOF-D300-Distance-Obstacle-Education/dp/B0B1V8D36H/ref=sr_1_1?crid=2BSZJ4XVN2S12&keywords=ld19+lidar&qid=1707070916&sprefix=ld19+lidar%2Caps%2C254&sr=8-1) | 1 |
 
-Parts excluding PCB and motor driver are available on this [List](https://www.aliexpress.com/p/wishlist/shareReflux.html?groupId=H3r6Ix9p3i%2BvbdGhQpxk4HzpYMoqXal2lBW1GCdCX4A%3D) ensure you get correct quantities, eg 4x wheels and motors. 
-
 If you don't get JLPCB to fabricate the PCB you'll also need some 2.54mm screw terminals or a breadboard [For connecting encoder](https://www.aliexpress.com/item/1005001677869988.html)
 
 Note a previous iteration of this project used the Pi Pico dimensions, if you wanted that the [PCB is here](https://easyeda.com/editor#id=69415ef7785b4ad29ea97032be2ffa39)
 
 ## Optional extras
+- [MikroBUS, UEXT or Breakout Garden sensors](https://hackaday.io/project/183129-rosmo-robot/log/227959-mikrobus-expansion)
 - [Loader attachment (closed hardware)](https://www.dfrobot.com/product-2006.html) [Grabber attachment](https://www.dfrobot.com/product-2128.html)
 - [10mm Cube standoff](https://www.aliexpress.com/item/1005005880192495.html)
 - [TOF Adafruit](https://www.adafruit.com/product/3317) or [Sparkfun](https://www.sparkfun.com/products/19013)
@@ -45,7 +46,7 @@ Note a previous iteration of this project used the Pi Pico dimensions, if you wa
 - [Servo - Zio](https://github.com/rosmo-robot/Qwiic_Servo_Driver_PCA9685/) for [mini arm](https://www.thingiverse.com/thing:5683010)
 - [LED - Zio](https://www.smart-prototyping.com/Zio-Qwiic-RGB-LED-APA102)
 - [On-board compute. Beagleboard Play](https://www.beagleboard.org/boards/beagleplay)
-- [Camera - Maxlab](https://github.com/maxlab-io/tokay-lite-pcb) or OpenMV
+- [Camera - Maxlab](https://github.com/maxlab-io/tokay-lite-pcb) 
 
   <video src="https://github.com/rosmo-robot/zio_demo/assets/400875/a9e81594-8d13-4ccd-9438-b3a10081cebc" controls="controls" style="max-width: 730px;"></video>
 
