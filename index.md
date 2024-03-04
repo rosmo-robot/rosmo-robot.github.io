@@ -16,7 +16,7 @@ Parts excluding PCB and motor driver are available on this [List](https://www.al
 
 | Components                | Description                               | Quantity |
 | ------------------------- | ----------------------------------------- | -------- |
-|  Rosmo Chassis Plates | [Custom PCB Chassis](https://easyeda.com/editor#id=3403ce9a81fe4425908f98d88d95e6c7) get fabricated at JLPCB, or solder your own     | 5       |
+|  Rosmo Chassis Plates | [Custom PCB Chassis](https://easyeda.com/editor#id=72fd738aaf6c4f808593c5e1d56507f3) get fabricated at JLPCB, or solder your own     | 5       |
 | Motor with encoder & wheel     | [6v 150RPM $Bringsmart motors](https://s.click.aliexpress.com/e/_DlXTmi1) or [$$Pololu](https://www.pololu.com/category/60/micro-metal-gearmotors)              | 4       |
 | Motor Driver              | [Zio H-bridge Motor Driver](https://www.smart-prototyping.com/Zio-4-DC-Motor-Controller.html?search=motor)          | 1        |
 |  ESP32-S3-C1              | [Olimex open hardware](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware), [UK](https://thepihut.com/products/olimex-esp32-s3-devkit-lipo-development-board) [US](https://www.digikey.com/en/products/detail/olimex-ltd/ESP32-S3-DEVKIT-LIPO-EA/22157950) or [generic version](https://s.click.aliexpress.com/e/_DBbQjGl)        | 1        |
