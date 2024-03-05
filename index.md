@@ -23,7 +23,7 @@ Parts excluding PCB and motor driver are available on this [List](https://www.al
 | USB powerbank           |[ battery case](https://www.aliexpress.com/item/1005005637445437.html) [1x or 2x 18650 battery](https://s.click.aliexpress.com/e/_DnPRBEj) or open hardware [18650 battery](https://oshwlab.com/wagiminator/fp6277-power-bank)        | 1        |
 | 3x 18650           |[Batteries](https://s.click.aliexpress.com/e/_DdfBurF)         | 1        |
 | USB > Motor driver cable         |[JST cable](https://s.click.aliexpress.com/e/_DnMT6K5)         | 1        |
-| JST zh 1.5mm, 80mm        |[Double headed 6pin cable](https://s.click.aliexpress.com/e/_DBkMOpT)         | 1        |
+| JST zh 1.5mm, 80mm        |[Double headed 6pin cable](https://s.click.aliexpress.com/e/_DBkMOpT)   [5cm](https://vi.aliexpress.com/item/1005002904877965.html)      | 1        |
 | Qwiic> Qwiic cable             | [For connecting ESP32](https://www.aliexpress.com/item/1005005796723171.html)                      | 1        |
 | Hex Spacers               | [45mm height M3 standoff](https://www.aliexpress.com/item/32539100523.html)          | 1    |
 | M2 Bolts & nuts           | [400pc Bolt pack](https://www.aliexpress.com/item/1005002046118328.html)                                          | 1      |
