@@ -34,33 +34,31 @@ Rosmo can be used for two different applications:
 * A robot to introduce new **Students and hobbyists to ROS2 programming** with
   the same tools, languages, and libraries used in professional and industrial robots.
   To learn about using the Rosmo Robot for ROS2, you should refer
-  to the `[ROS2 documentation](https://rosmo-robot.github.io/ros)
+  to the `[ROS2 documentation](https://rosmo-robot.github.io/)
 
 Software Tools
 ==============
 
-There are several software tools available to the programmer for the Rosmo RobotSome are available, 
-especially for the Rosmo Robotand other general-purpose tools that may also work with the Rosmo.
+There are several software tools available to the programmer for the Rosmo Robot. There are general-purpose tools that will work with the Rosmo.
 
 Programming Languages
 ---------------------
 
-The Rosmo team currently supports two programming languages for the Rosmo Robot
+The Rosmo team currently supports two programming pardigms for the Rosmo Robot
 
 **Microblocks**
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/microblocks.png)
     A graphical programming system based on Scratch to make
     it easier to start coding your robot without the need to
     the syntax of Python or C+. Internally, a Microblocks program is
     translated to a virtualmachine and saved on the robot. 
 
 
-**Python**
-    An object-oriented text-based programming language used throughout
-    industry and taught in many classrooms.
-
-Other languages include C and C++. There may be other languages that can also work 
+**ROS2**
+![](https://miro.medium.com/v2/resize:fit:1400/1*V1VzU9uVHSBT9zl8gpiPag.png)
+    Mainly Python a object-oriented text-based programming language used throughout
+    industry and taught in many classrooms. Other languages include C and C++. There may be other languages that can also work 
 with the ESP32 microprocessor in Rosmo.
-
 
 Here are some primary features of the Rosmo Robot
 
@@ -70,12 +68,11 @@ Here are some primary features of the Rosmo Robot
 
 •	The WiFi connection so that programs can create a web server on the robot that can be used to display a dashboard on a connected phone, tablet, or computer. It is designed for displaying program status, driving controls for teleoperation, and buttons to run user functions when pressed for more control of user robot programs.
 
-•	Utility functions for sensing the user buttons, operating the LED, and robot program timing
+•	Utility functions for sensing, the user buttons, operating the LED, and robot program timing
 
 •	Several small sample programs to help illustrate how the various components are used to operate.
 
-.. image:: images/Picture3.png
-    :width: 300
+
 
 Other tools and languages
 -------------------------
@@ -89,8 +86,8 @@ ESP32, which is the hardware that powers the Rosmo.
 
 Getting help
 ------------
-We have set up a `Discord channel where you can get help from our team as well as members
-of the community using Rosmo.  
+We have set up a `[Discord channel](https://discord.gg/8E9g6neBx4) where you can get help from our team as well as members
+of the community using Rosmo & the Linorobot ROS2 software.
 
 
 Building the Rosmo RobotRobot
