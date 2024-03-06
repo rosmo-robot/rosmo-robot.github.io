@@ -9,7 +9,7 @@ title: Build the ROSMO robot
 Introduction
 ============
 
-This documentation is very work in progress. (obviously)
+This documentation is very work in progress. 
 
 Rosmo Robot aims to level the STEM playing field globally and create a future generation of STEM innovators 
 and technology leaders.
@@ -56,8 +56,8 @@ The Rosmo team currently supports two programming pardigms for the Rosmo Robot
 
 **ROS2**
 ![](https://miro.medium.com/v2/resize:fit:1400/1*V1VzU9uVHSBT9zl8gpiPag.png)
-    Mainly Python a object-oriented text-based programming language used throughout
-    industry and taught in many classrooms. Other languages include C and C++. There may be other languages that can also work 
+    Python a object-oriented text-based programming language used throughout
+    industry and taught in many classrooms. Other languages utilised in ROS2 include C and C++. There are other languages that can also work 
 with the ESP32 microprocessor in Rosmo.
 
 Here are some primary features of the Rosmo Robot
@@ -74,33 +74,23 @@ Here are some primary features of the Rosmo Robot
 
 
 
-Other tools and languages
--------------------------
-
-In addition to the supplied languages for the robot, users can program the robot using 
-other standard tools such as C, C++  using various IDEs like the Arduino IDE and Visual Studio Code. 
-VS Code has several plugins specially designed to support Python programming and the 
-ESP32, which is the hardware that powers the Rosmo.
-
-
-
 Getting help
 ------------
 We have set up a `[Discord channel](https://discord.gg/8E9g6neBx4) where you can get help from our team as well as members
 of the community using Rosmo & the Linorobot ROS2 software.
 
 
-Building the Rosmo RobotRobot
+Building the Rosmo Robot
 ------------
 
-Assembling the Rosmo Robotrobot is easy, but be sure to follow the steps here to be sure that
+Assembling the Rosmo robot is easy, but be sure to follow the steps here to be sure that
 the wiring is correct and all the pieces are added correctly to the chassis.
 
 
 The Rosmo Robot kit 
 ------------
 
-The Rosmo Robotkit contains all the parts you need to assemble and use your robot. Alternately a full list of parts is available
+The Rosmo Robotkit contains all the parts you need to assemble and use a basic version of the robot. Alternately a full list of parts is available on the homepage, including a number of optional parts.
 
  The contents of the kit are shown to help you identify the parts during assembly.
 
@@ -110,13 +100,13 @@ Robot chassis
 
 
 The chassis is a single-piece design that holds all of the robot components. It is designed
-using the Open Robot Platform that is designed to make adding additional components easy and without
+using the Open Robot Platform hole spacing that is designed to make adding additional components easy and without
 the need for tools. All the robot parts simply screw onto the chassis to make assembly as
 simple as possible. You can also 3D print your own parts to attach to the chassis.
 
 
 The robot chassis has headers to mount a ESP32-S3 microprocessor that reads the sensors inputs, runs
-the Python or Microblocks program and drives the actuators (motors). It also has additional
+the Python or Microblocks program and drives the actuators (motors). You can add additional
 components to sense accelerations and headings of the robot, and communicate over WiFi
 with your laptop or phone.
 
@@ -138,20 +128,23 @@ Motors and cables
 The motors are used to drive the robot and are attached to motor controller through
 the associated cables.
 
-**Battery case**
+Battery case
+----------
 
     .. image:: assembly/battery_case.jpeg
         :width: 200
-        :alt: Battery case for AA cells
+        :alt: Battery case 
 
-The battery case holds 3x 18650 batteries. 
+The battery case holds 1x 18650 batteries. The robot supports up to three 18650 batteries per 'stack'
 
 **Ultrasonic rangefinder(optional)**
+
+A) 
     .. image:: assembly/ultrasonic.jpeg
         :width: 200
         :alt: Ultrasonic rangefinder
 
-The ultrasonic sensor is connected using a Qwiic cable
+B) The Zio ultrasonic sensor is connected using a Qwiic cable
 
 **Reflectance sensor (optional)**
     .. image:: assembly/reflectance_sensor.jpeg
@@ -166,7 +159,7 @@ The ultrasonic sensor is connected using a Qwiic cable
 
 These Qwiic cables connect the rangefinder and line following sensors to the Motor driver.
 
-**Miswiring is the motors is the most common cause of problems when assembling the Rosmo Robotrobot.**
+**Miswiring is the motors is the most common cause of problems when assembling the Rosmo robot.**
 
 **Wheels**
     .. image:: assembly/tires.jpeg
@@ -186,10 +179,6 @@ more traction, especially on smooth surfaces.
         :width: 300
         :alt:Grabber kit for lifting objects
 
-**Servo bracket**
-    .. image:: assembly/servo_bracket.jpeg
-        :width: 200
-        :alt: Servo bracket for mounting servo on back of robot
 
 The servo is a special type of motor such that when programmed with a position
 the shaft will automatically move to the specified angle. This is used to power the arm
