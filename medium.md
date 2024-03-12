@@ -21,6 +21,7 @@ Status: untested work in progeress
 | 3S Lipo battery  | [~$21 2200Mah](https://www.aliexpress.com/item/1005001419560964.html) or [~$38 4000Mah](https://www.aliexpress.com/item/1005004335619259.html)  | 1        |
 | 3S charger         |[USB charger](https://www.aliexpress.com/item/1005003240894835.html)         | 1        |
 | XT60 > Barrel cable       |[power cable](https://s.click.aliexpress.com/e/_DDVjyhr)         | 1        |
+| XT60 > switch       |[power cable](https://www.aliexpress.us/item/3256805372640387.html)         | 1        |
 | 6pin 1.5mm(ZH) > 2mm encoder cable       |[100mm cable](https://vi.aliexpress.com/item/1005006309859339.html)         | 1        |
 |  Barrel> Screw terminal      |[barrel adaptor](https://s.click.aliexpress.com/e/_DDVjyhr)         | 1        |
 | Battery> Motor driver cable         |[JST cable](https://s.click.aliexpress.com/e/_DDYfp6H)         | 2       |
