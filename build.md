@@ -886,6 +886,12 @@ end of its motion to the other.
 
 .. image:: images/Picture23.png
     :width: 300
+
+Further reading
+----------------------------
+
+[60019 at Imperial](https://www.imperial.ac.uk/computing/current-students/courses/60019/) has some [Notes online](http://www.doc.ic.ac.uk/~ajd/Robotics/index.html)
+    
     
 When the servo is controlled from the program, it is held in the
 position it was last set to. To free it, that is to allow it to be
