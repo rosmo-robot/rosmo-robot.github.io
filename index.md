@@ -20,6 +20,8 @@ Using affordable components available worldwide. For hobbyists, universities, R&
 | ~$7 1x 2A powerbank        |[microUSB](https://www.aliexpress.us/item/3256806431500622.html)        | 1        |
 | ~$5 Hex Spacers               | [45mm height M3 standoff](https://www.aliexpress.com/item/32539100523.html)          | 1    |
 
+List of these items on [Aliexpress](https://www.aliexpress.com/p/wishlist/shareReflux.html?groupId=H3r6Ix9p3i%2BvbdGhQpxk4NMRKh%2F%2Bgiup4z2X0odX6os%3D)
+
 
 ## Optional extras
 
