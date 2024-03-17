@@ -12,20 +12,19 @@ Using affordable components available worldwide. For hobbyists, universities, R&
 ## BOM 
 ~$60 for base 4wd can be reduced, by using existing powerbank for example. 
 
-| Components latest 0.7 version              | Description                               | Quantity |
+| Components latest v0.7 version              | Description                               | Quantity |
 | ------------------------- | ----------------------------------------- | -------- |
-| ~$10 0.7 Rosmo Chassis with on-board motor driver | [Custom PCB Chassis](https://easyeda.com/editor#id=4b854610be354e0b816b3ad06619bac3) for sale soon     | 5       |
+| ~$10  Rosmo Chassis v0.7 with on-board motor driver | [Custom PCB Chassis](https://easyeda.com/editor#id=4b854610be354e0b816b3ad06619bac3) for sale soon     | 5       |
 | ~$32 Motor with encoder & wheel     | [6v 150RPM $Bringsmart motors](https://s.click.aliexpress.com/e/_DErxgYv)            | 4   |
 | ~$6 ESP32-S3-C1              | [Olimex open hardware](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware), [UK](https://thepihut.com/products/olimex-esp32-s3-devkit-lipo-development-board) [US](https://www.digikey.com/en/products/detail/olimex-ltd/ESP32-S3-DEVKIT-LIPO-EA/22157950) or [generic version](https://s.click.aliexpress.com/e/_DBbQjGl)        | 1        |
 | ~$7 1x 2A powerbank        |[microUSB](https://www.aliexpress.us/item/3256806431500622.html        | 1        |
 | ~$5 Hex Spacers               | [45mm height M3 standoff](https://www.aliexpress.com/item/32539100523.html)          | 1    |
 
 
-
 ## Optional extras
 
-- [MikroBUS, UEXT or Breakout Garden sensors](https://hackaday.io/project/183129-rosmo-robot/log/227959-mikrobus-expansion)
 - [Loader attachment (closed hardware)](https://www.dfrobot.com/product-2006.html) [Grabber attachment](https://www.dfrobot.com/product-2128.html)
+- [MikroBUS, UEXT or Breakout Garden sensors](https://hackaday.io/project/183129-rosmo-robot/log/227959-mikrobus-expansion)
 - [10mm Cube standoff](https://www.aliexpress.com/item/1005005880192495.html)
 - [TOF Adafruit](https://www.adafruit.com/product/3317) or [Sparkfun](https://www.sparkfun.com/products/19013)
 - [OLED/Eyes - Zio](https://www.smart-prototyping.com/Zio-Qwiic-OLED-Display-1_5inch-128x128?search=oled)
