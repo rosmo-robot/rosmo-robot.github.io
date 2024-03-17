@@ -17,7 +17,7 @@ Using affordable components available worldwide. For hobbyists, universities, R&
 | ~$10  Rosmo Chassis v0.7 with on-board motor driver | [Custom PCB Chassis](https://easyeda.com/editor#id=4b854610be354e0b816b3ad06619bac3) for sale soon     | 5       |
 | ~$32 Motor with encoder & wheel     | [6v 150RPM $Bringsmart motors](https://s.click.aliexpress.com/e/_DErxgYv)            | 4   |
 | ~$6 ESP32-S3-C1              | [Olimex open hardware](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware), [UK](https://thepihut.com/products/olimex-esp32-s3-devkit-lipo-development-board) [US](https://www.digikey.com/en/products/detail/olimex-ltd/ESP32-S3-DEVKIT-LIPO-EA/22157950) or [generic version](https://s.click.aliexpress.com/e/_DBbQjGl)        | 1        |
-| ~$7 1x 2A powerbank        |[microUSB](https://www.aliexpress.us/item/3256806431500622.html        | 1        |
+| ~$7 1x 2A powerbank        |[microUSB](https://www.aliexpress.us/item/3256806431500622.html)        | 1        |
 | ~$5 Hex Spacers               | [45mm height M3 standoff](https://www.aliexpress.com/item/32539100523.html)          | 1    |
 
 
@@ -36,25 +36,6 @@ Using affordable components available worldwide. For hobbyists, universities, R&
 - [Batteries](https://s.click.aliexpress.com/e/_DdfBurF)
 
 
-| Components for older v0.6 version               | Description                               | Quantity |
-| ------------------------- | ----------------------------------------- | -------- |
-| ~$8 Rosmo Chassis  | [Custom PCB Chassis](https://easyeda.com/editor#id=72fd738aaf6c4f808593c5e1d56507f3) get fabricated at JLPCB, or solder your own     | 5       |
-| Motor Driver (not required with 0.7 version)             | [Zio H-bridge Motor Driver](https://www.smart-prototyping.com/Zio-4-DC-Motor-Controller.html?search=motor)          | 1        |
-| Optional IMU | [MPU6500](https://www.adafruit.com/product/3886) or [BNO085](https://www.adafruit.com/product/4754)                                     | 2        |
-| Optional LiDAR Kit for use with ROS2 |  [LiDAR module, USB Cable and Data Convertor Box](https://www.amazon.co.uk/DTOF-D300-Distance-Obstacle-Education/dp/B0B1V8D36H/ref=sr_1_1?crid=2BSZJ4XVN2S12&keywords=ld19+lidar&qid=1707070916&sprefix=ld19+lidar%2Caps%2C254&sr=8-1) | 1 |
-| USB powerbank           |[ battery case](https://www.aliexpress.com/item/1005005637445437.html) [1x or 2x 18650 battery](https://s.click.aliexpress.com/e/_DnPRBEj) or open hardware [18650 battery](https://oshwlab.com/wagiminator/fp6277-power-bank)        | 1        |
-| USB > Motor driver cable         |[JST cable](https://s.click.aliexpress.com/e/_DnMT6K5)         | 1        |
-| M2 Bolts & nuts           | [400pc Bolt pack](https://www.aliexpress.com/item/1005002046118328.html)                                          | 1      |
-| Screw Driver              | 2 in 1 Flat and Philips Head Screw Driver | 1 |
-| JST zh 1.5mm, 80mm        |[) Double headed 6pin cable](https://s.click.aliexpress.com/e/_DBkMOpT)        | 1 pack        |
-| Qwiic> Qwiic cable             | [For connecting ESP32](https://www.aliexpress.com/item/1005005796723171.html)                      | 1        |
-
-If you don't get JLPCB to fabricate the PCB you'll also need some 2.54mm screw terminals or a breadboard [For connecting encoder](https://www.aliexpress.com/item/1005001677869988.html)
-
-Note a previous iteration of this project used the Pi Pico dimensions, if you wanted that the [PCB is here](https://easyeda.com/editor#id=69415ef7785b4ad29ea97032be2ffa39)
-
-
-Parts for v0.6 excluding PCB and motor driver are available on this [List](https://www.aliexpress.com/p/wishlist/shareReflux.html?groupId=H3r6Ix9p3i%2BvbdGhQpxk4HzpYMoqXal2lBW1GCdCX4A%3D) ensure you get correct quantities, eg 4x wheels and motors. 
 
   <video src="https://github.com/rosmo-robot/zio_demo/assets/400875/a9e81594-8d13-4ccd-9438-b3a10081cebc" controls="controls" style="max-width: 730px;"></video>
 
@@ -142,6 +123,27 @@ Doesn't exist yet, might be interesting to do something with [Smartcar Shield](h
 
 
 ## Older iterations
+
+| Components for older v0.6 version               | Description                               | Quantity |
+| ------------------------- | ----------------------------------------- | -------- |
+| ~$8 Rosmo Chassis  | [Custom PCB Chassis](https://easyeda.com/editor#id=72fd738aaf6c4f808593c5e1d56507f3) get fabricated at JLPCB, or solder your own     | 5       |
+| Motor Driver (not required with 0.7 version)             | [Zio H-bridge Motor Driver](https://www.smart-prototyping.com/Zio-4-DC-Motor-Controller.html?search=motor)          | 1        |
+| Optional IMU | [MPU6500](https://www.adafruit.com/product/3886) or [BNO085](https://www.adafruit.com/product/4754)                                     | 2        |
+| Optional LiDAR Kit for use with ROS2 |  [LiDAR module, USB Cable and Data Convertor Box](https://www.amazon.co.uk/DTOF-D300-Distance-Obstacle-Education/dp/B0B1V8D36H/ref=sr_1_1?crid=2BSZJ4XVN2S12&keywords=ld19+lidar&qid=1707070916&sprefix=ld19+lidar%2Caps%2C254&sr=8-1) | 1 |
+| USB powerbank           |[ battery case](https://www.aliexpress.com/item/1005005637445437.html) [1x or 2x 18650 battery](https://s.click.aliexpress.com/e/_DnPRBEj) or open hardware [18650 battery](https://oshwlab.com/wagiminator/fp6277-power-bank)        | 1        |
+| USB > Motor driver cable         |[JST cable](https://s.click.aliexpress.com/e/_DnMT6K5)         | 1        |
+| M2 Bolts & nuts           | [400pc Bolt pack](https://www.aliexpress.com/item/1005002046118328.html)                                          | 1      |
+| Screw Driver              | 2 in 1 Flat and Philips Head Screw Driver | 1 |
+| JST zh 1.5mm, 80mm        |[) Double headed 6pin cable](https://s.click.aliexpress.com/e/_DBkMOpT)        | 1 pack        |
+| Qwiic> Qwiic cable             | [For connecting ESP32](https://www.aliexpress.com/item/1005005796723171.html)                      | 1        |
+
+If you don't get JLPCB to fabricate the PCB you'll also need some 2.54mm screw terminals or a breadboard [For connecting encoder](https://www.aliexpress.com/item/1005001677869988.html)
+
+Note a previous iteration of this project used the Pi Pico dimensions, if you wanted that the [PCB is here](https://easyeda.com/editor#id=69415ef7785b4ad29ea97032be2ffa39)
+
+
+Parts for v0.6 excluding PCB and motor driver are available on this [List](https://www.aliexpress.com/p/wishlist/shareReflux.html?groupId=H3r6Ix9p3i%2BvbdGhQpxk4HzpYMoqXal2lBW1GCdCX4A%3D) ensure you get correct quantities, eg 4x wheels and motors. 
+
 
 <video src="https://github.com/rosmo-robot/zio_demo/assets/400875/2a7d44ed-8b35-4954-bf69-88f5d1b43024" controls="controls" style="max-width: 730px;">
 </video>
