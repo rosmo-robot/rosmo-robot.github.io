@@ -19,12 +19,10 @@ Using affordable components available worldwide. For hobbyists, universities, R&
 | ~$22 Motor with encoder & wheel     | [6v 150RPM $Bringsmart motors](https://s.click.aliexpress.com/e/_DlXTmi1) or [$$Pololu](https://www.pololu.com/category/60/micro-metal-gearmotors)              | 4   |
 | ~$6 ESP32-S3-C1              | [Olimex open hardware](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware), [UK](https://thepihut.com/products/olimex-esp32-s3-devkit-lipo-development-board) [US](https://www.digikey.com/en/products/detail/olimex-ltd/ESP32-S3-DEVKIT-LIPO-EA/22157950) or [generic version](https://s.click.aliexpress.com/e/_DBbQjGl)        | 1        |
 | ~$7 1x 2A powerbank        |[microUSB](https://www.aliexpress.us/item/3256806431500622.html        | 1        |
-| JST zh 1.5mm, 80mm        |[) Double headed 6pin cable](https://s.click.aliexpress.com/e/_DBkMOpT)   [5cm](https://vi.aliexpress.com/item/1005002904877965.html)      | 1 pack        |
+| JST zh 1.5mm, 80mm        |[) Double headed 6pin cable](https://s.click.aliexpress.com/e/_DBkMOpT)        | 1 pack        |
 | Qwiic> Qwiic cable             | [For connecting ESP32](https://www.aliexpress.com/item/1005005796723171.html)                      | 1        |
 | Hex Spacers               | [45mm height M3 standoff](https://www.aliexpress.com/item/32539100523.html)          | 1    |
-| M2 Bolts & nuts           | [400pc Bolt pack](https://www.aliexpress.com/item/1005002046118328.html)                                          | 1      |
-| M3 Bolts  & nuts          | From Bolt pack                                          | 10        |
-| Screw Driver              | 2 in 1 Flat and Philips Head Screw Driver | 1 |
+
 
 
 If you don't get JLPCB to fabricate the PCB you'll also need some 2.54mm screw terminals or a breadboard [For connecting encoder](https://www.aliexpress.com/item/1005001677869988.html)
@@ -54,6 +52,9 @@ Note a previous iteration of this project used the Pi Pico dimensions, if you wa
 | Optional LiDAR Kit for use with ROS2 |  [LiDAR module, USB Cable and Data Convertor Box](https://www.amazon.co.uk/DTOF-D300-Distance-Obstacle-Education/dp/B0B1V8D36H/ref=sr_1_1?crid=2BSZJ4XVN2S12&keywords=ld19+lidar&qid=1707070916&sprefix=ld19+lidar%2Caps%2C254&sr=8-1) | 1 |
 | USB powerbank           |[ battery case](https://www.aliexpress.com/item/1005005637445437.html) [1x or 2x 18650 battery](https://s.click.aliexpress.com/e/_DnPRBEj) or open hardware [18650 battery](https://oshwlab.com/wagiminator/fp6277-power-bank)        | 1        |
 | USB > Motor driver cable         |[JST cable](https://s.click.aliexpress.com/e/_DnMT6K5)         | 1        |
+| M2 Bolts & nuts           | [400pc Bolt pack](https://www.aliexpress.com/item/1005002046118328.html)                                          | 1      |
+| M3 Bolts  & nuts          | From Bolt pack                                          | 10        |
+| Screw Driver              | 2 in 1 Flat and Philips Head Screw Driver | 1 |
 
 
 Parts for v0.6 excluding PCB and motor driver are available on this [List](https://www.aliexpress.com/p/wishlist/shareReflux.html?groupId=H3r6Ix9p3i%2BvbdGhQpxk4HzpYMoqXal2lBW1GCdCX4A%3D) ensure you get correct quantities, eg 4x wheels and motors. 
