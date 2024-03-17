@@ -25,6 +25,7 @@ List of these items on [Aliexpress](https://www.aliexpress.com/p/wishlist/shareR
 
 ## Optional extras
 
+-  [LiDAR module, USB Cable and Data Convertor Box](https://www.amazon.co.uk/DTOF-D300-Distance-Obstacle-Education/dp/B0B1V8D36H/ref=sr_1_1?crid=2BSZJ4XVN2S12&keywords=ld19+lidar&qid=1707070916&sprefix=ld19+lidar%2Caps%2C254&sr=8-1) 
 - [Loader attachment (closed hardware)](https://www.dfrobot.com/product-2006.html) [Grabber attachment](https://www.dfrobot.com/product-2128.html)
 - [MikroBUS, UEXT or Breakout Garden sensors](https://hackaday.io/project/183129-rosmo-robot/log/227959-mikrobus-expansion)
 - [10mm Cube standoff](https://www.aliexpress.com/item/1005005880192495.html)
@@ -35,7 +36,7 @@ List of these items on [Aliexpress](https://www.aliexpress.com/p/wishlist/shareR
 - [Servo - Zio](https://github.com/rosmo-robot/Qwiic_Servo_Driver_PCA9685/) for [mini arm](https://www.thingiverse.com/thing:5683010)
 - [LED - Zio](https://www.smart-prototyping.com/Zio-Qwiic-RGB-LED-APA102)
 - [On-board compute. Beagleboard Play](https://www.beagleboard.org/boards/beagleplay)
-- [Batteries](https://s.click.aliexpress.com/e/_DdfBurF)
+- [Alternate Batteries](https://s.click.aliexpress.com/e/_DdfBurF)
 
 
 
@@ -129,9 +130,8 @@ Doesn't exist yet, might be interesting to do something with [Smartcar Shield](h
 | Components for older v0.6 version               | Description                               | Quantity |
 | ------------------------- | ----------------------------------------- | -------- |
 | ~$8 Rosmo Chassis  | [Custom PCB Chassis](https://easyeda.com/editor#id=72fd738aaf6c4f808593c5e1d56507f3) get fabricated at JLPCB, or solder your own     | 5       |
-| Motor Driver (not required with 0.7 version)             | [Zio H-bridge Motor Driver](https://www.smart-prototyping.com/Zio-4-DC-Motor-Controller.html?search=motor)          | 1        |
+| Motor Driver   | [Zio H-bridge Motor Driver](https://www.smart-prototyping.com/Zio-4-DC-Motor-Controller.html?search=motor)          | 1        |
 | Optional IMU | [MPU6500](https://www.adafruit.com/product/3886) or [BNO085](https://www.adafruit.com/product/4754)                                     | 2        |
-| Optional LiDAR Kit for use with ROS2 |  [LiDAR module, USB Cable and Data Convertor Box](https://www.amazon.co.uk/DTOF-D300-Distance-Obstacle-Education/dp/B0B1V8D36H/ref=sr_1_1?crid=2BSZJ4XVN2S12&keywords=ld19+lidar&qid=1707070916&sprefix=ld19+lidar%2Caps%2C254&sr=8-1) | 1 |
 | USB powerbank           |[ battery case](https://www.aliexpress.com/item/1005005637445437.html) [1x or 2x 18650 battery](https://s.click.aliexpress.com/e/_DnPRBEj) or open hardware [18650 battery](https://oshwlab.com/wagiminator/fp6277-power-bank)        | 1        |
 | USB > Motor driver cable         |[JST cable](https://s.click.aliexpress.com/e/_DnMT6K5)         | 1        |
 | M2 Bolts & nuts           | [400pc Bolt pack](https://www.aliexpress.com/item/1005002046118328.html)                                          | 1      |
