@@ -25,7 +25,7 @@ List of these items on [Aliexpress](https://www.aliexpress.com/p/wishlist/shareR
 
 ## Optional extras
 
--  [LiDAR module, USB Cable and Data Convertor Box](https://www.amazon.co.uk/DTOF-D300-Distance-Obstacle-Education/dp/B0B1V8D36H/ref=sr_1_1?crid=2BSZJ4XVN2S12&keywords=ld19+lidar&qid=1707070916&sprefix=ld19+lidar%2Caps%2C254&sr=8-1) 
+-  [LiDAR module, USB Cable and Data Convertor Box (ROS2)](https://www.amazon.co.uk/DTOF-D300-Distance-Obstacle-Education/dp/B0B1V8D36H/ref=sr_1_1?crid=2BSZJ4XVN2S12&keywords=ld19+lidar&qid=1707070916&sprefix=ld19+lidar%2Caps%2C254&sr=8-1) 
 - [Loader attachment (closed hardware)](https://www.dfrobot.com/product-2006.html) [Grabber attachment](https://www.dfrobot.com/product-2128.html)
 - [Mecanum wheels (48mm)](https://www.aliexpress.com/item/1005005115563126.html)
 - [MikroBUS, UEXT or Breakout Garden sensors](https://hackaday.io/project/183129-rosmo-robot/log/227959-mikrobus-expansion)
@@ -61,7 +61,7 @@ Current status: Working but you have to build in Platformio to get ESP32-S3 supp
 
 Use the [Pilot version](https://microblocks.fun/download) from the bottom of the downloads page. Then to quickly get started download this raw [UBP file](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/img/ziopublicwifiremote.ubp) and open it in the Microblocks app.
 
-## Ros2 - Best if you want to learn ROS2
+## ROS 2 software - Best if you want to learn ROS2
 
 Current status: I2C comms with Zio driver established and wheel spinning, but not working fully yet 
   
@@ -77,11 +77,15 @@ Current status: I2C comms with Zio driver established and wheel spinning, but no
 Notes on Virtualbox 
 - git clone --branch esp32s3-lipo-zio https://github.com/hippo5329/linorobot2_hardware.git
 
+## Openbot software (Android) - Best if you want to explore affordable vision 
 
-## Micropython
+- Android app and Arduino for computer vision & AI
+- [https://www.openbot.org](https://www.openbot.org/research)
+
+## Micropython software
 Doesn't exist yet, might be interesting to do something with [ESP32_Car_Platform](https://github.com/jppang/ESP32_Car_Platform/tree/main/software) & [Motor driver code](https://github.com/ZIOCC/Qwiic_4-Ch_DC_Motor_Controller/tree/master/micropython) at some point
 
-## Arduino 
+## Arduino software
 Doesn't exist yet, might be interesting to do something with [Smartcar Shield](https://github.com/platisd/smartcar_shield?tab=readme-ov-file#software) at some point
 
 
