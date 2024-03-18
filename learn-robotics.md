@@ -11,6 +11,22 @@ title: XRP-X4
 This work has now moved to [ziobot](https://rosmo-robot.github.io/zio/) the PCB and components found there can be used with the XRP robotics kit.
 
 
+# Robotics resources
+
+[Python Robotics](https://atsushisakai.github.io/PythonRobotics/)
+[CPP Robotics](https://github.com/giacomo-b/CppRobotics)
+[Ros2RoboticsCpp](https://github.com/quangnhat185/Ros2RoboticsCpp)
+
+
+# Similar projects 
+https://github.com/Roboost-Robotics/Roboost-Primary-Motor-Cortex
+
+
+
+
+
+
+
 
 ![Bot](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/bat.jpeg)
 
