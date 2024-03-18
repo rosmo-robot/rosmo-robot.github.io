@@ -35,11 +35,7 @@ The robot PCB has now moved to [ziobot](https://rosmo-robot.github.io/) the PCB 
 - [Awesome robotics](https://github.com/ahundt/awesome-robotics)
 - [Awesome ROS2](https://github.com/fkromer/awesome-ros2)
 - [Awesome-robotics-libraries](https://github.com/jslee02/awesome-robotics-libraries)
-- [Msadowki](https://github.com/msadowski/awesome-weekly-robotics)
-- [Protontypes](https://github.com/protontypes/awesome-robotic-tooling)
-- [HarshMaithani](https://medium.com/@harshmaithani09/a-fast-introduction-to-robotics-v-2-0-6d07516e053f)
-- [Kanster](https://github.com/kanster/awesome-slam)
-- [Papers Related to Quadrotors](https://github.com/prgumd/prg_QuadrotorPapers)
+- [Weekly robotics](https://github.com/msadowski/awesome-weekly-robotics)
 - [Top 100 universities](https://edurank.org/engineering/robotics/)
 - [UK undergraduate](https://www.thecompleteuniversityguide.co.uk/courses/search/undergraduate/all?keyword=robotics#h1)
 
