@@ -14,7 +14,7 @@ Using affordable components available worldwide. For hobbyists, universities, R&
 
 | Components latest v0.7 version              | Description                               | Quantity |
 | ------------------------- | ----------------------------------------- | -------- |
-| ~$10  Rosmo Chassis v0.7 with on-board motor driver | [Custom PCB Chassis](https://easyeda.com/editor#id=4b854610be354e0b816b3ad06619bac3) for sale soon     | 5       |
+| ~$10  Rosmo Chassis v0.7 with on-board motor driver | [Custom PCB Chassis](https://easyeda.com/editor#id=4b854610be354e0b816b3ad06619bac3) for sale soon     | 1       |
 | ~$32 Motor with encoder & wheel     | [6v 150RPM $Bringsmart motors](https://s.click.aliexpress.com/e/_DErxgYv)            | 4   |
 | ~$6 ESP32-S3-C1              | [Olimex open hardware](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware), [UK](https://thepihut.com/products/olimex-esp32-s3-devkit-lipo-development-board) [US](https://www.digikey.com/en/products/detail/olimex-ltd/ESP32-S3-DEVKIT-LIPO-EA/22157950) or [generic version](https://s.click.aliexpress.com/e/_DBbQjGl)        | 1        |
 | ~$7 1x 2A powerbank        |[Powerbank](https://www.aliexpress.com/item/1005006593619440.html)        | 1        |
@@ -83,7 +83,7 @@ Notes on Virtualbox
 - [https://www.openbot.org](https://www.openbot.org/research)
 
 ## Micropython software
-Doesn't exist yet, might be interesting to do something with [ESP32_Car_Platform](https://github.com/jppang/ESP32_Car_Platform/tree/main/software) & [Motor driver code](https://github.com/ZIOCC/Qwiic_4-Ch_DC_Motor_Controller/tree/master/micropython) at some point
+Doesn't exist yet, might be interesting to do something with [Otto Mecanum](https://github.com/UEA-envsoft/Otto-Mecanum)
 
 ## Arduino software
 Doesn't exist yet, might be interesting to do something with [Smartcar Shield](https://github.com/platisd/smartcar_shield?tab=readme-ov-file#software) at some point
