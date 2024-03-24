@@ -25,7 +25,7 @@ List of these items on [Aliexpress](https://www.aliexpress.com/p/wishlist/shareR
 
 ## Optional extras
 
--  [LiDAR module, USB Cable and Data Convertor Box (ROS2)](https://www.amazon.co.uk/DTOF-D300-Distance-Obstacle-Education/dp/B0B1V8D36H/ref=sr_1_1?crid=2BSZJ4XVN2S12&keywords=ld19+lidar&qid=1707070916&sprefix=ld19+lidar%2Caps%2C254&sr=8-1) 
+-  [LiDAR module, USB Cable and Data Convertor Box (ROS2)](https://s.click.aliexpress.com/e/_DE7uSFT) 
 - [Loader attachment (closed hardware)](https://www.dfrobot.com/product-2006.html) [Grabber attachment](https://www.dfrobot.com/product-2128.html)
 - [Mecanum wheels (48mm)](https://www.aliexpress.com/item/1005005115563126.html)
 - [MikroBUS, UEXT or Breakout Garden sensors](https://hackaday.io/project/183129-rosmo-robot/log/227959-mikrobus-expansion)
