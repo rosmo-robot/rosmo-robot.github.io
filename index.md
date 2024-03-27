@@ -16,7 +16,8 @@ Using affordable components available worldwide. For hobbyists, universities, R&
 | ------------------------- | ----------------------------------------- | -------- |
 | ~$12  Rosmo Chassis v0.7 with on-board motor driver | [Custom PCB Chassis](https://easyeda.com/editor#id=d1613b232be34ba19d8c2b5ff3585e13) for sale soon     | 1       |
 | ~$32 Motor with encoder & wheel     | [6v 150RPM $Bringsmart motors](https://s.click.aliexpress.com/e/_DErxgYv)            | 4   |
-| ~$6 ESP32-S3-C1              | [Olimex open hardware](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware), [UK](https://thepihut.com/products/olimex-esp32-s3-devkit-lipo-development-board) [US](https://www.digikey.com/en/products/detail/olimex-ltd/ESP32-S3-DEVKIT-LIPO-EA/22157950) or [generic version](https://s.click.aliexpress.com/e/_DBbQjGl)        | 1        |
+| ~$6 motor cables    | [6Pin same direction cables](https://s.click.aliexpress.com/e/_DkjeS8V)            | 4   |
+| ~$6 - $12 ESP32-S3-C1              | [Olimex open hardware](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware), [UK](https://thepihut.com/products/olimex-esp32-s3-devkit-lipo-development-board) [US](https://www.digikey.com/en/products/detail/olimex-ltd/ESP32-S3-DEVKIT-LIPO-EA/22157950) or [generic version](https://s.click.aliexpress.com/e/_DBbQjGl)        | 1        |
 | ~$7 1x 2A powerbank        |[Powerbank](https://www.aliexpress.com/item/1005006593619440.html)        | 1        |
 | ~$5 Hex Spacers               | [45mm height M3 standoff](https://www.aliexpress.com/item/32539100523.html)          | 1    |
 
