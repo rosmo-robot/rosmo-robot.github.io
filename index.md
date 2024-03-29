@@ -28,21 +28,21 @@ List of these items on [Aliexpress](https://www.aliexpress.com/p/wishlist/shareR
 
 
 
-| Add on           | Linorobot ROS2                               | Microblocks |
-| ------------------------- | ----------------------------------------- | -------- |
-|  [MPU6050 IMU](https://www.adafruit.com/product/3886) | Yes    | Yes   |
-|  [BNO085 IMU](https://www.adafruit.com/product/4754) | Yes   | To do    |
-|  [Ultrasonic - ZIO](https://github.com/ZIOCC/Zio-Qwiic-Ultrasonic-Distance-Sensor)  | Yes | Yes    |
-|  [LiDAR module, USB Cable and Data Convertor Box (ROS2)](https://s.click.aliexpress.com/e/_DchqT0p) | Yes    | Never     |
-| [TOF Adafruit](https://www.adafruit.com/product/3317) or [Sparkfun](https://www.sparkfun.com/products/19013)   | Yes    | Yes   |
-| [MikroBUS, UEXT or Breakout Garden sensors](https://hackaday.io/project/183129-rosmo-robot/log/227959-mikrobus-expansion)| Some    | Some    |
-| [OLED/Eyes - Zio](https://www.smart-prototyping.com/Zio-Qwiic-OLED-Display-1_5inch-128x128?search=oled)   | To do    | To do   |
-| [Line finder - ZIO](https://github.com/ZIOCC/Zio-Line-Finder-Qwiic-4-Transceivers-) | To do  | To do   |
-| [Servo - Zio](https://github.com/rosmo-robot/Qwiic_Servo_Driver_PCA9685/) for [mini arm](https://www.thingiverse.com/thing:5683010)  | To do   | To do   |
-| [LED - Zio](https://www.smart-prototyping.com/Zio-Qwiic-RGB-LED-APA102)  | To do  | To do   |
-|  [Mecanum wheels (48mm)](https://www.aliexpress.com/item/1005005115563126.html)| Yes    | To do    |
-| [10mm Cube standoff](https://www.aliexpress.com/item/1005005880192495.html) | Yes   | Yes    |
-|  [Loader attachment (closed hardware)](https://www.dfrobot.com/product-2006.html) [Grabber attachment](https://www.dfrobot.com/product-2128.html)| To do   | Yes     |
+| Add on           | ROS2 Linorobot                               | Microblocks | Micropython|
+| ------------------------- | ----------------------------------------- | -------- |---------|
+|  [MPU6050 IMU](https://www.adafruit.com/product/3886) | Yes    | Yes   | To do |
+|  [BNO085 IMU](https://www.adafruit.com/product/4754) | Yes   | To do    |To do |
+|  [Ultrasonic - ZIO](https://github.com/ZIOCC/Zio-Qwiic-Ultrasonic-Distance-Sensor)  | Yes | Yes    | To do|
+|  [LiDAR module, USB Cable and Data Convertor Box (ROS2)](https://s.click.aliexpress.com/e/_DchqT0p) | Yes    | Never     |To do |
+| [TOF Adafruit](https://www.adafruit.com/product/3317) or [Sparkfun](https://www.sparkfun.com/products/19013)   | Yes    | Yes   |To do |
+| [MikroBUS, UEXT or Breakout Garden sensors](https://hackaday.io/project/183129-rosmo-robot/log/227959-mikrobus-expansion)| Some    | Some    | To do|
+| [OLED/Eyes - Zio](https://www.smart-prototyping.com/Zio-Qwiic-OLED-Display-1_5inch-128x128?search=oled)   | To do    | To do   |To do |
+| [Line finder - ZIO](https://github.com/ZIOCC/Zio-Line-Finder-Qwiic-4-Transceivers-) | To do  | To do   | To do|
+| [Servo - Zio](https://github.com/rosmo-robot/Qwiic_Servo_Driver_PCA9685/) for [mini arm](https://www.thingiverse.com/thing:5683010)  | To do   | To do   | To do|
+| [LED - Zio](https://www.smart-prototyping.com/Zio-Qwiic-RGB-LED-APA102)  | To do  | To do   |To do   |
+|  [Mecanum wheels (48mm)](https://www.aliexpress.com/item/1005005115563126.html)| Yes    | To do    |To do   |
+| [10mm Cube standoff](https://www.aliexpress.com/item/1005005880192495.html) | Yes   | Yes    |To do   |
+|  [Loader attachment (closed hardware)](https://www.dfrobot.com/product-2006.html) [Grabber attachment](https://www.dfrobot.com/product-2128.html)| To do   | Yes     | To do   |
 
 
 
