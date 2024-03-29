@@ -30,13 +30,13 @@ List of these items on [Aliexpress](https://www.aliexpress.com/p/wishlist/shareR
 
 | Add on           | Linorobot ROS2                               | Microblocks |
 | ------------------------- | ----------------------------------------- | -------- |
-|  MPU6050 | Yes    | Yes   |
-|  BNO085 | Yes   | To do    |
+|  [MPU6050 IMU](https://www.adafruit.com/product/3886) | Yes    | Yes   |
+|  [BNO085 IMU](https://www.adafruit.com/product/4754) | Yes   | To do    |
 |  [Ultrasonic - ZIO](https://github.com/ZIOCC/Zio-Qwiic-Ultrasonic-Distance-Sensor)  | Yes | Yes    |
 |  [LiDAR module, USB Cable and Data Convertor Box (ROS2)](https://s.click.aliexpress.com/e/_DE7uSFT) | Yes    | No     |
 |  [Loader attachment (closed hardware)](https://www.dfrobot.com/product-2006.html) [Grabber attachment](https://www.dfrobot.com/product-2128.html)| To do   | Yes     |
 | [TOF Adafruit](https://www.adafruit.com/product/3317) or [Sparkfun](https://www.sparkfun.com/products/19013)   | Yes    | Yes   |
-|  {Mecanum wheels (48mm)](https://www.aliexpress.com/item/1005005115563126.html)| Yes    | To do    |
+|  [Mecanum wheels (48mm)](https://www.aliexpress.com/item/1005005115563126.html)| Yes    | To do    |
 | [MikroBUS, UEXT or Breakout Garden sensors](https://hackaday.io/project/183129-rosmo-robot/log/227959-mikrobus-expansion)| Some    | Some    |
 | [10mm Cube standoff](https://www.aliexpress.com/item/1005005880192495.html) | Some    | Some    |
 | [OLED/Eyes - Zio](https://www.smart-prototyping.com/Zio-Qwiic-OLED-Display-1_5inch-128x128?search=oled)   | To do    | To do   |
