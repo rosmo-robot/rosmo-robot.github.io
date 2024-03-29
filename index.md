@@ -33,7 +33,7 @@ List of these items on [Aliexpress](https://www.aliexpress.com/p/wishlist/shareR
 |  [MPU6050 IMU](https://www.adafruit.com/product/3886) | [Yes](https://github.com/hippo5329/linorobot2_hardware/wiki#supported-sensors)    | Yes   | To do |
 |  [BNO055 IMU](https://www.adafruit.com/product/4646) | [Yes](https://github.com/linorobot/linorobot2_hardware/issues/21#issuecomment-1567868751)   | To do    |To do |
 |  [Ultrasonic - ZIO](https://github.com/ZIOCC/Zio-Qwiic-Ultrasonic-Distance-Sensor)  | [Yes](https://github.com/hippo5329/linorobot2_hardware/wiki#supported-sensors) | Yes    | To do|
-|  [LD19/D300 LiDAR module, USB Cable and Data Convertor Box (ROS2)](https://s.click.aliexpress.com/e/_DchqT0p) | Yes    | Never     |Never |
+|  [LD19/D300 LiDAR module,](https://s.click.aliexpress.com/e/_DchqT0p) | [Yes](https://github.com/hippo5329/linorobot2_hardware/wiki#supported-sensors)   | Never     |Never |
 | [TOF Adafruit](https://www.adafruit.com/product/3317) or [Sparkfun](https://www.sparkfun.com/products/19013)   | Yes    | Yes   |To do |
 | [MikroBUS, UEXT or Breakout Garden sensors](https://hackaday.io/project/183129-rosmo-robot/log/227959-mikrobus-expansion)| Some    | Some    | To do|
 | [OLED/Eyes - Zio](https://www.smart-prototyping.com/Zio-Qwiic-OLED-Display-1_5inch-128x128?search=oled)   | To do    | To do   |To do |
