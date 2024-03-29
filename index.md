@@ -33,7 +33,7 @@ List of these items on [Aliexpress](https://www.aliexpress.com/p/wishlist/shareR
 |  [MPU6050 IMU](https://www.adafruit.com/product/3886) | Yes    | Yes   |
 |  [BNO085 IMU](https://www.adafruit.com/product/4754) | Yes   | To do    |
 |  [Ultrasonic - ZIO](https://github.com/ZIOCC/Zio-Qwiic-Ultrasonic-Distance-Sensor)  | Yes | Yes    |
-|  [LiDAR module, USB Cable and Data Convertor Box (ROS2)](https://s.click.aliexpress.com/e/_DE7uSFT) | Yes    | No     |
+|  [LiDAR module, USB Cable and Data Convertor Box (ROS2)](https://s.click.aliexpress.com/e/_DchqT0p) | Yes    | Never     |
 | [TOF Adafruit](https://www.adafruit.com/product/3317) or [Sparkfun](https://www.sparkfun.com/products/19013)   | Yes    | Yes   |
 | [MikroBUS, UEXT or Breakout Garden sensors](https://hackaday.io/project/183129-rosmo-robot/log/227959-mikrobus-expansion)| Some    | Some    |
 | [OLED/Eyes - Zio](https://www.smart-prototyping.com/Zio-Qwiic-OLED-Display-1_5inch-128x128?search=oled)   | To do    | To do   |
