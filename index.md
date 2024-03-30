@@ -42,7 +42,9 @@ List of these items on [Aliexpress](https://www.aliexpress.com/p/wishlist/shareR
 |  [Mecanum wheels (48mm)](https://www.aliexpress.com/item/1005005115563126.html)| Yes    | To do    |To do   |
 | [10mm Cube standoff](https://www.aliexpress.com/item/1005005880192495.html) | Yes   | Yes    |Yes   |
 |  [Loader attachment (closed hardware)](https://www.dfrobot.com/product-2006.html) [Grabber attachment](https://www.dfrobot.com/product-2128.html)| To do   | Yes     | To do   |
-| [1300 MikroBUS, other sensors (closed hardware](https://hackaday.io/project/183129-rosmo-robot/log/227959-mikrobus-expansion)| partial   | partial    | partial|
+| [1300 MikroBUS, other sensors (closed hardware)](https://hackaday.io/project/183129-rosmo-robot/log/227959-mikrobus-expansion)| partial   | partial    | partial|
+| [USBC power adaptor (closed hardware)](https://s.click.aliexpress.com/e/_DE0W3PJ)| Untested   | Untested  | Untested|
+| [ESP32-S3 camera (closed hardware)](https://s.click.aliexpress.com/e/_DF0kUdn)| Untested   | Standalone  | Standalone |
 
 <br>
 
