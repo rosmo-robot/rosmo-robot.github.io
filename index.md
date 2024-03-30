@@ -44,6 +44,7 @@ List of these items on [Aliexpress](https://www.aliexpress.com/p/wishlist/shareR
 |  [Loader attachment (closed hardware)](https://www.dfrobot.com/product-2006.html) [Grabber attachment](https://www.dfrobot.com/product-2128.html)| To do   | Yes     | To do   |
 | [1300 MikroBUS, other sensors (closed hardware](https://hackaday.io/project/183129-rosmo-robot/log/227959-mikrobus-expansion)| partial   | partial    | partial|
 
+<br>
 
   <video src="https://github.com/rosmo-robot/zio_demo/assets/400875/a9e81594-8d13-4ccd-9438-b3a10081cebc" controls="controls" style="max-width: 730px;"></video>
 
