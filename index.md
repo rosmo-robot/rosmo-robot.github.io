@@ -35,18 +35,14 @@ List of these items on [Aliexpress](https://www.aliexpress.com/p/wishlist/shareR
 |  [Ultrasonic - ZIO](https://github.com/ZIOCC/Zio-Qwiic-Ultrasonic-Distance-Sensor)  | [Yes](https://github.com/hippo5329/linorobot2_hardware/wiki#supported-sensors) | Yes    | To do|
 |  [LD19/D300 LiDAR module,](https://s.click.aliexpress.com/e/_DchqT0p) | [Yes](https://github.com/hippo5329/linorobot2_hardware/wiki#supported-sensors)   | Never     |Never |
 | [TOF Adafruit](https://www.adafruit.com/product/3317) or [Sparkfun](https://www.sparkfun.com/products/19013)   | Yes    | Yes   |To do |
-| [MikroBUS, UEXT or Breakout Garden sensors](https://hackaday.io/project/183129-rosmo-robot/log/227959-mikrobus-expansion)| Some    | Some    | To do|
 | [OLED/Eyes - Zio](https://www.smart-prototyping.com/Zio-Qwiic-OLED-Display-1_5inch-128x128?search=oled)   | To do    | To do   |To do |
 | [Line finder - ZIO](https://github.com/ZIOCC/Zio-Line-Finder-Qwiic-4-Transceivers-) | To do  | To do   | To do|
 | [Servo - Zio](https://github.com/rosmo-robot/Qwiic_Servo_Driver_PCA9685/) for [mini arm](https://www.thingiverse.com/thing:5683010)  | To do   | To do   | To do|
 | [LED - Zio](https://www.smart-prototyping.com/Zio-Qwiic-RGB-LED-APA102)  | To do  | To do   |To do   |
 |  [Mecanum wheels (48mm)](https://www.aliexpress.com/item/1005005115563126.html)| Yes    | To do    |To do   |
-| [10mm Cube standoff](https://www.aliexpress.com/item/1005005880192495.html) | Yes   | Yes    |To do   |
+| [10mm Cube standoff](https://www.aliexpress.com/item/1005005880192495.html) | Yes   | Yes    |Yes   |
 |  [Loader attachment (closed hardware)](https://www.dfrobot.com/product-2006.html) [Grabber attachment](https://www.dfrobot.com/product-2128.html)| To do   | Yes     | To do   |
-
-
-
-
+| [1300 MikroBUS, other sensors (closed hardware](https://hackaday.io/project/183129-rosmo-robot/log/227959-mikrobus-expansion)| partial   | partial    | partial|
 
 
   <video src="https://github.com/rosmo-robot/zio_demo/assets/400875/a9e81594-8d13-4ccd-9438-b3a10081cebc" controls="controls" style="max-width: 730px;"></video>
