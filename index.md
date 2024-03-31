@@ -93,7 +93,7 @@ Notes on Virtualbox
 Doesn't exist yet, might be interesting to do something with [Otto Mecanum](https://github.com/UEA-envsoft/Otto-Mecanum)
 
 ## Arduino software
-Doesn't exist yet, might be interesting to do something with [Smartcar Shield](https://github.com/platisd/smartcar_shield?tab=readme-ov-file#software) at some point
+Doesn't exist yet, might be interesting to do something with [Arduino Mecanum](https://github.com/StormingMoose/DroneBot-Workshop-Mecanum-for-L9110S) and maybe [Smartcar Shield](https://github.com/platisd/smartcar_shield?tab=readme-ov-file#software) at some point
 
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/claw.jpeg)
