@@ -14,7 +14,7 @@ Using affordable components available worldwide. For hobbyists, universities, R&
 
 | Components latest v0.7 version              | Description                               | Quantity |
 | ------------------------- | ----------------------------------------- | -------- |
-| ~$12  Rosmo Chassis v0.7 with on-board motor driver | [Custom PCB Chassis](https://easyeda.com/editor#id=c83ed89d42cb4aec8c3d223482061c6f) for sale soon     | 1       |
+| ~$12  Rosmo Chassis v0.7 with on-board motor driver | [Custom PCB Chassis](https://easyeda.com/editor#id=46daccba62ea4d449652f16c8a7e892e) for sale soon, or you can order from JLPCB if you're brave     | 1       |
 | ~$32 Motor with encoder & wheel     | [6v 150RPM $Bringsmart motors](https://s.click.aliexpress.com/e/_DErxgYv)            | 4   |
 | ~$6 motor cables    | [6Pin same direction cables](https://s.click.aliexpress.com/e/_DkjeS8V)            | 4   |
 | ~$6 - $12 ESP32-S3-C1 N16R8          | [Olimex open hardware](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware), [UK](https://thepihut.com/products/olimex-esp32-s3-devkit-lipo-development-board) [US](https://www.digikey.com/en/products/detail/olimex-ltd/ESP32-S3-DEVKIT-LIPO-EA/22157950) or [generic version](https://s.click.aliexpress.com/e/_DBbQjGl)        | 1        |
@@ -50,6 +50,10 @@ List of these items on [Aliexpress](https://www.aliexpress.com/p/wishlist/shareR
 
   <video src="https://github.com/rosmo-robot/zio_demo/assets/400875/a9e81594-8d13-4ccd-9438-b3a10081cebc" controls="controls" style="max-width: 730px;"></video>
 
+# Mikrobus Breakout(s) 
+
+![](https://cdn.hackaday.io/images/9540661709561892794.png)
+Some of the headers will break out into a [WIP add on board]() concept [here](https://hackaday.io/project/183129-rosmo-robot/log/227959-mikrobus-expansion) students or others may want to design their own breakouts.
 
 ## Microblocks Software - Best if you're just starting
 
@@ -95,6 +99,9 @@ Doesn't exist yet, might be interesting to do something with [Otto Mecanum](http
 ## Arduino software
 Doesn't exist yet, might be interesting to do something with [Arduino Mecanum](https://github.com/StormingMoose/DroneBot-Workshop-Mecanum-for-L9110S) and maybe [Smartcar Shield](https://github.com/platisd/smartcar_shield?tab=readme-ov-file#software) at some point
 
+## Collaborators
+
+I'd love to work with people on the software, give us a shout if you're interested some [ideas here](https://hackaday.io/project/183129-rosmo-robot/log/227995-version-10-approaches-stuff-to-do-looking-for-collaborators)
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/claw.jpeg)
 
