@@ -14,14 +14,14 @@ Using affordable components available worldwide. For students, makers, universit
 
 | Components latest v0.7 version              | Description                               | Quantity |
 | ------------------------- | ----------------------------------------- | -------- |
-| ~$12  Rosmo Chassis v0.7 with on-board motor driver | [Custom PCB Chassis](https://easyeda.com/editor#id=46daccba62ea4d449652f16c8a7e892e) for sale soon, or you can order from JLPCB if you're brave     | 1       |
-| ~$32 Motor with encoder & wheel     | [6v 150RPM $Bringsmart motors](https://s.click.aliexpress.com/e/_DErxgYv)            | 4   |
-| ~$6 motor cables    | [6Pin same direction cables](https://s.click.aliexpress.com/e/_DkjeS8V)            | 4   |
-| ~$6 - $12 ESP32-S3-C1 N16R8          | [Olimex open hardware](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware), [UK](https://thepihut.com/products/olimex-esp32-s3-devkit-lipo-development-board) [US](https://www.digikey.com/en/products/detail/olimex-ltd/ESP32-S3-DEVKIT-LIPO-EA/22157950) or [generic version](https://s.click.aliexpress.com/e/_DBbQjGl)        | 1        |
-| ~$7 1x 2A powerbank        |[Powerbank](https://www.aliexpress.com/item/1005006593619440.html)        | 1        |
-| ~$5 Hex Spacers               | [45mm height M3 standoff](https://www.aliexpress.com/item/32539100523.html)          | 1    |
+| ~$12  Rosmo Chassis v0.7 with on-board motor driver | [Custom PCB Chassis](https://easyeda.com/editor#id=46daccba62ea4d449652f16c8a7e892e){:target="_blank"} for sale soon, or you can order from JLPCB if you're brave     | 1       |
+| ~$32 Motor with encoder & wheel     | [6v 150RPM $Bringsmart motors](https://s.click.aliexpress.com/e/_DErxgYv){:target="_blank"}            | 4   |
+| ~$6 motor cables    | [6Pin same direction cables](https://s.click.aliexpress.com/e/_DkjeS8V){:target="_blank"}            | 4   |
+| ~$6 - $12 ESP32-S3-C1 N16R8          | [Olimex open hardware](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware){:target="_blank"}, [UK](https://thepihut.com/products/olimex-esp32-s3-devkit-lipo-development-board){:target="_blank"} [US](https://www.digikey.com/en/products/detail/olimex-ltd/ESP32-S3-DEVKIT-LIPO-EA/22157950){:target="_blank"} or [generic version](https://s.click.aliexpress.com/e/_DBbQjGl){:target="_blank"}        | 1        |
+| ~$7 1x 2A powerbank        |[Powerbank](https://www.aliexpress.com/item/1005006593619440.html){:target="_blank"}        | 1        |
+| ~$5 Hex Spacers               | [45mm height M3 standoff](https://www.aliexpress.com/item/32539100523.html){:target="_blank"}          | 1    |
 
-List of these items on [Aliexpress](https://www.aliexpress.com/p/wishlist/shareReflux.html?groupId=H3r6Ix9p3i%2BvbdGhQpxk4NMRKh%2F%2Bgiup4z2X0odX6os%3D)
+List of these items on [Aliexpress](https://www.aliexpress.com/p/wishlist/shareReflux.html?groupId=H3r6Ix9p3i%2BvbdGhQpxk4NMRKh%2F%2Bgiup4z2X0odX6os%3D){:target="_blank"}
 
 
 ## Optional extras
@@ -30,21 +30,21 @@ List of these items on [Aliexpress](https://www.aliexpress.com/p/wishlist/shareR
 
 | Add on           | ROS2 Linorobot                               | Microblocks | Micropython|
 | ------------------------- | ----------------------------------------- | -------- |---------|
-|  [MPU6050 IMU](https://www.adafruit.com/product/3886) | [Yes](https://github.com/hippo5329/linorobot2_hardware/wiki#supported-sensors)    | Yes   | To do |
-|  [BNO055 IMU](https://www.adafruit.com/product/4646) | [Yes](https://github.com/linorobot/linorobot2_hardware/issues/21#issuecomment-1567868751)   | To do    |To do |
-|  [Ultrasonic - ZIO](https://github.com/ZIOCC/Zio-Qwiic-Ultrasonic-Distance-Sensor)  | [Yes](https://github.com/hippo5329/linorobot2_hardware/wiki#supported-sensors) | Yes    | To do|
-|  [LD19/D300 LiDAR module,](https://s.click.aliexpress.com/e/_DchqT0p) | [Yes](https://github.com/hippo5329/linorobot2_hardware/wiki#supported-sensors)   | Never     |Never |
-| [TOF Adafruit](https://www.adafruit.com/product/3317) or [Sparkfun](https://www.sparkfun.com/products/19013)   | Yes    | Yes   |[To do](https://github.com/kevinmcaleer/vl53l0x) |
-| [OLED/Eyes - Zio](https://www.smart-prototyping.com/Zio-Qwiic-OLED-Display-1_5inch-128x128?search=oled)   | To do    | To do   |To do |
-| [Line finder - ZIO](https://github.com/ZIOCC/Zio-Line-Finder-Qwiic-4-Transceivers-) | To do  | To do   | To do|
-| [Servo - Zio](https://github.com/rosmo-robot/Qwiic_Servo_Driver_PCA9685/) for [mini arm](https://www.thingiverse.com/thing:5683010)  | To do   | To do   | To do|
-| [LED - Zio](https://www.smart-prototyping.com/Zio-Qwiic-RGB-LED-APA102)  | To do  | To do   |To do   |
-|  [Mecanum wheels (48mm)](https://www.aliexpress.com/item/1005005115563126.html)| Yes    | To do    |To do   |
-| [10mm Cube standoff](https://www.aliexpress.com/item/1005005880192495.html) | Yes   | Yes    |Yes   |
-|  [Loader attachment (closed hardware)](https://www.dfrobot.com/product-2006.html) [Grabber attachment](https://www.dfrobot.com/product-2128.html)| To do   | Yes     | To do   |
-| [1300 MikroBUS, other sensors (closed hardware)](https://hackaday.io/project/183129-rosmo-robot/log/227959-mikrobus-expansion)| partial   | partial    | partial|
-| [USBC power adaptor (closed hardware)](https://s.click.aliexpress.com/e/_DE0W3PJ)| Untested   | Untested  | Untested|
-| [ESP32-S3 camera (closed hardware)](https://s.click.aliexpress.com/e/_DF0kUdn)| Untested   | Standalone  | Standalone |
+|  [MPU6050 IMU](https://www.adafruit.com/product/3886){:target="_blank"} | [Yes](https://github.com/hippo5329/linorobot2_hardware/wiki#supported-sensors)    | Yes   | To do |
+|  [BNO055 IMU](https://www.adafruit.com/product/4646){:target="_blank"} | [Yes](https://github.com/linorobot/linorobot2_hardware/issues/21#issuecomment-1567868751)   | To do    |To do |
+|  [Ultrasonic - ZIO](https://github.com/ZIOCC/Zio-Qwiic-Ultrasonic-Distance-Sensor){:target="_blank"}  | [Yes](https://github.com/hippo5329/linorobot2_hardware/wiki#supported-sensors){:target="_blank"} | Yes    | To do|
+|  [LD19/D300 LiDAR module,](https://s.click.aliexpress.com/e/_DchqT0p){:target="_blank"} | [Yes](https://github.com/hippo5329/linorobot2_hardware/wiki#supported-sensors){:target="_blank"}   | Never     |Never |
+| [TOF Adafruit](https://www.adafruit.com/product/3317){:target="_blank"} or [Sparkfun](https://www.sparkfun.com/products/19013){:target="_blank"}   | Yes    | Yes   |[To do](https://github.com/kevinmcaleer/vl53l0x){:target="_blank"} |
+| [OLED/Eyes - Zio](https://www.smart-prototyping.com/Zio-Qwiic-OLED-Display-1_5inch-128x128?search=oled){:target="_blank"}   | To do    | To do   |To do |
+| [Line finder - ZIO](https://github.com/ZIOCC/Zio-Line-Finder-Qwiic-4-Transceivers-){:target="_blank"} | To do  | To do   | To do|
+| [Servo - Zio](https://github.com/rosmo-robot/Qwiic_Servo_Driver_PCA9685/){:target="_blank"} for [mini arm](https://www.thingiverse.com/thing:5683010){:target="_blank"}  | To do   | To do   | To do|
+| [LED - Zio](https://www.smart-prototyping.com/Zio-Qwiic-RGB-LED-APA102){:target="_blank"}  | To do  | To do   |To do   |
+|  [Mecanum wheels (48mm)](https://www.aliexpress.com/item/1005005115563126.html){:target="_blank"}| Yes    | To do    |To do   |
+| [10mm Cube standoff](https://www.aliexpress.com/item/1005005880192495.html){:target="_blank"} | Yes   | Yes    |Yes   |
+|  [Loader attachment (closed hardware)](https://www.dfrobot.com/product-2006.html){:target="_blank"} [Grabber attachment](https://www.dfrobot.com/product-2128.html){:target="_blank"}| To do   | Yes     | To do   |
+| [1300 MikroBUS, other sensors (closed hardware)](https://hackaday.io/project/183129-rosmo-robot/log/227959-mikrobus-expansion){:target="_blank"}| partial   | partial    | partial|
+| [USBC power adaptor (closed hardware)](https://s.click.aliexpress.com/e/_DE0W3PJ){:target="_blank"}| Untested   | Untested  | Untested|
+| [ESP32-S3 camera (closed hardware)](https://s.click.aliexpress.com/e/_DF0kUdn){:target="_blank"}| Untested   | Standalone  | Standalone |
 
 <br>
 
@@ -53,7 +53,7 @@ List of these items on [Aliexpress](https://www.aliexpress.com/p/wishlist/shareR
 # Mikrobus Breakout(s) 
 
 ![](https://cdn.hackaday.io/images/9540661709561892794.png)
-Some of the headers will break out into a [WIP add on board]() concept [here](https://hackaday.io/project/183129-rosmo-robot/log/227959-mikrobus-expansion) students or others may want to design their own breakouts.
+Some of the headers will break out into a [WIP add on board](https://easyeda.com/editor#id=fd7285a890104a4e8621f68e9cc1cb23) concept [here](https://hackaday.io/project/183129-rosmo-robot/log/227959-mikrobus-expansion{:target="_blank"}) students or others may want to design their own breakouts.
 
 ## Microblocks Software - Best if you're just starting
 
