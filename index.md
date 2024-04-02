@@ -34,7 +34,7 @@ List of these items on [Aliexpress](https://www.aliexpress.com/p/wishlist/shareR
 |  [BNO055 IMU](https://www.adafruit.com/product/4646) | [Yes](https://github.com/linorobot/linorobot2_hardware/issues/21#issuecomment-1567868751)   | To do    |To do |
 |  [Ultrasonic - ZIO](https://github.com/ZIOCC/Zio-Qwiic-Ultrasonic-Distance-Sensor)  | [Yes](https://github.com/hippo5329/linorobot2_hardware/wiki#supported-sensors) | Yes    | To do|
 |  [LD19/D300 LiDAR module,](https://s.click.aliexpress.com/e/_DchqT0p) | [Yes](https://github.com/hippo5329/linorobot2_hardware/wiki#supported-sensors)   | Never     |Never |
-| [TOF Adafruit](https://www.adafruit.com/product/3317) or [Sparkfun](https://www.sparkfun.com/products/19013)   | Yes    | Yes   |To do |
+| [TOF Adafruit](https://www.adafruit.com/product/3317) or [Sparkfun](https://www.sparkfun.com/products/19013)   | Yes    | Yes   |[To do](https://github.com/kevinmcaleer/vl53l0x) |
 | [OLED/Eyes - Zio](https://www.smart-prototyping.com/Zio-Qwiic-OLED-Display-1_5inch-128x128?search=oled)   | To do    | To do   |To do |
 | [Line finder - ZIO](https://github.com/ZIOCC/Zio-Line-Finder-Qwiic-4-Transceivers-) | To do  | To do   | To do|
 | [Servo - Zio](https://github.com/rosmo-robot/Qwiic_Servo_Driver_PCA9685/) for [mini arm](https://www.thingiverse.com/thing:5683010)  | To do   | To do   | To do|
