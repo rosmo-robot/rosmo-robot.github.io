@@ -14,7 +14,7 @@ Using affordable components available worldwide. For students, makers, universit
 
 | Components latest v0.7 version              | Description                               | Quantity |
 | ------------------------- | ----------------------------------------- | -------- |
-| ~$12  Rosmo Chassis v0.7 with on-board motor driver | [Custom PCB Chassis](https://easyeda.com/editor#id=46daccba62ea4d449652f16c8a7e892e{:target="_blank"} for sale soon, or you can order from JLPCB if you're brave     | 1       |
+| ~$12  Rosmo Chassis v0.7 with on-board motor driver | [Custom PCB Chassis](https://easyeda.com/editor#id=46daccba62ea4d449652f16c8a7e892e){:target="_blank"} for sale soon, or you can order from JLPCB if you're brave     | 1       |
 | ~$32 Motor with encoder & wheel     | [6v 150RPM $Bringsmart motors](https://s.click.aliexpress.com/e/_DErxgYv){:target="_blank"}            | 4   |
 | ~$6 motor cables    | [6Pin same direction cables](https://s.click.aliexpress.com/e/_DkjeS8V){:target="_blank"}            | 4   |
 | ~$6 - $12 ESP32-S3-C1 N16R8          | [Olimex open hardware](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware){:target="_blank"}, [UK](https://thepihut.com/products/olimex-esp32-s3-devkit-lipo-development-board){:target="_blank"} [US](https://www.digikey.com/en/products/detail/olimex-ltd/ESP32-S3-DEVKIT-LIPO-EA/22157950){:target="_blank"} or [generic version](https://s.click.aliexpress.com/e/_DBbQjGl){:target="_blank"}        | 1        |
