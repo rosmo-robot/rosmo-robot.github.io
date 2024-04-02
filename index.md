@@ -74,7 +74,7 @@ Use the [Pilot version](https://microblocks.fun/download) from the bottom of the
 
 ## ROS 2 software - Best if you want to learn ROS2
 
-Current status: I2C comms with Zio driver established and wheel spinning, but not working fully yet 
+Current status: Wheels spinning, but not fully tested yet 
   
 - [Linorobot2](https://github.com/hippo5329/linorobot2_hardware/tree/esp32s3-lipo-zio) Zio driver now supported.
 - [Virtual machine for download](https://drive.google.com/file/d/1itU1ZYsxZf3GO9LMmP3NauBo0db6XsqN/view?usp=sharing) Ubuntu 22.04 with ROS2/Linorobot. For use with [Virtualbox](https://www.virtualbox.org/wiki/Downloads) 
@@ -83,25 +83,29 @@ Current status: I2C comms with Zio driver established and wheel spinning, but no
 - nano esp32s3_wifi_config.h put in your wifi credentials near the bottom of the file, set the agent IP to the address of your computer
 - cd /linorobot2_hardware/firmware
 - pio run -e esp32s3_wifi -t upload
--  ros2 launch linorobot2_bringup bringup.launch.py micro_ros_transport:=udp4 micro_ros_port:=8888
+- ros2 launch linorobot2_bringup bringup.launch.py micro_ros_transport:=udp4 micro_ros_port:=8888
+- In a browser access the localhost of your virtual machine IP to get teleop.
 
-Notes on Virtualbox 
-- git clone --branch esp32s3-lipo-zio https://github.com/hippo5329/linorobot2_hardware.git
+
 
 ## Openbot software (Android) - Best if you want to explore affordable vision 
 
 - Android app and Arduino for computer vision & AI
 - [https://www.openbot.org](https://www.openbot.org/research)
 
+
 ## Micropython software
-Doesn't exist yet, might be interesting to do something with [Otto Mecanum](https://github.com/UEA-envsoft/Otto-Mecanum)
+Doesn't exist yet, interest from author of [Otto Mecanum](https://github.com/UEA-envsoft/Otto-Mecanum) in adapting for Rosmo
+
 
 ## Arduino software
 Doesn't exist yet, might be interesting to do something with [Arduino Mecanum](https://github.com/StormingMoose/DroneBot-Workshop-Mecanum-for-L9110S) and maybe [Smartcar Shield](https://github.com/platisd/smartcar_shield?tab=readme-ov-file#software) at some point
 
+
 ## Collaborators
 
 I'd love to work with people on the software, give us a shout if you're interested some [ideas here](https://hackaday.io/project/183129-rosmo-robot/log/227995-version-10-approaches-stuff-to-do-looking-for-collaborators)
+
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/claw.jpeg)
 
