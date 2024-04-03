@@ -74,17 +74,18 @@ Use the [Pilot version](https://microblocks.fun/download) from the bottom of the
 
 ## ROS 2 software - Best if you want to learn ROS2
 
-Current status: Wheels spinning, but not fully tested yet 
+Current status: Wheels spinning, but not fully tested yet. 
   
 - [Linorobot2](https://github.com/hippo5329/linorobot2_hardware/tree/esp32s3-lipo-zio) Zio driver now supported.
 - [Virtual machine for download](https://drive.google.com/file/d/1itU1ZYsxZf3GO9LMmP3NauBo0db6XsqN/view?usp=sharing) Ubuntu 22.04 with ROS2/Linorobot. For use with [Virtualbox](https://www.virtualbox.org/wiki/Downloads) 
 - On a Linux host; sudo adduser $YOUR-USER vboxusers then follow [this guide](https://roboticsbackend.com/control-arduino-from-ubuntu-virtualbox/) reboot your computer
+- [Set up SSH](https://dev.to/developertharun/easy-way-to-ssh-into-virtualbox-machine-any-os-just-x-steps-5d9i) then SSH in. User: ros2 Pass: ros
 - cd /linorobot2_hardware/config/custom
 - nano esp32s3_wifi_config.h put in your wifi credentials near the bottom of the file, set the agent IP to the address of your computer
 - cd /linorobot2_hardware/firmware
 - pio run -e esp32s3_wifi -t upload
 - ros2 launch linorobot2_bringup bringup.launch.py micro_ros_transport:=udp4 micro_ros_port:=8888
-- In a browser access the localhost of your virtual machine IP to get teleop.
+- In a browser access http://localhost:8888/ to get teleop UI
 
 
 
