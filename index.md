@@ -10,7 +10,7 @@ Using affordable components available worldwide. For students, makers, universit
 
 
 ## BOM 
-~$62 for base 4wd can be reduced, by using existing powerbank for example. 
+~$46 for 2wd, ~$62 for 4wd base can be reduced, by using existing powerbank for example. 
 
 | Components latest v0.7 version              | Description                               | Quantity |
 | ------------------------- | ----------------------------------------- | -------- |
@@ -24,7 +24,7 @@ Using affordable components available worldwide. For students, makers, universit
 List of these items on [Aliexpress](https://www.aliexpress.com/p/wishlist/shareReflux.html?groupId=H3r6Ix9p3i%2BvbdGhQpxk4NMRKh%2F%2Bgiup4z2X0odX6os%3D){:target="_blank"}
 
 ## Schematic
-Can be found [here](https://easyeda.com/editor#id=fe972d3133f048a3be8b1bbdfaf8a93f)
+Can be found [here](https://easyeda.com/editor#id=fe972d3133f048a3be8b1bbdfaf8a93f){:target="_blank"}
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Schematic_open-robot-platform_2024-04-03.svg)
 
@@ -35,8 +35,8 @@ Can be found [here](https://easyeda.com/editor#id=fe972d3133f048a3be8b1bbdfaf8a9
 
 | Add on           | ROS2 Linorobot                               | Microblocks | Micropython|
 | ------------------------- | ----------------------------------------- | -------- |---------|
-|  [MPU6050 IMU](https://www.adafruit.com/product/3886){:target="_blank"} | [Yes](https://github.com/hippo5329/linorobot2_hardware/wiki#supported-sensors)    | Yes   | To do |
-|  [BNO055 IMU](https://www.adafruit.com/product/4646){:target="_blank"} | [Yes](https://github.com/linorobot/linorobot2_hardware/issues/21#issuecomment-1567868751)   | To do    |To do |
+|  [MPU6050 IMU](https://www.adafruit.com/product/3886){:target="_blank"} | [Yes](https://github.com/hippo5329/linorobot2_hardware/wiki#supported-sensors){:target="_blank"}    | Yes   | To do |
+|  [BNO055 IMU](https://www.adafruit.com/product/4646){:target="_blank"} | [Yes](https://github.com/linorobot/linorobot2_hardware/issues/21#issuecomment-1567868751){:target="_blank"}   | To do    |To do |
 |  [Ultrasonic - ZIO](https://github.com/ZIOCC/Zio-Qwiic-Ultrasonic-Distance-Sensor){:target="_blank"}  | [Yes](https://github.com/hippo5329/linorobot2_hardware/wiki#supported-sensors){:target="_blank"} | Yes    | To do|
 |  [LD19/D300 LiDAR module,](https://s.click.aliexpress.com/e/_DchqT0p){:target="_blank"} | [Yes](https://github.com/hippo5329/linorobot2_hardware/wiki#supported-sensors){:target="_blank"}   | Never     |Never |
 | [TOF Adafruit](https://www.adafruit.com/product/3317){:target="_blank"} or [Sparkfun](https://www.sparkfun.com/products/19013){:target="_blank"}   | Yes    | Yes   |[To do](https://github.com/kevinmcaleer/vl53l0x){:target="_blank"} |
@@ -58,7 +58,7 @@ Can be found [here](https://easyeda.com/editor#id=fe972d3133f048a3be8b1bbdfaf8a9
 # Mikrobus Breakout(s) 
 
 ![](https://cdn.hackaday.io/images/9540661709561892794.png)
-Some of the headers will break out into a [WIP add on board](https://easyeda.com/editor#id=fd7285a890104a4e8621f68e9cc1cb23) concept [here](https://hackaday.io/project/183129-rosmo-robot/log/227959-mikrobus-expansion{:target="_blank"}) students or others may want to design their own breakouts.
+Some of the headers will break out into a [WIP add on board](https://easyeda.com/editor#id=fd7285a890104a4e8621f68e9cc1cb23){:target="_blank"} concept [here](https://hackaday.io/project/183129-rosmo-robot/log/227959-mikrobus-expansion){:target="_blank"}) students or others may want to design their own breakouts.
 
 ## Microblocks Software - Best if you're just starting
 
@@ -71,11 +71,11 @@ Current status: Working but you have to build in Platformio to get ESP32-S3 supp
 
 - Provides a block programing interface 
 
-- Provides an [Android app](http://www.microblocks.fun/wifigamepad/gamepadwifiremote.apk)  for remote control & [detailed instructions](http://www.microblocks.fun/en/wifi/gamepad)
+- Provides an [Android app](http://www.microblocks.fun/wifigamepad/gamepadwifiremote.apk){:target="_blank"}  for remote control & [detailed instructions](http://www.microblocks.fun/en/wifi/gamepad){:target="_blank"}
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/wsgamepad-start.jpg)
 
-Use the [Pilot version](https://microblocks.fun/download) from the bottom of the downloads page. Then to quickly get started download this raw [UBP file](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/img/ziopublicwifiremote.ubp) and open it in the Microblocks app.
+Use the [Pilot version](https://microblocks.fun/download){:target="_blank"} from the bottom of the downloads page. Then to quickly get started download this raw [UBP file](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/img/ziopublicwifiremote.ubp){:target="_blank"} and open it in the Microblocks app.
 
 ## ROS 2 software - Best if you want to learn ROS2
 
