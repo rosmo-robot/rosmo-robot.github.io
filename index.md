@@ -57,7 +57,7 @@ Can be found [here](https://easyeda.com/editor#id=fe972d3133f048a3be8b1bbdfaf8a9
 # Mikrobus Breakout(s) 
 
 ![](https://cdn.hackaday.io/images/9540661709561892794.png)
-Mikrobus header can break out into a [add on board](https://easyeda.com/editor#id=fd7285a890104a4e8621f68e9cc1cb23){:target="_blank"} concept [here](https://hackaday.io/project/183129-rosmo-robot/log/227959-mikrobus-expansion){:target="_blank"}) students or others may want to design their own breakouts.
+Mikrobus header can break out into a [add on board](https://easyeda.com/editor#id=532e49d109694babaa0abe71d380afd2){:target="_blank"} concept [here](https://hackaday.io/project/183129-rosmo-robot/log/227959-mikrobus-expansion){:target="_blank"}) students or others may want to design their own breakouts.
 
 
 | Add on for breakouts          | ROS2 Linorobot                               | Microblocks | Micropython|
