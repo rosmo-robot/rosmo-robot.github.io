@@ -1,4 +1,5 @@
-
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/medium/medium-front.jpeg)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/medium/medium-side.jpeg)
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/medium/medium1.jpeg)
 
 If you find you want a larger robot than the standard [100x80mm Rosmo platform](https://rosmo-robot.github.io/) this is a larger 170x110mm option that also uses the [Open Robotic Platform](https://openroboticplatform.com/designrules) mount holes. You'll note that most the electronics components are shared between this verson and the smaller bot, making an upgrade easy and affordable. You can also re-use the 100x80mm ESP32 mounting plate from the smaller robot to save soldering/fabrication cost.
