@@ -2,7 +2,9 @@
 layout: page
 title: Rosmo
 ---
-A Open-hardware micro-robot for ROS2 that can be assembled without soldering, or access to a 3D printer. Built from modular components on the [Open Robotic Platform rules](https://openroboticplatform.com/designrules){:target="_blank"}
+An affordable, adaptable, and open-source robot.
+ 
+A micro-robot for ROS2 & Microblocks that can be assembled without soldering, or access to a 3D printer. Built from modular components on the [Open Robotic Platform rules](https://openroboticplatform.com/designrules){:target="_blank"}
 
 Using affordable components available worldwide. For students, makers, universities, R&D.
 
@@ -14,7 +16,7 @@ Using affordable components available worldwide. For students, makers, universit
 
 | Components latest v0.7 version              | Description                               | Quantity |
 | ------------------------- | ----------------------------------------- | -------- |
-| ~$12  Rosmo Chassis v0.7 with on-board motor driver | [Custom PCB Chassis](https://easyeda.com/editor#id=b053794918ce45baba5c18c52ff116d8){:target="_blank"} for sale soon, or you can order from JLPCB if you're brave     | 1       |
+| ~$12  Rosmo Chassis v0.7 with on-board motor driver | [Custom PCB Chassis](https://easyeda.com/editor#id=b053794918ce45baba5c18c52ff116d8){:target="_blank"} for sale soon, or [source](https://github.com/rosmo-robot/rosmo)    | 1       |
 | ~$32 Motor with encoder & wheel     | [6v 150RPM $Bringsmart motors](https://s.click.aliexpress.com/e/_DErxgYv){:target="_blank"}            | 4   |
 | ~$5 motor cables    | [6Pin same direction cables](https://s.click.aliexpress.com/e/_DCdPYWN){:target="_blank"}            | 4   |
 | ~$6 - $12 ESP32-S3-C1 N16R8          | [Olimex open hardware](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware){:target="_blank"}, [UK](https://thepihut.com/products/olimex-esp32-s3-devkit-lipo-development-board){:target="_blank"} [US](https://www.digikey.com/en/products/detail/olimex-ltd/ESP32-S3-DEVKIT-LIPO-EA/22157950){:target="_blank"} or [generic version](https://s.click.aliexpress.com/e/_DBbQjGl){:target="_blank"}        | 1        |
@@ -130,6 +132,10 @@ Doesn't exist yet, might be interesting to do something with [Arduino Mecanum](h
 
 I'd love to work with people on the software, give us a shout if you're interested some [ideas here](https://hackaday.io/project/183129-rosmo-robot/log/227995-version-10-approaches-stuff-to-do-looking-for-collaborators)
 
+## License
+
+PCB is CERN-OHL-S
+This documentation is CC-BY-4.0 unless otherwise noted on the page.
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/claw.jpeg)
 
