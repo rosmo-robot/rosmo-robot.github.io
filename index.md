@@ -18,10 +18,10 @@ Using affordable components available worldwide. For students, makers, universit
 | ------------------------- | ----------------------------------------- | -------- |
 | ~$12  Rosmo Chassis v0.7 with on-board motor driver | [Custom PCB Chassis](https://easyeda.com/editor#id=b053794918ce45baba5c18c52ff116d8){:target="_blank"} for sale soon, or [source](https://github.com/rosmo-robot/rosmo)    | 1       |
 | ~$16-$32 Motors with encoder & wheel     | [6v 150RPM $Bringsmart motors](https://s.click.aliexpress.com/e/_DErxgYv){:target="_blank"}            | 2 or 4   |
-| ~$5 motor cables    | [6Pin same direction cables](https://s.click.aliexpress.com/e/_DCdPYWN){:target="_blank"}            | 4   |
+| ~$5 motor cables    | [6Pin reverse direction cables](https://s.click.aliexpress.com/e/_DFAdDNB){:target="_blank"}            | 4   |
 | ~$6 - $12 ESP32-S3-C1 N16R8          | [Olimex open hardware](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware){:target="_blank"}, [UK](https://thepihut.com/products/olimex-esp32-s3-devkit-lipo-development-board){:target="_blank"} [US](https://www.digikey.com/en/products/detail/olimex-ltd/ESP32-S3-DEVKIT-LIPO-EA/22157950){:target="_blank"} or [generic version](https://s.click.aliexpress.com/e/_DBbQjGl){:target="_blank"}        | 1        |
 | ~$5 Hex Spacers               | [45mm height M3 standoff](https://www.aliexpress.com/item/32539100523.html){:target="_blank"}          | 1    |
-| ~$7 1x 2A powerbank        |[OSHW powerbank](https://oshwlab.com/wagiminator/fp6277-power-bank){:target="_blank"} or [Aliexpress Powerbank](https://www.aliexpress.com/item/1005006593619440.html){:target="_blank"}*        | 1        |
+| ~$9 1x 2A powerbank        |[OSHW powerbank](https://oshwlab.com/wagiminator/fp6277-power-bank){:target="_blank"} or [Aliexpress Powerbank](https://s.click.aliexpress.com/e/_DCvODWh){:target="_blank"}*        | 1        |
 
 List of these items on [Aliexpress](https://www.aliexpress.com/p/wishlist/shareReflux.html?groupId=H3r6Ix9p3i%2BvbdGhQpxk4NMRKh%2F%2Bgiup4z2X0odX6os%3D){:target="_blank"} *buy batteries locally if your postage service has restrictions on Lithium. Some of the links on this page are affiliate links to help offset the costs of this project, rest assured no one is getting rich off of these.
 
