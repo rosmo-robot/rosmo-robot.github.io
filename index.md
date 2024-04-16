@@ -14,7 +14,7 @@ An affordable, adaptable, and open-source robot, for students, makers, universit
 
 | Components latest v0.7 version              | Description                               | Quantity |
 | ------------------------- | ----------------------------------------- | -------- |
-| ~$12  Rosmo Chassis v0.7 with on-board motor driver | [Custom PCB Chassis](https://easyeda.com/editor#id=5387495d4c364b6aa5b0a1c55113785c){:target="_blank"} for sale soon, or [source](https://github.com/rosmo-robot/rosmo)    | 1       |
+| ~$12  Rosmo Chassis v0.7 with on-board motor driver | [Custom PCB Chassis](https://easyeda.com/editor#id=5f527ad6deca4c019012f485de6cc079){:target="_blank"} for sale soon, or [source](https://github.com/rosmo-robot/rosmo)    | 1       |
 | ~$16-$32 Motors with encoder & wheel     | [6v 150RPM $Bringsmart motors](https://s.click.aliexpress.com/e/_DErxgYv){:target="_blank"}            | 2 or 4   |
 | ~$5  80mm motor cables    | [6Pin reverse direction cables](https://s.click.aliexpress.com/e/_DEVj029){:target="_blank"}            | 4   |
 | ~$6 - $12 ESP32-S3-C1 N16R8          | [Olimex open hardware](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware){:target="_blank"}, [UK](https://thepihut.com/products/olimex-esp32-s3-devkit-lipo-development-board){:target="_blank"} [US](https://www.digikey.com/en/products/detail/olimex-ltd/ESP32-S3-DEVKIT-LIPO-EA/22157950){:target="_blank"}, [AUS](https://au.mouser.com/ProductDetail/Olimex-Ltd/ESP32-DevKit-Lipo?qs=Rp5uXu7WBW8uPlSS6e5Gsg%3D%3D){:target="_blank"} or [generic version](https://s.click.aliexpress.com/e/_DBbQjGl){:target="_blank"}        | 1        |
