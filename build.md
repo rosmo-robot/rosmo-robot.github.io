@@ -110,31 +110,17 @@ the Python or Microblocks program and drives the actuators (motors). You can add
 components to sense accelerations and headings of the robot, and communicate over WiFi
 with your laptop or phone.
 
-Motor Driver
-----------
-
-The Zio motor driver  mounts underneath the chassis
-
-![](https://github.com/rosmo-robot/rosmo-robot.github.io/assets/400875/0eda5bb2-e8f9-429e-b31a-1ec19d3e5942)
-
 
 Motors and cables
 ---------
-
-    .. image:: assembly/motors_and_cables.jpeg
-        :width: 200
-        :alt: Robot drive motors and cablese
-
+[](https://github.com/rosmo-robot/rosmo/blob/main/Images/V1/signal-2024-04-11-205803.jpeg)
 The motors are used to drive the robot and are attached to motor controller through
 the associated cables.
 
-Battery case
+Powerbank
 ----------
 
-    .. image:: assembly/battery_case.jpeg
-        :width: 200
-        :alt: Battery case 
-
+    
 The battery case holds 1x 18650 batteries. The robot supports up to three 18650 batteries per 'stack'
 
 **Ultrasonic rangefinder(optional)**
@@ -153,18 +139,13 @@ B) The Zio ultrasonic sensor is connected using a Qwiic cable
 
 
 **Sensor cables**
-    .. image:: assembly/sensor_cables.jpeg
-        :width: 200
-        :alt: Cables for rangefinder and line follower sensors
-
+  
 These Qwiic cables connect the rangefinder and line following sensors to the Motor driver.
 
 **Miswiring is the motors is the most common cause of problems when assembling the Rosmo robot.**
 
 **Wheels**
-    .. image:: assembly/tires.jpeg
-        :width: 200
-        :alt:  tires over the wheels
+![](https://github.com/rosmo-robot/rosmo/blob/main/Images/V1/signal-2024-04-11-205716.jpeg)    
 
 These tires come mounted on plastic wheels to give the robot
 more traction, especially on smooth surfaces.
@@ -198,35 +179,22 @@ assembly so you can get a good overview of how it goes together.
 Inserting ESP32 into the chassis (1:18)
 ------------------------------------------------------
 
-.. note::
- 
 
 Insert the ESP32-S3 into the chassis as shown in the following picture.
-Observe the orientation of the board where the battery connector (5) istowards the back of the
-robot as shown. Also the top corners of the board are inserted part way into the corner
-pockets as shown at (1) and (2). The clips in the chassis (3) and (4) are designed to hold the chassis
-in place when it is pushed in.
+Observe the orientation of the board where the USB connections are towards the left of the
+robot as shown.
 
-    .. image:: assembly/inserting_controller_1.jpeg
-        :width: 300
-        :alt: First step in installing the controller is to push in the top corners
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/signal-2024-04-05-171808.jpeg)
 
 Then push down and foward on the back edges of the board so that the front corners
-are completely seated in the pocket as shown at (1) and (2) and the board snaps down as shown at (3) and (4)
-in the following photograph. It might be helpful to view this part of the assembly in the video
-from the top of this page.
-
-    .. image:: assembly/inserting_controller_2.jpeg
-        :width: 300
-        :alt: Second stem in stalling the controller by pushing it forwards and down into place
+are completely seated in the female headers
 
 Installing the battery pack (1:39)
 ----------------------------------
 The battery pack is installed by:
 
 1. Inserting the cable through the cutout in the battery pack area in the chassis.
-2. Pushing the edge of the battery pack against the fingers in the chassis which hold it in place.
-3. Push the battery pack in place into the robot chassis so that it is full seated.
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo/main/Images/V1/battery.jpeg)
 
     .. image:: assembly/battery_pack_cable.jpeg
         :width: 200
