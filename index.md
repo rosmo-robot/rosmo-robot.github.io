@@ -49,7 +49,7 @@ Can be found [here](https://easyeda.com/editor#id=fe972d3133f048a3be8b1bbdfaf8a9
 | [Line finder - ZIO](https://github.com/ZIOCC/Zio-Line-Finder-Qwiic-4-Transceivers-){:target="_blank"} | To do  | To do   | To do|
 | [Servo - Zio](https://github.com/rosmo-robot/Qwiic_Servo_Driver_PCA9685/){:target="_blank"} for [mini arm](https://www.thingiverse.com/thing:5683010){:target="_blank"}  | To do   | To do   | To do|
 | [LED - Zio](https://www.smart-prototyping.com/Zio-Qwiic-RGB-LED-APA102){:target="_blank"}  | To do  | To do   |To do   |
-|  [Mecanum wheels (48mm)](https://www.aliexpress.com/item/1005005115563126.html){:target="_blank"}| Yes    | To do    |To do   |
+|  [Mecanum wheels (48mm)](https://www.aliexpress.com/item/1005005115563126.html){:target="_blank"} & [Adaptor](https://s.click.aliexpress.com/e/_Dm7R12P){:target="_blank"}| Yes    | To do    |To do   |
 | [10mm Cube standoff](https://www.aliexpress.com/item/1005005880192495.html){:target="_blank"} | Yes   | Yes    |Yes   |
 |  [Loader attachment (closed hardware)](https://www.dfrobot.com/product-2006.html){:target="_blank"} [Grabber attachment](https://www.dfrobot.com/product-2128.html){:target="_blank"}| To do   | Yes     | To do   |
 | [1300 MikroBUS, other sensors (closed hardware)](https://hackaday.io/project/183129-rosmo-robot/log/227959-mikrobus-expansion){:target="_blank"}| partial   | partial    | partial|
