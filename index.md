@@ -28,10 +28,6 @@ Rosmo is built from modular components on the [Open Robotic Platform rules](http
 [![OSHWA certified](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/img/v1/oshw00062.svg)](https://certification.oshwa.org/uk000062.html
 
 
-![](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/img/v1/oshw00062.svg) 
-
-
-
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/signal-2024-04-05-171808.jpeg)
 
 ## Schematic
