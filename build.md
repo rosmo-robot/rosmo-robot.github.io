@@ -111,61 +111,6 @@ components to sense accelerations and headings of the robot, and communicate ove
 with your laptop or phone.
 
 
-Motors and cables
----------
-[](https://github.com/rosmo-robot/rosmo/blob/main/Images/V1/signal-2024-04-11-205803.jpeg)
-The motors are used to drive the robot and are attached to motor controller through
-the associated cables.
-
-Powerbank
-----------
-
-    
-The battery case holds 1x 18650 batteries. The robot supports up to three 18650 batteries per 'stack'
-
-**Ultrasonic rangefinder(optional)**
-
-A) 
-    .. image:: assembly/ultrasonic.jpeg
-        :width: 200
-        :alt: Ultrasonic rangefinder
-
-B) The Zio ultrasonic sensor is connected using a Qwiic cable
-
-**Reflectance sensor (optional)**
-    .. image:: assembly/reflectance_sensor.jpeg
-        :width: 200
-        :alt: Reflelctance sensor for following or finding lines the robot drives over
-
-
-**Sensor cables**
-  
-These Qwiic cables connect the rangefinder and line following sensors to the Motor driver.
-
-**Miswiring is the motors is the most common cause of problems when assembling the Rosmo robot.**
-
-**Wheels**
-![](https://github.com/rosmo-robot/rosmo/blob/main/Images/V1/signal-2024-04-11-205716.jpeg)    
-
-These tires come mounted on plastic wheels to give the robot
-more traction, especially on smooth surfaces.
-
-**Bucket kit(optional)**
-    .. image:: assembly/servo.jpeg
-        :width: 200
-        :alt: 
-
-**Grabber (optional)**
-    .. image:: assembly/servo_arm.jpeg
-        :width: 300
-        :alt:Grabber kit for lifting objects
-
-
-The servo is a special type of motor such that when programmed with a position
-the shaft will automatically move to the specified angle. This is used to power the arm
-on your robot it can move to predetermined angles all by itself.
-
-
 Assembling the Rosmo Robot
 ========================
 
@@ -178,8 +123,6 @@ assembly so you can get a good overview of how it goes together.
 
 Inserting ESP32 into the chassis (1:18)
 ------------------------------------------------------
-
-
 Insert the ESP32-S3 into the chassis as shown in the following picture.
 Observe the orientation of the board where the USB connections are towards the left of the
 robot as shown.
@@ -189,20 +132,7 @@ robot as shown.
 Then push down and foward on the back edges of the board so that the front corners
 are completely seated in the female headers
 
-Installing the battery pack (1:39)
-----------------------------------
-The battery pack is installed by:
 
-1. Inserting the cable through the cutout in the battery pack area in the chassis.
-![](https://raw.githubusercontent.com/rosmo-robot/rosmo/main/Images/V1/battery.jpeg)
-
-    .. image:: assembly/battery_pack_cable.jpeg
-        :width: 200
-        :alt: Cable inserted through the hole before inserting battery pack
-
-    .. image:: assembly/battery_pack_inserted.jpeg
-        :width: 200
-        :alt: Battery pack being inserted into the chassis.
 
 
 
@@ -212,6 +142,16 @@ The  motors  include encoders (sensors to measure wheel rotation) to
 make it easy to program the robot to drive for specific distances and speeds. This will give your
 robots more control and accuracy as your are writing progams to operate it.
 
+Installing the motors into the chassis (4:09)
+---------------------------------------------
+
+The motors screw into the chassis from the bottom once the wheels and cables are installed. T
+.
+Ideally you should push the wires from the motor through the opening in the chassis to the top of the
+chassis so they can be attached to the Motor driver. Then seat the end of the motor opposite the
+cable end, then snap the wheel side of the motor into place. Repeat for both motors.
+
+
 Putting the wheels onto the motors (3:22)
 -----------------------------------------
 
@@ -220,50 +160,17 @@ that correspond to the flat edges in the center of the wheel. The wheel is press
 motor shaft so that the center part of the wheel that sticks out is closest to the motor body and
 that the wheel is pressed all the way onto the motor shaft.
 
-    .. image:: assembly/wheel_and_motor.jpeg
-        :width: 200
-        :alt: The wheel and motor showing the shaft flat sides and the corresponding wheel shape
+   
 
-    .. image:: assembly/wheel_mounted.jpeg
-        :width: 200
-        :alt: The wheels mounted on the motors
-
-
-Connecting the motor cables to the motors (3:52)
+Connecting the motor cables & encoders to the chassis
 ------------------------------------------------
-
 The motor cables connect the motor to the Motor driver so that it can drive the drive the motors
-
-
-
-Connecting the encoders to the ESP32-S3 (3:52)
-------------------------------------------------
 
 The ESP32-S3 microcontroller must receive data from the motor encoder sensors that provide position and speed information for
 your robot program. This encoders all the robot to drive at a desired speed and drive for a desired
 distance.
 
-
-    .. image:: assembly/cables_on_motors.jpeg
-        :width: 200
-        :alt: The cables attach to the motors by inserting the connectors
-
-Installing the motors into the chassis (4:09)
----------------------------------------------
-
-The motors slide into the chassis from the bottom once the wheels and cables are installed. T
-.
-Ideally you should push the wires from the motor through the opening in the chassis to the top of the
-chassis so they can be attached to the Motor driver. Then seat the end of the motor opposite the
-cable end, then snap the wheel side of the motor into place. Repeat for both motors.
-
-    .. image:: assembly/motor_half_installed.jpg
-        :width: 200
-        :alt: Motor is inserted from the cable end first
-
-    .. image:: assembly/motor_fully_installed.jpg
-        :width: 200
-        :alt: Motor is fully seated in the chassis
+    
 
 Photo of the Breakout headers
 -----------------------------
@@ -272,34 +179,16 @@ Breakout headers on the robot. The printing on the board identifying the purpose
 each of the connectors and the pins is very small to fit on the small board. To make
 assembly easier, refer to the following photograph of the board if needed.
 
-.. image:: assembly/RobotController.jpg
-    :width: 500
 
-Connecting the motor cables to the Motor driver (4:43)
-----------------------------------------------------------
 
-The motor cables are connected to the Motor driver labeled Motor 1,2,3 and 4
-for the left and right motor cables.
 
-    .. image:: assembly/left_motor_cable.jpeg
-        :width: 200
-        :alt: Left motor cable inserted in the Breakout headers
+Installing the battery pack (1:39)
+----------------------------------
+The battery pack is installed by placing it on the bottom PCB plate and attaching the bottom and top plates together with hex spacers, gently squeezing the battery between the two plates
 
-    .. image:: assembly/right_motor_cable.jpeg
-        :width: 200
-        :alt: Right motor cable inserted in the Breakout headers
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo/main/Images/V1/battery.jpeg)
 
-Adding the Sensors
---------------------------------
-The line following sensor can detect lines on the driving surface that have a different reflectivity.
-These are typically used in robot applications to follow lines or locating interesting places on a
-board or mat. It has two pairs of LEDs and photo sensors to emit infrared light and measure the
-reflected brightness.
 
-The ultrasonic rangefinder uses sound to measure the distance to objects in front of the sensor.
-An ultrasonic (inaudible high frequency) short sound is sent from one of the transducers which
-is reflected back by nearby objects and received by the second transducer. The time of the
-sound round-trip is measured to determine distance to nearby objects.
 
 Attaching the IMU (optional - recommended) (5:11)
 ------------------------------------------------
@@ -307,30 +196,36 @@ The IMU board is connected to the  as shown in the picture
 The connectors simply push over the sensor pins. Be sure that they are fully seated as shown in the picture and video
 to ensure a good connection.
 
-    .. image:: assembly/reflectance_wiring.jpeg
-        :width: 200
-        :alt: The cable attached to the reflectance sensor showing the order of the individual wires
+The servo is a special type of motor such that when programmed with a position
+the shaft will automatically move to the specified angle. This is used to power the arm
+on your robot it can move to predetermined angles all by itself.
 
 
 Wiring the line following sensors (optional) (5:11)
 ------------------------------------------------
+The line following sensor can detect lines on the driving surface that have a different reflectivity.
+These are typically used in robot applications to follow lines or locating interesting places on a
+board or mat. It has two pairs of LEDs and photo sensors to emit infrared light and measure the
+reflected brightness.
+
 The sensor board is connected to the line following (reflectance) sensor as shown in the picture
 below. Be sure to observe the order and color of the wires connecting to the sensor. The connectors
 simply push over the sensor pins. Be sure that they are fully seated as shown in the picture and video
 to ensure a good connection.
 
-    .. image:: assembly/reflectance_wiring.jpeg
-        :width: 200
-        :alt: The cable attached to the reflectance sensor showing the order of the individual wires
 
 Wiring the ultrasonic distance sensors (optional) (5:11)
 ------------------------------------------------
-There are two approaches to distance sensorsis wired by attaching the four wires from the sensor cable to the pins on the rangefinder
+
+The ultrasonic rangefinder uses sound to measure the distance to objects in front of the sensor.
+An ultrasonic (inaudible high frequency) short sound is sent from one of the transducers which
+is reflected back by nearby objects and received by the second transducer. The time of the
+sound round-trip is measured to determine distance to nearby objects.
+
+There are two approaches to distance sensors  wired by attaching the four wires from the sensor cable to the pins on the rangefinder
 as shown in the picture below. Be sure to connect the wires to the pins in the right order.
 
-    .. image:: assembly/reflectance_with_wires.jpeg
-        :width: 200
-        :alt: Reflectance sensor with wires attach
+
         
 Wiring the laser distance sensors (optional) (5:11)
 ------------------------------------------------
@@ -341,34 +236,6 @@ as shown in the picture below. Be sure to connect the wires to the pins in the r
         :width: 200
         :alt: Reflectance sensor with wires attached
 
-Attaching the brackets to the chassis (5:44)
-------------------------------------------------------
-The rangefinder bracket is attached to the front of the chassis just above the reflectance sensor
-as shown in the picture below.
-
-    .. image:: assembly/rangefinder_bracket_on_chassis.jpg
-        :width: 200
-        :alt: Rangefinder bracket attached to the chassis
-    
-The reflectance sensor bracket is installed on the chassis as shown in the picture below. The ball end of the
-bracket is inserted into the slot in the front rail.
-
-    .. image:: assembly/reflectance_sensor_on_chassis.jpg
-        :width: 200
-        :alt: The reflectance sensor attached to the chassis
-
-Inserting the line follower into the bracket (6:19)
----------------------------------------------------
-The reflectance sensor is inserted into the bracket as shown in the picture below. Also look at the side
-view of the assembly to see how the sensor is correctly positioned in the bracket.
-
-    .. image:: assembly/reflectance_in_bracket.jpg
-        :width: 200
-        :alt: Reflectance sensor inserted into the bracket
-    
-    .. image:: assembly/reflectance_side_view.jpg
-        :width: 200
-        :alt: Side view of reflectance sensor showing how it fits into the bracket
 
 
 Attaching the Lifting bucket (Optional)
@@ -400,29 +267,11 @@ The servo snaps into the servo bracket as shown in the photo below.
         :alt: The servo mounted in the bracket ready to snap onto the robot
 
 
-
-Initializing and testing your Rosmo Robot(10:21)
-=========================================
-Refer to SparkFun's video at the top of this page to set up your Rosmo Robotand ensure
-that it's working correctly!
-
-Once your Rosmo Robotis connected, skip to (12:44) in the video and follow along with the built-in test
-to ensure that the sensors and motors are working properly. 
-
 Troubleshooting the robot build
 ===============================
 Generally the build of the robot is very strightforward, but from feedback we have compiled this section
-that describes some of the common issues we have seen as people are building the Rosmo.
+that describes some of the common issues we have seen as people are building Rosmo.
 
-Rangefinder or the line following sensors don't work in the Installation Verification Test 
-------------------------------------------------------------------------------------------
-It is very easy to accidentally attach the rangefinder and line following sensor cables to the
-wrong connectors on the Breakout headers. Be sure to verify that the rangefinder is in the
-connector marked "Range" and the line following sensor is in the connector marked "Line".
-
-If the connectors are reversed and you have to remove them, **be sure to only remove the connector
-by pulling on the plastic shell**. Do not pull on the wires as you might accidently pull them out
-of the connector.
 
 
 Driving
@@ -471,14 +320,6 @@ Driving for a distance
 ----------------------
 The following program fragments show how to program the robot to drive forward for 10 centimeters with an effort of 0.5 or 50 percent power. This function uses the encoders to determine when the robot has traveled the requested 10cm. In addition, this function will ensure that the robot drives in a straight line by varying the speed of the left or right motors if one is slightly faster.
 
-.. image:: images/Picture4.png
-    :width: 300
-
-.. image:: images/Picture5.png
-    :width: 300
-
-.. note::
-  when requesting a distance to drive, the encoders are used to sense the number of degrees of wheel rotation to complete the operation. If the wheels slip while driving, the distance measurement will be incorrect.
 
 Driving with an effort
 ----------------------
@@ -577,8 +418,8 @@ diameter.
 ======
 Motor classes
 -------------
-The Rosmo Robothas two drive motors connected to the ports Motor L and
-Motor R on the Motor driver board. The board also supports
+The Rosmo Robot has two or four drive motors connected to the ports Motor 1 and
+Motor 2 on the Motor driver board. The board also supports
 two additional motors labeled Motor 3 and Motor 4. These motors
 can be used to create additional mechanisms for the Rosmo.
 
