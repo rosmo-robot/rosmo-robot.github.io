@@ -21,11 +21,13 @@ An affordable, adaptable, and open-source robot, for students, makers, universit
 | ~$5 Hex Spacers               | [45mm height M3 standoff](https://www.aliexpress.com/item/32539100523.html){:target="_blank"}          | 1    |
 | ~$9 1x 2A powerbank        |[OSHW powerbank](https://oshwlab.com/wagiminator/fp6277-power-bank){:target="_blank"} or [Aliexpress Powerbank](https://s.click.aliexpress.com/e/_DCvODWh){:target="_blank"}*        | 1        |
 
-List of these items on [Aliexpress](https://www.aliexpress.com/p/wishlist/shareReflux.html?groupId=H3r6Ix9p3i%2BvbdGhQpxk4NMRKh%2F%2Bgiup4z2X0odX6os%3D){:target="_blank"} *buy batteries locally if your postage service has restrictions on Lithium. Some of the links on this page are affiliate links to help offset the costs of this project, rest assured no one is getting rich off of these.
+ *buy batteries locally if your postage service has restrictions on Lithium. 
+ 
+ Some of the links on this page are affiliate links to help offset the costs of this project, rest assured no one is getting rich off of these. List of the above items on [Aliexpress](https://www.aliexpress.com/p/wishlist/shareReflux.html?groupId=H3r6Ix9p3i%2BvbdGhQpxk4NMRKh%2F%2Bgiup4z2X0odX6os%3D){:target="_blank"}
 
 Rosmo is built from modular components on the [Open Robotic Platform rules](https://openroboticplatform.com/designrules){:target="_blank"}
 
-![](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/img/v1/oshw00062.svg)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/v1/certification-mark-UK000061-wide.png)
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/signal-2024-04-05-171808.jpeg)
 
