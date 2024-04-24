@@ -23,7 +23,7 @@ An affordable, adaptable, and open-source robot, for students, makers, universit
 
  *buy batteries locally if your postage service has restrictions on Lithium. 
  
- Some of the links on this page are affiliate links to help offset the costs of this project, rest assured no one is getting rich off of these. List of the above items on [Aliexpress](https://www.aliexpress.com/p/wishlist/shareReflux.html?groupId=H3r6Ix9p3i%2BvbdGhQpxk4NMRKh%2F%2Bgiup4z2X0odX6os%3D){:target="_blank"}
+ Some of the links on this page are affiliate links to help offset the costs of this project, rest assured no one is getting rich off of these. [List of the above items on Aliexpress](https://www.aliexpress.com/p/wishlist/shareReflux.html?groupId=H3r6Ix9p3i%2BvbdGhQpxk4NMRKh%2F%2Bgiup4z2X0odX6os%3D){:target="_blank"}
 
 Rosmo is built from modular components on the [Open Robotic Platform rules](https://openroboticplatform.com/designrules){:target="_blank"}
 
