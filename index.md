@@ -27,7 +27,7 @@ An affordable, adaptable, and open-source robot, for students, makers, universit
 
 Rosmo is built from modular components on the [Open Robotic Platform rules](https://openroboticplatform.com/designrules){:target="_blank"}
 
-![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/v1/certification-mark-UK000061-wide.png)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/v1/certification-mark-UK000062-wide.png)
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/signal-2024-04-05-171808.jpeg)
 
