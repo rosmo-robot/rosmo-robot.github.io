@@ -10,11 +10,11 @@ An affordable, adaptable, and open-source robot, for students, makers, universit
 
 
 ## BOM 
-~$45 for 2wd, ~$61 for 4wd base can be reduced, by using existing powerbank for example. 
+~$45 for 2wd, ~$61 for 4wd  
 
 | Components latest v0.7 version              | Description                               | Quantity |
 | ------------------------- | ----------------------------------------- | -------- |
-| ~$12  Rosmo Chassis v0.7 with on-board motor driver | [Custom PCB Chassis](https://easyeda.com/editor#id=e474af347d814f65bca567cf9c07d0a8){:target="_blank"} for sale soon, or [source](https://github.com/rosmo-robot/rosmo)    | 1       |
+| ~$12  Rosmo Chassis v0.7 with on-board motor driver | [Custom PCB Chassis](https://easyeda.com/editor#id=9d96a91d7c9445b7a3b19f926e968630){:target="_blank"} for sale soon, or [source](https://github.com/rosmo-robot/rosmo)    | 1       |
 | ~$16-$32 Motors with encoder & wheel     | [6v 150RPM $Bringsmart motors](https://s.click.aliexpress.com/e/_DErxgYv){:target="_blank"}            | 2 or 4   |
 | ~$5  80mm motor cables    | [6Pin reverse direction cables](https://s.click.aliexpress.com/e/_Dk6w1x3){:target="_blank"}            | 4   |
 | ~$6 - $12 ESP32-S3-C1 N16R8          | [Olimex open hardware](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware){:target="_blank"}, [UK](https://thepihut.com/products/olimex-esp32-s3-devkit-lipo-development-board){:target="_blank"} [US](https://www.digikey.com/en/products/detail/olimex-ltd/ESP32-S3-DEVKIT-LIPO-EA/22157950){:target="_blank"}, [AUS](https://au.mouser.com/ProductDetail/Olimex-Ltd/ESP32-DevKit-Lipo?qs=Rp5uXu7WBW8uPlSS6e5Gsg%3D%3D){:target="_blank"} or [generic version](https://s.click.aliexpress.com/e/_DBbQjGl){:target="_blank"}        | 1        |
@@ -23,7 +23,7 @@ An affordable, adaptable, and open-source robot, for students, makers, universit
 
  *buy batteries locally if your postage service has restrictions on Lithium. 
  
- Some of the links on this page are affiliate links to help offset the costs of this project, rest assured no one is getting rich off of these. [List of the above items on Aliexpress](https://www.aliexpress.com/p/wishlist/shareReflux.html?groupId=H3r6Ix9p3i%2BvbdGhQpxk4NMRKh%2F%2Bgiup4z2X0odX6os%3D){:target="_blank"}
+ Some of the links on this page are affiliate links to help offset the costs of this project, rest assured no one is getting rich off of these. [List of the above items on Aliexpress](https://www.aliexpress.com/p/wishlist/shareReflux.html?groupId=H3r6Ix9p3i%2BvbdGhQpxk4NMRKh%2F%2Bgiup4z2X0odX6os%3D){:target="_blank"} cost can be reduced, by using existing powerbank.
 
 Rosmo is built from modular components on the [Open Robotic Platform rules](https://openroboticplatform.com/designrules){:target="_blank"}
 
@@ -35,6 +35,8 @@ Rosmo is built from modular components on the [Open Robotic Platform rules](http
 Can be found [here](https://easyeda.com/editor#id=fe972d3133f048a3be8b1bbdfaf8a93f){:target="_blank"}
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Schematic_open-robot-platform_2024-04-03.svg)
+
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/v1/pinout.png)
 
  
 ## Optional extras
