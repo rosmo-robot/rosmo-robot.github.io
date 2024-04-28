@@ -10,7 +10,6 @@ An affordable, adaptable, and open-source robot, for students, makers, universit
 
 
 ## Parts list
-~$45 for 2wd, ~$61 for 4wd  
 
 | Part             | Description                               | Quantity |
 | ------------------------- | ----------------------------------------- | -------- |
@@ -22,10 +21,12 @@ An affordable, adaptable, and open-source robot, for students, makers, universit
 | ~$9 1x 2A powerbank        |[OSHW powerbank](https://oshwlab.com/wagiminator/fp6277-power-bank){:target="_blank"} or [Aliexpress Powerbank](https://s.click.aliexpress.com/e/_DCvODWh){:target="_blank"}*        | 1        |
 
  *buy batteries locally if your postage service has restrictions on Lithium. 
- 
- Some of the links on this page are affiliate links to help offset the costs of this project, no one is getting rich off of these. [List of the above items on Aliexpress](https://www.aliexpress.com/p/wishlist/shareReflux.html?groupId=H3r6Ix9p3i%2BvbdGhQpxk4NMRKh%2F%2Bgiup4z2X0odX6os%3D){:target="_blank"} cost can be reduced, by using existing powerbank.
+
+ ~$45 US for 2wd, ~$61 for 4wd  
 
 Rosmo is built from modular components on the [Open Robotic Platform rules](https://openroboticplatform.com/designrules){:target="_blank"}
+ 
+ Some of the links on this page are affiliate links to help offset the costs of this project, no one is getting rich off of these. [List of the above items on Aliexpress](https://www.aliexpress.com/p/wishlist/shareReflux.html?groupId=H3r6Ix9p3i%2BvbdGhQpxk4NMRKh%2F%2Bgiup4z2X0odX6os%3D){:target="_blank"} cost can be reduced, by using existing powerbank.
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/v1/certification-mark-UK000062-wide.png)
 
@@ -86,10 +87,9 @@ I also did a breakout in a [Wemos D1 format](https://easyeda.com/editor#id=c7740
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo/main/Images/V1/signal-2024-04-12-124516.jpeg)
 
 
-## Microblocks Software - Best if you're just starting
+## Software Microblocks; Best if you're just starting
 
 <video src="https://github.com/rosmo-robot/zio_demo/assets/400875/4d8f3e58-93ae-484d-b4bf-076c96f3a7d6" controls="controls" style="max-width: 730px;"></video>
-
 
 Current status: Working but you have to build in Platformio to get ESP32-S3 support
 
@@ -103,9 +103,9 @@ Current status: Working but you have to build in Platformio to get ESP32-S3 supp
 
 Use the [Pilot version](https://microblocks.fun/download){:target="_blank"} from the bottom of the downloads page. Then to quickly get started download this raw [UBP file](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/img/ziopublicwifiremote.ubp){:target="_blank"} and open it in the Microblocks app.
 
-## ROS 2 software - Best if you want to learn ROS2
+## Software Linorobot; Best if you want to learn ROS2
 
-Current status: Wheels spinning, but not fully tested yet. 
+Status: Wheels spinning, but not fully tested yet. 
   
 - [Linorobot2](https://github.com/hippo5329/linorobot2_hardware/tree/esp32s3-lipo-zio) Zio driver now supported.
 - [Virtual machine for download](https://drive.google.com/file/d/1itU1ZYsxZf3GO9LMmP3NauBo0db6XsqN/view?usp=sharing) Ubuntu 22.04 with ROS2/Linorobot. For use with [Virtualbox](https://www.virtualbox.org/wiki/Downloads) 
@@ -120,18 +120,23 @@ Current status: Wheels spinning, but not fully tested yet.
 
 
 
-## Openbot software (Android) - Best if you want to explore affordable vision 
+## Software Openbot (Android); Best if you want to explore affordable vision 
+
+Status: Needs tweaking for ESP32S3
 
 - Android app and Arduino for computer vision & AI
 - [https://www.openbot.org](https://www.openbot.org/research)
 
 
 ## Micropython software
-Doesn't exist yet, interest from author of [Otto Mecanum](https://github.com/UEA-envsoft/Otto-Mecanum) in adapting for Rosmo
+Status: Doesn't exist yet, 
+
+Interest from author of [Otto Mecanum](https://github.com/UEA-envsoft/Otto-Mecanum) in adapting for Rosmo
 
 
 ## Arduino software
-Doesn't exist yet, might be interesting to do something with [Arduino Mecanum](https://github.com/StormingMoose/DroneBot-Workshop-Mecanum-for-L9110S) and maybe [Smartcar Shield](https://github.com/platisd/smartcar_shield?tab=readme-ov-file#software) at some point
+Status: Doesn't exist yet, 
+Might be interesting to do something with [Arduino Mecanum](https://github.com/StormingMoose/DroneBot-Workshop-Mecanum-for-L9110S) and maybe [Smartcar Shield](https://github.com/platisd/smartcar_shield?tab=readme-ov-file#software) at some point
 
 
 ## Collaborators
@@ -148,7 +153,7 @@ This documentation is CC-BY-4.0 unless otherwise noted on the page.
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo/main/Images/V1/signal-2024-04-11-205952.jpeg)
 
 
-
+## Older photos of iteration process
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/claw.jpeg)
 
