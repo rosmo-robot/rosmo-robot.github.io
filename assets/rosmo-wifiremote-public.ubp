@@ -1,0 +1,631 @@
+module main
+author unknown
+version 1 0 
+description ''
+variables LEDstat loopOn clientList clientID event SSID hsPassword hotspotName password eol APmode connectionInfo 
+
+  spec ' ' 'LED' 'LED'
+  spec ' ' 'Loopback id _' 'Loopback id _' 'num' 10
+  spec ' ' 'WSLoop' 'WSLoop'
+  spec 'r' 'clientID exists' 'clientID exists'
+  spec ' ' 'process event' 'process event'
+  spec ' ' 'processText' 'processText _ id _' 'str auto' 'text' '10'
+  spec 'r' 'showConnectionInfo' 'show connection info'
+  spec ' ' 'LOOP' 'LOOP _' 'num' 10
+  spec ' ' 'circle' 'circle'
+  spec ' ' 'cross' 'cross'
+  spec ' ' 'left' 'left'
+  spec ' ' 'right' 'right'
+  spec ' ' 'square' 'square'
+  spec ' ' 'triangle' 'triangle'
+  spec ' ' 'down' 'down'
+  spec ' ' 'up' 'up'
+
+to LED {
+  LEDstat = (not LEDstat)
+  setUserLED LEDstat
+}
+
+to LOOP id {
+  atPut (id + 1) loopOn (not (at (id + 1) loopOn))
+  if (at (id + 1) loopOn) {
+    atPut (id + 1) clientList ('[data:join]' id ':' 'in Loopback mode')
+  } else {
+    atPut (id + 1) clientList ('[data:join]' id ':')
+  }
+}
+
+to 'Loopback id _' id {
+}
+
+to WSLoop {
+  clientID = 999999
+  LEDstat = (booleanConstant false)
+  loopOn = ('[data:makeList]' (booleanConstant false) (booleanConstant false) (booleanConstant false) (booleanConstant false) (booleanConstant false))
+  forever {
+    sayIt 'WSLoop'
+    event = ('[net:webSocketLastEvent]')
+    if (event != (booleanConstant false)) {
+      clientID = ('ws client id' event)
+      if (not ('clientID exists')) {
+        '[data:addLast]' ('[data:join]' clientID ':') clientList
+      }
+      sendBroadcast 'process event'
+    }
+    waitMillis 20
+  }
+}
+
+to circle {
+  setServoAngle 41 90
+}
+
+to 'clientID exists' {
+  if (0 == (size clientList)) {return (booleanConstant false)}
+  if (-1 == ('[data:find]' ('[data:join]' clientID ':') clientList)) {
+    for IDs clientList {
+      if (-1 != ('[data:find]' ('[data:join]' clientID ':') IDs)) {return (booleanConstant true)}
+    }
+    return (booleanConstant false)
+  } else {
+    return (booleanConstant true)
+  }
+}
+
+to cross {
+  analogWriteOp 21 0
+  analogWriteOp 39 0
+  analogWriteOp 1 0
+  analogWriteOp 2 0
+  analogWriteOp 0 0
+  analogWriteOp 40 0
+  analogWriteOp 8 0
+  analogWriteOp 16 0
+  analogWriteOp 15 0
+}
+
+to down {
+  comment 'm3
+a/40 not
+'
+  analogWriteOp 16 0
+  analogWriteOp 15 1023
+  analogWriteOp 39 0
+  analogWriteOp 21 1023
+}
+
+to left {
+  comment 'm1 both'
+  analogWriteOp 39 1023
+  analogWriteOp 21 0
+}
+
+to 'process event' {
+  local 'current event' ('[data:copyFromTo]' event 1)
+  if (('ws event type' (v 'current event')) == 'connected') {
+    atPut (clientID + 1) clientList ('[data:join]' clientID ':' 'connected.')
+    '[net:webSocketSendToClient]' ('[data:join]' 'CLIENT# ' clientID ' connected.') clientID
+  } (('ws event type' (v 'current event')) == 'disconnected') {
+    atPut (clientID + 1) clientList ('[data:join]' clientID ':' 'disconnected...')
+  } (('ws event type' (v 'current event')) == 'text message') {
+    processText ('ws event payload' (v 'current event')) clientID
+  }
+}
+
+to processText payload id {
+  comment 'SOCKET Messages processed:
+
+LED - toggle user led
+LOOP - put socket in loopback
+fwd, bwd, left, right, square, triangle, circle, cross
+'
+  local 'actions' ('[data:makeList]' 'LED' 'LOOP' 'up' 'down' 'left' 'right' 'square' 'triangle' 'circle' 'cross')
+  if ((size payload) > 0) {
+    if (-1 != ('[data:find]' payload actions)) {callCustomCommand payload ('[data:makeList]' id)}
+    comment 'Is socket in loop mode'
+    if (at (id + 1) loopOn) {
+      '[net:webSocketSendToClient]' payload id
+    } else {
+      if ('LOOP' != payload) {
+        comment 'it is a normal message'
+        atPut (id + 1) clientList ('[data:join]' id ':' payload)
+      }
+    }
+  }
+}
+
+to right {
+  comment '
+ m2 - works
+'
+  analogWriteOp 16 1023
+  analogWriteOp 15 0
+}
+
+to showConnectionInfo {
+  connectionInfo = ''
+  connectionInfo = ('[data:join]' ('[data:join]' 'SSID: ' SSID) eol)
+  connectionInfo = ('[data:join]' connectionInfo 'IP:' (getIPAddress) eol)
+  if APmode {
+    connectionInfo = ('[data:join]' connectionInfo 'AP-PWD:' hsPassword)
+  }
+  return connectionInfo
+}
+
+to square {
+  comment 'm4a
+'
+}
+
+to triangle {
+  setServoAngle 42 85
+  waitMillis 3000
+  setServoAngle 42 -80
+}
+
+to up {
+  comment 'm4 - works
+'
+  analogWriteOp 16 1023
+  analogWriteOp 15 0
+  analogWriteOp 39 1023
+  analogWriteOp 21 0
+}
+
+script 518 50 {
+whenStarted
+comment 'CLIENT MODE:
+Set the SSID and Password below to match your network
+credentials.
+When the program starts it will login to local network using
+the credentials below.'
+SSID = 'VM1497521'
+password = 'a pw'
+APmode = (booleanConstant false)
+LEDstat = (booleanConstant false)
+eol = ('[data:unicodeString]' 10)
+clientList = ('[data:makeList]')
+wifiConnect SSID password
+sayIt (showConnectionInfo)
+'start WebSocket server'
+sendBroadcast 'WSLoop'
+}
+
+script 1304 62 {
+whenButtonPressed 'B'
+comment 'AP MODE:
+When the AP mode is activated, a new WIFI network with the credentials
+below will be started. The mobile phone has to signon to the new network
+with the SSID and Password below, using the WIFI connection settings 
+of the mobile device.
+
+If THIS program is restarted, the AP SSID willl be temporarily reset, causing
+the cell phone WIFI to drop the connection and switch to the local WIFI.
+The AP SSID signon has to be REPEATED each time.'
+hotspotName = 'ESP32AP'
+SSID = hotspotName
+hsPassword = '12345678'
+APmode = (booleanConstant true)
+wifiCreateHotspot hotspotName hsPassword
+'start WebSocket server'
+sayIt (showConnectionInfo)
+sendBroadcast 'WSLoop'
+}
+
+script 225 129 {
+SSID = 'Bristol Hackspace'
+password = 'a pw'
+}
+
+script 935 131 {
+whenCondition ((getLastBroadcast) == 'WSLoop')
+comment 'Display Clients Activity'
+forever {
+  local 'statusLine' ''
+  for item clientList {
+    statusLine = ('[data:join]' statusLine item eol)
+  }
+  sayIt statusLine
+  waitMillis 500
+}
+}
+
+script 386 478 {
+to right {}
+}
+
+script 215 482 {
+to left {}
+}
+
+script 553 482 {
+to down {}
+}
+
+script 735 490 {
+to up {}
+}
+
+script 1061 551 {
+analogWriteOp 8 1023
+analogWriteOp 40 0
+analogWriteOp 2 1023
+analogWriteOp 1 0
+}
+
+script 63 703 {
+to triangle {}
+}
+
+script 1381 707 {
+'zio4motor_init' 64
+'zio4motor_setMotor' 'A' -50
+'zio4motor_setMotor' 'B' -50
+'zio4motor_setMotor' 'C' -50
+'zio4motor_setMotor' 'D' -50
+}
+
+script 1239 717 {
+'zio4motor_init' 64
+'zio4motor_setMotor' 'A' 50
+'zio4motor_setMotor' 'B' -50
+'zio4motor_setMotor' 'C' -50
+'zio4motor_setMotor' 'D' 50
+}
+
+script 1167 721 {
+'zio4motor_init' 64
+'zio4motor_setMotor' 'A' 0
+'zio4motor_setMotor' 'B' 0
+'zio4motor_setMotor' 'C' 0
+'zio4motor_setMotor' 'D' 0
+}
+
+script 1171 722 {
+'zio4motor_init' 64
+'zio4motor_setMotor' 'A' -50
+'zio4motor_setMotor' 'B' 50
+'zio4motor_setMotor' 'C' 50
+'zio4motor_setMotor' 'D' -50
+}
+
+script 929 725 {
+to cross {}
+}
+
+script 337 726 {
+to square {}
+}
+
+script 664 739 {
+to circle {}
+}
+
+script 1321 804 {
+'zio4motor_init' 64
+'zio4motor_setMotor' 'A' 50
+'zio4motor_setMotor' 'B' 50
+'zio4motor_setMotor' 'C' 50
+'zio4motor_setMotor' 'D' 50
+}
+
+
+module Servo Output
+author MicroBlocks
+version 1 2 
+tags servo motor angle rotation position 
+description 'Control both positional (angle) and rotational servo motors.'
+variables _servoPin _servoPulseWidth 
+
+  spec ' ' 'setServoAngle' 'set servo _ to _ degrees (-90 to 90)' 'num num' 1 90
+  spec ' ' 'setServoSpeed' 'set servo _ to speed _ (-100 to 100)' 'num num' 1 100
+  spec ' ' 'stopServo' 'stop servo _' 'num' 1
+  spec 'r' '_servoIndex' '_servoIndex _' 'num' 1
+  spec ' ' '_servoPulse' '_servoPulse pin _ usecs _' 'num num' 1 1500
+  spec ' ' '_servoUpdateLoop' '_servoUpdateLoop'
+
+to '_servoIndex' which {
+  if (_servoPin == 0) {
+    _servoPin = ('[data:makeList]')
+    _servoPulseWidth = ('[data:makeList]')
+    sendBroadcast '_servoUpdateLoop'
+  }
+  local 'i' ('[data:find]' which _servoPin)
+  if (i < 0) {
+    comment 'Add new pin'
+    '[data:addLast]' which _servoPin
+    '[data:addLast]' '1500' _servoPulseWidth
+    i = (size _servoPin)
+  }
+  return i
+}
+
+to '_servoPulse' pin usecs {
+  if (usecs == 0) {
+    comment 'Servo stopped; do nothing'
+    return 0
+  }
+  usecs = (maximum 850 (minimum usecs 2150))
+  comment 'Split wait into a long wait followed by a wait of <= 30 usecs for greater accuracy'
+  local 'endTime' ((microsOp) + usecs)
+  digitalWriteOp pin true
+  waitMicros (usecs - 30)
+  waitMicros (endTime - (microsOp))
+  digitalWriteOp pin false
+}
+
+to '_servoUpdateLoop' {
+  forever {
+    if (_servoPin != 0) {
+      comment 'If the _servoPin list is not 0, update the servos'
+      for i (size _servoPin) {
+        local 'pin' (at i _servoPin)
+        local 'usecs' (at i _servoPulseWidth)
+        if (and (pin >= 0) (usecs != 0)) {
+          '_servoPulse' pin usecs
+        }
+      }
+      waitMillis 15
+    }
+  }
+}
+
+to setServoAngle which degrees optionalReverse {
+  local 'reversed' false
+  if ((pushArgCount) > 2) {
+    reversed = optionalReverse
+  }
+  if reversed {
+    degrees = (0 - degrees)
+  }
+  local 'pulseWidth' (1500 - (10 * degrees))
+  if ('[io:hasServo]') {
+    '[io:setServo]' which pulseWidth
+  } else {
+    atPut ('_servoIndex' which) _servoPulseWidth pulseWidth
+  }
+}
+
+to setServoSpeed which speed optionalReverse {
+  local 'reversed' false
+  if ((pushArgCount) > 2) {
+    reversed = optionalReverse
+  }
+  if reversed {
+    speed = (0 - speed)
+  }
+  local 'pulseWidth' (1500 - (5 * speed))
+  if ((absoluteValue speed) < 2) {
+    pulseWidth = 0
+  }
+  if ('[io:hasServo]') {
+    '[io:setServo]' which pulseWidth
+  } else {
+    atPut ('_servoIndex' which) _servoPulseWidth pulseWidth
+  }
+}
+
+to stopServo which {
+  if ('[io:hasServo]') {
+    '[io:setServo]' which 0
+  } else {
+    atPut ('_servoIndex' which) _servoPulseWidth 0
+  }
+}
+
+
+module 'WebSocket server' Comm
+author MicroBlocks
+version 1 1 
+tags websockets network 
+description 'Blocks to build your own (very) simple websockets server. The websockets server runs on port 81.'
+
+  spec ' ' 'start WebSocket server' 'start WebSocket server'
+  spec 'r' '[net:webSocketLastEvent]' 'last WebSocket event'
+  spec 'r' 'ws client id' 'client ID for WebSocket event _' 'str' ''
+  spec 'r' 'ws event payload' 'payload for WebSocket event _' 'str' ''
+  spec 'r' 'ws event type' 'type of WebSocket event _' 'str' ''
+  spec ' ' '[net:webSocketSendToClient]' 'send _ to WebSocket client _' 'str num' 'Hello, Client!' 0
+
+to 'start WebSocket server' {
+  comment 'The websockets server runs on port 81.'
+  if ((getIPAddress) != '0.0.0.0') {
+    '[net:webSocketStart]'
+  } else {
+    sayIt 'Not Connected'
+  }
+}
+
+to 'ws client id' event {
+  if (and (isType event 'list') ((size event) > 1)) {
+    return (at 2 event)
+  } else {
+    return ''
+  }
+}
+
+to 'ws event payload' event {
+  if (and (isType event 'list') ((size event) > 2)) {
+    return (at 3 event)
+  } else {
+    return ''
+  }
+}
+
+to 'ws event type' event {
+  if (and (isType event 'list') ((size event) > 0)) {
+    return (at ((at 1 event) + 1) ('[data:makeList]' 'error' 'disconnected' 'connected' 'text message' 'binary message' 'text fragment start' 'binary fragment start' 'fragment' 'fragment end' 'ping' 'pong' 'waiting'))
+  } else {
+    return ''
+  }
+}
+
+
+module WiFi Comm
+author MicroBlocks
+version 1 8 
+tags communication network 
+description 'Connect to a WiFi network. Used in conjunction with other network libraries, such as HTTP client, HTTP server or Web Thing.
+'
+
+  spec ' ' 'wifiConnect' 'wifi connect to _ password _ : IP _ gateway _ subnet _' 'str str auto auto auto' 'Network_Name' '' '192.168.1.42' '192.168.1.1' '255.255.255.0'
+  spec ' ' 'wifiCreateHotspot' 'wifi create hotspot _ password _' 'str str' 'Network_Name' 'Network_Password'
+  space
+  spec 'r' 'getIPAddress' 'IP address'
+  spec 'r' '[net:myMAC]' 'MAC address'
+  space
+  spec ' ' '[net:allowWiFiAndBLE]' 'allow WiFi while using BLE _' 'bool' true
+
+to getIPAddress {
+  return ('[net:myIPAddress]')
+}
+
+to wifiConnect ssid password fixedIP gatewayIP subnetIP {
+  if (not ('[net:hasWiFi]')) {return}
+  '[net:stopWiFi]'
+  if ((pushArgCount) < 5) {
+    '[net:startWiFi]' ssid password
+  } else {
+    '[net:startWiFi]' ssid password false fixedIP gatewayIP subnetIP
+  }
+  local 'startMSecs' (millisOp)
+  repeatUntil (('[net:myIPAddress]') != '0.0.0.0') {
+    comment 'Timeout after N seconds'
+    if (((millisOp) - startMSecs) > 30000) {
+      sayIt 'Could not connect'
+      return 0
+    }
+    comment 'Slow blink while trying to connect'
+    setUserLED true
+    waitMillis 300
+    setUserLED false
+    waitMillis 300
+  }
+  repeat 6 {
+    comment 'Quick blinks when connected'
+    setUserLED true
+    waitMillis 50
+    setUserLED false
+    waitMillis 50
+  }
+  sayIt 'My IP address is:' ('[net:myIPAddress]')
+}
+
+to wifiCreateHotspot ssid password {
+  if (not ('[net:hasWiFi]')) {return}
+  if ((size password) < 8) {
+    sayIt 'Password must be at least 8 characters'
+    return 0
+  }
+  '[net:startWiFi]' ssid password true
+  if ('Connected' != ('[net:wifiStatus]')) {
+    sayIt 'Could not create hotspot'
+    return 0
+  }
+  repeat 6 {
+    comment 'Quick blinks when connected'
+    setUserLED true
+    waitMillis 50
+    setUserLED false
+    waitMillis 50
+  }
+  sayIt 'My IP address is:' ('[net:myIPAddress]')
+}
+
+
+module 'Zio Four Motor Controller' Output
+author MicroBlocks
+version 1 0 
+choices _zio4motor_motorMenu A B C D 
+description 'Support for Zio four DC motor (or 2 stepper motor) controller.
+
+  https://www.smart-prototyping.com/Zio-4-DC-Motor-Controller.html
+
+To control multiple Zio Four Motor boards, do the following:
+  1. Set a different I2C address for each board by soldering the appropriate address jumpers.
+  2. Connect all boards with Quiic cables (either daisy-chain or star topology).
+  3. Use the "zio4motor init i2c addr" block to initialize all boards.
+  4. To control the motors on a particular board, set the _zio4motor_addr variable to the i2c address of the desired board.
+  5. Issue commands to control motors A-D on that board. Other boards are not effected.
+'
+variables _zio4motor_addr 
+
+  spec ' ' 'zio4motor_init' 'zio4motor init i2c addr _' 'num' 64
+  spec ' ' 'zio4motor_setMotor' 'zio4motor motor _ power _ (-100 to 100)' 'menu._zio4motor_motorMenu auto' 'A' '10'
+  spec ' ' 'zio4motor_stopAllMotors' 'zio4motor stop all motors'
+  space
+  spec ' ' '_zio4motor_setDigital' '_zio4motor set pin _ to _' 'num bool' 0 true
+  spec ' ' '_zio4motor_setPWM' '_zio4motor set PWM pin _ to _ (0-4095)' 'num num' 0 2000
+
+to '_zio4motor_setDigital' pin on {
+  if on {
+    '_zio4motor_setPWM' pin 4095
+  } else {
+    '_zio4motor_setPWM' pin 0
+  }
+}
+
+to '_zio4motor_setPWM' pin value {
+  if (or (pin < 0) (pin > 15)) {return 0}
+  value = (maximum 0 (minimum value 4095))
+  if (value == 0) {
+    comment 'Full off'
+    local 'on' 0
+    local 'off' 4096
+  } (value == 4095) {
+    comment 'Full on'
+    local 'on' 4096
+    local 'off' 0
+  } else {
+    comment 'Intermediate - use PWM'
+    local 'on' 0
+    local 'off' value
+  }
+  local 'reg' ((4 * pin) + 6)
+  '[sensors:i2cWrite]' _zio4motor_addr ('[data:makeList]' reg (on & 255) (on >> 8) (off & 255) (off >> 8))
+}
+
+to 'zio4motor_init' addr {
+  _zio4motor_addr = addr
+  comment 'Turn off all channels'
+  i2cSet _zio4motor_addr (hexToInt 'FD') 16
+  comment 'Go to sleep before setting prescale'
+  i2cSet _zio4motor_addr (hexToInt '0') 17
+  comment 'Set prescaler for 100Hz update rate (25000000 / (100 * 4096)) - 1'
+  i2cSet _zio4motor_addr (hexToInt 'FE') 61
+  comment 'Wake up + auto-increment'
+  i2cSet _zio4motor_addr (hexToInt '0') 33
+  comment 'Enable motor outputs'
+  '_zio4motor_setDigital' 3 true
+  '_zio4motor_setDigital' 10 true
+}
+
+to 'zio4motor_setMotor' motor power {
+  local 'pwm' ('[misc:rescale]' (absoluteValue power) 0 100 0 4095)
+  local 'dir' (power >= 0)
+  if ('A' == motor) {
+    '_zio4motor_setDigital' 1 dir
+    '_zio4motor_setDigital' 2 (not dir)
+    '_zio4motor_setPWM' 0 pwm
+  } ('B' == motor) {
+    '_zio4motor_setDigital' 4 dir
+    '_zio4motor_setDigital' 5 (not dir)
+    '_zio4motor_setPWM' 6 pwm
+  } ('C' == motor) {
+    '_zio4motor_setDigital' 8 dir
+    '_zio4motor_setDigital' 9 (not dir)
+    '_zio4motor_setPWM' 7 pwm
+  } ('D' == motor) {
+    '_zio4motor_setDigital' 11 dir
+    '_zio4motor_setDigital' 12 (not dir)
+    '_zio4motor_setPWM' 13 pwm
+  }
+}
+
+to 'zio4motor_stopAllMotors' {
+  'zio4motor_setMotor' 'A' 0
+  'zio4motor_setMotor' 'B' 0
+  'zio4motor_setMotor' 'C' 0
+  'zio4motor_setMotor' 'D' 0
+}
+
