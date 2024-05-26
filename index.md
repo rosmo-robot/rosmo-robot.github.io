@@ -102,18 +102,28 @@ Current status: Working but you have to build in Platformio to get ESP32-S3 supp
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/wsgamepad-start.jpg)
 
 git clone --branch dev https://bitbucket.org/john_maloney/smallvm.git
+
 cd smallvm
+
 curl -fsSL -o get-platformio.py https://raw.githubusercontent.com/platformio/platformio-core-installer/master/get-platformio.py
+
 python3 get-platformio.py
+
 echo "PATH=\"\$PATH:\$HOME/.platformio/penv/bin\"" >> ~/.bashrcsource ~/.bashrc
+
 source ~/.bashrc
+
 curl -fsSL https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/system/99-platformio-udev.rules | sudo tee /etc/udev/rules.d/99-platformio-udev.rules
+
 sudo service udev restart
+
 sudo usermod -a -G dialout $USER
+
 sudo usermod -a -G plugdev $USER
+
 pio run -e esp32s3 -t upload
 
-Use the [Pilot version](https://microblocks.fun/download){:target="_blank"} from the bottom of the downloads page. Then to quickly get started download this raw [UBP file](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/img/ziopublicwifiremote.ubp){:target="_blank"} and open it in the Microblocks app.
+Use the [Pilot version](https://microblocks.fun/download){:target="_blank"} from the bottom of the downloads page. Then to quickly get started download this raw [UBP file](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/rosmo-wifiremote-public.ubp){:target="_blank"} and open it in the Microblocks app.
 
 ## Software Linorobot; Best if you want to learn ROS2
 
