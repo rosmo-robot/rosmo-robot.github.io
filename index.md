@@ -6,7 +6,7 @@ title: Rosmo
 A micro-robot for ROS2 & Microblocks that can be assembled without soldering, or access to a 3D printer. 
 An affordable, adaptable, and open-source robot, for students, makers, universities, R&D.
 
-![](https://cdn.hackaday.io/images/2988771707607922324.jpeg)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/v1/0.8-side.jpeg)
 
 
 ## Parts list
@@ -91,7 +91,7 @@ I also did a breakout in a [Wemos D1 format](https://easyeda.com/editor#id=c7740
 
 <video src="https://github.com/rosmo-robot/zio_demo/assets/400875/4d8f3e58-93ae-484d-b4bf-076c96f3a7d6" controls="controls" style="max-width: 730px;"></video>
 
-Current status: Working but you have to build in Platformio to get ESP32-S3 support
+Current status: Working but you have to build in Platformio to get ESP32-S3 support. Encoders not yet configured.
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/microblocks.png)
 
@@ -123,7 +123,7 @@ sudo usermod -a -G plugdev $USER
 
 pio run -e esp32s3 -t upload
 
-Use the [Pilot version](https://microblocks.fun/download){:target="_blank"} from the bottom of the downloads page. Then to quickly get started download this raw [UBP file](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/rosmo-wifiremote-public.ubp){:target="_blank"} and open it in the Microblocks app.
+Use the [Pilot version](https://microblocks.fun/download){:target="_blank"} from the bottom of the downloads page. Then to quickly get started download this raw [UBP file](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/img/v1/rosmo-wifiremote-public.ubp){:target="_blank"} and open it in the Microblocks app.
 
 ## Software Linorobot; Best if you want to learn ROS2
 
