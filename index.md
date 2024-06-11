@@ -19,6 +19,11 @@ An affordable, adaptable, and open-source robot, for students, makers, universit
 | ~$6 - $12 ESP32-S3-C1 N16R8          | [Olimex open hardware -recomended](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware){:target="_blank"}, [UK](https://thepihut.com/products/olimex-esp32-s3-devkit-lipo-development-board){:target="_blank"} [US](https://www.digikey.com/en/products/detail/olimex-ltd/ESP32-S3-DEVKIT-LIPO-EA/22157950){:target="_blank"}, [AUS](https://au.mouser.com/ProductDetail/Olimex-Ltd/ESP32-DevKit-Lipo?qs=Rp5uXu7WBW8uPlSS6e5Gsg%3D%3D){:target="_blank"} [official](https://eu.mouser.com/ProductDetail/Espressif-Systems/ESP32-S3-DevKitC-1-N8R8){:target="_blank"} or [generic ESP32s3](https://s.click.aliexpress.com/e/_DBbQjGl) which [requires soldering](https://forum.arduino.cc/t/chinese-esp32-s3-5v-pin-warning/1192758){:target="_blank"}        | 1        |
 | ~$5 Hex Spacers               | [15mm height M3 standoff](https://s.click.aliexpress.com/e/_DEqXY9d){:target="_blank"} or [200pc M3 pack](https://s.click.aliexpress.com/e/_DEo1RWF){:target="_blank"}          | 1    |
 | ~$9 1x 2A powerbank        |[OSHW powerbank](https://oshwlab.com/wagiminator/fp6277-power-bank){:target="_blank"} or [Aliexpress Powerbank](https://s.click.aliexpress.com/e/_DCvODWh){:target="_blank"}*        | 1        |
+| ~$4 USB>Pin adaptor  | [DIP-4P](https://s.click.aliexpress.com/e/_DlZNrYR){:target="_blank"}*        | 1   
+
+
+
+
 
  *buy batteries locally if your postage service has restrictions on Lithium. 
 
