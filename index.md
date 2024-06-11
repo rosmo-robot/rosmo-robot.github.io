@@ -22,6 +22,8 @@ An affordable, adaptable, and open-source robot, for students, makers, universit
 
  *buy batteries locally if your postage service has restrictions on Lithium. 
 
+ ![](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/img/v1/rosmo.gif)
+
  ~$45 US for 2wd, ~$61 for 4wd  
 
 Rosmo is built from modular components on the [Open Robotic Platform rules](https://openroboticplatform.com/designrules){:target="_blank"}
