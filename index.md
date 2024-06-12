@@ -96,6 +96,12 @@ I also did a breakout in a [Wemos D1 format](https://easyeda.com/editor#id=c7740
 
 ## Microblocks; Best if you're just starting
 
+1) Download [ESP32-S3 bin](https://github.com/rosmo-robot/rosmo-robot.github.io/raw/master/assets/img/v1/vm_esp32_s3.bin)
+2) Visit [ESP web tool](https://esp.huhn.me/)
+3) Connect ESP32-S3 and flash device
+4) Use the [Pilot version](https://microblocks.fun/download){:target="_blank"} from the bottom of the downloads page.
+5) Download this raw [UBP file](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/img/v1/rosmo-wifiremote-public.ubp){:target="_blank"} and open it in the Microblocks app.
+
 <video src="https://github.com/rosmo-robot/zio_demo/assets/400875/4d8f3e58-93ae-484d-b4bf-076c96f3a7d6" controls="controls" style="max-width: 730px;"></video>
 
 Current status: Working but encoders not yet configured.
@@ -108,28 +114,23 @@ Current status: Working but encoders not yet configured.
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/wsgamepad-start.jpg)
 
-1) Download [ESP32-S3 bin](https://github.com/rosmo-robot/rosmo-robot.github.io/raw/master/assets/img/v1/vm_esp32_s3.bin)
-2) Visit [ESP web tool](https://esp.huhn.me/)
-3) Connect ESP32-S3 and flash device
-4) Use the [Pilot version](https://microblocks.fun/download){:target="_blank"} from the bottom of the downloads page.
-5) Download this raw [UBP file](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/img/v1/rosmo-wifiremote-public.ubp){:target="_blank"} and open it in the Microblocks app.
+
 
 ## Linorobot2 Software; Best if you want to learn ROS2
 
 Status: Wheels spinning, but not fully tested yet. 
   
-- [Linorobot2](https://github.com/hippo5329/linorobot2_hardware/tree/esp32s3-lipo-zio) Zio driver now supported.
-- [Virtual machine for download](https://drive.google.com/file/d/1itU1ZYsxZf3GO9LMmP3NauBo0db6XsqN/view?usp=sharing) Ubuntu 22.04 with ROS2/Linorobot. For use with [Virtualbox](https://www.virtualbox.org/wiki/Downloads) 
-- On a Linux host; sudo adduser $YOUR-USER vboxusers then follow [this guide](https://roboticsbackend.com/control-arduino-from-ubuntu-virtualbox/) reboot your computer
-- [Set up SSH](https://dev.to/developertharun/easy-way-to-ssh-into-virtualbox-machine-any-os-just-x-steps-5d9i) then SSH in. User: ros2 Pass: ros
-- cd /linorobot2_hardware/config/custom
-- nano esp32s3_wifi_config.h put in your wifi credentials near the bottom of the file, set the agent IP to the address of your computer
+- [Linorobot2](https://github.com/hippo5329/linorobot2_hardware/tree/esp32s3-lipo-zio)
+- Docker image coming soon download and run
+- Open browser to http://127.0.0.1:6080/
+-  Edit esp32s3_wifi_config.h put in your wifi credentials near the bottom of the file, set the agent IP to the address of your computer
 - cd /linorobot2_hardware/firmware
-- pio run -e esp32s3_wifi -t upload
+- pio run -e esp32s3_wifi -t
+- Visit [ESP web tool](https://esp.huhn.me/)
+- Connect ESP32-S3 and flash device
 - ros2 launch linorobot2_bringup bringup.launch.py micro_ros_transport:=udp4 micro_ros_port:=8888
 - In a browser access http://localhost:8888/ to get teleop UI
-
-
+  
 
 ##  Openbot (Android) software; Best if you want to explore affordable vision 
 
