@@ -94,11 +94,11 @@ I also did a breakout in a [Wemos D1 format](https://easyeda.com/editor#id=c7740
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo/main/Images/V1/signal-2024-04-12-124516.jpeg)
 
 
-## Software Microblocks; Best if you're just starting
+## Microblocks; Best if you're just starting
 
 <video src="https://github.com/rosmo-robot/zio_demo/assets/400875/4d8f3e58-93ae-484d-b4bf-076c96f3a7d6" controls="controls" style="max-width: 730px;"></video>
 
-Current status: Working but you have to build in Platformio to get ESP32-S3 support. Encoders not yet configured.
+Current status: Working but encoders not yet configured.
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/microblocks.png)
 
@@ -108,31 +108,13 @@ Current status: Working but you have to build in Platformio to get ESP32-S3 supp
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/wsgamepad-start.jpg)
 
-git clone --branch dev https://bitbucket.org/john_maloney/smallvm.git
+1) Download [ESP32-S3 bin](https://github.com/rosmo-robot/rosmo-robot.github.io/raw/master/assets/img/v1/vm_esp32_s3.bin)
+2) Visit [ESP web tool](https://esp.huhn.me/)
+3) Connect ESP32-S3 and flash device
+4) Use the [Pilot version](https://microblocks.fun/download){:target="_blank"} from the bottom of the downloads page.
+5) Download this raw [UBP file](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/img/v1/rosmo-wifiremote-public.ubp){:target="_blank"} and open it in the Microblocks app.
 
-cd smallvm
-
-curl -fsSL -o get-platformio.py https://raw.githubusercontent.com/platformio/platformio-core-installer/master/get-platformio.py
-
-python3 get-platformio.py
-
-echo "PATH=\"\$PATH:\$HOME/.platformio/penv/bin\"" >> ~/.bashrcsource ~/.bashrc
-
-source ~/.bashrc
-
-curl -fsSL https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/system/99-platformio-udev.rules | sudo tee /etc/udev/rules.d/99-platformio-udev.rules
-
-sudo service udev restart
-
-sudo usermod -a -G dialout $USER
-
-sudo usermod -a -G plugdev $USER
-
-pio run -e esp32s3 -t upload
-
-Use the [Pilot version](https://microblocks.fun/download){:target="_blank"} from the bottom of the downloads page. Then to quickly get started download this raw [UBP file](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/img/v1/rosmo-wifiremote-public.ubp){:target="_blank"} and open it in the Microblocks app.
-
-## Software Linorobot; Best if you want to learn ROS2
+## Linorobot2 Software; Best if you want to learn ROS2
 
 Status: Wheels spinning, but not fully tested yet. 
   
@@ -149,7 +131,7 @@ Status: Wheels spinning, but not fully tested yet.
 
 
 
-## Software Openbot (Android); Best if you want to explore affordable vision 
+##  Openbot (Android) software; Best if you want to explore affordable vision 
 
 Status: Needs tweaking for ESP32S3
 
