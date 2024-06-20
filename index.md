@@ -37,16 +37,8 @@ Rosmo is built from modular components on the [Open Robotic Platform rules](http
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/signal-2024-04-05-171808.jpeg)
 
-## Schematic
-Can be found [here](https://easyeda.com/editor#id=fe972d3133f048a3be8b1bbdfaf8a93f){:target="_blank"}
-
-![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Schematic_open-robot-platform_2024-04-03.svg)
-
-![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/v1/pinout.png)
-
  
 ## Optional extras
-
 
 
 | Add on           | ROS2 Linorobot                               | Microblocks | Micropython|
@@ -90,6 +82,11 @@ Mikrobus header can break out into a [add on board](https://easyeda.com/editor#i
 I also did a breakout in a [Wemos D1 format](https://easyeda.com/editor#id=c77407793cf440ed92fb880dfeb9522a){:target="_blank"} as there are a good number of [cheap sensors available](https://s.click.aliexpress.com/e/_DD433Tb){:target="_blank"} in this footprint
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo/main/Images/V1/signal-2024-04-12-124516.jpeg)
+
+## Schematic
+Can be found [here](https://easyeda.com/editor#id=fe972d3133f048a3be8b1bbdfaf8a93f){:target="_blank"}
+
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/Schematic_open-robot-platform_2024-04-03.svg)
 
 
 ## Microblocks; Best if you're just starting
