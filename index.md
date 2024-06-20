@@ -23,10 +23,9 @@ If you'd like one please sign up for [Tindie waitlist](https://www.tindie.com/pr
 | ~$9 1x 2A powerbank        |[OSHW powerbank](https://oshwlab.com/wagiminator/fp6277-power-bank){:target="_blank"} or [TNTOR Powerbank](https://tntor.com/product/tntor-5000mah-mini-power-bank){:target="_blank"} or  [Aliexpress Powerbank](https://s.click.aliexpress.com/e/_DCvODWh){:target="_blank"}*        | 1        |
 | ~$4 USB>Pin adaptor  | [Type 3 DIP-4P](https://s.click.aliexpress.com/e/_DlZNrYR){:target="_blank"}*        | 1   
 
-
  *buy batteries locally if your postage service has restrictions on Lithium. 
 
- ![](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/img/v1/rosmo.gif)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/IU4FcknEoXo/0.jpg)](https://www.youtube.com/watch?v=IU4FcknEoXo)
 
  ~$50 US for 2wd, ~$80 for 4wd  
 
@@ -81,8 +80,8 @@ Mikrobus header can break out into a [add on board](https://easyeda.com/editor#i
 
 | Add on for breakouts          | ROS2 Linorobot                               | Microblocks | Micropython|
 | ------------------------- | ----------------------------------------- | -------- |---------|
+| [ESP32-S3 camera (closed hardware)](https://s.click.aliexpress.com/e/_DF0kUdn){:target="_blank"}| [Likely](https://github.com/FrankBu0616/esp32cam_ros)   | Untested  | Untested |
 | [USBC power adaptor (closed hardware)](https://s.click.aliexpress.com/e/_DE0W3PJ){:target="_blank"}| Untested   | Untested  | Untested|
-| [ESP32-S3 camera (closed hardware)](https://s.click.aliexpress.com/e/_DF0kUdn){:target="_blank"}| Untested   | Untested  | Untested |
 | [1.3" OLED](https://s.click.aliexpress.com/e/_DlBWIBB){:target="_blank"}|Untested| Untested|Untested|
 | [Pimoroni SPI or I2C sensors](https://shop.pimoroni.com/collections/breakout-garden){:target="_blank"}|Untested| Untested|Untested|
 
@@ -190,9 +189,6 @@ This documentation is CC-BY-4.0 unless otherwise noted on the page.
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/pen.jpeg)
 
 
-
-
-  ## Configurations
 - 2WD
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/2wd-4wd.jpeg)
@@ -214,27 +210,6 @@ This documentation is CC-BY-4.0 unless otherwise noted on the page.
 <video src="https://github.com/rosmo-robot/zio_demo/assets/400875/8500637e-e9ad-4a71-80ed-6da3dec69c0c" controls="controls" style="max-width: 730px;">
 </video>
 
-
-## Older iterations
-
-| Components for older v0.6 version               | Description                               | Quantity |
-| ------------------------- | ----------------------------------------- | -------- |
-| ~$8 Rosmo Chassis  | [Custom PCB Chassis](https://easyeda.com/editor#id=72fd738aaf6c4f808593c5e1d56507f3) get fabricated at JLPCB, or solder your own     | 5       |
-| Motor Driver   | [Zio H-bridge Motor Driver](https://www.smart-prototyping.com/Zio-4-DC-Motor-Controller.html?search=motor)          | 1        |
-| Optional IMU | [MPU6500](https://www.adafruit.com/product/3886) or [BNO085](https://www.adafruit.com/product/4754)                                     | 2        |
-| USB powerbank           |[ battery case](https://www.aliexpress.com/item/1005005637445437.html) [1x or 2x 18650 battery](https://s.click.aliexpress.com/e/_DnPRBEj) or open hardware [18650 battery](https://oshwlab.com/wagiminator/fp6277-power-bank)        | 1        |
-| USB > Motor driver cable         |[JST cable](https://s.click.aliexpress.com/e/_DnMT6K5)         | 1        |
-| M2 Bolts & nuts           | [400pc Bolt pack](https://www.aliexpress.com/item/1005002046118328.html)                                          | 1      |
-| Screw Driver              | 2 in 1 Flat and Philips Head Screw Driver | 1 |
-| JST zh 1.5mm, 80mm        |[) Double headed 6pin cable](https://s.click.aliexpress.com/e/_DBkMOpT)        | 1 pack        |
-| Qwiic> Qwiic cable             | [For connecting ESP32](https://www.aliexpress.com/item/1005005796723171.html)                      | 1        |
-
-If you don't get JLPCB to fabricate the PCB you'll also need some 2.54mm screw terminals or a breadboard [For connecting encoder](https://www.aliexpress.com/item/1005001677869988.html)
-
-Note a previous iteration of this project used the Pi Pico dimensions, if you wanted that the [PCB is here](https://easyeda.com/editor#id=69415ef7785b4ad29ea97032be2ffa39)
-
-
-Parts for v0.6 excluding PCB and motor driver are available on this [List](https://www.aliexpress.com/p/wishlist/shareReflux.html?groupId=H3r6Ix9p3i%2BvbdGhQpxk4HzpYMoqXal2lBW1GCdCX4A%3D) ensure you get correct quantities, eg 4x wheels and motors. 
 
 
 <video src="https://github.com/rosmo-robot/zio_demo/assets/400875/2a7d44ed-8b35-4954-bf69-88f5d1b43024" controls="controls" style="max-width: 730px;">
