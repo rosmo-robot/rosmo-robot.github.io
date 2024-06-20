@@ -96,14 +96,16 @@ I also did a breakout in a [Wemos D1 format](https://easyeda.com/editor#id=c7740
 ## Microblocks; Best if you're just starting
 
 1) Download [ESP32-S3 bin](https://github.com/rosmo-robot/rosmo-robot.github.io/raw/master/assets/img/v1/vm_esp32_s3.bin)
-2) Visit [ESP web tool](https://esp.huhn.me/)
-3) Connect ESP32-S3 and flash device
-4) Use the [Pilot version](https://microblocks.fun/download){:target="_blank"} from the bottom of the downloads page.
-5) Download this raw [UBP file](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/img/v1/rosmo-wifiremote-public.ubp){:target="_blank"} and open it in the Microblocks app.
+   
+3) Visit [ESP web tool](https://esp.huhn.me/)
+   
+5) Connect ESP32-S3 and flash device (you may need to hold the 'boot' button)
+   
+7) Use the [Pilot version in Chrome](https://microblocks.fun/run-pilot/microblocks.html){:target="_blank"}
+   
+9) Download this raw [UBP file](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/img/v1/rosmo-wifiremote-public.ubp){:target="_blank"} and open it in the Microblocks app.
 
 <video src="https://github.com/rosmo-robot/zio_demo/assets/400875/4d8f3e58-93ae-484d-b4bf-076c96f3a7d6" controls="controls" style="max-width: 730px;"></video>
-
-Current status: Working but encoders not yet configured.
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/microblocks.png)
 
@@ -113,6 +115,7 @@ Current status: Working but encoders not yet configured.
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/wsgamepad-start.jpg)
 
+Current status: Working but encoders not yet configured.
 
 
 ## Linorobot2 Software; Best if you want to learn ROS2
@@ -120,18 +123,20 @@ Current status: Working but encoders not yet configured.
 Status: Wheels spinning, but not fully tested yet. 
   
 - [Linorobot2](https://github.com/hippo5329/linorobot2_hardware/tree/esp32s3-lipo-zio)
-- Install Docker desktopm
-- [Download Docker image](https://hub.docker.com/r/samuk/rosmorobot/tags) and run
-- Open browser to http://127.0.0.1:6080/
+- Install [Docker desktop](https://www.docker.com/products/docker-desktop/){:target="_blank"}
+- [Download Docker image](https://hub.docker.com/r/samuk/rosmorobot/tags){:target="_blank"} and run in Docker desktop
+- Open browser to http://127.0.0.1:6080/ fullscreen the Linux desktop tab
 - Open a terminal
 - cd /linorobot2_hardware/firmware
 - nano esp32s3_wifi_config.h (put in your wifi credentials near the bottom of the file, set the agent IP to the address of your computer.) <ctrl +O> to save <ctrl + X> to exit
 - pio run -e esp32s3_wifi -t
+- Open a file browser & search for .bin
 - Send the .bin file to yourself via email or Google drive
-- In your normal desktop environment visit [ESP web tool](https://esp.huhn.me/)
+- In your normal Windows/Mac desktop environment visit [ESP web tool](https://esp.huhn.me/)
 - Connect ESP32-S3 and flash device with the .bin file
-- Back in the terminal on your virtual machine ros2 launch linorobot2_bringup bringup.launch.py micro_ros_transport:=udp4 micro_ros_port:=8888
+- Back in the terminal on your virtual machine; ros2 launch linorobot2_bringup bringup.launch.py micro_ros_transport:=udp4 micro_ros_port:=8888
 - In a browser access http://localhost:8888/ to get teleop UI
+- Have fun
   
 
 ##  Openbot (Android) software; Best if you want to explore affordable vision 
@@ -155,7 +160,7 @@ Might be interesting to do something with [Arduino Mecanum](https://github.com/S
 
 ## Collaborators
 
-I'd love to work with people on the software, give us a shout if you're interested some [ideas here](https://hackaday.io/project/183129-rosmo-robot/log/227995-version-10-approaches-stuff-to-do-looking-for-collaborators)
+I'd love to work with people on the software, give us a shout on Twitter or Hackaday.io if you're interested some [ideas here](https://hackaday.io/project/183129-rosmo-robot/log/227995-version-10-approaches-stuff-to-do-looking-for-collaborators)
 
 ## License
 
