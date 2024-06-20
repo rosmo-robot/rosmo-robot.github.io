@@ -25,7 +25,7 @@ If you'd like one please sign up for [Tindie waitlist](https://www.tindie.com/pr
 
  *buy batteries locally if your postage service has restrictions on Lithium. 
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/IU4FcknEoXo/0.jpg)](https://www.youtube.com/watch?v=IU4FcknEoXo)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/IU4FcknEoXo/0.jpg)](https://www.youtube.com/watch?v=IU4FcknEoXo){:target="_blank"} 
 
  ~$50 US for 2wd, ~$80 for 4wd  
 
