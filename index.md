@@ -120,14 +120,17 @@ Current status: Working but encoders not yet configured.
 Status: Wheels spinning, but not fully tested yet. 
   
 - [Linorobot2](https://github.com/hippo5329/linorobot2_hardware/tree/esp32s3-lipo-zio)
-- Docker image coming soon download and run
+- Install Docker desktopm
+- [Download Docker image](https://hub.docker.com/r/samuk/rosmorobot/tags) and run
 - Open browser to http://127.0.0.1:6080/
--  Edit esp32s3_wifi_config.h put in your wifi credentials near the bottom of the file, set the agent IP to the address of your computer
+- Open a terminal
 - cd /linorobot2_hardware/firmware
+- nano esp32s3_wifi_config.h (put in your wifi credentials near the bottom of the file, set the agent IP to the address of your computer.) <ctrl +O> to save <ctrl + X> to exit
 - pio run -e esp32s3_wifi -t
-- Visit [ESP web tool](https://esp.huhn.me/)
-- Connect ESP32-S3 and flash device
-- ros2 launch linorobot2_bringup bringup.launch.py micro_ros_transport:=udp4 micro_ros_port:=8888
+- Send the .bin file to yourself via email or Google drive
+- In your normal desktop environment visit [ESP web tool](https://esp.huhn.me/)
+- Connect ESP32-S3 and flash device with the .bin file
+- Back in the terminal on your virtual machine ros2 launch linorobot2_bringup bringup.launch.py micro_ros_transport:=udp4 micro_ros_port:=8888
 - In a browser access http://localhost:8888/ to get teleop UI
   
 
