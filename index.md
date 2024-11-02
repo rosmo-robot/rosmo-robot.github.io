@@ -21,7 +21,7 @@ If you'd like one please sign up for [Tindie waitlist](https://www.tindie.com/pr
 | ~$6 - $12 ESP32-S3-C1 N16R8          | [Olimex open hardware -recomended](https://www.olimex.com/Products/IoT/ESP32-S3/ESP32-S3-DevKit-Lipo/open-source-hardware){:target="_blank"}, [UK](https://thepihut.com/products/olimex-esp32-s3-devkit-lipo-development-board){:target="_blank"} [US](https://www.digikey.com/en/products/detail/olimex-ltd/ESP32-S3-DEVKIT-LIPO-EA/22157950){:target="_blank"}, [AUS](https://au.mouser.com/ProductDetail/Olimex-Ltd/ESP32-DevKit-Lipo?qs=Rp5uXu7WBW8uPlSS6e5Gsg%3D%3D){:target="_blank"} [official](https://eu.mouser.com/ProductDetail/Espressif-Systems/ESP32-S3-DevKitC-1-N8R8){:target="_blank"} or [Closed Waveshare ESP32s3](https://www.waveshare.com/product/esp32-s3-dev-kit-n8r8.htm) very cheap alternatives may [require soldering](https://forum.arduino.cc/t/chinese-esp32-s3-5v-pin-warning/1192758){:target="_blank"}        | 1        |
 | ~$5 Hex Spacers               | [15mm height M3 standoff](https://s.click.aliexpress.com/e/_DEqXY9d){:target="_blank"} or [200pc M3 pack](https://s.click.aliexpress.com/e/_DEo1RWF){:target="_blank"}          | 1    |
 | ~$9 1x 2A powerbank        |[OSHW powerbank](https://oshwlab.com/wagiminator/fp6277-power-bank){:target="_blank"} or [TNTOR Powerbank](https://tntor.com/product/tntor-5000mah-mini-power-bank){:target="_blank"} or  [Aliexpress Powerbank](https://s.click.aliexpress.com/e/_DCvODWh){:target="_blank"}*        | 1        |
-| ~$4 USB>Pin adaptor  | [Type 3 DIP-4P](https://s.click.aliexpress.com/e/_DlZNrYR){:target="_blank"}*        | 1   
+| ~$4 USB>Pin adaptor  | [Type 3 DIP-4P](https://www.aliexpress.com/item/1005004696562222.html){:target="_blank"}*        | 1   
 
  *buy batteries locally if your postage service has restrictions on Lithium. 
 
@@ -123,9 +123,10 @@ Status: Wheels spinning, but not fully tested yet.
 - [Download Docker image](https://hub.docker.com/r/samuk/rosmorobot/tags){:target="_blank"} and run in Docker desktop
 - Open browser to http://127.0.0.1:6080/ fullscreen the Linux desktop tab
 - Open a terminal
-- cd /linorobot2_hardware/firmware
-- nano esp32s3_wifi_config.h (put in your wifi credentials near the bottom of the file, set the agent IP to the address of your computer.) <ctrl +O> to save <ctrl + X> to exit
-- pio run -e esp32s3_wifi -t
+- git clone https://github.com/johnny555/rosmo
+- cd firmware
+- nano config.h (put in your wifi credentials at line 195, set the agent IP at line 207 to the address of your computer, get this from your router or AngryIP.) <ctrl +O> to save <ctrl + X> to exit
+- pio run -e esp32s3_wifi 
 - Open a file browser & search for .bin
 - Send the .bin file to yourself via email or Google drive
 - In your normal Windows/Mac desktop environment visit [ESP web tool](https://esp.huhn.me/)
