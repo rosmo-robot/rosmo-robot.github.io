@@ -118,7 +118,7 @@ Current status: Working but encoders not yet configured.
 
 Status: Wheels spinning, but not fully tested yet. 
   
-- [Linorobot2](https://github.com/hippo5329/linorobot2_hardware/tree/esp32s3-lipo-zio)
+- [Linorobot2](https://github.com/hippo5329/linorobot2)
 - Install [Docker desktop](https://www.docker.com/products/docker-desktop/){:target="_blank"}
 - [Download Docker image](https://hub.docker.com/r/samuk/rosmorobot/tags){:target="_blank"} and run in Docker desktop
 - Open browser to http://127.0.0.1:6080/ fullscreen the Linux desktop tab
