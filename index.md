@@ -125,7 +125,7 @@ Status: Wheels spinning, but not fully tested yet.
 - Open a terminal
 - git clone https://github.com/johnny555/rosmo
 - cd firmware
-- nano config.h (put in your wifi credentials at line 195, set the agent IP at line 207 to the address of your computer, get this from your router or AngryIP.) <ctrl +O> to save <ctrl + X> to exit
+- nano config.h (put in your wifi credentials at line 195, set the agent IP at line 207 to the address of your computer, get this from your router or [AngryIP](https://angryip.org/){:target="_blank"}.) <ctrl +O> to save <ctrl + X> to exit
 - pio run -e esp32s3_wifi 
 - Open a file browser & search for .bin
 - Send the .bin file to yourself via email or Google drive
