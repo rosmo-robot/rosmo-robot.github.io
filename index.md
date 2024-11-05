@@ -93,7 +93,7 @@ Can be found [here](https://easyeda.com/editor#id=fe972d3133f048a3be8b1bbdfaf8a9
 
 1) Download [ESP32-S3 bin](https://github.com/rosmo-robot/rosmo-robot.github.io/raw/master/assets/img/v1/vm_esp32_s3.bin)
    
-3) Visit [ESP web tool](https://esp.huhn.me/)
+3) Visit [ESP web tool in a Chrome browser](https://espressif.github.io/esptool-js/)
    
 5) Connect ESP32-S3 and flash device (you may need to hold the 'boot' button)
    
