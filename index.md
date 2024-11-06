@@ -99,6 +99,8 @@ Can be found [here](https://easyeda.com/editor#id=fe972d3133f048a3be8b1bbdfaf8a9
    
 7) Use the [Pilot version in Chrome](https://microblocks.fun/run-pilot/microblocks.html){:target="_blank"}
    
+8) In Microblocks; Cog icon > Install ESP firmware from URL > Paste https://microblocks.fun/downloads/pilot/vm/vm_esp32-s3.bin
+   
 9) Download this raw [UBP file](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/img/v1/rosmo-wifiremote-public.ubp){:target="_blank"} and open it in the Microblocks app.
 
 <video src="https://github.com/rosmo-robot/zio_demo/assets/400875/4d8f3e58-93ae-484d-b4bf-076c96f3a7d6" controls="controls" style="max-width: 730px;"></video>
