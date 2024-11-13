@@ -77,7 +77,7 @@ Status: Doesn't exist yet,
 Might be interesting to do something with [Arduino Mecanum](https://github.com/StormingMoose/DroneBot-Workshop-Mecanum-for-L9110S) and maybe [Smartcar Shield](https://github.com/platisd/smartcar_shield?tab=readme-ov-file#software) at some point. Perhaps building on this [C reference document](https://github.com/rosmo-robot/modern-robotics-I-course/blob/main/Introductory%20C%20Programming%20Reference.md)
 
 
- # Further robotics resources
+ ## Further robotics resources
 
 - [Python Robotics](https://atsushisakai.github.io/PythonRobotics/)
 - [CPP Robotics](https://github.com/giacomo-b/CppRobotics)
