@@ -72,6 +72,10 @@ Status: Needs tweaking for ESP32S3
 - Android app and Arduino for computer vision & AI
 - [https://www.openbot.org](https://www.openbot.org/research)
 
+## C++/ Arduino software
+Status: Doesn't exist yet, 
+Might be interesting to do something with [Arduino Mecanum](https://github.com/StormingMoose/DroneBot-Workshop-Mecanum-for-L9110S) and maybe [Smartcar Shield](https://github.com/platisd/smartcar_shield?tab=readme-ov-file#software) at some point. Perhaps building on this [C reference document](https://github.com/rosmo-robot/modern-robotics-I-course/blob/main/Introductory%20C%20Programming%20Reference.md)
+
 
  # Further robotics resources
 
@@ -86,8 +90,3 @@ Status: Needs tweaking for ESP32S3
 - [UK undergraduate](https://www.thecompleteuniversityguide.co.uk/courses/search/undergraduate/all?keyword=robotics#h1)
 
 
-
-
-## Arduino software
-Status: Doesn't exist yet, 
-Might be interesting to do something with [Arduino Mecanum](https://github.com/StormingMoose/DroneBot-Workshop-Mecanum-for-L9110S) and maybe [Smartcar Shield](https://github.com/platisd/smartcar_shield?tab=readme-ov-file#software) at some point
