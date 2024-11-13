@@ -3,25 +3,6 @@ layout: page
 title: Build the ROSMO robot
 ---
 
-
-
-
-
-Two robots in one
-----------------------
-Rosmo can be used for two different applications:
-
-* A **STEM learning platform using microblocks** with custom tools designed 
-  to learn and experiment with robotics. Included is a curriculum to help learn
-  about robotics and programming. This use of the Rosmois described in this document.
-  
-* A robot to introduce new **Students and hobbyists to Python &ROS2 programming** with
-  the same tools, languages, and libraries used in professional and industrial robots.
-  To learn about using the Rosmo Robot for ROS2, you should refer
-  to the `[ROS2 documentation](https://rosmo-robot.github.io/)
-
-
-
 Build the ROSMO Robot
 ---------------
 
@@ -29,21 +10,22 @@ Welcome to the ROSMO robot assembly guide! This guide will walk you through the 
 Table of Contents
 
    
-1. Parts List
+Parts List
    --------------
 
 Before you begin, ensure you have all the necessary parts:
 
-    ESP32-S3 processor
+    ESP32-S3 development board
     Motors with encoders
-    IMU sensor
-    Rangefinder
     Wheels and mounting hardware
-    Battery and power module
+    USB Battery 
     Cables and connectors
+    Standoffs
 
-2. Tools Needed
-    ----------- 
+[Refer to the homepage](https://rosmo-robot.github.io) for comprehensive list & links to parts
+    
+  Tools Needed
+  ----------- 
 
 You’ll need the following tools:
 
@@ -52,7 +34,7 @@ You’ll need the following tools:
     Pliers
     Tweezers (optional, for handling small components)
 
-3. Assembly Steps
+Assembly Steps
    -----------
 Preparing the Chassis
 
@@ -72,22 +54,25 @@ simple as possible. You can also 3D print your own parts to attach to the chassi
 
 
 Mounting Motors and Wheels
+-
 
     Install Motors: Place each motor into its designated slot on the frame, ensuring the encoder connections face inward.
     Secure Motors: Use screws to fasten each motor firmly. Ensure all connections are fully seated to avoid loose parts.
     Attach Wheels: Press-fit each wheel onto the motor shafts, pushing down and forward for a snug fit.
 
 Installing the ESP32-S3 Processor
+-
 
     Processor Placement: Position the ESP32-S3 processor on the mounting slot above the motors.
     Secure Processor: Use screws to fasten the processor. Ensure it’s firmly seated and all ports are accessible.
 
 Adding Sensors
+-
 
     IMU Sensor: Place the IMU sensor on the top frame section, securing it with screws.
     Rangefinder: Mount the rangefinder sensor at the front, ensuring it faces forward for accurate distance measurements.
 
-4. Wiring and Connections
+Wiring and Connections
    ------------
 
     Motor Connections: Connect the motors to the designated ports on the chassis.
@@ -96,7 +81,7 @@ Adding Sensors
 
 Warning: Double-check all connections before powering on to avoid short circuits.
 
-5. Testing and Calibration
+Testing and Calibration
    ------------
 
     Initial Test: Power on your robot and check each component (motors, sensors, etc.) for responsiveness.
