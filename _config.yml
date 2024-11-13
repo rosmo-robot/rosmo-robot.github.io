@@ -16,7 +16,7 @@ author: Rosmo
 navbar-links:
  Build: "build"
  Buy: "https://www.tindie.com/products/rosmo-robot/rosmo-robot-kit/"
- Medium: "medium"
+ Software: "software"
  Subscribe: "subscribe"
   #Resources:
    # - Beautiful Jekyll: "https://beautifuljekyll.com"
@@ -65,7 +65,7 @@ social-network-links:
   mastodon: mas.to/web/@rosmo
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
-#  discord: invite/https://discord.gg/8H7DDUkS
+  discord: invite/https://discord.gg/8E9g6neBx4
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
