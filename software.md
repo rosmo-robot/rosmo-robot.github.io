@@ -1,4 +1,4 @@
-## Microblocks; Best if you're just starting
+# Microblocks; 
 
 1) Download [ESP32-S3 bin](https://github.com/rosmo-robot/rosmo-robot.github.io/raw/master/assets/img/v1/vm_esp32_s3.bin)
    
@@ -23,7 +23,7 @@
 Current status: Working but encoders not yet configured.
 
 
-## Linorobot2 Software; Best if you want to learn ROS2
+# Linorobot2 Software; Best if you want to learn ROS2
 
 Status: Wheels spinning, but not fully tested yet. 
   
