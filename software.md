@@ -61,6 +61,19 @@ Status: Needs tweaking for ESP32S3
 - [https://www.openbot.org](https://www.openbot.org/research)
 
 
+ # Further robotics resources
+
+- [Python Robotics](https://atsushisakai.github.io/PythonRobotics/)
+- [CPP Robotics](https://github.com/giacomo-b/CppRobotics)
+- [Ros2RoboticsCpp](https://github.com/quangnhat185/Ros2RoboticsCpp)
+- [Awesome robotics](https://github.com/ahundt/awesome-robotics)
+- [Awesome ROS2](https://github.com/fkromer/awesome-ros2)
+- [Awesome-robotics-libraries](https://github.com/jslee02/awesome-robotics-libraries)
+- [Weekly robotics](https://github.com/msadowski/awesome-weekly-robotics)
+- [Top 100 universities](https://edurank.org/engineering/robotics/)
+- [UK undergraduate](https://www.thecompleteuniversityguide.co.uk/courses/search/undergraduate/all?keyword=robotics#h1)
+
+
 
 
 ## Arduino software
