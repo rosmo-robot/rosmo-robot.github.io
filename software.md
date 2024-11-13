@@ -1,3 +1,17 @@
+Two robots in one
+----------------------
+Rosmo can be used for two different applications:
+
+* A **STEM learning platform using microblocks** with custom tools designed 
+  to learn and experiment with robotics. Included is a curriculum to help learn
+  about robotics and programming. 
+  
+* A robot to introduce new **Students and hobbyists to Python & ROS2 programming** with
+  the same tools, languages, and libraries used in professional and industrial robots.
+  To learn about using the Rosmo Robot for ROS2, you should refer
+  to the section below.
+
+
 # Microblocks; 
 
 1) Download [ESP32-S3 bin](https://github.com/rosmo-robot/rosmo-robot.github.io/raw/master/assets/img/v1/vm_esp32_s3.bin)
