@@ -2,12 +2,11 @@
 layout: page
 title: Learn Robotics
 ---
-The robot PCB has now moved to [ziobot](https://rosmo-robot.github.io/) the PCB and components found there can be used with the XRP robotics kit.
 
 
 # Objectives
  -  Get at strong foundation in open-source electronics and prototyping
- -  Gain intuition on mechanical prototyping and design with dc brush motors, servo motors and stepper motors
+ -  Gain intuition on mechanical prototyping and design with dc brush motors, servo motors 
  -  Apply basic machine learning and computer vision to a small project
 
 
