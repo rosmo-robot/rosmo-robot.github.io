@@ -3,15 +3,11 @@ Two robots in one
 Rosmo can be used for two different applications:
 
 * A **STEM learning platform using microblocks** with custom tools designed 
-  to learn and experiment with robotics. Included is a curriculum to help learn
-  about robotics and programming. 
+  to learn and experiment with robotics. 
   
 * A robot to introduce new **Students and hobbyists to Python & ROS2 programming** with
   the same tools, languages, and libraries used in professional and industrial robots.
-  To learn about using the Rosmo Robot for ROS2, you should refer
-  to the section below.
-
-
+ 
 # Microblocks; 
 
 1) Download [ESP32-S3 bin](https://github.com/rosmo-robot/rosmo-robot.github.io/raw/master/assets/img/v1/vm_esp32_s3.bin)
@@ -62,7 +58,7 @@ Status: Wheels spinning, but not fully tested yet.
 ## Micropython software
 Status: Doesn't exist yet, 
 
-Interest from author of [Otto Mecanum](https://github.com/UEA-envsoft/Otto-Mecanum) in adapting for Rosmo. Maybe developing from [explaining computers demo code](https://www.explainingcomputers.com/sample_code/web_control_test.py)
+Interest from author of [Otto Mecanum](https://github.com/UEA-envsoft/Otto-Mecanum) in adapting for Rosmo. Maybe developing from [explaining computers demo code](https://www.explainingcomputers.com/sample_code/web_control_test.py) There is also a course from [Coder Dojo](https://www.coderdojotc.org/micropython/getting-started/02-esp32/)
 
 
 ##  Openbot (Android) software;  
@@ -71,6 +67,7 @@ Status: Needs tweaking for ESP32S3
 
 - Android app and Arduino for computer vision & AI
 - [https://www.openbot.org](https://www.openbot.org/research)
+
 
 ## C++/ Arduino software
 Status: Doesn't exist yet, 
