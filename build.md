@@ -86,12 +86,6 @@ Wiring and Connections
 
 Motor Connections: Connect the motors to the designated ports on the chassis.
 
-For 2WD configuration it looks like this:
-
-
-For For 4WD configuration it looks like this:
-
-IMG
 
 Connect Lidar and Servo(s)
 --------------------
@@ -122,7 +116,10 @@ For 2WD or 4WD configuration it looks like this:
 ![](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/img/OLIMEXimuTOP.jpeg)
 
 
+Complete robot
+-----------------
 
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/refs/heads/master/assets/img/8MMFULL.jpeg)
 
 Testing and Calibration
 ------------
