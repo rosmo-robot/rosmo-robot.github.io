@@ -76,9 +76,6 @@ Pass the motor cables through the holes. Align the chassis pieces and secure the
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/refs/heads/master/assets/img/2wdtop.jpeg)
 
-4WD configuration
-
-![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/refs/heads/master/assets/img/battery.jpeg)
 
 
 Wiring and Connections
