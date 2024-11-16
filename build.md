@@ -15,6 +15,9 @@ Parts List
 
 Before you begin, ensure you have all the necessary parts:
 
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo/main/Images/BITSBOBS.jpeg)
+
+
 [Refer to the homepage](https://rosmo-robot.github.io) for comprehensive list & links to parts
     
 Tools Needed
@@ -42,27 +45,32 @@ IMG
 
 For For 4WD configuration it looks like this:
 
-IMG
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo/main/Images/BOTTOMPLATENOWIRES.jpeg)
+
+Attach motor cables
+-------------
+
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo/main/Images/BOTTOMPLATE.jpeg)
 
 
-Preparing the Chassis
+
+Place the battery between the motors
+----------------------
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/refs/heads/master/assets/img/BATTERYLAYER.jpeg)
+
+Add second plate
 -------
 
-
-![]()![image](https://github.com/rosmo-robot/rosmo-robot.github.io/assets/400875/c72a1d5d-9fa8-44ec-a847-4611be88fc95)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo/main/Images/TWOPLATES.jpeg)
 
 The chassis is a two printed circuit boards with the battery sandwiched between. All the essential robot parts simplypress onto the headers to make assembly as simple as possible. You can also 3D print your own parts to attach to the chassis.
 
-Frame Assembly: Start by assembling the two chassis plates. Align the chassis pieces and secure them with the standoffs provided.
-This will make mounting other components easier and more accurate.
+Pass the motor cables through the holes. Align the chassis pieces and secure them with the standoffs provided.
 
 For 2WD configuration it looks like this:
 
-IMG
-
 For For 4WD configuration it looks like this:
 
-IMG
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo/main/Images/V1/battery.jpeg)
 
@@ -80,6 +88,11 @@ For For 4WD configuration it looks like this:
 
 IMG
 
+Connect Lidar and Servo(s)
+--------------------
+If you have a lidar or servos to connect do it now
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/refs/heads/master/assets/img/CONNECTlIDAR.jpeg)
+
 
 Installing the ESP32-S3 Processor
 --------
@@ -92,16 +105,17 @@ IMG
 
 For For 4WD configuration it looks like this:
 
-IMG
+![](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/img/OLIMEXTOP.jpeg)
 
 Adding Sensors
 -------------
 
-IMU Sensor: Place the IMU sensor on the top frame section. connect using a Qwiic cable
+IMU Sensor: Place the IMU sensor on the top frame section. connect using a Qwiic cable or pin header
 
 For 2WD or 4WD configuration it looks like this:
 
-IMG
+![](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/img/OLIMEXimuTOP.jpeg)
+
 
 
 
