@@ -7,7 +7,6 @@ Build the ROSMO Robot
 ---------------
 
 Welcome to the ROSMO robot assembly guide! This guide will walk you through the steps to build your ROSMO robot. By the end, you’ll have a fully operational robot, ready for exploration and experimentation. Whether you’re a beginner or experienced in robotics, this guide will provide all the details you need.
-Table of Contents
 
    
 Parts List
@@ -15,7 +14,7 @@ Parts List
 
 Before you begin, ensure you have all the necessary parts:
 
-![](https://raw.githubusercontent.com/rosmo-robot/rosmo/main/Images/BITSBOBS.jpeg)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/refs/heads/master/assets/img/4wdbits.jpeg)
 
 
 [Refer to the homepage](https://rosmo-robot.github.io) for comprehensive list & links to parts
@@ -42,11 +41,11 @@ Attach Wheels: Press-fit each wheel onto the motor shafts, pushing down and forw
 Install Motors: Place each motor into its designated place on the frame, ensuring the encoder connections face inward and upwards.
 Secure Motors: Use included plastic clip and screws to fasten each motor firmly. 
 
-For 2WD configuration it looks like this:
+2WD configuration
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/refs/heads/master/assets/img/2wdbase.jpeg)
 
-IMG
 
-For For 4WD configuration it looks like this:
+4WD configuration 
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/refs/heads/master/assets/img/BOTTOMPLATENOWIRES.jpeg)
 
@@ -59,6 +58,11 @@ Attach motor cables
 
 Place the battery between the motors
 ----------------------
+
+2WD configuration
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/refs/heads/master/assets/img/2wdbattery.jpeg)
+
+4WD configuration
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/refs/heads/master/assets/img/BATTERYLAYER.jpeg)
 
 Add second plate
@@ -68,10 +72,11 @@ Now grab the plate with components on it/
 
 Pass the motor cables through the holes. Align the chassis pieces and secure them with the standoffs provided.
 
-For 2WD configuration it looks like this:
+2WD configuration 
 
-For For 4WD configuration it looks like this:
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/refs/heads/master/assets/img/2wdtop.jpeg)
 
+4WD configuration
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/refs/heads/master/assets/img/battery.jpeg)
 
@@ -83,7 +88,6 @@ Motor Connections: Connect the motors to the designated ports on the chassis.
 
 For 2WD configuration it looks like this:
 
-IMG
 
 For For 4WD configuration it looks like this:
 
@@ -98,11 +102,11 @@ If you have a lidar or servos to connect do it now
 Plug in the ESP32-S3 Processor
 --------
 
-Processor Placement: Position the ESP32-S3 processor on the headers. Ensure its mounted in the correct orientation!
+Position the ESP32-S3 processor on the headers. Ensure its mounted in the correct orientation!
 
-For 2WD configuration it looks like this:
+2WD
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/refs/heads/master/assets/img/2wdcomplete.jpeg)
 
-IMG
 
 For For 4WD configuration it looks like this:
 
@@ -129,6 +133,13 @@ Motor Alignment: Test the motors to ensure they rotate in the correct direction.
 
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/signal-2024-04-05-171808.jpeg)
 
+Adding extra components
+---------------
+
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo/main/Images/BITSBOBS.jpeg)
+
+
+Please refer to the homepage for links to tested components
 
 
 Getting help
