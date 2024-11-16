@@ -31,13 +31,16 @@ You’ll need the following tools:
 Assembly Steps
 -----------
 
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/refs/heads/master/assets/img/TWOPLATES.jpeg)
+
+The chassis is a two printed circuit boards with the battery sandwiched between. All the essential robot parts simplypress onto the headers to make assembly as simple as possible. You can also 3D print your own parts to attach to the chassis. The first plate you need is the unfabricated one, with no parts attached to it. Use this as the bottom plate.
+
 
 Mounting Motors and Wheels
 ---------
-
-Install Motors: Place each motor into its designated slot on the frame, ensuring the encoder connections face inward.
-Secure Motors: Use screws to fasten each motor firmly. 
 Attach Wheels: Press-fit each wheel onto the motor shafts, pushing down and forward for a snug fit.
+Install Motors: Place each motor into its designated place on the frame, ensuring the encoder connections face inward and upwards.
+Secure Motors: Use included plastic clip and screws to fasten each motor firmly. 
 
 For 2WD configuration it looks like this:
 
@@ -61,9 +64,7 @@ Place the battery between the motors
 Add second plate
 -------
 
-![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/refs/heads/master/assets/img/TWOPLATES.jpeg)
-
-The chassis is a two printed circuit boards with the battery sandwiched between. All the essential robot parts simplypress onto the headers to make assembly as simple as possible. You can also 3D print your own parts to attach to the chassis.
+Now grab the plate with components on it/
 
 Pass the motor cables through the holes. Align the chassis pieces and secure them with the standoffs provided.
 
@@ -94,10 +95,10 @@ If you have a lidar or servos to connect do it now
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/refs/heads/master/assets/img/CONNECTlIDAR.jpeg)
 
 
-Installing the ESP32-S3 Processor
+Plug in the ESP32-S3 Processor
 --------
 
-Processor Placement: Position the ESP32-S3 processor on the headers. Ensure its mounted in the correct orientation
+Processor Placement: Position the ESP32-S3 processor on the headers. Ensure its mounted in the correct orientation!
 
 For 2WD configuration it looks like this:
 
