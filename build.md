@@ -45,12 +45,12 @@ IMG
 
 For For 4WD configuration it looks like this:
 
-![](https://raw.githubusercontent.com/rosmo-robot/rosmo/main/Images/BOTTOMPLATENOWIRES.jpeg)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/refs/heads/master/assets/img/BOTTOMPLATENOWIRES.jpeg)
 
 Attach motor cables
 -------------
 
-![](https://raw.githubusercontent.com/rosmo-robot/rosmo/main/Images/BOTTOMPLATE.jpeg)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/refs/heads/master/assets/img//BOTTOMPLATE.jpeg)
 
 
 
@@ -61,7 +61,7 @@ Place the battery between the motors
 Add second plate
 -------
 
-![](https://raw.githubusercontent.com/rosmo-robot/rosmo/main/Images/TWOPLATES.jpeg)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/refs/heads/master/assets/img/TWOPLATES.jpeg)
 
 The chassis is a two printed circuit boards with the battery sandwiched between. All the essential robot parts simplypress onto the headers to make assembly as simple as possible. You can also 3D print your own parts to attach to the chassis.
 
@@ -72,7 +72,7 @@ For 2WD configuration it looks like this:
 For For 4WD configuration it looks like this:
 
 
-![](https://raw.githubusercontent.com/rosmo-robot/rosmo/main/Images/V1/battery.jpeg)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/refs/heads/master/assets/img/battery.jpeg)
 
 
 Wiring and Connections
@@ -105,7 +105,7 @@ IMG
 
 For For 4WD configuration it looks like this:
 
-![](https://github.com/rosmo-robot/rosmo-robot.github.io/blob/master/assets/img/OLIMEXTOP.jpeg)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/refs/heads/master/assets/img/OLIMEXTOP.jpeg)
 
 Adding Sensors
 -------------
