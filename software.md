@@ -45,7 +45,13 @@ Status: Wheels spinning, but not fully tested yet.
 -  in a second tab download & extract https://github.com/johnny555/rosmo
 -  In file browser navigate to Downloads/rosmo/firmware/include
 - right click on config.h & open in pluma (put in your wifi credentials at line 116, set the agent IP at line 113 & lidar ip at line 129 to the address of your computer, get this from your router or [AngryIP](https://angryip.org/){:target="_blank"}.) <ctrl +O> to save <ctrl + X> to exit
-- open a terminal and Downloads/rosmo/firmware/
+- open a terminal paste curl -fsSL -o get-platformio.py https://raw.githubusercontent.com/platformio/platformio-core-installer/master/get-platformio.py
+python3 get-platformio.py
+sudo mkdir -p /usr/local/bin
+sudo ln -s ~/.platformio/penv/bin/platformio /usr/local/bin/platformio
+sudo ln -s ~/.platformio/penv/bin/pio /usr/local/bin/pio
+sudo ln -s ~/.platformio/penv/bin/piodebuggdb /usr/local/bin/piodebuggdb
+- cd Downloads/rosmo/firmware/
 - pio run -e esp32s3_wifi 
 - Open a file browser & search for .bin
 - Send the .bin file to yourself via email or Google drive
