@@ -33,17 +33,17 @@ Rosmo can be used for two different applications:
 Current status: Working but encoders not yet configured.
 
 
-# Linorobot2 Software; Best if you want to learn ROS2
+# - ROS2 [Linorobot2](https://github.com/hippo5329/linorobot2)
+ Software; Best if you want to learn ROS2
 
 Status: Wheels spinning, but not fully tested yet. 
   
-- [Linorobot2](https://github.com/hippo5329/linorobot2)
 - Install [Docker](https://www.docker.com/products/docker-desktop/){:target="_blank"}
 - in a terminal: docker run -p 6080:80 --security-opt seccomp=unconfined --shm-size=512m samuk/rosmorobot:humble
 - Open browser to http://127.0.0.1:6080/ fullscreen the Linux desktop tab
 - Open firefox in the virtual machine, open this page so you can copy/paste
--  in a second tab download & extract https://github.com/johnny555/rosmo
--  In file browser navigate to Downloads/rosmo/firmware/include
+-  in a second tab download & extract [https://github.com/johnny555/rosmo](https://github.com/rosmo-robot/rosmo-firmware/archive/refs/heads/main.zip)
+-  In file browser navigate to Downloads/rosmo-main/firmware/include
 - right click on config.h & open in pluma (put in your wifi credentials at line 116, set the agent IP at line 113 & lidar ip at line 129 to the address of your computer, get this from your router or [AngryIP](https://angryip.org/){:target="_blank"}.) <ctrl +O> to save <ctrl + X> to exit
 - open a terminal paste curl -fsSL -o get-platformio.py https://raw.githubusercontent.com/platformio/platformio-core-installer/master/get-platformio.py
 python3 get-platformio.py
