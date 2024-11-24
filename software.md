@@ -38,14 +38,14 @@ Current status: Working but encoders not yet configured.
 Status: Wheels spinning, but not fully tested yet. 
   
 - [Linorobot2](https://github.com/hippo5329/linorobot2)
-- Install [Docker desktop](https://www.docker.com/products/docker-desktop/){:target="_blank"}
-- [Download Docker image](https://hub.docker.com/r/samuk/rosmorobot/tags){:target="_blank"} and run in Docker desktop
+- Install [Docker](https://www.docker.com/products/docker-desktop/){:target="_blank"}
+- in a terminal: docker run -p 6080:80 --security-opt seccomp=unconfined --shm-size=512m samuk/rosmorobot:humble
 - Open browser to http://127.0.0.1:6080/ fullscreen the Linux desktop tab
-- Open a terminal
-- git clone https://github.com/johnny555/rosmo
-- cd /rosmo/firmware/include
-- nano config.h (put in your wifi credentials at line 195, set the agent IP at line 207 to the address of your computer, get this from your router or [AngryIP](https://angryip.org/){:target="_blank"}.) <ctrl +O> to save <ctrl + X> to exit
-- cd ..
+- Open firefox in the virtual machine, open this page so you can copy/paste
+-  in a second tab download & extract https://github.com/johnny555/rosmo
+-  In file browser navigate to Downloads/rosmo/firmware/include
+- right click on config.h & open in pluma (put in your wifi credentials at line 116, set the agent IP at line 113 & lidar ip at line 129 to the address of your computer, get this from your router or [AngryIP](https://angryip.org/){:target="_blank"}.) <ctrl +O> to save <ctrl + X> to exit
+- open a terminal and Downloads/rosmo/firmware/
 - pio run -e esp32s3_wifi 
 - Open a file browser & search for .bin
 - Send the .bin file to yourself via email or Google drive
