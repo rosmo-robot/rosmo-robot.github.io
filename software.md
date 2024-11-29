@@ -88,8 +88,29 @@ Might be interesting to do something with [Arduino Mecanum](https://github.com/S
 - [Awesome robotics](https://github.com/ahundt/awesome-robotics)
 - [Awesome ROS2](https://github.com/fkromer/awesome-ros2)
 - [Awesome-robotics-libraries](https://github.com/jslee02/awesome-robotics-libraries)
+- [Robo Grok](https://www.robogrok.com/)
 - [Weekly robotics](https://github.com/msadowski/awesome-weekly-robotics)
 - [Top 100 universities](https://edurank.org/engineering/robotics/)
 - [UK undergraduate](https://www.thecompleteuniversityguide.co.uk/courses/search/undergraduate/all?keyword=robotics#h1)
 
+ ## Possible learning journey
 
+  1, Assemble 2WD bot
+  2. Drive 2WD bot with Microblocks remote control from Android
+  3. try to make the robot drive in a straight line
+  4. Configure the encoders in microblocks and try again
+  5. Add a VLX053xx sensor, in microblocks do bump & run
+  6. Add 2x wheels to make a 4wd bot
+  7. Configure Microblocks to run 4WD
+  8. Try and make it go in a straight line again
+  9. Complete the [parking challenge](https://introtoroboticsv2.readthedocs.io/en/latest/course/driving/parking.html) using microblocks
+  10. Add Mecanum wheels.
+  11. In Microblocks make the robot go sideways with remote control
+  12. Complete the parking challenge again without making the robot turn at all
+  13. Install an IMU & configure in Microblocks
+  14. Add a ESP32 cam and watch the livestream from a computer
+  15. Install a grabber & solve a pick and place challenge
+  16. Install thonny/ micropython and complete steps 1-15 in Micropython code
+  17. Install ROS and complete steps 1-15 again
+  18. Install a Lidar and map a room
+  
