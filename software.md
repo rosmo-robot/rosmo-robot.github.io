@@ -113,4 +113,5 @@ Might be interesting to do something with [Arduino Mecanum](https://github.com/S
   16. Install thonny/ micropython and complete steps 1-15 in Micropython code
   17. Install ROS and complete steps 1-15 again
   18. Install a Lidar and map a room
+  19. Run the robot. A lot.
   
