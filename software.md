@@ -79,8 +79,38 @@ Status: Needs tweaking for ESP32S3
 Status: Doesn't exist yet, 
 Might be interesting to do something with [Arduino Mecanum](https://github.com/StormingMoose/DroneBot-Workshop-Mecanum-for-L9110S) and maybe [Smartcar Shield](https://github.com/platisd/smartcar_shield?tab=readme-ov-file#software) at some point. Perhaps building on this [C reference document](https://github.com/rosmo-robot/modern-robotics-I-course/blob/main/Introductory%20C%20Programming%20Reference.md)
 
+ ##  Possible learning journey
 
- ## Further robotics resources
+-   Assemble 2WD bot
+-   Drive 2WD bot with Microblocks remote control from Android
+-   try to make the robot drive in a straight line
+-   Configure the encoders in microblocks and try again
+-   Add a VLX053xx sensor, in microblocks do bump & run
+-   Add a sharpie - Draw a straight line on a large piece of paper
+-   Draw your initials
+-   Add 2x wheels to make a 4wd bot
+-   Configure Microblocks to run 4WD
+-   Try and make it go in a straight line again
+-   Complete the [parking challenge](https://introtoroboticsv2.readthedocs.io/en/latest/course/driving/parking.html) using microblocks
+-   Add Mecanum wheels.
+-   In Microblocks make the robot go sideways with remote control
+-   Complete the parking challenge again without making the robot turn at all
+-   Install an IMU & configure in Microblocks
+-   Add a ESP32 cam and watch the livestream from a computer
+-   Install a grabber & move an object from a to b in the parking challenge
+-   Move two objects
+-   Add a daughterboard with 2x oled
+-   Load the robot eyes in microblocks & make the eyes interact with the controls
+-   Install thonny/ micropython and complete steps 1-15 in Micropython code
+-   Install ROS and complete steps 1-15 again
+-   Install a Lidar and map a room
+-   Run the robot. A lot.
+-   Add the protoboard add on - Add a novel sensor to the bot and get it working
+-   In easyeda create a daughterboard that mounts three VLX053xx sensors
+
+
+
+ ##  Further robotics resources
 
 - [Python Robotics](https://atsushisakai.github.io/PythonRobotics/)
 - [CPP Robotics](https://github.com/giacomo-b/CppRobotics)
@@ -93,25 +123,5 @@ Might be interesting to do something with [Arduino Mecanum](https://github.com/S
 - [Top 100 universities](https://edurank.org/engineering/robotics/)
 - [UK undergraduate](https://www.thecompleteuniversityguide.co.uk/courses/search/undergraduate/all?keyword=robotics#h1)
 
- ## Possible learning journey
 
--  1, Assemble 2WD bot
--  2. Drive 2WD bot with Microblocks remote control from Android
--  3. try to make the robot drive in a straight line
--  4. Configure the encoders in microblocks and try again
--  5. Add a VLX053xx sensor, in microblocks do bump & run
--  6. Add 2x wheels to make a 4wd bot
--  7. Configure Microblocks to run 4WD
--  8. Try and make it go in a straight line again
--  9. Complete the [parking challenge](https://introtoroboticsv2.readthedocs.io/en/latest/course/driving/parking.html) using microblocks
--  10. Add Mecanum wheels.
--  11. In Microblocks make the robot go sideways with remote control
--  12. Complete the parking challenge again without making the robot turn at all
--  13. Install an IMU & configure in Microblocks
--  14. Add a ESP32 cam and watch the livestream from a computer
--  15. Install a grabber & solve a pick and place challenge
--  16. Install thonny/ micropython and complete steps 1-15 in Micropython code
--  17. Install ROS and complete steps 1-15 again
--  18. Install a Lidar and map a room
--  19. Run the robot. A lot.
   
