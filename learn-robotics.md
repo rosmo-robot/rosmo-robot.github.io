@@ -3,7 +3,7 @@ layout: page
 title: Learn Robotics
 ---
 
-# Welcome to the WPI Global STEM Education Initiative: Introduction to Robotics with ROSMO Robots
+#  Introduction to Robotics with ROSMO Robots
 
 This class is designed for instructors to learn the basics of robotics and programming using **ROSMO Robots**. You will be using **MicroBlocks**, a simple and powerful visual programming language, as an introduction to coding. For those who wish to advance, you can transition from MicroBlocks to Python as you become more comfortable programming the robots.
 
