@@ -3,6 +3,73 @@ layout: page
 title: Learn Robotics
 ---
 
+# Welcome to the WPI Global STEM Education Initiative: Introduction to Robotics with ROSMO Robots
+
+This class is designed for instructors to learn the basics of robotics and programming using **ROSMO Robots**. You will be using **MicroBlocks**, a simple and powerful visual programming language, as an introduction to coding. For those who wish to advance, you can transition from MicroBlocks to Python as you become more comfortable programming the robots.
+
+The course consists of several hands-on modules, beginning with an **Introduction to Robotics**. These modules cover topics like:  
+- **Driving** the robot  
+- Using **sensors**  
+- Operating the **manipulator (robot arm)**  
+
+## Final Project: Delivery Robot Challenge  
+The course concludes with an exciting **final project** that brings together everything you have learned in the previous modules. This **Delivery Robot Challenge** allows students to program their robot to complete a series of tasks. To add a competitive element, an optional scoring rubric is provided to evaluate the runs completed by students.  
+
+![Final Project Delivery Robot Challenge](../../_images/deliveryRobotImage.png)  
+
+## Support and Contact  
+We hope this course is engaging and enjoyable for both you and your students. Since this is a new course with new robots and software, there may be occasional bugs or unexpected issues. If you encounter any challenges or have questions, don’t hesitate to contact us.  
+
+For more details about the program and resources, please visit the [ROSMO website](https://rosmo-robot.github.io/).  
+
+Dive in and start exploring the world of robotics with ROSMO and MicroBlocks!
+
+## In this Module You Will:
+
+- Learn about the field of robotics  
+- Assemble your robot  
+- Install the software required for programming the robot  
+- Write a short program to familiarize yourself with programming the ROSMO robot  
+
+## At the End of this Module, You Will Be Able To:
+
+- Recognize the characteristics of robots  
+- Discuss the core disciplines that make up the field of robotics  
+- Understand the components of the robot and how it is assembled  
+- Be familiar with the tools for programming  
+
+## Completing the Module  
+To finish this module, review and complete all tasks outlined in each section. Then, successfully pass the module quiz at the end.
+
+## Getting the Robot to Drive
+
+### In This Module, Students Will:
+
+- Learn how to set power to the robot’s drivetrain  
+- Understand the relationship between motor efforts and the robot’s motion  
+- Be introduced to motor encoders and how to use them to correct the robot’s motion  
+- Use the pre-made drive, turn, and button functions  
+
+### At the End of This Module, Students Will Be Able To:
+
+- Control the robot’s basic motions  
+- Understand the basics of while loops and exit conditions  
+- Be familiar with making and running functions  
+- Break down a larger path into components and convert it into code  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Objectives
  -  Get at strong foundation in open-source electronics and prototyping
@@ -10,73 +77,11 @@ title: Learn Robotics
  -  Apply basic machine learning and computer vision to a small project
 
 
-# 1) Microblocks
-
-- [Microblocks](https://microblocks.fun/)
-
-# 2) Micropython
-
-- [Explaining computers](https://www.explainingcomputers.com/pi_pico_w_robot.html)
-
-# 3) Arduino
-- [Smartcar](https://github.com/platisd/smartcar_shield/tree/master/examples/Car) Projects from [2019](https://github.com/DIT112-V19), [2020](https://github.com/DIT112-V20/) [2021](https://github.com/DIT112-V21/)
-
-# 2) ROS2
-
-- [Linorobot2](https://github.com/linorobot/linorobot2#linorobot2)
-- [Visual circuit](https://github.com/JdeRobot/VisualCircuit#visual-circuit)
-
- # Further robotics resources
-
-- [Python Robotics](https://atsushisakai.github.io/PythonRobotics/)
-- [CPP Robotics](https://github.com/giacomo-b/CppRobotics)
-- [Ros2RoboticsCpp](https://github.com/quangnhat185/Ros2RoboticsCpp)
-- [Awesome robotics](https://github.com/ahundt/awesome-robotics)
-- [Awesome ROS2](https://github.com/fkromer/awesome-ros2)
-- [Awesome-robotics-libraries](https://github.com/jslee02/awesome-robotics-libraries)
-- [Weekly robotics](https://github.com/msadowski/awesome-weekly-robotics)
-- [Top 100 universities](https://edurank.org/engineering/robotics/)
-- [UK undergraduate](https://www.thecompleteuniversityguide.co.uk/courses/search/undergraduate/all?keyword=robotics#h1)
-
-
-
-
-# Similar projects 
-https://github.com/Roboost-Robotics/Roboost-Primary-Motor-Cortex
-
-
-
-
- ![Bot](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/lid.jpeg)
-
-
-
 
 ![Bot](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/bat.jpeg)
 
 ![Bot](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/stripped.jpeg)
 
-
-
-# Older iterations
-
-
- ![Bot](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/signal-2023-11-24-230734.jpeg)
-
- ![Bot](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/profile-xrp.jpeg)
-
- ![Bot](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/bottom-xrp.jpeg)
-
-![Bot](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/top-xrp.jpeg)
- ![Bot](https://raw.githubusercontent.com/samuk/IntroToRoboticsV2/main/course/ros2/xrp4.jpeg)
-
- 
- ![Bot](https://raw.githubusercontent.com/samuk/IntroToRoboticsV2/main/course/ros2/compute-xrp4.jpeg
-)
-
-
- ![Bot](https://raw.githubusercontent.com/samuk/IntroToRoboticsV2/main/course/ros2/ultrasonic-xrp4.jpeg
-)
 
 
 # Other PicoW or ESP32 cars
@@ -108,7 +113,6 @@ source /opt/ros/humble/setup.bash
 cd /tmp
 
 wget https://github.com/hippo5329/linorobot2/raw/humble/install_linorobot2.bash
-
 
 bash install_linorobot2.bash 2wd ld19
 
