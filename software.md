@@ -74,20 +74,21 @@ Status: Needs tweaking for ESP32S3
 - Android app and Arduino for computer vision & AI
 - [https://www.openbot.org](https://www.openbot.org/research)
 
-
 ## C++/ Arduino software
+
 Status: Doesn't exist yet, 
 Might be interesting to do something with [Arduino Mecanum](https://github.com/StormingMoose/DroneBot-Workshop-Mecanum-for-L9110S) and maybe [Smartcar Shield](https://github.com/platisd/smartcar_shield?tab=readme-ov-file#software) at some point. Perhaps building on this [C reference document](https://github.com/rosmo-robot/modern-robotics-I-course/blob/main/Introductory%20C%20Programming%20Reference.md)
 
- ##  Possible learning journey
+##  Possible learning journey
 
 -   Assemble 2WD bot
--   Drive 2WD bot with Microblocks remote control from Android
+-   Drive 2WD bot with Microblocks remote control from Android 
 -   try to make the robot drive in a straight line
--   Configure the encoders in microblocks and try again
--   Add a VLX053xx sensor, in microblocks do bump & run
+-   Configure the encoders in microblocks and try again 
+-   Add a pair of mechanical bump sensors, in microblocks do bump & run
 -   Add a sharpie - Draw a straight line on a large piece of paper
 -   Draw your initials
+-   Add a pair of line sensors, follow a line 
 -   Add 2x wheels to make a 4wd bot
 -   Configure Microblocks to run 4WD
 -   Try and make it go in a straight line again
@@ -106,19 +107,17 @@ Might be interesting to do something with [Arduino Mecanum](https://github.com/S
 -   Install a Lidar and map a room
 -   Run the robot. A lot.
 -   Add the protoboard add on - Add a novel sensor to the bot and get it working
--   In easyeda create a daughterboard that mounts three VLX053xx sensors
+-   In easyeda create a daughterboard to your own design
 
+##  Further robotics resources
 
-
- ##  Further robotics resources
-
+- [Robo Grok](https://www.robogrok.com/)
 - [Python Robotics](https://atsushisakai.github.io/PythonRobotics/)
 - [CPP Robotics](https://github.com/giacomo-b/CppRobotics)
 - [Ros2RoboticsCpp](https://github.com/quangnhat185/Ros2RoboticsCpp)
 - [Awesome robotics](https://github.com/ahundt/awesome-robotics)
 - [Awesome ROS2](https://github.com/fkromer/awesome-ros2)
 - [Awesome-robotics-libraries](https://github.com/jslee02/awesome-robotics-libraries)
-- [Robo Grok](https://www.robogrok.com/)
 - [Weekly robotics](https://github.com/msadowski/awesome-weekly-robotics)
 - [Top 100 universities](https://edurank.org/engineering/robotics/)
 - [UK undergraduate](https://www.thecompleteuniversityguide.co.uk/courses/search/undergraduate/all?keyword=robotics#h1)
