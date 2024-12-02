@@ -42,17 +42,18 @@ Status: Wheels spinning, but not fully tested yet.
 - in a terminal: docker run -p 6080:80 --security-opt seccomp=unconfined --shm-size=512m samuk/rosmorobot:humble
 - Open browser to http://127.0.0.1:6080/ fullscreen the Linux desktop tab
 - Open firefox in the virtual machine, open this page so you can copy/paste
--  in a second tab download & extract [https://github.com/johnny555/rosmo](https://github.com/rosmo-robot/rosmo-firmware/archive/refs/heads/main.zip)
--  In file browser navigate to Downloads/rosmo-main/firmware/include
-- right click on config.h & open in pluma (put in your wifi credentials at line 116, set the agent IP at line 113 & lidar ip at line 129 to the address of your computer, get this from your router or [AngryIP](https://angryip.org/){:target="_blank"}.) <ctrl +O> to save <ctrl + X> to exit
+-  in a second tab download & extract [https://github.com/rosmo-robot/linorobot2_hardware](https://github.com/rosmo-robot/linorobot2_hardware)
+-   Get your IP address from your router or [AngryIP](https://angryip.org/){:target="_blank"}.)
+-  In file browser navigate to /Downloads/linorobot2_hardware-master/config/custom
+- right click on rosmo_config.h & open in pluma (put in your wifi credentials at line 116, set the agent IP at line 113 & lidar ip at line 129 to the address of your computer, save the file
 - open a terminal paste curl -fsSL -o get-platformio.py https://raw.githubusercontent.com/platformio/platformio-core-installer/master/get-platformio.py
 python3 get-platformio.py
 sudo mkdir -p /usr/local/bin
 sudo ln -s ~/.platformio/penv/bin/platformio /usr/local/bin/platformio
 sudo ln -s ~/.platformio/penv/bin/pio /usr/local/bin/pio
 sudo ln -s ~/.platformio/penv/bin/piodebuggdb /usr/local/bin/piodebuggdb
-- cd Downloads/rosmo/firmware/
-- pio run -e esp32s3_wifi 
+- cd /Downloads/linorobot2_hardware-master/firmware/
+- pio run -e rosmo 
 - Open a file browser & search for .bin
 - Send the .bin file to yourself via email or Google drive
 - In your normal Windows/Mac desktop environment visit [ESP web tool](https://esp.huhn.me/)
