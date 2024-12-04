@@ -1,3 +1,8 @@
+[Microblocks](#Microblocks).
+[Micropython](#Micropython).
+[ROS2](#ROS2).
+
+
 Two robots in one
 ----------------------
 Rosmo can be used for two different applications:
@@ -8,7 +13,7 @@ Rosmo can be used for two different applications:
 * A robot to introduce new **Students and hobbyists to Python & ROS2 programming** with
   the same tools, languages, and libraries used in professional and industrial robots.
  
-# Microblocks; 
+# <a name="Microblocks"></a>
 
 1) Download [ESP32-S3 bin](https://github.com/rosmo-robot/rosmo-robot.github.io/raw/master/assets/img/v1/vm_esp32_s3.bin)
    
@@ -33,10 +38,13 @@ Rosmo can be used for two different applications:
 Current status: Working but encoders not yet configured.
 
 
-# - ROS2 [Linorobot2](https://github.com/hippo5329/linorobot2)
- Software; Best if you want to learn ROS2
+# - <a name="ROS2"></a>
 
-Status: Wheels spinning, but not fully tested yet. 
+Software; Best if you want to learn ROS2 based on [Linorobot2](https://github.com/hippo5329/linorobot2)
+
+Status: Wheels spinning, encoders working but not fully tested yet. 
+
+Thanks to [John Vial](https://github.com/johnny555) for contributing this code
   
 - Install [Docker](https://www.docker.com/products/docker-desktop/){:target="_blank"}
 - in a terminal: docker run -p 6080:80 --security-opt seccomp=unconfined --shm-size=512m samuk/rosmorobot:humble
@@ -62,10 +70,14 @@ sudo ln -s ~/.platformio/penv/bin/piodebuggdb /usr/local/bin/piodebuggdb
 - In a browser access http://localhost:8888/ to get teleop UI
 - Have fun
 
-## Micropython software
-Status: Doesn't exist yet, 
+## Micropython 
 
-Interest from author of [Otto Mecanum](https://github.com/UEA-envsoft/Otto-Mecanum) in adapting for Rosmo. Maybe developing from [explaining computers demo code](https://www.explainingcomputers.com/sample_code/web_control_test.py) There is also a course from [Coder Dojo](https://www.coderdojotc.org/micropython/getting-started/02-esp32/)
+Status: Beta released providing Webui to drive the robot with encoders 
+
+Please see [Micropython repository](https://github.com/rosmo-robot/micropython)
+
+Thanks to [Alex](https://github.com/UEA-envsoft) for contributing this code
+There is also a course from [Coder Dojo](https://www.coderdojotc.org/micropython/getting-started/02-esp32/)
 
 
 ##  Openbot (Android) software;  
