@@ -1,5 +1,7 @@
 [Microblocks](#Microblocks).
-[Micropython](#Micropython).
+
+[MicroPython](#MicroPython).
+
 [ROS2](#ROS2).
 
 
@@ -13,7 +15,7 @@ Rosmo can be used for two different applications:
 * A robot to introduce new **Students and hobbyists to Python & ROS2 programming** with
   the same tools, languages, and libraries used in professional and industrial robots.
  
-# <a name="Microblocks"></a>
+# Microblocks <a name="Microblocks"></a>
 
 1) Download [ESP32-S3 bin](https://github.com/rosmo-robot/rosmo-robot.github.io/raw/master/assets/img/v1/vm_esp32_s3.bin)
    
@@ -38,7 +40,7 @@ Rosmo can be used for two different applications:
 Current status: Working but encoders not yet configured.
 
 
-# - <a name="ROS2"></a>
+# ROS2 <a name="ROS2"></a>
 
 Software; Best if you want to learn ROS2 based on [Linorobot2](https://github.com/hippo5329/linorobot2)
 
@@ -70,7 +72,7 @@ sudo ln -s ~/.platformio/penv/bin/piodebuggdb /usr/local/bin/piodebuggdb
 - In a browser access http://localhost:8888/ to get teleop UI
 - Have fun
 
-## Micropython 
+## MicroPython <a name="MicroPython"></a>
 
 Status: Beta released providing Webui to drive the robot with encoders 
 
