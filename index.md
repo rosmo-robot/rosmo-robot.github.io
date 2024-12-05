@@ -45,8 +45,9 @@ Rosmo is built from modular components on the [Open Robotic Platform rules](http
 | Add on           | ROS2 Linorobot                               | Microblocks | Micropython|
 | ------------------------- | ----------------------------------------- | -------- |---------|
 |  [MPU6050 IMU](https://www.adafruit.com/product/3886){:target="_blank"} | [Yes](https://github.com/hippo5329/linorobot2_hardware/wiki#supported-sensors){:target="_blank"}    | Yes   | To do |
+|  [vl53l5cx](https://www.sparkfun.com/products/18642) | To do | Yes | [To do](https://github.com/kevinmcaleer/smars_inventor/blob/main/vl53l1x.py)
 |  [BNO055 IMU](https://www.adafruit.com/product/4646){:target="_blank"} | [Yes](https://github.com/linorobot/linorobot2_hardware/issues/21#issuecomment-1567868751){:target="_blank"}   | To do    |To do |
-|  [Ultrasonic - ZIO](https://github.com/ZIOCC/Zio-Qwiic-Ultrasonic-Distance-Sensor){:target="_blank"}  | [Yes](https://github.com/hippo5329/linorobot2_hardware/wiki#supported-sensors){:target="_blank"} | Yes    | To do|
+|  [Ultrasonic - ZIO](https://github.com/ZIOCC/Zio-Qwiic-Ultrasonic-Distance-Sensor){:target="_blank"}  | [Yes](https://github.com/hippo5329/linorobot2_hardware/wiki#supported-sensors){:target="_blank"} | Yes    | Yes|
 |  [LD19/D300 LiDAR module,](https://s.click.aliexpress.com/e/_DchqT0p){:target="_blank"} | [Yes](https://github.com/hippo5329/linorobot2_hardware/wiki#supported-sensors){:target="_blank"}   | Never     |Never |
 | [TOF Adafruit](https://www.adafruit.com/product/3317){:target="_blank"} or [Sparkfun](https://www.sparkfun.com/products/19013){:target="_blank"}   | Yes    | Yes   |[To do](https://github.com/kevinmcaleer/vl53l0x){:target="_blank"} |
 | [OLED/Eyes - Zio](https://www.smart-prototyping.com/Zio-Qwiic-OLED-Display-1_5inch-128x128?search=oled){:target="_blank"}   | To do    | To do   |To do |
