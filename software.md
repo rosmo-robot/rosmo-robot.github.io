@@ -90,7 +90,6 @@ Status: Beta released providing Webui to drive the robot with encoders
 Please see [Micropython repository](https://github.com/rosmo-robot/micropython)
 
 Thanks to [Alex](https://github.com/UEA-envsoft) for contributing this code
-There is also a course from [Coder Dojo](https://www.coderdojotc.org/micropython/getting-started/02-esp32/)
 
 
 ##  Openbot (Android) software;  
@@ -103,7 +102,7 @@ Status: Needs tweaking for ESP32S3
 ## C++/ Arduino software
 
 Status: Doesn't exist yet, 
-Might be interesting to do something with [Arduino Mecanum](https://github.com/StormingMoose/DroneBot-Workshop-Mecanum-for-L9110S) and maybe [Smartcar Shield](https://github.com/platisd/smartcar_shield?tab=readme-ov-file#software) at some point. Perhaps building on this [C reference document](https://github.com/rosmo-robot/modern-robotics-I-course/blob/main/Introductory%20C%20Programming%20Reference.md)
+Might be interesting to do something with [Arduino Mecanum](https://github.com/StormingMoose/DroneBot-Workshop-Mecanum-for-L9110S) and maybe [Smartcar Shield](https://github.com/platisd/smartcar_shield?tab=readme-ov-file#software) at some point.  
 
 ##  Possible learning journey
 
@@ -144,6 +143,7 @@ Might be interesting to do something with [Arduino Mecanum](https://github.com/S
 - [Awesome robotics](https://github.com/ahundt/awesome-robotics)
 - [Awesome ROS2](https://github.com/fkromer/awesome-ros2)
 - [Awesome-robotics-libraries](https://github.com/jslee02/awesome-robotics-libraries)
+- [C reference document](https://github.com/rosmo-robot/modern-robotics-I-course/blob/main/Introductory%20C%20Programming%20Reference.md)
 - [Weekly robotics](https://github.com/msadowski/awesome-weekly-robotics)
 - [Top 100 universities](https://edurank.org/engineering/robotics/)
 - [UK undergraduate](https://www.thecompleteuniversityguide.co.uk/courses/search/undergraduate/all?keyword=robotics#h1)
