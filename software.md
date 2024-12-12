@@ -57,19 +57,28 @@ Thanks to [John Vial](https://github.com/johnny555) for contributing this code
 -   Get your IP address from your router or [AngryIP](https://angryip.org/){:target="_blank"}.)
 -  In file browser navigate to /Downloads/linorobot2_hardware-master/config/custom
 - right click on rosmo_config.h & open in pluma (put in your wifi credentials at line 116, set the agent IP at line 113 & lidar ip at line 129 to the address of your computer, save the file
-- open a terminal paste curl -fsSL -o get-platformio.py https://raw.githubusercontent.com/platformio/platformio-core-installer/master/get-platformio.py
-python3 get-platformio.py
-sudo mkdir -p /usr/local/bin
-sudo ln -s ~/.platformio/penv/bin/platformio /usr/local/bin/platformio
-sudo ln -s ~/.platformio/penv/bin/pio /usr/local/bin/pio
-sudo ln -s ~/.platformio/penv/bin/piodebuggdb /usr/local/bin/piodebuggdb
-- cd /Downloads/linorobot2_hardware-master/firmware/
-- pio run -e rosmo 
+- open a terminal paste
+`curl -fsSL -o get-platformio.py https://raw.githubusercontent.com/platformio/platformio-core-installer/master/get-platformio.py
+python3 get-platformio.py `
+
+`sudo mkdir -p /usr/local/bin`
+
+`sudo ln -s ~/.platformio/penv/bin/platformio /usr/local/bin/platformio`
+
+`sudo ln -s ~/.platformio/penv/bin/pio /usr/local/bin/pio`
+
+`sudo ln -s ~/.platformio/penv/bin/piodebuggdb /usr/local/bin/piodebuggdb`
+
+`cd /Downloads/linorobot2_hardware-master/firmware/`
+
+`pio run -e rosmo`
+
 - Open a file browser & search for .bin
 - Send the .bin file to yourself via email or Google drive
 - In your normal Windows/Mac desktop environment visit [ESP web tool](https://esp.huhn.me/)
 - Connect ESP32-S3 and flash device with the .bin file
-- Back in the terminal on your virtual machine; ros2 launch linorobot2_bringup bringup.launch.py micro_ros_transport:=udp4 micro_ros_port:=8888
+- Back in the terminal on your virtual machine;
+`ros2 launch linorobot2_bringup bringup.launch.py micro_ros_transport:=udp4 micro_ros_port:=8888`
 - In a browser access http://localhost:8888/ to get teleop UI
 - Have fun
 
