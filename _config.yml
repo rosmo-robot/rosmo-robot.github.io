@@ -45,6 +45,7 @@ social-network-links:
   #email: "contact@rosmo.io"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
   github: rosmo-robot
+   bluesky: rosmo
   twitter: rosmorobot
  # patreon: DeanAttali
   youtube: /channel/UC0p6hs0zBJJTfLzJAyBuZyA
