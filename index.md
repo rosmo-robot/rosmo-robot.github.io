@@ -10,7 +10,7 @@ An affordable, adaptable, and open-source robot, for students, makers, universit
 
 If you'd like one please sign up for [Tindie waitlist](https://www.tindie.com/products/rosmo-robot/rosmo-robot-kit/)
 
-Status: Works, you can fabricate one and drive it around but I2C is flaky
+Status: Works will be selling them early in 2025
 
 ## Parts list
 
