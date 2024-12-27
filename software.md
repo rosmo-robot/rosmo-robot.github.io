@@ -5,14 +5,12 @@
 [ROS2](#ROS2).
 
 
-Two robots in one
-----------------------
-Rosmo can be used for two different applications:
+Rosmo can be used in a few different applications:
 
-* A **STEM learning platform using microblocks** with custom tools designed 
+* A **STEM learning platform using microblocks** for people just starting with custom tools designed 
   to learn and experiment with robotics. 
   
-* A robot to introduce new **Students and hobbyists to Python & ROS2 programming** with
+* A robot for **Students and hobbyists to learn Python & ROS2 programming** with
   the same tools, languages, and libraries used in professional and industrial robots.
 
 <a name="Microblocks"></a> 
