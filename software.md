@@ -7,8 +7,7 @@
 
 Rosmo can be used in a few different applications:
 
-* A **STEM learning platform using microblocks** for people just starting with custom tools designed 
-  to learn and experiment with robotics. 
+* A **STEM learning platform using microblocks** for people just starting with robotics
   
 * A robot for **Students and hobbyists to learn Python & ROS2 programming** with
   the same tools, languages, and libraries used in professional and industrial robots.
