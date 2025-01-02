@@ -145,6 +145,7 @@ Might be interesting to do something with [Arduino Mecanum](https://github.com/S
 - [Python Robotics](https://atsushisakai.github.io/PythonRobotics/)
 - [CPP Robotics](https://github.com/giacomo-b/CppRobotics)
 - [Ros2RoboticsCpp](https://github.com/quangnhat185/Ros2RoboticsCpp)
+- [BME MOGI - 8 week ROS undergrad course](https://github.com/MOGI-ROS)
 - [Awesome robotics](https://github.com/ahundt/awesome-robotics)
 - [Awesome ROS2](https://github.com/fkromer/awesome-ros2)
 - [Awesome-robotics-libraries](https://github.com/jslee02/awesome-robotics-libraries)
