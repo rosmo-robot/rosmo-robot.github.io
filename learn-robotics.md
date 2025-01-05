@@ -92,17 +92,65 @@ To finish this module, review and complete all tasks outlined in each section. T
 
 - [ESP cam car](https://www.aliexpress.com/item/1005005439195049.html), no encoders, closed hardware
 
-# Notes on software installed on the Ubuntu 22.04 Virtualbox image, or compute module
+# Notes on software installed on the Ubuntu Docker image
+
+docker run -p 6080:80 --security-opt seccomp=unconfined --shm-size=512m --device=/dev/ttyUSB0 --device=/dev/ttyACM0 tiryoh/ros2-desktop-vnc:jazzy
 
 apt-get update
 
 sudo apt remove unattended-upgrades
 
-[ssh](https://dev.to/developertharun/easy-way-to-ssh-into-virtualbox-machine-any-os-just-x-steps-5d9i) -p 3022 ros2@127.0.0.1
+In the browser at 127.0.0.1:6080
+Open a terminal and
+git clone -b rosmo git@github.com:hippo5329/linorobot2_hardware.git
+sudo apt-get install -y --install-recommends linux-lowlatency
+sudo apt remove -y brltty
+sudo apt install -y python3-venv build-essential cmake git curl
+curl -fsSL -o get-platformio.py https://raw.githubusercontent.com/platformio/platformio-core-installer/master/get-platformio.py
+python3 get-platformio.py
+rm get-platformio.py
+echo "PATH=\"\$PATH:\$HOME/.platformio/penv/bin\"" >> $HOME/.bashrc
+source ~/.bashrc
+curl -fsSL https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/system/99-platformio-udev.rules | sudo tee /etc/udev/rules.d/99-platformio-udev.rules
+sudo service udev restart
+sudo usermod -a -G dialout $USER
+sudo usermod -a -G plugdev $USER
+export ROS_DISTRO=jazzy
+export ROS_DISTRO=jazzy
+sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
+sudo apt update
+sudo apt install -y ros-$ROS_DISTRO-desktop ros-dev-tools python3-colcon-common-extensions python3-pip
+sudo rosdep init
+rosdep update
+echo "source /opt/ros/$ROS_DISTRO/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+mkdir ~/uros_ws/src -p
+cd ~/uros_ws/src
+git clone -b $ROS_DISTRO https://github.com/micro-ROS/micro-ROS-Agent.git
+git clone -b $ROS_DISTRO https://github.com/micro-ROS/micro_ros_msgs.git
+cd ..
+rosdep install --from-paths src --ignore-src -r -y
+colcon build --symlink-install
+cd ~
+echo "source \$HOME/uros_ws/install/setup.bash" >> ~/.bashrc
+source ~/.bashrc
 
-wget https://raw.githubusercontent.com/linorobot/ros2me/master/install
 
-nano install
+
+
+git clone -b rosmo git@github.com:hippo5329/linorobot2.git
+cd linorobor2 
+chmod 777 install_linorobot2.bash
+./install_linorobot2.bash 4wd ld19
+
+
+
+
+
+
+----------------------
+
 
 chmod 777 install
 
@@ -120,9 +168,11 @@ source ~/.bashrc
 
 https://github.com/hippo5329/linorobot2_hardware/wiki#installation
 
+
+ZIO
 git clone -b esp32_zio https://github.com/hippo5329/linorobot2_hardware.git
 
-dmesg | grep tty
+
 
 
 
