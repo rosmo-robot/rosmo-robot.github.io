@@ -1,12 +1,11 @@
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/medium/medium-front.jpeg)
 ![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/medium/medium-side.jpeg)
-![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/master/assets/img/medium/medium1.jpeg)
 
 Devekopment of Medium scale Rosmo into an outdoor capable development platform
 ## BOM 
 
 
-~£? ~$? for 4wd can be reduced, by using existing powerbank for example
+~£200 ~400? for 4wd 
 
 | Components                | Description                               | Quantity |
 | ------------------------- | ----------------------------------------- | -------- |
@@ -32,7 +31,7 @@ Devekopment of Medium scale Rosmo into an outdoor capable development platform
 | Optional (recommended) IMU | [MPU6500](https://www.adafruit.com/product/3886) or [BNO085](https://www.adafruit.com/product/4754)                                     | 2        |
 | Optional LiDAR Kit for use with ROS2 |  [LiDAR module, USB Cable and Data Convertor Box](https://www.amazon.co.uk/DTOF-D300-Distance-Obstacle-Education/dp/B0B1V8D36H/ref=sr_1_1?crid=2BSZJ4XVN2S12&keywords=ld19+lidar&qid=1707070916&sprefix=ld19+lidar%2Caps%2C254&sr=8-1) | 1 |
 | UM980 RTK for outdoor localisation | [UM980](https://s.click.aliexpress.com/e/_on2lBDP)                                     | 1       |
-| Olimex NB-IOT for RTK corrections | [NBIOT](https://www.olimex.com/Products/IoT/NB-IoT/NB-IoT-DevKit/open-source-hardware)                                      | 1       |
+| Olimex NB-IOT for RTK corrections | [NBIOT](https://www.olimex.com/Products/IoT/NB-IoT/NB-IoT-DevKit/open-source-hardware)    [code](https://github.com/sunshineharry/UM982Driver/?tab=readme-ov-file)                                 | 1       |
 
 
 Please refer to the [100x80mm Rosmo platform](https://rosmo-robot.github.io/) page for software & addons information.
