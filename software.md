@@ -49,28 +49,24 @@ Thanks to [John Vial](https://github.com/johnny555) for contributing this code
 -  Get your IP address from your router or [AngryIP](https://angryip.org/){:target="_blank"}.)
 - Install [Docker](https://www.docker.com/products/docker-desktop/){:target="_blank"}
 - Start Docker gui
-- in a terminal: docker run -p 6080:80 --security-opt seccomp=unconfined --shm-size=512m  samuk/rosmorobot:jazzy
+- in a terminal:
+  ```docker run -p 6080:80 --security-opt seccomp=unconfined --shm-size=512m  samuk/rosmorobot:jazzy```
 - Open browser to http://127.0.0.1:6080/ fullscreen the Linux desktop tab
 - Open firefox in the virtual machine, 
 -  In file browser navigate to /Desktop/linorobot2_hardware-master/config/custom
 - right click on rosmo_config.h & open in pluma (put in your wifi credentials at line 116, set the agent IP at line 113 & lidar ip at line 129 to the address of your computer, save the file
-- pio -t rosmo
-
-```
-
-
+  ```pio -t rosmo```
 - Open a file browser & search for .bin
 - Send the .bin file to yourself via email or Google drive
 - In your normal Windows/Mac desktop environment visit [ESP web tool](https://esp.huhn.me/)
 - Connect ESP32-S3 and flash device with the .bin file
 - In the terminal of the virtual machine
-- `cd linorobot2-rolling`
-- `chmod +X install_linorobot2.bash`
-- `./install_linorobot2.bash`
-- `ros2 launch linorobot2_bringup bringup.launch.py micro_ros_transport:=udp4 micro_ros_port:=8888`
+  ```cd linorobot2-jazzy```
+```chmod +X install_linorobot2.bash```
+```./install_linorobot2.bash```
+```ros2 launch linorobot2_bringup bringup.launch.py micro_ros_transport:=udp4 micro_ros_port:=8888```
 - In a browser access http://localhost:8888/ to get teleop UI
 - Have fun
-```
 
 
 <a name="MicroPython"></a>
