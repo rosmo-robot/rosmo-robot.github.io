@@ -50,9 +50,9 @@ Thanks to [John Vial](https://github.com/johnny555) for contributing this code
 - Install [Docker](https://www.docker.com/products/docker-desktop/){:target="_blank"}
 - Start Docker gui
 - in a terminal:
-  ```docker run -p 6080:80 --security-opt seccomp=unconfined --shm-size=512m  samuk/rosmorobot:jazzy```
+  ```docker run -p 6080:80 --security-opt seccomp=unconfined --shm-size=512m ghcr.io/tiryoh/ros2-desktop-vnc:jazzy'''
 - Open browser to http://127.0.0.1:6080/ fullscreen the Linux desktop tab
-- In a terminal on virtual machine
+- In a terminal on your new linux virtual machine;
 - Follow install steps here: https://github.com/hippo5329/micro_ros_arduino_examples_platformio/wiki#prepare until you have built micro-ros agent.
 - In a terminal '''git clone -b rosmo https://github.com/hippo5329/linorobot2_hardware'''
 -  In file browser navigate to /linorobot2_hardware-master/config/custom
