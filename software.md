@@ -49,7 +49,7 @@ Thanks to [John Vial](https://github.com/johnny555) for contributing this code
 -  Get your IP address from your router or [AngryIP](https://angryip.org/){:target="_blank"}.)
 - Install [Docker](https://www.docker.com/products/docker-desktop/){:target="_blank"}
 - Start Docker gui
-- in a terminal: docker run -p 6080:80 --security-opt seccomp=unconfined --shm-size=512m samuk/rosmorobot:jazzy
+- in a terminal: docker run -p 6080:80 --security-opt seccomp=unconfined --shm-size=512m  samuk/rosmorobot:jazzy
 - Open browser to http://127.0.0.1:6080/ fullscreen the Linux desktop tab
 - Open firefox in the virtual machine, 
 -  In file browser navigate to /Desktop/linorobot2_hardware-master/config/custom
