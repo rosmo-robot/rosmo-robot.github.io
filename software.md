@@ -52,12 +52,14 @@ Thanks to [John Vial](https://github.com/johnny555) for contributing this code
 - in a terminal:
   ```docker run -p 6080:80 --security-opt seccomp=unconfined --shm-size=512m  samuk/rosmorobot:jazzy```
 - Open browser to http://127.0.0.1:6080/ fullscreen the Linux desktop tab
-- Open firefox in the virtual machine, 
--  In file browser navigate to /Desktop/linorobot2_hardware-master/config/custom
+- In a terminal on virtual machine
+- Follow install steps here: https://github.com/hippo5329/micro_ros_arduino_examples_platformio/wiki#prepare until you have built micro-ros agent.
+- In a terminal '''git clone -b rosmo https://github.com/hippo5329/linorobot2_hardware'''
+-  In file browser navigate to /linorobot2_hardware-master/config/custom
 - right click on rosmo_config.h & open in pluma (put in your wifi credentials at line 116, set the agent IP at line 113 & lidar ip at line 129 to the address of your computer, save the file
   ```pio -t rosmo```
 - Open a file browser & search for .bin
-- Send the .bin file to yourself via email or Google drive
+- Send the .bin file to yourself via email or Google drive or similar
 - In your normal Windows/Mac desktop environment visit [ESP web tool](https://esp.huhn.me/)
 - Connect ESP32-S3 and flash device with the .bin file
 - In the terminal of the virtual machine
