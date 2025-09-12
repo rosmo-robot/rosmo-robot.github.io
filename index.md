@@ -74,7 +74,7 @@ Mikrobus header can break out into a [add on board](https://easyeda.com/editor#i
 
 | Add on for breakouts          | ROS2 Linorobot                               | Microblocks | Micropython|
 | ------------------------- | ----------------------------------------- | -------- |---------|
-| [ESP32-S3 camera (closed hardware)](https://s.click.aliexpress.com/e/_DF0kUdn){:target="_blank"}| [Likely](https://github.com/FrankBu0616/esp32cam_ros)   | Untested  | Untested |
+| [ESP32-S3 camera (closed hardware)](https://s.click.aliexpress.com/e/_DF0kUdn){:target="_blank"}| [Likely](https://github.com/jklee78e/esp32s3-microros-camera)   | Untested  | Untested |
 | [USBC power adaptor (closed hardware)](https://s.click.aliexpress.com/e/_DE0W3PJ){:target="_blank"}| Untested   | Untested  | Untested|
 | [1.3" OLED](https://s.click.aliexpress.com/e/_DlBWIBB){:target="_blank"}|Untested| Untested|Untested|
 | [Pimoroni SPI or I2C sensors](https://shop.pimoroni.com/collections/breakout-garden){:target="_blank"}|Untested| Untested|Untested|
