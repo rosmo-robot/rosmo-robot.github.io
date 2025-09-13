@@ -66,19 +66,16 @@ Rosmo is built from modular components on the [Open Robotic Platform rules](http
 
 # Daughter boards
 
-![](https://cdn.hackaday.io/images/9540661709561892794.png)
-Mikrobus header can break out into a [add on board](https://easyeda.com/editor#id=532e49d109694babaa0abe71d380afd2|c9990c5b4bb84f1ca64fea0c4a8538f0|fc519c6bdb104f3392f68fe145d1f388|92780d296692416392e73e517ae229b9|c5bb7377222a4fcb9a0bd182c323f4d1|fd7285a890104a4e8621f68e9cc1cb23){:target="_blank"} concept [here](https://hackaday.io/project/183129-rosmo-robot/log/227959-mikrobus-expansion){:target="_blank"}) students or others may want to design their own breakouts.
-
-![](https://cdn.hackaday.io/images/2248281712336134786.png)
+![](https://raw.githubusercontent.com/rosmo-robot/rosmo-robot.github.io/refs/heads/master/assets/img/v1/Screenshot%20From%202025-09-13%2014-23-29.png)
+Mikrobus header can break out into a [add on board](https://easyeda.com/editor#id=532e49d109694babaa0abe71d380afd2|37ff4e0bf199418fb06d011b9eb85294){:target="_blank"} concept [here](https://hackaday.io/project/183129-rosmo-robot/log/227959-mikrobus-expansion){:target="_blank"}) students or others may want to design their own breakouts.
 
 
 | Add on for breakouts          | ROS2 Linorobot                               | Microblocks | Micropython|
 | ------------------------- | ----------------------------------------- | -------- |---------|
 | [ESP32-S3 camera (closed hardware)](https://s.click.aliexpress.com/e/_DF0kUdn){:target="_blank"}| [Likely](https://github.com/jklee78e/esp32s3-microros-camera)   | Untested  | Untested |
-| [USBC power adaptor (closed hardware)](https://s.click.aliexpress.com/e/_DE0W3PJ){:target="_blank"}| Untested   | Untested  | Untested|
-| [1.3" OLED](https://s.click.aliexpress.com/e/_DlBWIBB){:target="_blank"}|Untested| Untested|Untested|
+| [1.3" OLED - right side](https://s.click.aliexpress.com/e/_DlBWIBB){:target="_blank"}|Untested| Untested|Untested|
+| [1.3" OLED - left side](https://s.click.aliexpress.com/e/_DlBWIBB){:target="_blank"}|Untested| Untested|Untested|
 | [Pimoroni SPI or I2C sensors](https://shop.pimoroni.com/collections/breakout-garden){:target="_blank"}|Untested| Untested|Untested|
-
 
 
 I also did a breakout in a [Wemos D1 format](https://easyeda.com/editor#id=c77407793cf440ed92fb880dfeb9522a){:target="_blank"} as there are a good number of [cheap sensors available](https://s.click.aliexpress.com/e/_DD433Tb){:target="_blank"} in this footprint
