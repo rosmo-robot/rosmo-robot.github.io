@@ -48,22 +48,22 @@ Thanks to [John Vial](https://github.com/johnny555) for contributing this code
   
 -  Get your IP address from your router or [AngryIP](https://angryip.org/){:target="_blank"}.)
 - Install [Docker](https://www.docker.com/products/docker-desktop/){:target="_blank"}
-- Start Docker gui
 - in a terminal:
   ```docker run -p 6080:80 --security-opt seccomp=unconfined --shm-size=512m ghcr.io/tiryoh/ros2-desktop-vnc:jazzy'''
 - Open browser to http://127.0.0.1:6080/ fullscreen the Linux desktop tab
 - In a terminal on your new linux virtual machine;
-- Follow install steps here: https://github.com/hippo5329/micro_ros_arduino_examples_platformio/wiki#prepare until you have built micro-ros agent.
-- In a terminal '''git clone -b rosmo https://github.com/hippo5329/linorobot2_hardware'''
--  In file browser navigate to /linorobot2_hardware-master/config/custom
-- right click on rosmo_config.h & open in pluma (put in your wifi credentials at line 116, set the agent IP at line 113 & lidar ip at line 129 to the address of your computer, save the file
-  ```pio -t rosmo```
+- In a terminal '''git clone https://github.com/rosmo-robot/rosmo-firmware/'''
+-  In file browser navigate to /home/sam/rosmo-firmware/firmware/include
+- right click on config.h & open in pluma (put in your wifi credentials at line 116, set the agent IP at line 113 & lidar ip at line 129 to the address of your computer, save the file
+ In terminal '''cd ~/rosmo-firmware/firmware''
+  ```pio -t ```
 - Open a file browser & search for .bin
 - Send the .bin file to yourself via email or Google drive or similar
 - In your normal Windows/Mac desktop environment visit [ESP web tool](https://esp.huhn.me/)
 - Connect ESP32-S3 and flash device with the .bin file
 - In the terminal of the virtual machine
-  ```cd linorobot2-jazzy```
+  git-clone[ ](https://github.com/hippo5329/linorobot2/)
+  ```cd linorobot2```
 ```chmod +X install_linorobot2.bash```
 ```./install_linorobot2.bash```
 ```ros2 launch linorobot2_bringup bringup.launch.py micro_ros_transport:=udp4 micro_ros_port:=8888```
