@@ -49,14 +49,15 @@ Thanks to [John Vial](https://github.com/johnny555) for contributing this code
 -  Get your IP address from your router or [AngryIP](https://angryip.org/){:target="_blank"}.)
 - Install [Docker](https://www.docker.com/products/docker-desktop/){:target="_blank"}
 - in a terminal
-```docker run -p 6080:80 --security-opt seccomp=unconfined --shm-size=512m ghcr.io/tiryoh/ros2-desktop-vnc:jazzy'''
+```docker run -p 6080:80 --security-opt seccomp=unconfined --shm-size=512m ghcr.io/tiryoh/ros2-desktop-vnc:jazzy```
 - Open browser to http://127.0.0.1:6080/ fullscreen the Linux desktop tab
-- In a terminal on your new linux virtual machine;
-- In a terminal '''git clone https://github.com/rosmo-robot/rosmo-firmware/```
+- In a terminal on linux VM
+```git clone https://github.com/rosmo-robot/rosmo-firmware/```
 -  In file browser navigate to /home/sam/rosmo-firmware/firmware/include
 - right click on config.h & open in pluma (put in your wifi credentials at line 116, set the agent IP at line 113 & lidar ip at line 129 to the address of your computer, save the file
- In terminal '''cd ~/rosmo-firmware/firmware''
-  ```pio -t ```
+ In terminal on VM
+```cd ~/rosmo-firmware/firmware```
+  ```pio -t```
 - Open a file browser & search for .bin
 - Send the .bin file to yourself via email or Google drive or similar
 - In your normal Windows/Mac desktop environment visit [ESP web tool](https://esp.huhn.me/)
