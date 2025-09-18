@@ -28,6 +28,68 @@ EXCEPT TO THE EXTENT OF THE INDEMNITY SET FORTH ABOVE NEITHER PARTY SHALL BE LIA
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Open hardware ROS2 robot.
 
 This is an older iteration that is now superseeded by [latest version with on-board driver](https://rosmo-robot.github.io)
