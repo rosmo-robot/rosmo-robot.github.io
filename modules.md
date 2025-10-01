@@ -1,4 +1,4 @@
-For reproducable robots larger than Rosmo a modular system makes sense
+For reproducable robots larger than Rosmo a modular system makes sense https://arxiv.org/pdf/2402.09833
 
 A professionalised https://github.com/luisllamasbinaburo/OpenRobot_V2/wiki/Module_I2C_GPIO 
 
