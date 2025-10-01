@@ -15,7 +15,7 @@ From this most things, can be I2C via Qwiic, using the 20x20 mount holes, eg ser
  
 For more pro stuff this needs to swap to CANBUS, BLDC.
 
-Power distro is also a thing.
+Power distro is also a thing. https://oshwlab.com/manoranjan2050/multi-voltage-regulator-pcb-12v-
 
 Arm controller: https://oshwlab.com/quirin.forster21/open-flight-computer-proton
 
