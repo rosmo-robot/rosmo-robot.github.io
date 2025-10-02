@@ -6,10 +6,11 @@ Using a fast STM https://oshwlab.com/ottello/stm32h750 for uROS or other low lay
 
 We need 
 - encoder in x 4
-- IMU
-- Lidar
+- IMU (bunch of Qwiic)
+- Lidar header
 - Mikrobus small header
-- CANBUS
+- CANBUS to SimpleFOC motors
+- UEXT for relays https://www.olimex.com/Products/Modules/IO/MOD-IO/open-source-hardware
 
 From this most things, can be I2C via Qwiic, using the 20x20 mount holes, eg servos, motor controller.
  
