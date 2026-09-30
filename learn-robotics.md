@@ -5,6 +5,8 @@ title: Learn Robotics
 
 #  Introduction to Robotics 
 
+Nano chassis https://www.printables.com/model/1198541-nanoxrp-half-scale-xrp-robot/files
+
 4x4 https://www.printables.com/model/1409157-xrp-holonomic-chassis/files
 
 Tank https://www.printables.com/model/936620-xrp-fully-printed-track-system-2-versions
@@ -12,6 +14,8 @@ Tank https://www.printables.com/model/936620-xrp-fully-printed-track-system-2-ve
 Course https://introtoroboticsv2.readthedocs.io/en/latest/course/course_info/index.html
 
 Python https://xrpcode.wpi.edu/staging/
+
+Advanced first course https://docs.wpilib.org/en/stable/docs/xrp-robot/index.html
 
 
 
