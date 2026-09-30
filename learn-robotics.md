@@ -5,8 +5,13 @@ title: Learn Robotics
 
 #  Introduction to Robotics 
 
-[test](work)
+4x4 https://www.printables.com/model/1409157-xrp-holonomic-chassis/files
 
+Tank https://www.printables.com/model/936620-xrp-fully-printed-track-system-2-versions
+
+Course https://introtoroboticsv2.readthedocs.io/en/latest/course/course_info/index.html
+
+Python https://xrpcode.wpi.edu/staging/
 
 
 
