@@ -11,5 +11,7 @@ end
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
-  
-gemspec
+
+# Use the same dependency set as the GitHub Pages build environment.
+# Theme layouts, includes, and assets are loaded from this repository.
+gem "github-pages", group: :jekyll_plugins
