@@ -16,3 +16,12 @@ jobs:
         with:
           source: ./
           destination: ./_site
+
+      - name: Save website preview
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v7
+        with:
+          name: jekyll-preview
+          path: ./_site/
+          retention-days: 7
+          if-no-files-found: error
